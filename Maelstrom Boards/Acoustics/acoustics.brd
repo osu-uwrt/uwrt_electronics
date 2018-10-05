@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.00393700787" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="1" visible="yes" active="yes"/>
@@ -162,6 +162,10 @@
 <wire x1="0" y1="80" x2="0.6" y2="0.2" width="0" layer="20"/>
 <hole x="3" y="77" drill="2.5"/>
 <hole x="3" y="3" drill="2.5"/>
+<hole x="19.05" y="68.58" drill="3.2639"/>
+<hole x="82.55" y="68.58" drill="3.2639"/>
+<hole x="82.55" y="5.08" drill="3.2639"/>
+<hole x="19.05" y="5.08" drill="3.2639"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2854,7 +2858,7 @@ design rules under a new name.</description>
 <element name="SA_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1 M" x="15.72875" y="60.2825" rot="R270"/>
 <element name="SA_R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="23.42875" y="62.94" rot="R90"/>
 <element name="SA_R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="25.395" y="61.34" rot="R270"/>
-<element name="SA_C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="5nF" x="19.32875" y="66.66125" rot="R270"/>
+<element name="SA_C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="5nF" x="16.52875" y="64.46125"/>
 <element name="SA_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="19.32875" y="63.4825" rot="R270"/>
 <element name="PF_REFGEN" library="REF6025" package="REF6025" value="REF6025" x="79.2875" y="34.68375" rot="R270"/>
 <element name="PF_C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="77.92875" y="32.585" rot="R180"/>
@@ -2940,11 +2944,11 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462926" x="42.6" y="72.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="42.6" y="72.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="SA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="17.9" y="72.6" rot="R180">
-<attribute name="MF" value="MOLEX" x="17.9" y="72.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="17.9" y="72.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="17.9" y="72.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="17.9" y="72.6" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="17.8" y="74.3" rot="R180">
+<attribute name="MF" value="MOLEX" x="17.8" y="74.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="17.8" y="74.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="17.8" y="74.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="17.8" y="74.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="" x="5.2" y="62.1"/>
 <element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="" x="5.2" y="58.8"/>
@@ -4142,13 +4146,14 @@ design rules under a new name.</description>
 <signal name="RAW_SA">
 <contactref element="SA_C2" pad="1"/>
 <contactref element="SA_IN" pad="1"/>
-<wire x1="19.17" y1="72.6" x2="19.17" y2="67.67" width="0.1524" layer="1"/>
-<wire x1="19.17" y1="67.67" x2="19.32875" y2="67.51125" width="0.1524" layer="1"/>
+<wire x1="15.67875" y1="64.46125" x2="15.67875" y2="70.90875" width="0.1524" layer="1"/>
+<wire x1="15.67875" y1="70.90875" x2="19.07" y2="74.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$145">
 <contactref element="SA_C2" pad="2"/>
 <contactref element="SA_R1" pad="1"/>
-<wire x1="19.32875" y1="65.81125" x2="19.32875" y2="64.3325" width="0.1524" layer="1"/>
+<wire x1="17.7314875" y1="64.3325" x2="17.37875" y2="64.46125" width="0.1524" layer="1"/>
+<wire x1="19.32875" y1="64.3325" x2="17.7314875" y2="64.3325" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$146">
 <contactref element="SA_R2" pad="1"/>
@@ -4372,11 +4377,11 @@ design rules under a new name.</description>
 <signal name="DRDY_PF">
 <contactref element="ADC_PF" pad="19"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="10" y1="4.3" x2="11.9" y2="2.4" width="0.1524" layer="1"/>
-<wire x1="10" y1="4.3" x2="10" y2="9" width="0.1524" layer="1"/>
-<wire x1="11.9" y1="2.4" x2="87.68" y2="2.4" width="0.1524" layer="1"/>
+<wire x1="10" y1="3.3" x2="11.8" y2="1.5" width="0.1524" layer="1"/>
+<wire x1="10" y1="3.3" x2="10" y2="9" width="0.1524" layer="1"/>
+<wire x1="11.8" y1="1.5" x2="86.78" y2="1.5" width="0.1524" layer="1"/>
 <wire x1="90.53" y1="5.25" x2="90.53" y2="29.725" width="0.1524" layer="1"/>
-<wire x1="87.68" y1="2.4" x2="90.53" y2="5.25" width="0.1524" layer="1"/>
+<wire x1="86.78" y1="1.5" x2="90.53" y2="5.25" width="0.1524" layer="1"/>
 </signal>
 <signal name="DOUT_PF">
 <contactref element="ADC_PF" pad="20"/>
@@ -4523,13 +4528,13 @@ design rules under a new name.</description>
 <signal name="DRDY_PA">
 <contactref element="ADC_PA" pad="19"/>
 <contactref element="U$2" pad="3"/>
-<wire x1="13.7" y1="3" x2="64.2" y2="3" width="0.1524" layer="1"/>
-<wire x1="13.7" y1="3" x2="12" y2="4.7" width="0.1524" layer="1"/>
+<wire x1="14.8" y1="1.9" x2="63.1" y2="1.9" width="0.1524" layer="1"/>
+<wire x1="14.8" y1="1.9" x2="12" y2="4.7" width="0.1524" layer="1"/>
 <wire x1="12" y1="4.7" x2="12" y2="9" width="0.1524" layer="1"/>
 <wire x1="66.33" y1="29.51" x2="66.33" y2="15.13" width="0.1524" layer="1"/>
 <wire x1="66.33" y1="15.13" x2="65.8" y2="14.6" width="0.1524" layer="1"/>
 <wire x1="65.8" y1="4.6" x2="65.8" y2="14.6" width="0.1524" layer="1"/>
-<wire x1="64.2" y1="3" x2="65.8" y2="4.6" width="0.1524" layer="1"/>
+<wire x1="63.1" y1="1.9" x2="65.8" y2="4.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="DOUT_PA">
 <contactref element="ADC_PA" pad="20"/>
@@ -4545,13 +4550,13 @@ design rules under a new name.</description>
 <signal name="DRDY_SF">
 <contactref element="ADC_H7" pad="19"/>
 <contactref element="U$2" pad="5"/>
-<wire x1="15.6" y1="3.7" x2="39.6" y2="3.7" width="0.1524" layer="1"/>
-<wire x1="15.6" y1="3.7" x2="14" y2="5.3" width="0.1524" layer="1"/>
+<wire x1="17" y1="2.3" x2="38.2" y2="2.3" width="0.1524" layer="1"/>
+<wire x1="17" y1="2.3" x2="14" y2="5.3" width="0.1524" layer="1"/>
 <wire x1="14" y1="5.3" x2="14" y2="9" width="0.1524" layer="1"/>
 <wire x1="42.03" y1="30.195" x2="42.03" y2="14.43" width="0.1524" layer="1"/>
 <wire x1="42.03" y1="14.43" x2="41.7" y2="14.1" width="0.1524" layer="1"/>
 <wire x1="41.7" y1="5.8" x2="41.7" y2="14.1" width="0.1524" layer="1"/>
-<wire x1="39.6" y1="3.7" x2="41.7" y2="5.8" width="0.1524" layer="1"/>
+<wire x1="38.2" y1="2.3" x2="41.7" y2="5.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="DOUT_SF">
 <contactref element="ADC_H7" pad="20"/>
