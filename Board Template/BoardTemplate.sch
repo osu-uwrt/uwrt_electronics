@@ -148,6 +148,7 @@
 <pin name="CONV_SCL" x="-33.02" y="-20.32" length="middle" rot="R90"/>
 <pin name="STATUS_SDA" x="-27.94" y="-20.32" length="middle" rot="R90"/>
 <pin name="STATUS_SCL" x="-22.86" y="-20.32" length="middle" rot="R90"/>
+
 <pin name="GND" x="-48.26" y="20.32" length="middle" rot="R270"/>
 <pin name="5V" x="-58.42" y="20.32" length="middle" rot="R270"/>
 <pin name="3.3V" x="-53.34" y="20.32" length="middle" rot="R270"/>
