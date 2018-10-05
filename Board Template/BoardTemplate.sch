@@ -148,9 +148,10 @@
 <pin name="CONV_SCL" x="-33.02" y="-20.32" length="middle" rot="R90"/>
 <pin name="STATUS_SDA" x="-27.94" y="-20.32" length="middle" rot="R90"/>
 <pin name="STATUS_SCL" x="-22.86" y="-20.32" length="middle" rot="R90"/>
-<pin name="GND" x="-48.26" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="5V" x="-58.42" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<pin name="3.3V" x="-53.34" y="20.32" length="middle" direction="pwr" rot="R270"/>
+
+<pin name="GND" x="-48.26" y="20.32" length="middle" rot="R270"/>
+<pin name="5V" x="-58.42" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V" x="-53.34" y="20.32" length="middle" rot="R270"/>
 <wire x1="-63.5" y1="-15.24" x2="-63.5" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-63.5" y1="15.24" x2="60.96" y2="15.24" width="0.254" layer="94"/>
 <wire x1="60.96" y1="15.24" x2="60.96" y2="-15.24" width="0.254" layer="94"/>
@@ -187,7 +188,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5530843">
+<deviceset name="5530843-EDGE">
 <gates>
 <gate name="G$1" symbol="5530843-6" x="0" y="0"/>
 </gates>
@@ -254,7 +255,7 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="5530843-6" deviceset="5530843" device=""/>
+<part name="U$1" library="5530843-6" deviceset="5530843-EDGE" device=""/>
 </parts>
 <sheets>
 <sheet>
