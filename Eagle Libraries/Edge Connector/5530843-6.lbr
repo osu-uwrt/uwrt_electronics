@@ -223,27 +223,27 @@
 <pin name="PWM_6" x="-7.62" y="20.32" length="middle" rot="R270"/>
 <pin name="PWM_7" x="-2.54" y="20.32" length="middle" rot="R270"/>
 <pin name="PWM_8" x="2.54" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE1" x="20.32" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE2" x="25.4" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE3" x="30.48" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE4" x="35.56" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE5" x="40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="12V_ON/OFF" x="10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="5V_ON_OFF" x="15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_ON/OFF" x="20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE2" x="35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE3" x="40.64" y="20.32" length="middle" rot="R270"/>
 <pin name="SWITCH_1" x="-7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_2" x="-2.54" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_3" x="2.54" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_4" x="7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_5" x="12.7" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SPARE9" x="20.32" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE10" x="25.4" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE6" x="45.72" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE7" x="50.8" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE8" x="55.88" y="20.32" length="middle" rot="R270"/>
-<pin name="SPARE15" x="50.8" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE11" x="30.48" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE12" x="35.56" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE13" x="40.64" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE14" x="45.72" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE16" x="55.88" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE1" x="30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE13" x="25.4" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE4" x="45.72" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE5" x="50.8" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE6" x="55.88" y="20.32" length="middle" rot="R270"/>
+<pin name="SPARE8" x="50.8" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE12" x="30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE11" x="35.56" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE10" x="40.64" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE9" x="45.72" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE7" x="55.88" y="-20.32" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -254,8 +254,11 @@
 <devices>
 <device name="" package="5530843-6-BOARDFINGERS">
 <connects>
+<connect gate="G$1" pin="12V_ON/OFF" pad="21"/>
 <connect gate="G$1" pin="3.3V" pad="4 5 6 51 52 53"/>
+<connect gate="G$1" pin="3.3V_ON/OFF" pad="23"/>
 <connect gate="G$1" pin="5V" pad="1 2 3 54 55 56"/>
+<connect gate="G$1" pin="5V_ON_OFF" pad="22"/>
 <connect gate="G$1" pin="BB_SCL" pad="42"/>
 <connect gate="G$1" pin="BB_SDA" pad="15"/>
 <connect gate="G$1" pin="CONV_SCL" pad="41"/>
@@ -272,22 +275,19 @@
 <connect gate="G$1" pin="PWM_6" pad="46"/>
 <connect gate="G$1" pin="PWM_7" pad="45"/>
 <connect gate="G$1" pin="PWM_8" pad="44"/>
-<connect gate="G$1" pin="SPARE1" pad="21"/>
-<connect gate="G$1" pin="SPARE10" pad="30"/>
-<connect gate="G$1" pin="SPARE11" pad="31"/>
-<connect gate="G$1" pin="SPARE12" pad="32"/>
-<connect gate="G$1" pin="SPARE13" pad="33"/>
-<connect gate="G$1" pin="SPARE14" pad="34"/>
-<connect gate="G$1" pin="SPARE15" pad="35"/>
-<connect gate="G$1" pin="SPARE16" pad="36"/>
-<connect gate="G$1" pin="SPARE2" pad="22"/>
-<connect gate="G$1" pin="SPARE3" pad="23"/>
-<connect gate="G$1" pin="SPARE4" pad="24"/>
-<connect gate="G$1" pin="SPARE5" pad="25"/>
-<connect gate="G$1" pin="SPARE6" pad="26"/>
-<connect gate="G$1" pin="SPARE7" pad="27"/>
-<connect gate="G$1" pin="SPARE8" pad="28"/>
-<connect gate="G$1" pin="SPARE9" pad="29"/>
+<connect gate="G$1" pin="SPARE1" pad="29"/>
+<connect gate="G$1" pin="SPARE10" pad="33"/>
+<connect gate="G$1" pin="SPARE11" pad="32"/>
+<connect gate="G$1" pin="SPARE12" pad="31"/>
+<connect gate="G$1" pin="SPARE13" pad="30"/>
+<connect gate="G$1" pin="SPARE2" pad="24"/>
+<connect gate="G$1" pin="SPARE3" pad="25"/>
+<connect gate="G$1" pin="SPARE4" pad="26"/>
+<connect gate="G$1" pin="SPARE5" pad="27"/>
+<connect gate="G$1" pin="SPARE6" pad="28"/>
+<connect gate="G$1" pin="SPARE7" pad="36"/>
+<connect gate="G$1" pin="SPARE8" pad="35"/>
+<connect gate="G$1" pin="SPARE9" pad="34"/>
 <connect gate="G$1" pin="STATUS_SCL" pad="40"/>
 <connect gate="G$1" pin="STATUS_SDA" pad="17"/>
 <connect gate="G$1" pin="SWITCH_1" pad="19"/>
@@ -309,8 +309,11 @@
 <devices>
 <device name="" package="5530843-6-BACKPLANEMATE">
 <connects>
+<connect gate="G$1" pin="12V_ON/OFF" pad="21"/>
 <connect gate="G$1" pin="3.3V" pad="4 5 6 51 52 53"/>
+<connect gate="G$1" pin="3.3V_ON/OFF" pad="23"/>
 <connect gate="G$1" pin="5V" pad="1 2 3 54 55 56"/>
+<connect gate="G$1" pin="5V_ON_OFF" pad="22"/>
 <connect gate="G$1" pin="BB_SCL" pad="42"/>
 <connect gate="G$1" pin="BB_SDA" pad="15"/>
 <connect gate="G$1" pin="CONV_SCL" pad="41"/>
@@ -327,22 +330,19 @@
 <connect gate="G$1" pin="PWM_6" pad="46"/>
 <connect gate="G$1" pin="PWM_7" pad="45"/>
 <connect gate="G$1" pin="PWM_8" pad="44"/>
-<connect gate="G$1" pin="SPARE1" pad="21"/>
-<connect gate="G$1" pin="SPARE10" pad="30"/>
-<connect gate="G$1" pin="SPARE11" pad="31"/>
-<connect gate="G$1" pin="SPARE12" pad="32"/>
-<connect gate="G$1" pin="SPARE13" pad="33"/>
-<connect gate="G$1" pin="SPARE14" pad="34"/>
-<connect gate="G$1" pin="SPARE15" pad="35"/>
-<connect gate="G$1" pin="SPARE16" pad="36"/>
-<connect gate="G$1" pin="SPARE2" pad="22"/>
-<connect gate="G$1" pin="SPARE3" pad="23"/>
-<connect gate="G$1" pin="SPARE4" pad="24"/>
-<connect gate="G$1" pin="SPARE5" pad="25"/>
-<connect gate="G$1" pin="SPARE6" pad="26"/>
-<connect gate="G$1" pin="SPARE7" pad="27"/>
-<connect gate="G$1" pin="SPARE8" pad="28"/>
-<connect gate="G$1" pin="SPARE9" pad="29"/>
+<connect gate="G$1" pin="SPARE1" pad="29"/>
+<connect gate="G$1" pin="SPARE10" pad="33"/>
+<connect gate="G$1" pin="SPARE11" pad="32"/>
+<connect gate="G$1" pin="SPARE12" pad="31"/>
+<connect gate="G$1" pin="SPARE13" pad="30"/>
+<connect gate="G$1" pin="SPARE2" pad="24"/>
+<connect gate="G$1" pin="SPARE3" pad="25"/>
+<connect gate="G$1" pin="SPARE4" pad="26"/>
+<connect gate="G$1" pin="SPARE5" pad="27"/>
+<connect gate="G$1" pin="SPARE6" pad="28"/>
+<connect gate="G$1" pin="SPARE7" pad="36"/>
+<connect gate="G$1" pin="SPARE8" pad="35"/>
+<connect gate="G$1" pin="SPARE9" pad="34"/>
 <connect gate="G$1" pin="STATUS_SCL" pad="40"/>
 <connect gate="G$1" pin="STATUS_SDA" pad="17"/>
 <connect gate="G$1" pin="SWITCH_1" pad="19"/>
