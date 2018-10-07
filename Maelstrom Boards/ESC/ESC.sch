@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -244,6 +244,53 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="1711738">
+<packages>
+<package name="1711738">
+<description>3-pin Screw Terminal</description>
+<pad name="BLUE" x="-5.08" y="0" drill="1.5" shape="square"/>
+<pad name="GREEN" x="0" y="0" drill="1.5" shape="square"/>
+<pad name="WHITE" x="5.08" y="0" drill="1.5" shape="square"/>
+<wire x1="-7.62" y1="-5.3" x2="-7.62" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="5.9" x2="7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-5.3" x2="7.62" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-5.3" x2="7.62" y2="-5.3" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1711738">
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="94"/>
+<pin name="BLUE" x="-12.7" y="15.24" length="middle"/>
+<pin name="GREEN" x="-12.7" y="10.16" length="middle"/>
+<pin name="WHITE" x="-12.7" y="5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1711738">
+<gates>
+<gate name="G$1" symbol="1711738" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1711738">
+<connects>
+<connect gate="G$1" pin="BLUE" pad="BLUE"/>
+<connect gate="G$1" pin="GREEN" pad="GREEN"/>
+<connect gate="G$1" pin="WHITE" pad="WHITE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -255,6 +302,14 @@
 </classes>
 <parts>
 <part name="U$1" library="5530843-6" deviceset="5530843-EDGE" device=""/>
+<part name="U$2" library="1711738" deviceset="1711738" device=""/>
+<part name="U$3" library="1711738" deviceset="1711738" device=""/>
+<part name="U$4" library="1711738" deviceset="1711738" device=""/>
+<part name="U$5" library="1711738" deviceset="1711738" device=""/>
+<part name="U$6" library="1711738" deviceset="1711738" device=""/>
+<part name="U$7" library="1711738" deviceset="1711738" device=""/>
+<part name="U$8" library="1711738" deviceset="1711738" device=""/>
+<part name="U$9" library="1711738" deviceset="1711738" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -263,6 +318,14 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="88.9" y="52.07"/>
+<instance part="U$2" gate="G$1" x="40.64" y="-10.16"/>
+<instance part="U$3" gate="G$1" x="66.04" y="-10.16"/>
+<instance part="U$4" gate="G$1" x="88.9" y="-10.16"/>
+<instance part="U$5" gate="G$1" x="114.3" y="-10.16"/>
+<instance part="U$6" gate="G$1" x="142.24" y="-10.16"/>
+<instance part="U$7" gate="G$1" x="167.64" y="-10.16"/>
+<instance part="U$8" gate="G$1" x="53.34" y="-35.56"/>
+<instance part="U$9" gate="G$1" x="86.36" y="-35.56"/>
 </instances>
 <busses>
 </busses>
