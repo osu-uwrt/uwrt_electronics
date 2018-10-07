@@ -141,15 +141,15 @@
 </packages>
 <symbols>
 <symbol name="5530843-6">
-<pin name="BB_SDA" x="-58.42" y="-20.32" length="middle" rot="R90"/>
-<pin name="BB_SCL" x="-53.34" y="-20.32" length="middle" rot="R90"/>
-<pin name="ESC_SDA" x="-48.26" y="-20.32" length="middle" rot="R90"/>
-<pin name="ESC_SCL" x="-43.18" y="-20.32" length="middle" rot="R90"/>
-<pin name="KILL_SWITCH" x="-12.7" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="CONV_SDA" x="-38.1" y="-20.32" length="middle" rot="R90"/>
-<pin name="CONV_SCL" x="-33.02" y="-20.32" length="middle" rot="R90"/>
-<pin name="STATUS_SDA" x="-27.94" y="-20.32" length="middle" rot="R90"/>
-<pin name="STATUS_SCL" x="-22.86" y="-20.32" length="middle" rot="R90"/>
+<pin name="BOARD_SDA" x="-58.42" y="-20.32" length="middle" rot="R90"/>
+<pin name="BOARD_SCL" x="-53.34" y="-20.32" length="middle" rot="R90"/>
+<pin name="SENSOR_SDA" x="-48.26" y="-20.32" length="middle" rot="R90"/>
+<pin name="SENSOR_SCL" x="-43.18" y="-20.32" length="middle" rot="R90"/>
+<pin name="KILL_SWITCH" x="-33.02" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SPARE17" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE16" x="10.16" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE15" x="15.24" y="-20.32" length="middle" rot="R90"/>
+<pin name="SPARE14" x="20.32" y="-20.32" length="middle" rot="R90"/>
 <pin name="GND" x="-48.26" y="20.32" length="middle" rot="R270"/>
 <pin name="5V" x="-58.42" y="20.32" length="middle" rot="R270"/>
 <pin name="3.3V" x="-53.34" y="20.32" length="middle" rot="R270"/>
@@ -170,11 +170,11 @@
 <pin name="3.3V_ON/OFF" x="20.32" y="20.32" length="middle" rot="R270"/>
 <pin name="SPARE2" x="35.56" y="20.32" length="middle" rot="R270"/>
 <pin name="SPARE3" x="40.64" y="20.32" length="middle" rot="R270"/>
-<pin name="SWITCH_1" x="-7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SWITCH_2" x="-2.54" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SWITCH_3" x="2.54" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SWITCH_4" x="7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SWITCH_5" x="12.7" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SWITCH_1" x="-27.94" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SWITCH_2" x="-22.86" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SWITCH_3" x="-17.78" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SWITCH_4" x="-12.7" y="-20.32" length="middle" direction="out" rot="R90"/>
+<pin name="SWITCH_5" x="-7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SPARE1" x="30.48" y="20.32" length="middle" rot="R270"/>
 <pin name="SPARE13" x="25.4" y="-20.32" length="middle" rot="R90"/>
 <pin name="SPARE4" x="45.72" y="20.32" length="middle" rot="R270"/>
@@ -201,12 +201,8 @@
 <connect gate="G$1" pin="3.3V_ON/OFF" pad="23"/>
 <connect gate="G$1" pin="5V" pad="1 2 3 54 55 56"/>
 <connect gate="G$1" pin="5V_ON_OFF" pad="22"/>
-<connect gate="G$1" pin="BB_SCL" pad="42"/>
-<connect gate="G$1" pin="BB_SDA" pad="15"/>
-<connect gate="G$1" pin="CONV_SCL" pad="41"/>
-<connect gate="G$1" pin="CONV_SDA" pad="16"/>
-<connect gate="G$1" pin="ESC_SCL" pad="43"/>
-<connect gate="G$1" pin="ESC_SDA" pad="14"/>
+<connect gate="G$1" pin="BOARD_SCL" pad="42"/>
+<connect gate="G$1" pin="BOARD_SDA" pad="15"/>
 <connect gate="G$1" pin="GND" pad="7 8 9 48 49 50"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="18"/>
 <connect gate="G$1" pin="PWM_1" pad="10"/>
@@ -217,11 +213,17 @@
 <connect gate="G$1" pin="PWM_6" pad="46"/>
 <connect gate="G$1" pin="PWM_7" pad="45"/>
 <connect gate="G$1" pin="PWM_8" pad="44"/>
+<connect gate="G$1" pin="SENSOR_SCL" pad="43"/>
+<connect gate="G$1" pin="SENSOR_SDA" pad="14"/>
 <connect gate="G$1" pin="SPARE1" pad="29"/>
 <connect gate="G$1" pin="SPARE10" pad="33"/>
 <connect gate="G$1" pin="SPARE11" pad="32"/>
 <connect gate="G$1" pin="SPARE12" pad="31"/>
 <connect gate="G$1" pin="SPARE13" pad="30"/>
+<connect gate="G$1" pin="SPARE14" pad="40"/>
+<connect gate="G$1" pin="SPARE15" pad="17"/>
+<connect gate="G$1" pin="SPARE16" pad="41"/>
+<connect gate="G$1" pin="SPARE17" pad="16"/>
 <connect gate="G$1" pin="SPARE2" pad="24"/>
 <connect gate="G$1" pin="SPARE3" pad="25"/>
 <connect gate="G$1" pin="SPARE4" pad="26"/>
@@ -230,8 +232,6 @@
 <connect gate="G$1" pin="SPARE7" pad="36"/>
 <connect gate="G$1" pin="SPARE8" pad="35"/>
 <connect gate="G$1" pin="SPARE9" pad="34"/>
-<connect gate="G$1" pin="STATUS_SCL" pad="40"/>
-<connect gate="G$1" pin="STATUS_SDA" pad="17"/>
 <connect gate="G$1" pin="SWITCH_1" pad="19"/>
 <connect gate="G$1" pin="SWITCH_2" pad="20"/>
 <connect gate="G$1" pin="SWITCH_3" pad="39"/>
@@ -345,106 +345,48 @@
 <label x="45.72" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="BB_SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="BB_SDA"/>
-<wire x1="-15.24" y1="35.56" x2="-15.24" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="29.21" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="-15.24" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="BB_SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="BB_SCL"/>
-<wire x1="-10.16" y1="35.56" x2="-10.16" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="29.21" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
-<label x="-10.16" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="ESC_SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="ESC_SDA"/>
-<wire x1="-5.08" y1="35.56" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
-<label x="-5.08" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="ESC_SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="ESC_SCL"/>
-<wire x1="0" y1="35.56" x2="0" y2="27.94" width="0.1524" layer="91"/>
-<label x="0" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="CONV_SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CONV_SDA"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
-<label x="5.08" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="CONV_SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CONV_SCL"/>
-<wire x1="10.16" y1="35.56" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<label x="10.16" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="STATUS_SDA" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="STATUS_SDA"/>
-<wire x1="15.24" y1="35.56" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="15.24" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="STATUS_SCL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="STATUS_SCL"/>
-<wire x1="20.32" y1="35.56" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-<label x="20.32" y="26.67" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
 <net name="SWITCH_1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SWITCH_1"/>
-<wire x1="35.56" y1="35.56" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<label x="35.56" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="15.24" y1="35.56" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="15.24" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="SWITCH_2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SWITCH_2"/>
-<wire x1="40.64" y1="35.56" x2="40.64" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="29.21" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
-<label x="40.64" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="29.21" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<label x="20.32" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="SWITCH_3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SWITCH_3"/>
-<wire x1="45.72" y1="35.56" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="45.72" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<label x="25.4" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="SWITCH_4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SWITCH_4"/>
-<wire x1="50.8" y1="35.56" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
-<label x="50.8" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="30.48" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="KILL_SWITCH" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="KILL_SWITCH"/>
-<wire x1="30.48" y1="35.56" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="30.48" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="SWITCH_5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SWITCH_5"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="29.21" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-<label x="55.88" y="26.67" size="1.778" layer="95" rot="R270"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="29.21" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="35.56" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="12V_ON/OFF" class="0">
@@ -557,6 +499,62 @@
 <pinref part="U$1" gate="G$1" pin="SPARE7"/>
 <wire x1="99.06" y1="35.56" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <label x="99.06" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SENSOR_SCL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SENSOR_SCL"/>
+<wire x1="0" y1="35.56" x2="0" y2="27.94" width="0.1524" layer="91"/>
+<label x="0" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SENSOR_SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SENSOR_SDA"/>
+<wire x1="-5.08" y1="35.56" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
+<label x="-5.08" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="BOARD_SCL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="BOARD_SCL"/>
+<wire x1="-10.16" y1="35.56" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="-10.16" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="BOARD_SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="BOARD_SDA"/>
+<wire x1="-15.24" y1="35.56" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="-15.24" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SPARE14" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE14"/>
+<wire x1="63.5" y1="35.56" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<label x="63.5" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SPARE15" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE15"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SPARE16" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE16"/>
+<wire x1="53.34" y1="35.56" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<label x="53.34" y="26.67" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SPARE17" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE17"/>
+<wire x1="48.26" y1="35.56" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<label x="48.26" y="26.67" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
