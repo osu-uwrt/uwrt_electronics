@@ -20150,6 +20150,9 @@ by R. Vogg  15.March.2002</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1.35K"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="AGND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20185,6 +20188,9 @@ by R. Vogg  15.March.2002</description>
 <instance part="C11" gate="G$1" x="40.64" y="106.68"/>
 <instance part="P+4" gate="1" x="8.89" y="271.78"/>
 <instance part="AGND8" gate="VR1" x="-29.21" y="231.14"/>
+<instance part="+3V3" gate="G$1" x="172.72" y="116.84"/>
+<instance part="P+8" gate="1" x="172.72" y="152.4"/>
+<instance part="P+9" gate="1" x="171.45" y="198.12"/>
 </instances>
 <busses>
 </busses>
@@ -20226,7 +20232,8 @@ by R. Vogg  15.March.2002</description>
 <wire x1="203.2" y1="191.77" x2="203.2" y2="246.38" width="0.1524" layer="91"/>
 <junction x="203.2" y="246.38"/>
 <junction x="171.45" y="191.77"/>
-<label x="163.83" y="193.04" size="1.778" layer="95"/>
+<pinref part="P+9" gate="1" pin="+12V"/>
+<wire x1="171.45" y1="195.58" x2="171.45" y2="191.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12VFILTERED+" class="0">
@@ -20254,20 +20261,6 @@ by R. Vogg  15.March.2002</description>
 <pinref part="C11" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="111.76" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="36.83" y="113.03" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+3.3V" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="146.05" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="111.76" x2="160.02" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="146.05" y1="107.95" x2="146.05" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="111.76" x2="172.72" y2="107.95" width="0.1524" layer="91"/>
-<junction x="160.02" y="111.76"/>
-<label x="165.1" y="113.03" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12VON" class="0">
@@ -20410,6 +20403,20 @@ by R. Vogg  15.March.2002</description>
 <wire x1="35.56" y1="72.39" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="146.05" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="111.76" x2="160.02" y2="107.95" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="146.05" y1="107.95" x2="146.05" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="107.95" width="0.1524" layer="91"/>
+<junction x="160.02" y="111.76"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="172.72" y1="114.3" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
+<junction x="172.72" y="111.76"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -20425,9 +20432,11 @@ by R. Vogg  15.March.2002</description>
 <wire x1="146.05" y1="142.24" x2="146.05" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="146.05" x2="172.72" y2="146.05" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="146.05" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
 <junction x="160.02" y="146.05"/>
-<label x="165.1" y="147.32" size="1.778" layer="95"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="172.72" y1="146.05" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="149.86" x2="172.72" y2="146.05" width="0.1524" layer="91"/>
+<junction x="172.72" y="146.05"/>
 </segment>
 </net>
 <net name="BALANCED+" class="0">
@@ -20707,15 +20716,14 @@ by R. Vogg  15.March.2002</description>
 <net name="5VON" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="-29.21" y1="40.64" x2="-39.37" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-29.21" y1="40.64" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="-38.1" y="36.83" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="43.18" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="40.64" x2="-39.37" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-43.18" y="40.64"/>
 <wire x1="-43.18" y1="40.64" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-43.18" y1="38.1" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-43.18" y1="43.18" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VON-CON" class="0">
