@@ -17985,14 +17985,14 @@ SMD power inductor</description>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="330 uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="330 uF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1.35K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="13K"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1.35K"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100K"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="13K"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1.35K"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100K"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="13K"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="AGND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -18010,17 +18010,17 @@ SMD power inductor</description>
 <instance part="PNUEMATICS" gate="G$1" x="196.85" y="256.54" rot="R90"/>
 <instance part="JETSON" gate="G$1" x="209.55" y="256.54" rot="R90"/>
 <instance part="DIAMOND" gate="G$1" x="227.33" y="256.54" rot="R90"/>
-<instance part="L1" gate="G$1" x="22.86" y="191.77" rot="R90"/>
+<instance part="L1" gate="G$1" x="22.86" y="191.77"/>
 <instance part="C1" gate="G$1" x="8.89" y="185.674"/>
 <instance part="C3" gate="G$1" x="144.78" y="185.42"/>
 <instance part="C4" gate="G$1" x="158.75" y="185.42"/>
 <instance part="C5" gate="G$1" x="171.45" y="185.42"/>
-<instance part="L2" gate="G$1" x="24.13" y="146.05" rot="R90"/>
+<instance part="L2" gate="G$1" x="24.13" y="146.05"/>
 <instance part="C7" gate="G$1" x="10.16" y="139.954"/>
 <instance part="C8" gate="G$1" x="146.05" y="139.7"/>
 <instance part="C9" gate="G$1" x="160.02" y="139.7"/>
 <instance part="C10" gate="G$1" x="172.72" y="139.7"/>
-<instance part="L3" gate="G$1" x="24.13" y="111.76" rot="R90"/>
+<instance part="L3" gate="G$1" x="24.13" y="111.76"/>
 <instance part="C12" gate="G$1" x="10.16" y="105.664"/>
 <instance part="C13" gate="G$1" x="146.05" y="105.41"/>
 <instance part="C14" gate="G$1" x="160.02" y="105.41"/>
@@ -18084,7 +18084,7 @@ SMD power inductor</description>
 <net name="12VFILTERED+" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="191.77" x2="22.86" y2="196.85" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="191.77" x2="27.94" y2="191.77" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="191.77" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
 <label x="35.56" y="193.04" size="1.778" layer="95"/>
@@ -18093,7 +18093,7 @@ SMD power inductor</description>
 <net name="5VFILTERED+" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="146.05" x2="24.13" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="146.05" x2="29.21" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="146.05" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="35.56" y="147.32" size="1.778" layer="95"/>
@@ -18102,7 +18102,7 @@ SMD power inductor</description>
 <net name="3.3VFILTERED+" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="111.76" x2="24.13" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="111.76" x2="29.21" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="+"/>
 <wire x1="40.64" y1="111.76" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="36.83" y="113.03" size="1.778" layer="95"/>
@@ -18295,7 +18295,7 @@ SMD power inductor</description>
 <wire x1="-16.51" y1="266.7" x2="-16.51" y2="262.89" width="0.1524" layer="91"/>
 <wire x1="-16.51" y1="262.89" x2="8.89" y2="262.89" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="186.69" x2="8.89" y2="191.77" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="191.77" x2="8.89" y2="191.77" width="0.1524" layer="91"/>
 <wire x1="8.89" y1="262.89" x2="8.89" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="BALANCEDRAWIN" gate="G$1" pin="2"/>
 <wire x1="8.89" y1="200.66" x2="8.89" y2="191.77" width="0.1524" layer="91"/>
@@ -18307,13 +18307,13 @@ SMD power inductor</description>
 <wire x1="8.89" y1="200.66" x2="0" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="0" y1="200.66" x2="0" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="24.13" y1="140.97" x2="10.16" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="146.05" x2="10.16" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="10.16" y1="146.05" x2="10.16" y2="142.494" width="0.1524" layer="91"/>
 <wire x1="0" y1="146.05" x2="10.16" y2="146.05" width="0.1524" layer="91"/>
 <junction x="10.16" y="146.05"/>
 <pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="24.13" y1="106.68" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="10.16" y1="111.76" x2="10.16" y2="108.204" width="0.1524" layer="91"/>
 <wire x1="0" y1="146.05" x2="0" y2="111.76" width="0.1524" layer="91"/>
