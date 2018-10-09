@@ -2826,7 +2826,7 @@ design rules under a new name.</description>
 <element name="PF_C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="91.4075" y="39.37625" rot="R180"/>
 <element name="PF_PREAMP" library="lio" package="SC70-5" value="TLV6741" x="91.63" y="58.32375" rot="R180"/>
 <element name="PF_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="94.09375" y="56.44125" rot="R90"/>
-<element name="PF_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="93.32875" y="60.105" rot="R90"/>
+<element name="PF_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10uF" x="93.32875" y="60.105" rot="R90"/>
 <element name="PF_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="89.72875" y="58.38375" rot="R270"/>
 <element name="PF_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1 M" x="87.72875" y="58.3625" rot="R270"/>
 <element name="PF_R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="94.92875" y="60.12" rot="R90"/>
@@ -2835,7 +2835,7 @@ design rules under a new name.</description>
 <element name="PF_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="89.52875" y="61.5625" rot="R270"/>
 <element name="PA_PREAMP" library="lio" package="SC70-5" value="TLV6741" x="68.23" y="60.76375" rot="R180"/>
 <element name="PA_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="70.69375" y="58.98125" rot="R90"/>
-<element name="PA_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="69.92875" y="63.145" rot="R90"/>
+<element name="PA_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10uF" x="69.92875" y="63.145" rot="R90"/>
 <element name="PA_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="66.02875" y="60.82375" rot="R270"/>
 <element name="PA_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1 M" x="64.42875" y="60.8025" rot="R270"/>
 <element name="PA_R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="71.72875" y="63.16" rot="R90"/>
@@ -2844,7 +2844,7 @@ design rules under a new name.</description>
 <element name="PA_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="67.62875" y="64.6025" rot="R270"/>
 <element name="SF_PREAMP3" library="lio" package="SC70-5" value="TLV6741" x="44.23" y="60.60375" rot="R180"/>
 <element name="SF_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="47.19375" y="58.82125" rot="R90"/>
-<element name="SF_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="46.02875" y="63.085" rot="R90"/>
+<element name="SF_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10uF" x="46.02875" y="63.085" rot="R90"/>
 <element name="SF_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="42.12875" y="60.56375" rot="R270"/>
 <element name="SF_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1 M" x="40.22875" y="60.5425" rot="R270"/>
 <element name="SF_R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="47.92875" y="63.1" rot="R90"/>
@@ -2853,7 +2853,7 @@ design rules under a new name.</description>
 <element name="SF_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="43.62875" y="63.8425" rot="R270"/>
 <element name="H4_PREAMP4" library="lio" package="SC70-5" value="TLV6741" x="19.93" y="60.34375" rot="R180"/>
 <element name="SA_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="22.39375" y="58.26125" rot="R90"/>
-<element name="SA_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="21.52875" y="63.025" rot="R90"/>
+<element name="SA_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10uF" x="21.52875" y="63.025" rot="R90"/>
 <element name="SA_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="17.82875" y="60.30375" rot="R270"/>
 <element name="SA_R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1 M" x="15.72875" y="60.2825" rot="R270"/>
 <element name="SA_R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="23.42875" y="62.94" rot="R90"/>
@@ -2864,28 +2864,28 @@ design rules under a new name.</description>
 <element name="PF_C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="77.92875" y="32.585" rot="R180"/>
 <element name="PF_R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="75.22875" y="35.26375" rot="R270"/>
 <element name="PF_C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="76.9625" y="37.61875" rot="R270"/>
-<element name="PF_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uf" x="85.02875" y="35.0275" rot="R270"/>
+<element name="PF_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="85.02875" y="35.0275" rot="R270"/>
 <element name="PF_R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="82.32875" y="37.2425"/>
 <element name="PF_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="83.32875" y="35.00625" rot="R270"/>
 <element name="PA_REFGEN" library="REF6025" package="REF6025" value="REF6025" x="55.0875" y="34.38625" rot="R270"/>
 <element name="PA_C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="53.7125" y="32.02875" rot="R180"/>
 <element name="PA_R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="50.92875" y="34.26625" rot="R270"/>
 <element name="PA_C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="52.82125" y="37.4375" rot="R270"/>
-<element name="PA_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uf" x="60.23" y="34.37125" rot="R270"/>
+<element name="PA_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="60.23" y="34.37125" rot="R270"/>
 <element name="PA_R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="58.02875" y="37.145"/>
 <element name="PA_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="58.90875" y="34.37125" rot="R270"/>
 <element name="H4_REFGEN3" library="REF6025" package="REF6025" value="REF6025" x="30.5875" y="35.08875" rot="R270"/>
 <element name="H4RF_C_3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="29.22875" y="32.99" rot="R180"/>
 <element name="H4RF_R_6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="26.62875" y="35.06875" rot="R270"/>
 <element name="H4RF_C_IN3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="28.3625" y="38.22375" rot="R270"/>
-<element name="H4RF_C_O7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uf" x="36.12875" y="35.1325" rot="R270"/>
+<element name="H4RF_C_O7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="36.12875" y="35.1325" rot="R270"/>
 <element name="H4RF_R_7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="33.12875" y="38.0475"/>
 <element name="H4RF_C_O8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="34.32875" y="35.11125" rot="R270"/>
 <element name="H4_REFGEN4" library="REF6025" package="REF6025" value="REF6025" x="6.3875" y="34.79125" rot="R270"/>
 <element name="H4RF_C_5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="5.02875" y="32.0925" rot="R180"/>
 <element name="H4RF_R_8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="3.62875" y="37.87125" rot="R270"/>
 <element name="H4RF_C_IN4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="5.82875" y="37.935" rot="R270"/>
-<element name="H4RF_C_O9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uf" x="11.82875" y="34.81375" rot="R270"/>
+<element name="H4RF_C_O9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="11.82875" y="34.81375" rot="R270"/>
 <element name="H4RF_R_9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="9.22875" y="37.25"/>
 <element name="H4RF_C_O10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="10.0625" y="34.72625" rot="R270"/>
 <element name="ADC_PF" library="ADS127L01_ADC" package="PBS0032A_L" value="ADS124S08IPBSRPBS0032A_L" x="91.28" y="32.825" rot="R270"/>
