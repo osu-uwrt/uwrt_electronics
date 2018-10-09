@@ -262,7 +262,7 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="88.9" y="52.07"/>
+<instance part="U$1" gate="G$1" x="88.9" y="44.45"/>
 </instances>
 <busses>
 </busses>
