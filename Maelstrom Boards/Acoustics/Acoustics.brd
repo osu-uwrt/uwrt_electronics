@@ -166,6 +166,10 @@
 <hole x="82.55" y="68.58" drill="3.2639"/>
 <hole x="82.55" y="5.08" drill="3.2639"/>
 <hole x="19.05" y="5.08" drill="3.2639"/>
+<text x="92.1" y="72.2" size="1.778" layer="21">PF</text>
+<text x="70.2" y="72.5" size="1.778" layer="21">PA</text>
+<text x="46.3" y="72.4" size="1.778" layer="21">SF</text>
+<text x="21.7" y="73.4" size="1.778" layer="21">SA</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2874,21 +2878,21 @@ design rules under a new name.</description>
 <element name="PA_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="60.23" y="34.37125" rot="R270"/>
 <element name="PA_R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="58.02875" y="37.145"/>
 <element name="PA_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="58.90875" y="34.37125" rot="R270"/>
-<element name="H4_REFGEN3" library="REF6025" package="REF6025" value="REF6025" x="30.5875" y="35.08875" rot="R270"/>
-<element name="H4RF_C_3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="29.22875" y="32.99" rot="R180"/>
-<element name="H4RF_R_6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="26.62875" y="35.06875" rot="R270"/>
-<element name="H4RF_C_IN3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="28.3625" y="38.22375" rot="R270"/>
-<element name="H4RF_C_O7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="36.12875" y="35.1325" rot="R270"/>
-<element name="H4RF_R_7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="33.12875" y="38.0475"/>
-<element name="H4RF_C_O8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="34.32875" y="35.11125" rot="R270"/>
-<element name="H4_REFGEN4" library="REF6025" package="REF6025" value="REF6025" x="6.3875" y="34.79125" rot="R270"/>
-<element name="H4RF_C_5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="5.02875" y="32.0925" rot="R180"/>
-<element name="H4RF_R_8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="3.62875" y="37.87125" rot="R270"/>
-<element name="H4RF_C_IN4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="5.82875" y="37.935" rot="R270"/>
-<element name="H4RF_C_O9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="11.82875" y="34.81375" rot="R270"/>
-<element name="H4RF_R_9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="9.22875" y="37.25"/>
-<element name="H4RF_C_O10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="10.0625" y="34.72625" rot="R270"/>
-<element name="ADC_PF" library="ADS127L01_ADC" package="PBS0032A_L" value="ADS124S08IPBSRPBS0032A_L" x="91.28" y="32.825" rot="R270"/>
+<element name="SF_REFGEN" library="REF6025" package="REF6025" value="REF6025" x="30.5875" y="35.08875" rot="R270"/>
+<element name="SF_C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="29.22875" y="32.99" rot="R180"/>
+<element name="SF_R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="26.62875" y="35.06875" rot="R270"/>
+<element name="SF_C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="28.3625" y="38.22375" rot="R270"/>
+<element name="SF_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="36.12875" y="35.1325" rot="R270"/>
+<element name="SF_R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="33.12875" y="38.0475"/>
+<element name="SF_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="34.32875" y="35.11125" rot="R270"/>
+<element name="SA_REFGEN" library="REF6025" package="REF6025" value="REF6025" x="6.3875" y="34.79125" rot="R270"/>
+<element name="SA_C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="5.02875" y="32.0925" rot="R180"/>
+<element name="SA_R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="121k" x="3.62875" y="37.87125" rot="R270"/>
+<element name="SA_C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uf" x="5.82875" y="37.935" rot="R270"/>
+<element name="SA_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nf" x="11.82875" y="34.81375" rot="R270"/>
+<element name="SA_R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47m" x="9.22875" y="37.25"/>
+<element name="SA_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf" x="10.0625" y="34.72625" rot="R270"/>
+<element name="ADC_PF" library="ADS127L01_ADC" package="PBS0032A_L" value="" x="91.28" y="32.825" rot="R270"/>
 <element name="PF_C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="93.72875" y="38.2625" rot="R270"/>
 <element name="PF_C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="95.31375" y="36.8625" rot="R270"/>
 <element name="PF_C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="92.09875" y="31.25875" rot="MR270"/>
@@ -2897,7 +2901,7 @@ design rules under a new name.</description>
 <element name="PF_C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="84.39875" y="32.4625" rot="R180"/>
 <element name="PF_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="91.32875" y="33.78375" rot="MR180"/>
 <element name="PF_C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="94.91125" y="28.98375" rot="R90"/>
-<element name="ADC_PA" library="ADS127L01_ADC" package="PBS0032A_L" value="ADS124S08IPBSRPBS0032A_L" x="67.08" y="32.61" rot="R270"/>
+<element name="ADC_PA" library="ADS127L01_ADC" package="PBS0032A_L" value="" x="67.08" y="32.61" rot="R270"/>
 <element name="PA_C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="69.41125" y="38.49" rot="R270"/>
 <element name="PA_C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="70.92875" y="36.96875" rot="R270"/>
 <element name="PA_C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="67.91375" y="30.64375" rot="MR270"/>
@@ -2906,26 +2910,26 @@ design rules under a new name.</description>
 <element name="PA_C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="59.88625" y="32.03125" rot="R180"/>
 <element name="PA_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="67.12875" y="33.59" rot="MR180"/>
 <element name="PA_C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="71.82875" y="26.7475" rot="R90"/>
-<element name="ADC_H7" library="ADS127L01_ADC" package="PBS0032A_L" value="ADS124S08IPBSRPBS0032A_L" x="42.78" y="33.295" rot="R270"/>
-<element name="H4_C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="45.11125" y="39.175" rot="R270"/>
-<element name="H4_C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="46.72875" y="37.65375" rot="R270"/>
-<element name="H4ADC_C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="19.21375" y="31.42875" rot="MR270"/>
-<element name="H4_R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="60.4k" x="40.125" y="39.1325" rot="R90"/>
-<element name="H4_R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="38.32875" y="37.61125" rot="R90"/>
-<element name="H4_C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="35.725" y="32.75375" rot="R180"/>
-<element name="H4_C_POW3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="18.32875" y="34.175" rot="MR180"/>
-<element name="H4_C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="46.52875" y="29.3325" rot="R90"/>
-<element name="ADC_H8" library="ADS127L01_ADC" package="PBS0032A_L" value="ADS124S08IPBSRPBS0032A_L" x="18.28" y="33.28" rot="R270"/>
-<element name="H4_C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="20.51125" y="38.66" rot="R270"/>
-<element name="H4_C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="22.42875" y="37.13875" rot="R270"/>
-<element name="H4ADC_C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="43.51375" y="31.71375" rot="MR270"/>
-<element name="H4_R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="60.4k" x="16.02875" y="38.69625" rot="R90"/>
-<element name="H4_R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="14.225" y="37.2175" rot="R90"/>
-<element name="H4_C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="11.725" y="32.13875" rot="R180"/>
-<element name="H4_C_POW4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="42.82875" y="34.26" rot="MR180"/>
-<element name="H4_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="21.82875" y="29.7175" rot="R90"/>
-<element name="U$1" library="headers(2mm)" package="1X3" value="1X3" x="8" y="69" rot="R180"/>
-<element name="U$2" library="headers(2mm)" package="2X8" value="2X8" x="17" y="10"/>
+<element name="ADC_SF" library="ADS127L01_ADC" package="PBS0032A_L" value="" x="42.78" y="33.295" rot="R270"/>
+<element name="SF_C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="45.11125" y="39.175" rot="R270"/>
+<element name="SF_C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="46.72875" y="37.65375" rot="R270"/>
+<element name="SF_C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="19.21375" y="31.42875" rot="MR270"/>
+<element name="SF_R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="60.4k" x="40.125" y="39.1325" rot="R90"/>
+<element name="SF_R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="38.32875" y="37.61125" rot="R90"/>
+<element name="SF_C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="35.725" y="32.75375" rot="R180"/>
+<element name="SF_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="18.32875" y="34.175" rot="MR180"/>
+<element name="SF_C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="46.52875" y="29.3325" rot="R90"/>
+<element name="ADC_SA" library="ADS127L01_ADC" package="PBS0032A_L" value="" x="18.28" y="33.28" rot="R270"/>
+<element name="SA_C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="20.51125" y="38.66" rot="R270"/>
+<element name="SA_C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="22.42875" y="37.13875" rot="R270"/>
+<element name="SA_C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf" x="43.51375" y="31.71375" rot="MR270"/>
+<element name="SA_R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="60.4k" x="16.02875" y="38.69625" rot="R90"/>
+<element name="SA_R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K" x="14.225" y="37.2175" rot="R90"/>
+<element name="SA_C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="11.725" y="32.13875" rot="R180"/>
+<element name="SA_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="42.82875" y="34.26" rot="MR180"/>
+<element name="SA_C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="21.82875" y="29.7175" rot="R90"/>
+<element name="FPGA_CON2" library="headers(2mm)" package="1X3" value="1X3" x="8" y="69" rot="R180"/>
+<element name="FPGA_CON1" library="headers(2mm)" package="2X8" value="2X8" x="17" y="10"/>
 <element name="PF_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="87" y="73" rot="R180">
 <attribute name="MF" value="MOLEX" x="87" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="87" y="73" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2971,38 +2975,38 @@ design rules under a new name.</description>
 <element name="PA_R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="68.1" y="42.5" rot="R270"/>
 <element name="PA_R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="65.8" y="42.5" rot="R270"/>
 <element name="PA_C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="67" y="40" rot="R180"/>
-<element name="PF_DA2" library="THS4551" package="VSSOP-8" value="THS4551" x="40.1" y="50.6" rot="R270"/>
-<element name="PF_R29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="44.7" y="52.8" rot="R270"/>
-<element name="PF_R30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2K" x="43.3" y="55.8" rot="R270"/>
-<element name="PF_R31" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="41.7" y="55.9" rot="R270"/>
-<element name="PF_R32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="40.2" y="52.8" rot="R270"/>
-<element name="PF_R33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="43.6" y="46.5" rot="R270"/>
-<element name="PF_R34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="41.4" y="46.5" rot="R270"/>
-<element name="PF_C24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="46.1" y="49.6" rot="R270"/>
-<element name="PF_C25" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="38.4" y="49.5" rot="R270"/>
-<element name="PF_C26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1nF" x="42.5" y="52" rot="R180"/>
-<element name="PF_C27" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="470 pF" x="42.5" y="53.6" rot="R180"/>
-<element name="PF_R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="46.4" y="52.8" rot="R270"/>
-<element name="PF_R36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="38.1" y="52.8" rot="R270"/>
-<element name="PF_R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="43.6" y="43.4" rot="R270"/>
-<element name="PF_R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="41.4" y="43.5" rot="R270"/>
-<element name="PF_C28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="42.6" y="40.9" rot="R180"/>
-<element name="PF_DA3" library="THS4551" package="VSSOP-8" value="THS4551" x="15.9" y="50.6" rot="R270"/>
-<element name="PF_R39" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="20.5" y="52.7" rot="R270"/>
-<element name="PF_R40" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2K" x="19.1" y="55.8" rot="R270"/>
-<element name="PF_R41" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="17.6" y="55.8" rot="R270"/>
-<element name="PF_R42" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="15.9" y="52.6" rot="R270"/>
-<element name="PF_R43" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="18.8" y="46.6" rot="R270"/>
-<element name="PF_R44" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="16.8" y="46.6" rot="R270"/>
-<element name="PF_C29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="21.8" y="49.6" rot="R270"/>
-<element name="PF_C30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="14.2" y="49.6" rot="R270"/>
-<element name="PF_C31" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1nF" x="18.3" y="51.8" rot="R180"/>
-<element name="PF_C32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="470 pF" x="18.3" y="53.4" rot="R180"/>
-<element name="PF_R45" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="22.3" y="52.7" rot="R270"/>
-<element name="PF_R46" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="14" y="52.6" rot="R270"/>
-<element name="PF_R47" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="18.8" y="43.5" rot="R270"/>
-<element name="PF_R48" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="16.8" y="43.6" rot="R270"/>
-<element name="PF_C33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="17.9" y="41.2" rot="R180"/>
+<element name="SF_DA" library="THS4551" package="VSSOP-8" value="THS4551" x="40.1" y="50.6" rot="R270"/>
+<element name="SF_R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="44.7" y="52.8" rot="R270"/>
+<element name="SF_R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2K" x="43.3" y="55.8" rot="R270"/>
+<element name="SF_R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="41.7" y="55.9" rot="R270"/>
+<element name="SF_R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="40.2" y="52.8" rot="R270"/>
+<element name="SF_R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="43.6" y="46.5" rot="R270"/>
+<element name="SF_R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="41.4" y="46.5" rot="R270"/>
+<element name="SF_C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="46.1" y="49.6" rot="R270"/>
+<element name="SF_C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="38.4" y="49.5" rot="R270"/>
+<element name="SF_C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1nF" x="42.5" y="52" rot="R180"/>
+<element name="SF_C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="470 pF" x="42.5" y="53.6" rot="R180"/>
+<element name="SF_R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="46.4" y="52.8" rot="R270"/>
+<element name="SF_R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="38.1" y="52.8" rot="R270"/>
+<element name="SF_R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="43.6" y="43.4" rot="R270"/>
+<element name="SF_R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="41.4" y="43.5" rot="R270"/>
+<element name="SF_C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="42.6" y="40.9" rot="R180"/>
+<element name="SA_DA" library="THS4551" package="VSSOP-8" value="THS4551" x="15.9" y="50.6" rot="R270"/>
+<element name="SA_R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="20.5" y="52.7" rot="R270"/>
+<element name="SA_R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2K" x="19.1" y="55.8" rot="R270"/>
+<element name="SA_R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="17.6" y="55.8" rot="R270"/>
+<element name="SA_R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="15.9" y="52.6" rot="R270"/>
+<element name="SA_R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="18.8" y="46.6" rot="R270"/>
+<element name="SA_R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="16.8" y="46.6" rot="R270"/>
+<element name="SA_C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="21.8" y="49.6" rot="R270"/>
+<element name="SA_C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="14.2" y="49.6" rot="R270"/>
+<element name="SA_C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1nF" x="18.3" y="51.8" rot="R180"/>
+<element name="SA_C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="470 pF" x="18.3" y="53.4" rot="R180"/>
+<element name="SA_R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="22.3" y="52.7" rot="R270"/>
+<element name="SA_R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="14" y="52.6" rot="R270"/>
+<element name="SA_R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="18.8" y="43.5" rot="R270"/>
+<element name="SA_R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10" x="16.8" y="43.6" rot="R270"/>
+<element name="SA_C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="22nF" x="17.9" y="41.2" rot="R180"/>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -3031,12 +3035,12 @@ design rules under a new name.</description>
 <contactref element="PA_REFGEN" pad="1"/>
 <contactref element="PA_REFGEN" pad="2"/>
 <contactref element="PA_C10" pad="2"/>
-<contactref element="H4_REFGEN3" pad="1"/>
-<contactref element="H4_REFGEN3" pad="2"/>
-<contactref element="H4RF_C_IN3" pad="2"/>
-<contactref element="H4_REFGEN4" pad="1"/>
-<contactref element="H4_REFGEN4" pad="2"/>
-<contactref element="H4RF_C_IN4" pad="2"/>
+<contactref element="SF_REFGEN" pad="1"/>
+<contactref element="SF_REFGEN" pad="2"/>
+<contactref element="SF_C10" pad="2"/>
+<contactref element="SA_REFGEN" pad="1"/>
+<contactref element="SA_REFGEN" pad="2"/>
+<contactref element="SA_C10" pad="2"/>
 <contactref element="ADC_PF" pad="27"/>
 <contactref element="ADC_PF" pad="29"/>
 <contactref element="ADC_PF" pad="28"/>
@@ -3049,22 +3053,22 @@ design rules under a new name.</description>
 <contactref element="PA_C19" pad="1"/>
 <contactref element="ADC_PA" pad="6"/>
 <contactref element="PA_C16" pad="1"/>
-<contactref element="ADC_H7" pad="27"/>
-<contactref element="ADC_H7" pad="29"/>
-<contactref element="ADC_H7" pad="28"/>
-<contactref element="H4_C_POW3" pad="1"/>
-<contactref element="ADC_H7" pad="6"/>
-<contactref element="H4ADC_C3" pad="1"/>
-<contactref element="ADC_H8" pad="27"/>
-<contactref element="ADC_H8" pad="29"/>
-<contactref element="ADC_H8" pad="28"/>
-<contactref element="H4_C_POW4" pad="1"/>
-<contactref element="ADC_H8" pad="6"/>
-<contactref element="H4ADC_C4" pad="1"/>
-<contactref element="U$1" pad="1"/>
+<contactref element="ADC_SF" pad="27"/>
+<contactref element="ADC_SF" pad="29"/>
+<contactref element="ADC_SF" pad="28"/>
+<contactref element="SF_C19" pad="1"/>
+<contactref element="ADC_SF" pad="6"/>
+<contactref element="SF_C16" pad="1"/>
+<contactref element="ADC_SA" pad="27"/>
+<contactref element="ADC_SA" pad="29"/>
+<contactref element="ADC_SA" pad="28"/>
+<contactref element="SA_C19" pad="1"/>
+<contactref element="ADC_SA" pad="6"/>
+<contactref element="SA_C16" pad="1"/>
+<contactref element="FPGA_CON2" pad="1"/>
 <contactref element="PA_DA" pad="3"/>
-<contactref element="PF_DA2" pad="3"/>
-<contactref element="PF_DA3" pad="3"/>
+<contactref element="SF_DA" pad="3"/>
+<contactref element="SA_DA" pad="3"/>
 <wire x1="87.10375" y1="48.9025" x2="88.7975" y2="48.9025" width="0.1524" layer="1"/>
 <wire x1="88.7975" y1="48.9025" x2="88.8" y2="48.9" width="0.1524" layer="1"/>
 <via x="88.8" y="48.9" extent="1-16" drill="0.35"/>
@@ -3132,8 +3136,8 @@ design rules under a new name.</description>
 <via x="74.1" y="60.4" extent="1-16" drill="0.35"/>
 <contactref element="ADC_PA" pad="32"/>
 <contactref element="ADC_PF" pad="32"/>
-<contactref element="ADC_H7" pad="32"/>
-<contactref element="ADC_H8" pad="32"/>
+<contactref element="ADC_SF" pad="32"/>
+<contactref element="ADC_SA" pad="32"/>
 <wire x1="45.88" y1="35.045" x2="47.045" y2="35.045" width="0.1524" layer="1"/>
 <wire x1="47.045" y1="35.045" x2="47.1" y2="35.1" width="0.1524" layer="1"/>
 <via x="47.1" y="35.1" extent="1-16" drill="0.35"/>
@@ -3220,9 +3224,9 @@ design rules under a new name.</description>
 <signal name="START">
 <contactref element="ADC_PF" pad="17"/>
 <contactref element="ADC_PA" pad="17"/>
-<contactref element="ADC_H7" pad="17"/>
-<contactref element="ADC_H8" pad="17"/>
-<contactref element="U$2" pad="12"/>
+<contactref element="ADC_SF" pad="17"/>
+<contactref element="ADC_SA" pad="17"/>
+<contactref element="FPGA_CON1" pad="12"/>
 <wire x1="20.6" y1="16.6" x2="20" y2="16" width="0.1524" layer="16"/>
 <wire x1="20" y1="16" x2="20" y2="15.2068" width="0.1524" layer="16"/>
 <wire x1="20" y1="15.2068" x2="20" y2="11" width="0.1524" layer="16"/>
@@ -3273,12 +3277,12 @@ design rules under a new name.</description>
 <contactref element="PA_C11" pad="1"/>
 <contactref element="PA_R15" pad="1"/>
 <contactref element="PA_C10" pad="1"/>
-<contactref element="H4RF_C_3" pad="1"/>
-<contactref element="H4RF_R_6" pad="1"/>
-<contactref element="H4RF_C_IN3" pad="1"/>
-<contactref element="H4RF_C_5" pad="1"/>
-<contactref element="H4RF_R_8" pad="1"/>
-<contactref element="H4RF_C_IN4" pad="1"/>
+<contactref element="SF_C11" pad="1"/>
+<contactref element="SF_R15" pad="1"/>
+<contactref element="SF_C10" pad="1"/>
+<contactref element="SA_C11" pad="1"/>
+<contactref element="SA_R15" pad="1"/>
+<contactref element="SA_C10" pad="1"/>
 <contactref element="ADC_PF" pad="23"/>
 <contactref element="PF_C18" pad="1"/>
 <contactref element="ADC_PF" pad="26"/>
@@ -3315,42 +3319,42 @@ design rules under a new name.</description>
 <contactref element="ADC_PA" pad="16"/>
 <contactref element="ADC_PA" pad="18"/>
 <contactref element="ADC_PA" pad="21"/>
-<contactref element="ADC_H7" pad="23"/>
-<contactref element="H4_C15" pad="1"/>
-<contactref element="ADC_H7" pad="26"/>
-<contactref element="H4_C_POW3" pad="2"/>
-<contactref element="ADC_H7" pad="30"/>
-<contactref element="ADC_H7" pad="12"/>
-<contactref element="ADC_H7" pad="14"/>
-<contactref element="ADC_H7" pad="13"/>
-<contactref element="ADC_H7" pad="5"/>
-<contactref element="H4_R8" pad="2"/>
-<contactref element="H4_R5" pad="2"/>
-<contactref element="H4_C14" pad="2"/>
-<contactref element="ADC_H7" pad="10"/>
-<contactref element="H4ADC_C3" pad="2"/>
-<contactref element="ADC_H7" pad="15"/>
-<contactref element="ADC_H7" pad="16"/>
-<contactref element="ADC_H7" pad="18"/>
-<contactref element="ADC_H7" pad="21"/>
-<contactref element="ADC_H8" pad="23"/>
-<contactref element="H4_C19" pad="1"/>
-<contactref element="ADC_H8" pad="26"/>
-<contactref element="H4_C_POW4" pad="2"/>
-<contactref element="ADC_H8" pad="30"/>
-<contactref element="ADC_H8" pad="12"/>
-<contactref element="ADC_H8" pad="14"/>
-<contactref element="ADC_H8" pad="13"/>
-<contactref element="ADC_H8" pad="5"/>
-<contactref element="H4_R10" pad="2"/>
-<contactref element="H4_R9" pad="2"/>
-<contactref element="H4_C18" pad="2"/>
-<contactref element="ADC_H8" pad="10"/>
-<contactref element="H4ADC_C4" pad="2"/>
-<contactref element="ADC_H8" pad="15"/>
-<contactref element="ADC_H8" pad="16"/>
-<contactref element="ADC_H8" pad="18"/>
-<contactref element="ADC_H8" pad="21"/>
+<contactref element="ADC_SF" pad="23"/>
+<contactref element="SF_C18" pad="1"/>
+<contactref element="ADC_SF" pad="26"/>
+<contactref element="SF_C19" pad="2"/>
+<contactref element="ADC_SF" pad="30"/>
+<contactref element="ADC_SF" pad="12"/>
+<contactref element="ADC_SF" pad="14"/>
+<contactref element="ADC_SF" pad="13"/>
+<contactref element="ADC_SF" pad="5"/>
+<contactref element="SF_R18" pad="2"/>
+<contactref element="SF_R17" pad="2"/>
+<contactref element="SF_C17" pad="2"/>
+<contactref element="ADC_SF" pad="10"/>
+<contactref element="SF_C16" pad="2"/>
+<contactref element="ADC_SF" pad="15"/>
+<contactref element="ADC_SF" pad="16"/>
+<contactref element="ADC_SF" pad="18"/>
+<contactref element="ADC_SF" pad="21"/>
+<contactref element="ADC_SA" pad="23"/>
+<contactref element="SA_C18" pad="1"/>
+<contactref element="ADC_SA" pad="26"/>
+<contactref element="SA_C19" pad="2"/>
+<contactref element="ADC_SA" pad="30"/>
+<contactref element="ADC_SA" pad="12"/>
+<contactref element="ADC_SA" pad="14"/>
+<contactref element="ADC_SA" pad="13"/>
+<contactref element="ADC_SA" pad="5"/>
+<contactref element="SA_R18" pad="2"/>
+<contactref element="SA_R17" pad="2"/>
+<contactref element="SA_C17" pad="2"/>
+<contactref element="ADC_SA" pad="10"/>
+<contactref element="SA_C16" pad="2"/>
+<contactref element="ADC_SA" pad="15"/>
+<contactref element="ADC_SA" pad="16"/>
+<contactref element="ADC_SA" pad="18"/>
+<contactref element="ADC_SA" pad="21"/>
 <contactref element="PF_PREAMP" pad="2"/>
 <contactref element="PA_PREAMP" pad="2"/>
 <contactref element="SF_PREAMP3" pad="2"/>
@@ -3363,25 +3367,25 @@ design rules under a new name.</description>
 <contactref element="PA_REFGEN" pad="8"/>
 <contactref element="PA_REFGEN" pad="7"/>
 <contactref element="PA_C13" pad="1"/>
-<contactref element="H4RF_R_7" pad="1"/>
-<contactref element="H4_REFGEN3" pad="8"/>
-<contactref element="H4_REFGEN3" pad="7"/>
-<contactref element="H4RF_C_O7" pad="1"/>
-<contactref element="H4RF_R_9" pad="1"/>
-<contactref element="H4_REFGEN4" pad="8"/>
-<contactref element="H4_REFGEN4" pad="7"/>
-<contactref element="H4RF_C_O9" pad="1"/>
+<contactref element="SF_R16" pad="1"/>
+<contactref element="SF_REFGEN" pad="8"/>
+<contactref element="SF_REFGEN" pad="7"/>
+<contactref element="SF_C13" pad="1"/>
+<contactref element="SA_R16" pad="1"/>
+<contactref element="SA_REFGEN" pad="8"/>
+<contactref element="SA_REFGEN" pad="7"/>
+<contactref element="SA_C13" pad="1"/>
 <contactref element="PF_C15" pad="1"/>
 <contactref element="PF_C14" pad="1"/>
 <contactref element="PA_C15" pad="1"/>
 <contactref element="PA_C14" pad="1"/>
-<contactref element="H4_C13" pad="1"/>
-<contactref element="H4_C12" pad="1"/>
-<contactref element="H4_C17" pad="1"/>
-<contactref element="H4_C16" pad="1"/>
-<contactref element="U$1" pad="3"/>
-<contactref element="U$2" pad="16"/>
-<contactref element="U$2" pad="15"/>
+<contactref element="SF_C15" pad="1"/>
+<contactref element="SF_C14" pad="1"/>
+<contactref element="SA_C15" pad="1"/>
+<contactref element="SA_C14" pad="1"/>
+<contactref element="FPGA_CON2" pad="3"/>
+<contactref element="FPGA_CON1" pad="16"/>
+<contactref element="FPGA_CON1" pad="15"/>
 <contactref element="SA_IN" pad="2"/>
 <contactref element="SF_IN" pad="2"/>
 <contactref element="PA_IN" pad="2"/>
@@ -3393,10 +3397,10 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="PA_DA" pad="6"/>
 <contactref element="PA_R10" pad="1"/>
-<contactref element="PF_DA2" pad="6"/>
-<contactref element="PF_R31" pad="1"/>
-<contactref element="PF_DA3" pad="6"/>
-<contactref element="PF_R41" pad="1"/>
+<contactref element="SF_DA" pad="6"/>
+<contactref element="SF_R10" pad="1"/>
+<contactref element="SA_DA" pad="6"/>
+<contactref element="SA_R10" pad="1"/>
 <wire x1="91.50375" y1="48.9025" x2="90.0025" y2="48.9025" width="0.1524" layer="1"/>
 <wire x1="90.0025" y1="48.9025" x2="90" y2="48.9" width="0.1524" layer="1"/>
 <via x="90" y="48.9" extent="1-16" drill="0.35"/>
@@ -3642,8 +3646,8 @@ design rules under a new name.</description>
 <wire x1="39.68" y1="34.545" x2="40.755" y2="34.545" width="0.1524" layer="1"/>
 <wire x1="40.755" y1="34.545" x2="40.9" y2="34.4" width="0.1524" layer="1"/>
 <via x="40.9" y="34.4" extent="1-16" drill="0.35"/>
-<contactref element="ADC_H8" pad="31"/>
-<contactref element="ADC_H7" pad="31"/>
+<contactref element="ADC_SA" pad="31"/>
+<contactref element="ADC_SF" pad="31"/>
 <contactref element="ADC_PF" pad="31"/>
 <contactref element="ADC_PA" pad="31"/>
 <wire x1="45.88" y1="34.545" x2="44.755" y2="34.545" width="0.1524" layer="1"/>
@@ -3797,9 +3801,9 @@ design rules under a new name.</description>
 <signal name="SCLK">
 <contactref element="ADC_PF" pad="22"/>
 <contactref element="ADC_PA" pad="22"/>
-<contactref element="ADC_H7" pad="22"/>
-<contactref element="ADC_H8" pad="22"/>
-<contactref element="U$2" pad="9"/>
+<contactref element="ADC_SF" pad="22"/>
+<contactref element="ADC_SA" pad="22"/>
+<contactref element="FPGA_CON1" pad="9"/>
 <wire x1="76.8" y1="18.1" x2="68.3" y2="18.1" width="0.1524" layer="16"/>
 <wire x1="68.3" y1="18.1" x2="67.8" y2="18.1" width="0.1524" layer="16"/>
 <wire x1="67.8" y1="18.1" x2="43.8" y2="18.1" width="0.1524" layer="16"/>
@@ -3827,9 +3831,9 @@ design rules under a new name.</description>
 <signal name="CLK">
 <contactref element="ADC_PF" pad="24"/>
 <contactref element="ADC_PA" pad="24"/>
-<contactref element="ADC_H7" pad="24"/>
-<contactref element="ADC_H8" pad="24"/>
-<contactref element="U$2" pad="10"/>
+<contactref element="ADC_SF" pad="24"/>
+<contactref element="ADC_SA" pad="24"/>
+<contactref element="FPGA_CON1" pad="10"/>
 <wire x1="18.7" y1="19.2" x2="18" y2="18.5" width="0.1524" layer="16"/>
 <wire x1="18" y1="18.5" x2="18" y2="11" width="0.1524" layer="16"/>
 <wire x1="68.8" y1="19.2" x2="45.4" y2="19.2" width="0.1524" layer="16"/>
@@ -3963,18 +3967,18 @@ design rules under a new name.</description>
 <wire x1="67.85" y1="35.73" x2="67.83" y2="35.71" width="0.1524" layer="1"/>
 </signal>
 <signal name="DIFF_P_SF">
-<contactref element="ADC_H7" pad="4"/>
-<contactref element="PF_R38" pad="2"/>
-<contactref element="PF_C28" pad="2"/>
+<contactref element="ADC_SF" pad="4"/>
+<contactref element="SF_R13" pad="2"/>
+<contactref element="SF_C8" pad="2"/>
 <wire x1="41.4" y1="42.65" x2="41.4" y2="41.25" width="0.1524" layer="1"/>
 <wire x1="41.4" y1="41.25" x2="41.75" y2="40.9" width="0.1524" layer="1"/>
 <wire x1="43.03" y1="36.395" x2="43.03" y2="39.62" width="0.1524" layer="1"/>
 <wire x1="43.03" y1="39.62" x2="41.75" y2="40.9" width="0.1524" layer="1"/>
 </signal>
 <signal name="DIFF_N_SF">
-<contactref element="ADC_H7" pad="3"/>
-<contactref element="PF_R37" pad="2"/>
-<contactref element="PF_C28" pad="1"/>
+<contactref element="ADC_SF" pad="3"/>
+<contactref element="SF_R9" pad="2"/>
+<contactref element="SF_C8" pad="1"/>
 <wire x1="43.6" y1="42.55" x2="43.6" y2="41.05" width="0.1524" layer="1"/>
 <wire x1="43.6" y1="41.05" x2="43.525" y2="40.975" width="0.1524" layer="1"/>
 <wire x1="43.525" y1="40.975" x2="43.45" y2="40.9" width="0.1524" layer="1"/>
@@ -3982,18 +3986,18 @@ design rules under a new name.</description>
 <wire x1="43.53" y1="40.97" x2="43.525" y2="40.975" width="0.1524" layer="1"/>
 </signal>
 <signal name="DIFF_P_SA">
-<contactref element="ADC_H8" pad="4"/>
-<contactref element="PF_R48" pad="2"/>
-<contactref element="PF_C33" pad="2"/>
+<contactref element="ADC_SA" pad="4"/>
+<contactref element="SA_R13" pad="2"/>
+<contactref element="SA_C8" pad="2"/>
 <wire x1="16.8" y1="42.75" x2="16.8" y2="41.45" width="0.1524" layer="1"/>
 <wire x1="16.8" y1="41.45" x2="17.05" y2="41.2" width="0.1524" layer="1"/>
 <wire x1="17.05" y1="41.2" x2="18.53" y2="39.72" width="0.1524" layer="1"/>
 <wire x1="18.53" y1="39.72" x2="18.53" y2="36.38" width="0.1524" layer="1"/>
 </signal>
 <signal name="DIFF_N_SA">
-<contactref element="ADC_H8" pad="3"/>
-<contactref element="PF_R47" pad="2"/>
-<contactref element="PF_C33" pad="1"/>
+<contactref element="ADC_SA" pad="3"/>
+<contactref element="SA_R9" pad="2"/>
+<contactref element="SA_C8" pad="1"/>
 <wire x1="18.8" y1="42.65" x2="18.8" y2="41.25" width="0.1524" layer="1"/>
 <wire x1="18.8" y1="41.25" x2="18.75" y2="41.2" width="0.1524" layer="1"/>
 <wire x1="19.03" y1="36.38" x2="19.03" y2="40.92" width="0.1524" layer="1"/>
@@ -4122,7 +4126,7 @@ design rules under a new name.</description>
 <contactref element="SF_PREAMP3" pad="4"/>
 <contactref element="SF_R2" pad="2"/>
 <contactref element="SF_C1" pad="2"/>
-<contactref element="PF_R30" pad="1"/>
+<contactref element="SF_R6" pad="1"/>
 <wire x1="43.58" y1="59.75375" x2="42.16875" y2="59.75375" width="0.1524" layer="1"/>
 <wire x1="42.16875" y1="59.75375" x2="42.12875" y2="59.71375" width="0.1524" layer="1"/>
 <wire x1="40.22875" y1="59.6925" x2="42.1075" y2="59.6925" width="0.1524" layer="1"/>
@@ -4171,7 +4175,7 @@ design rules under a new name.</description>
 <contactref element="H4_PREAMP4" pad="4"/>
 <contactref element="SA_R2" pad="2"/>
 <contactref element="SA_C1" pad="2"/>
-<contactref element="PF_R40" pad="1"/>
+<contactref element="SA_R6" pad="1"/>
 <wire x1="17.82875" y1="59.45375" x2="19.24" y2="59.45375" width="0.1524" layer="1"/>
 <wire x1="19.24" y1="59.45375" x2="19.28" y2="59.49375" width="0.1524" layer="1"/>
 <wire x1="15.72875" y1="59.4325" x2="17.8075" y2="59.4325" width="0.1524" layer="1"/>
@@ -4266,34 +4270,34 @@ design rules under a new name.</description>
 <wire x1="58.90875" y1="37.115" x2="58.87875" y2="37.145" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$118">
-<contactref element="H4_REFGEN3" pad="4"/>
-<contactref element="H4RF_C_3" pad="2"/>
+<contactref element="SF_REFGEN" pad="4"/>
+<contactref element="SF_C11" pad="2"/>
 <wire x1="28.3875" y1="34.11375" x2="28.3875" y2="32.99875" width="0.1524" layer="1"/>
 <wire x1="28.3875" y1="32.99875" x2="28.37875" y2="32.99" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$121">
-<contactref element="H4_REFGEN3" pad="3"/>
-<contactref element="H4RF_R_6" pad="2"/>
+<contactref element="SF_REFGEN" pad="3"/>
+<contactref element="SF_R15" pad="2"/>
 <wire x1="27.5678125" y1="34.56735" x2="28.1911" y2="34.56735" width="0.1524" layer="1"/>
 <wire x1="28.1911" y1="34.56735" x2="28.3875" y2="34.76375" width="0.1524" layer="1"/>
 <wire x1="26.62875" y1="34.21875" x2="27.2192125" y2="34.21875" width="0.1524" layer="1"/>
 <wire x1="27.2192125" y1="34.21875" x2="27.5678125" y2="34.56735" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$124">
-<contactref element="H4RF_R_7" pad="2"/>
-<contactref element="H4RF_C_O8" pad="1"/>
+<contactref element="SF_R16" pad="2"/>
+<contactref element="SF_C12" pad="1"/>
 <wire x1="33.97875" y1="38.0475" x2="33.97875" y2="36.31125" width="0.1524" layer="1"/>
 <wire x1="33.97875" y1="36.31125" x2="34.32875" y2="35.96125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$129">
-<contactref element="H4_REFGEN4" pad="4"/>
-<contactref element="H4RF_C_5" pad="2"/>
+<contactref element="SA_REFGEN" pad="4"/>
+<contactref element="SA_C11" pad="2"/>
 <wire x1="4.1875" y1="33.81625" x2="4.1875" y2="32.10125" width="0.1524" layer="1"/>
 <wire x1="4.1875" y1="32.10125" x2="4.17875" y2="32.0925" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$130">
-<contactref element="H4_REFGEN4" pad="3"/>
-<contactref element="H4RF_R_8" pad="2"/>
+<contactref element="SA_REFGEN" pad="3"/>
+<contactref element="SA_R15" pad="2"/>
 <wire x1="4.1875" y1="34.46625" x2="3.33375" y2="34.46625" width="0.1524" layer="1"/>
 <wire x1="3.33375" y1="34.46625" x2="2.9" y2="34.9" width="0.1524" layer="1"/>
 <wire x1="2.9" y1="34.9" x2="2.9" y2="36.4" width="0.1524" layer="1"/>
@@ -4301,8 +4305,8 @@ design rules under a new name.</description>
 <wire x1="3.52125" y1="37.02125" x2="3.62875" y2="37.02125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$131">
-<contactref element="H4RF_R_9" pad="2"/>
-<contactref element="H4RF_C_O10" pad="1"/>
+<contactref element="SA_R16" pad="2"/>
+<contactref element="SA_C12" pad="1"/>
 <wire x1="10.07875" y1="37.25" x2="10.07875" y2="35.5925" width="0.1524" layer="1"/>
 <wire x1="10.07875" y1="35.5925" x2="10.0625" y2="35.57625" width="0.1524" layer="1"/>
 </signal>
@@ -4321,11 +4325,11 @@ design rules under a new name.</description>
 <wire x1="61.06875" y1="34.36" x2="61.004375" y2="34.295625" width="0.1524" layer="1"/>
 </signal>
 <signal name="REF_SF">
-<contactref element="H4_REFGEN3" pad="5"/>
-<contactref element="H4_REFGEN3" pad="6"/>
-<contactref element="H4RF_C_O8" pad="2"/>
-<contactref element="H4RF_C_O7" pad="2"/>
-<contactref element="ADC_H7" pad="9"/>
+<contactref element="SF_REFGEN" pad="5"/>
+<contactref element="SF_REFGEN" pad="6"/>
+<contactref element="SF_C12" pad="2"/>
+<contactref element="SF_C13" pad="2"/>
+<contactref element="ADC_SF" pad="9"/>
 <wire x1="32.7875" y1="34.11375" x2="34.18125" y2="34.11375" width="0.1524" layer="1"/>
 <wire x1="34.18125" y1="34.11375" x2="34.32875" y2="34.26125" width="0.1524" layer="1"/>
 <wire x1="34.32875" y1="34.26125" x2="36.1075" y2="34.26125" width="0.1524" layer="1"/>
@@ -4335,11 +4339,11 @@ design rules under a new name.</description>
 <wire x1="36.89125" y1="35.045" x2="36.12875" y2="34.2825" width="0.1524" layer="1"/>
 </signal>
 <signal name="REF_SA">
-<contactref element="H4_REFGEN4" pad="5"/>
-<contactref element="H4_REFGEN4" pad="6"/>
-<contactref element="H4RF_C_O10" pad="2"/>
-<contactref element="H4RF_C_O9" pad="2"/>
-<contactref element="ADC_H8" pad="9"/>
+<contactref element="SA_REFGEN" pad="5"/>
+<contactref element="SA_REFGEN" pad="6"/>
+<contactref element="SA_C12" pad="2"/>
+<contactref element="SA_C13" pad="2"/>
+<contactref element="ADC_SA" pad="9"/>
 <wire x1="8.5875" y1="33.81625" x2="10.0025" y2="33.81625" width="0.1524" layer="1"/>
 <wire x1="10.0025" y1="33.81625" x2="10.0625" y2="33.87625" width="0.1524" layer="1"/>
 <wire x1="11.82875" y1="33.96375" x2="10.15" y2="33.96375" width="0.1524" layer="1"/>
@@ -4376,7 +4380,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DRDY_PF">
 <contactref element="ADC_PF" pad="19"/>
-<contactref element="U$2" pad="1"/>
+<contactref element="FPGA_CON1" pad="1"/>
 <wire x1="10" y1="3.3" x2="11.8" y2="1.5" width="0.1524" layer="1"/>
 <wire x1="10" y1="3.3" x2="10" y2="9" width="0.1524" layer="1"/>
 <wire x1="11.8" y1="1.5" x2="86.78" y2="1.5" width="0.1524" layer="1"/>
@@ -4385,7 +4389,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DOUT_PF">
 <contactref element="ADC_PF" pad="20"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="FPGA_CON1" pad="2"/>
 <via x="22.8" y="14.6" extent="1-16" drill="0.35"/>
 <wire x1="22.8" y1="14.6" x2="13.6" y2="14.6" width="0.1524" layer="1"/>
 <wire x1="13.6" y1="14.6" x2="10" y2="11" width="0.1524" layer="1"/>
@@ -4449,85 +4453,85 @@ design rules under a new name.</description>
 <wire x1="68.33" y1="36.558746875" x2="68.68" y2="36.908746875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$156">
-<contactref element="ADC_H7" pad="1"/>
-<contactref element="H4_C13" pad="2"/>
+<contactref element="ADC_SF" pad="1"/>
+<contactref element="SF_C15" pad="2"/>
 <wire x1="44.53" y1="36.395" x2="44.93875" y2="36.80375" width="0.1524" layer="1"/>
 <wire x1="44.93875" y1="36.80375" x2="46.72875" y2="36.80375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$157">
-<contactref element="ADC_H7" pad="8"/>
-<contactref element="H4_R8" pad="1"/>
+<contactref element="ADC_SF" pad="8"/>
+<contactref element="SF_R18" pad="1"/>
 <wire x1="41.029996875" y1="36.395" x2="40.663746875" y2="36.76125" width="0.1524" layer="1"/>
 <wire x1="40.663746875" y1="36.76125" x2="38.32875" y2="36.76125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$158">
-<contactref element="H4_R5" pad="1"/>
-<contactref element="ADC_H7" pad="7"/>
+<contactref element="SF_R17" pad="1"/>
+<contactref element="ADC_SF" pad="7"/>
 <wire x1="40.125" y1="38.2825" x2="40.8175" y2="38.2825" width="0.1524" layer="1"/>
 <wire x1="41.53" y1="37.57" x2="41.53" y2="36.395" width="0.1524" layer="1"/>
 <wire x1="40.8175" y1="38.2825" x2="41.53" y2="37.57" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$159">
-<contactref element="H4_C14" pad="1"/>
-<contactref element="ADC_H7" pad="11"/>
+<contactref element="SF_C17" pad="1"/>
+<contactref element="ADC_SF" pad="11"/>
 <wire x1="39.68" y1="34.045" x2="37.86625" y2="34.045" width="0.1524" layer="1"/>
 <wire x1="37.86625" y1="34.045" x2="36.575" y2="32.75375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$160">
-<contactref element="ADC_H7" pad="25"/>
-<contactref element="H4_C15" pad="2"/>
+<contactref element="ADC_SF" pad="25"/>
+<contactref element="SF_C18" pad="2"/>
 <wire x1="46.52875" y1="30.1825" x2="46.52875" y2="31.017703125" width="0.1524" layer="1"/>
 <wire x1="46.52875" y1="31.017703125" x2="46.00145625" y2="31.544996875" width="0.1524" layer="1"/>
 <wire x1="46.00145625" y1="31.544996875" x2="45.88" y2="31.544996875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$161">
-<contactref element="ADC_H7" pad="2"/>
-<contactref element="H4_C12" pad="2"/>
+<contactref element="ADC_SF" pad="2"/>
+<contactref element="SF_C14" pad="2"/>
 <wire x1="44.03" y1="36.395" x2="44.03" y2="37.24375" width="0.1524" layer="1"/>
 <wire x1="44.03" y1="37.24375" x2="45.11125" y2="38.325" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$162">
-<contactref element="ADC_H8" pad="1"/>
-<contactref element="H4_C17" pad="2"/>
+<contactref element="ADC_SA" pad="1"/>
+<contactref element="SA_C15" pad="2"/>
 <wire x1="20.03" y1="36.38" x2="22.3375" y2="36.38" width="0.1524" layer="1"/>
 <wire x1="22.3375" y1="36.38" x2="22.42875" y2="36.28875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$163">
-<contactref element="ADC_H8" pad="8"/>
-<contactref element="H4_R10" pad="1"/>
+<contactref element="ADC_SA" pad="8"/>
+<contactref element="SA_R18" pad="1"/>
 <wire x1="16.529996875" y1="36.38" x2="14.2375" y2="36.38" width="0.1524" layer="1"/>
 <wire x1="14.2375" y1="36.38" x2="14.225" y2="36.3675" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$164">
-<contactref element="H4_R9" pad="1"/>
-<contactref element="ADC_H8" pad="7"/>
+<contactref element="SA_R17" pad="1"/>
+<contactref element="ADC_SA" pad="7"/>
 <wire x1="16.02875" y1="37.84625" x2="16.65375" y2="37.84625" width="0.1524" layer="1"/>
 <wire x1="17.03" y1="37.47" x2="17.03" y2="36.38" width="0.1524" layer="1"/>
 <wire x1="16.65375" y1="37.84625" x2="17.03" y2="37.47" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$165">
-<contactref element="H4_C18" pad="1"/>
-<contactref element="ADC_H8" pad="11"/>
+<contactref element="SA_C17" pad="1"/>
+<contactref element="ADC_SA" pad="11"/>
 <wire x1="15.18" y1="34.03" x2="14.46625" y2="34.03" width="0.1524" layer="1"/>
 <wire x1="14.46625" y1="34.03" x2="12.575" y2="32.13875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$166">
-<contactref element="ADC_H8" pad="25"/>
-<contactref element="H4_C19" pad="2"/>
+<contactref element="ADC_SA" pad="25"/>
+<contactref element="SA_C18" pad="2"/>
 <wire x1="21.830625" y1="30.569375" x2="21.82875" y2="30.5675" width="0.1524" layer="1"/>
 <wire x1="21.38" y1="31.529996875" x2="21.830625" y2="31.079371875" width="0.1524" layer="1"/>
 <wire x1="21.830625" y1="31.079371875" x2="21.830625" y2="30.569375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$167">
-<contactref element="ADC_H8" pad="2"/>
-<contactref element="H4_C16" pad="2"/>
+<contactref element="ADC_SA" pad="2"/>
+<contactref element="SA_C14" pad="2"/>
 <wire x1="19.53" y1="36.38" x2="19.53" y2="37.43" width="0.1524" layer="1"/>
 <wire x1="19.91" y1="37.81" x2="20.51125" y2="37.81" width="0.1524" layer="1"/>
 <wire x1="19.53" y1="37.43" x2="19.91" y2="37.81" width="0.1524" layer="1"/>
 </signal>
 <signal name="DRDY_PA">
 <contactref element="ADC_PA" pad="19"/>
-<contactref element="U$2" pad="3"/>
+<contactref element="FPGA_CON1" pad="3"/>
 <wire x1="14.8" y1="1.9" x2="63.1" y2="1.9" width="0.1524" layer="1"/>
 <wire x1="14.8" y1="1.9" x2="12" y2="4.7" width="0.1524" layer="1"/>
 <wire x1="12" y1="4.7" x2="12" y2="9" width="0.1524" layer="1"/>
@@ -4538,7 +4542,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DOUT_PA">
 <contactref element="ADC_PA" pad="20"/>
-<contactref element="U$2" pad="4"/>
+<contactref element="FPGA_CON1" pad="4"/>
 <via x="23.6" y="13.9932" extent="1-16" drill="0.35"/>
 <wire x1="66.7" y1="13.9932" x2="23.6" y2="13.9932" width="0.1524" layer="16"/>
 <wire x1="23.6" y1="13.9932" x2="14.9932" y2="13.9932" width="0.1524" layer="1"/>
@@ -4548,8 +4552,8 @@ design rules under a new name.</description>
 <via x="66.7" y="13.9932" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="DRDY_SF">
-<contactref element="ADC_H7" pad="19"/>
-<contactref element="U$2" pad="5"/>
+<contactref element="ADC_SF" pad="19"/>
+<contactref element="FPGA_CON1" pad="5"/>
 <wire x1="17" y1="2.3" x2="38.2" y2="2.3" width="0.1524" layer="1"/>
 <wire x1="17" y1="2.3" x2="14" y2="5.3" width="0.1524" layer="1"/>
 <wire x1="14" y1="5.3" x2="14" y2="9" width="0.1524" layer="1"/>
@@ -4559,8 +4563,8 @@ design rules under a new name.</description>
 <wire x1="38.2" y1="2.3" x2="41.7" y2="5.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="DOUT_SF">
-<contactref element="ADC_H7" pad="20"/>
-<contactref element="U$2" pad="6"/>
+<contactref element="ADC_SF" pad="20"/>
+<contactref element="FPGA_CON1" pad="6"/>
 <via x="24.4" y="13.3864" extent="1-16" drill="0.35"/>
 <wire x1="24.4" y1="13.3864" x2="16.3864" y2="13.3864" width="0.1524" layer="1"/>
 <wire x1="16.3864" y1="13.3864" x2="14" y2="11" width="0.1524" layer="1"/>
@@ -4571,8 +4575,8 @@ design rules under a new name.</description>
 <wire x1="42.4864" y1="13.3864" x2="24.4" y2="13.3864" width="0.1524" layer="16"/>
 </signal>
 <signal name="DRDY_SA">
-<contactref element="ADC_H8" pad="19"/>
-<contactref element="U$2" pad="7"/>
+<contactref element="ADC_SA" pad="19"/>
+<contactref element="FPGA_CON1" pad="7"/>
 <wire x1="17.2" y1="11.52908125" x2="17.0602" y2="11.38928125" width="0.1524" layer="16"/>
 <wire x1="17.0602" y1="10.0602" x2="16" y2="9" width="0.1524" layer="16"/>
 <wire x1="17.0602" y1="11.38928125" x2="17.0602" y2="10.0602" width="0.1524" layer="16"/>
@@ -4583,8 +4587,8 @@ design rules under a new name.</description>
 <wire x1="17.2" y1="17.6" x2="17.2" y2="11.52908125" width="0.1524" layer="16"/>
 </signal>
 <signal name="DOUT_SA">
-<contactref element="ADC_H8" pad="20"/>
-<contactref element="U$2" pad="8"/>
+<contactref element="ADC_SA" pad="20"/>
+<contactref element="FPGA_CON1" pad="8"/>
 <wire x1="21.3" y1="15.9932" x2="21.3" y2="12.7796" width="0.1524" layer="16"/>
 <via x="21.3" y="12.7796" extent="1-16" drill="0.35"/>
 <wire x1="21.3" y1="12.7796" x2="17.7796" y2="12.7796" width="0.1524" layer="1"/>
@@ -4595,7 +4599,7 @@ design rules under a new name.</description>
 <wire x1="18.029996875" y1="18.270003125" x2="20.3068" y2="15.9932" width="0.1524" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="U$1" pad="2"/>
+<contactref element="FPGA_CON2" pad="2"/>
 <contactref element="C5" pad="1"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C3" pad="1"/>
@@ -4698,19 +4702,19 @@ design rules under a new name.</description>
 <wire x1="64.3" y1="44.8" x2="65.8" y2="44.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="PF_R33" pad="1"/>
-<contactref element="PF_C24" pad="2"/>
-<contactref element="PF_DA2" pad="5"/>
+<contactref element="SF_R8" pad="1"/>
+<contactref element="SF_C5" pad="2"/>
+<contactref element="SF_DA" pad="5"/>
 <wire x1="46.1" y1="48.75" x2="44.6" y2="48.75" width="0.1524" layer="1"/>
 <wire x1="44.6" y1="48.75" x2="44.5" y2="48.65" width="0.1524" layer="1"/>
 <wire x1="44.5" y1="48.65" x2="43.6" y2="47.75" width="0.1524" layer="1"/>
 <wire x1="43.6" y1="47.75" x2="43.6" y2="47.35" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="PF_C24" pad="1"/>
-<contactref element="PF_DA2" pad="8"/>
-<contactref element="PF_R29" pad="2"/>
-<contactref element="PF_C26" pad="1"/>
+<contactref element="SF_C5" pad="1"/>
+<contactref element="SF_DA" pad="8"/>
+<contactref element="SF_R7" pad="2"/>
+<contactref element="SF_C7" pad="1"/>
 <wire x1="44.7" y1="51.95" x2="44.7" y2="50.8" width="0.1524" layer="1"/>
 <wire x1="44.7" y1="50.8" x2="44.5" y2="50.6" width="0.1524" layer="1"/>
 <wire x1="44.5" y1="50.6" x2="45.95" y2="50.6" width="0.1524" layer="1"/>
@@ -4719,10 +4723,10 @@ design rules under a new name.</description>
 <wire x1="43.4" y1="51.95" x2="44.7" y2="51.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="PF_C25" pad="1"/>
-<contactref element="PF_DA2" pad="1"/>
-<contactref element="PF_C26" pad="2"/>
-<contactref element="PF_R32" pad="2"/>
+<contactref element="SF_C9" pad="1"/>
+<contactref element="SF_DA" pad="1"/>
+<contactref element="SF_C7" pad="2"/>
+<contactref element="SF_R11" pad="2"/>
 <wire x1="38.4" y1="50.35" x2="38.65" y2="50.6" width="0.1524" layer="1"/>
 <wire x1="38.65" y1="50.6" x2="40.1" y2="50.6" width="0.1524" layer="1"/>
 <wire x1="40.2" y1="51.95" x2="40.2" y2="50.7" width="0.1524" layer="1"/>
@@ -4731,10 +4735,10 @@ design rules under a new name.</description>
 <wire x1="41.6" y1="51.95" x2="41.65" y2="52" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="PF_R35" pad="1"/>
-<contactref element="PF_R29" pad="1"/>
-<contactref element="PF_R30" pad="2"/>
-<contactref element="PF_C27" pad="1"/>
+<contactref element="SF_R5" pad="1"/>
+<contactref element="SF_R7" pad="1"/>
+<contactref element="SF_R6" pad="2"/>
+<contactref element="SF_C6" pad="1"/>
 <wire x1="44.7" y1="53.65" x2="46.4" y2="53.65" width="0.1524" layer="1"/>
 <wire x1="43.35" y1="53.6" x2="43.5" y2="53.6" width="0.1524" layer="1"/>
 <wire x1="43.5" y1="53.6" x2="44.65" y2="53.6" width="0.1524" layer="1"/>
@@ -4743,10 +4747,10 @@ design rules under a new name.</description>
 <wire x1="43.3" y1="53.8" x2="43.5" y2="53.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="PF_R36" pad="1"/>
-<contactref element="PF_R31" pad="2"/>
-<contactref element="PF_C27" pad="2"/>
-<contactref element="PF_R32" pad="1"/>
+<contactref element="SF_R14" pad="1"/>
+<contactref element="SF_R10" pad="2"/>
+<contactref element="SF_C6" pad="2"/>
+<contactref element="SF_R11" pad="1"/>
 <wire x1="38.1" y1="53.65" x2="40.2" y2="53.65" width="0.1524" layer="1"/>
 <wire x1="40.2" y1="53.65" x2="41.6" y2="53.65" width="0.1524" layer="1"/>
 <wire x1="41.6" y1="53.65" x2="41.65" y2="53.6" width="0.1524" layer="1"/>
@@ -4754,16 +4758,16 @@ design rules under a new name.</description>
 <wire x1="41.7" y1="53.65" x2="41.65" y2="53.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="PF_R34" pad="1"/>
-<contactref element="PF_C25" pad="2"/>
-<contactref element="PF_DA2" pad="4"/>
+<contactref element="SF_R12" pad="1"/>
+<contactref element="SF_C9" pad="2"/>
+<contactref element="SF_DA" pad="4"/>
 <wire x1="40.1" y1="48.65" x2="41.4" y2="47.35" width="0.1524" layer="1"/>
 <wire x1="40.1" y1="48.65" x2="38.4" y2="48.65" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="PF_R35" pad="2"/>
-<contactref element="PF_R33" pad="2"/>
-<contactref element="PF_R37" pad="1"/>
+<contactref element="SF_R5" pad="2"/>
+<contactref element="SF_R8" pad="2"/>
+<contactref element="SF_R9" pad="1"/>
 <wire x1="43.6" y1="45.65" x2="43.6" y2="44.25" width="0.1524" layer="1"/>
 <wire x1="43.6" y1="45.65" x2="45.15" y2="45.65" width="0.1524" layer="1"/>
 <wire x1="45.15" y1="45.65" x2="47.2" y2="47.7" width="0.1524" layer="1"/>
@@ -4771,9 +4775,9 @@ design rules under a new name.</description>
 <wire x1="47.2" y1="51.15" x2="46.4" y2="51.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="PF_R36" pad="2"/>
-<contactref element="PF_R34" pad="2"/>
-<contactref element="PF_R38" pad="1"/>
+<contactref element="SF_R14" pad="2"/>
+<contactref element="SF_R12" pad="2"/>
+<contactref element="SF_R13" pad="1"/>
 <wire x1="41.4" y1="45.65" x2="41.4" y2="44.35" width="0.1524" layer="1"/>
 <wire x1="41.4" y1="45.65" x2="39.25" y2="45.65" width="0.1524" layer="1"/>
 <wire x1="39.25" y1="45.65" x2="37.1" y2="47.8" width="0.1524" layer="1"/>
@@ -4781,19 +4785,19 @@ design rules under a new name.</description>
 <wire x1="37.1" y1="50.95" x2="38.1" y2="51.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="PF_R43" pad="1"/>
-<contactref element="PF_C29" pad="2"/>
-<contactref element="PF_DA3" pad="5"/>
+<contactref element="SA_R8" pad="1"/>
+<contactref element="SA_C5" pad="2"/>
+<contactref element="SA_DA" pad="5"/>
 <wire x1="18.8" y1="47.45" x2="20" y2="48.65" width="0.1524" layer="1"/>
 <wire x1="20" y1="48.65" x2="20.3" y2="48.65" width="0.1524" layer="1"/>
 <wire x1="20.3" y1="48.65" x2="21.7" y2="48.65" width="0.1524" layer="1"/>
 <wire x1="21.7" y1="48.65" x2="21.8" y2="48.75" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="PF_C29" pad="1"/>
-<contactref element="PF_DA3" pad="8"/>
-<contactref element="PF_R39" pad="2"/>
-<contactref element="PF_C31" pad="1"/>
+<contactref element="SA_C5" pad="1"/>
+<contactref element="SA_DA" pad="8"/>
+<contactref element="SA_R7" pad="2"/>
+<contactref element="SA_C7" pad="1"/>
 <wire x1="20.3" y1="50.6" x2="20.5" y2="50.8" width="0.1524" layer="1"/>
 <wire x1="20.5" y1="50.8" x2="20.5" y2="51.85" width="0.1524" layer="1"/>
 <wire x1="19.15" y1="51.8" x2="20.45" y2="51.8" width="0.1524" layer="1"/>
@@ -4802,10 +4806,10 @@ design rules under a new name.</description>
 <wire x1="21.65" y1="50.6" x2="21.8" y2="50.45" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="PF_C30" pad="1"/>
-<contactref element="PF_DA3" pad="1"/>
-<contactref element="PF_C31" pad="2"/>
-<contactref element="PF_R42" pad="2"/>
+<contactref element="SA_C9" pad="1"/>
+<contactref element="SA_DA" pad="1"/>
+<contactref element="SA_C7" pad="2"/>
+<contactref element="SA_R11" pad="2"/>
 <wire x1="15.9" y1="51.75" x2="17.4" y2="51.75" width="0.1524" layer="1"/>
 <wire x1="17.4" y1="51.75" x2="17.45" y2="51.8" width="0.1524" layer="1"/>
 <wire x1="15.9" y1="51.75" x2="15.9" y2="50.6" width="0.1524" layer="1"/>
@@ -4813,10 +4817,10 @@ design rules under a new name.</description>
 <wire x1="14.35" y1="50.6" x2="15.9" y2="50.6" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$20">
-<contactref element="PF_R45" pad="1"/>
-<contactref element="PF_R39" pad="1"/>
-<contactref element="PF_R40" pad="2"/>
-<contactref element="PF_C32" pad="1"/>
+<contactref element="SA_R5" pad="1"/>
+<contactref element="SA_R7" pad="1"/>
+<contactref element="SA_R6" pad="2"/>
+<contactref element="SA_C6" pad="1"/>
 <wire x1="20.5" y1="53.55" x2="20.6" y2="53.55" width="0.1524" layer="1"/>
 <wire x1="20.6" y1="53.55" x2="22.3" y2="53.55" width="0.1524" layer="1"/>
 <wire x1="19.15" y1="53.4" x2="20.45" y2="53.4" width="0.1524" layer="1"/>
@@ -4825,10 +4829,10 @@ design rules under a new name.</description>
 <wire x1="19.1" y1="53.45" x2="19.15" y2="53.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$21">
-<contactref element="PF_R46" pad="1"/>
-<contactref element="PF_R41" pad="2"/>
-<contactref element="PF_C32" pad="2"/>
-<contactref element="PF_R42" pad="1"/>
+<contactref element="SA_R14" pad="1"/>
+<contactref element="SA_R10" pad="2"/>
+<contactref element="SA_C6" pad="2"/>
+<contactref element="SA_R11" pad="1"/>
 <wire x1="14" y1="53.45" x2="15.9" y2="53.45" width="0.1524" layer="1"/>
 <wire x1="15.9" y1="53.45" x2="17.4" y2="53.45" width="0.1524" layer="1"/>
 <wire x1="17.4" y1="53.45" x2="17.45" y2="53.4" width="0.1524" layer="1"/>
@@ -4836,18 +4840,18 @@ design rules under a new name.</description>
 <wire x1="17.6" y1="53.55" x2="17.45" y2="53.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="PF_R44" pad="1"/>
-<contactref element="PF_C30" pad="2"/>
-<contactref element="PF_DA3" pad="4"/>
+<contactref element="SA_R12" pad="1"/>
+<contactref element="SA_C9" pad="2"/>
+<contactref element="SA_DA" pad="4"/>
 <wire x1="15.9" y1="48.65" x2="14.3" y2="48.65" width="0.1524" layer="1"/>
 <wire x1="14.3" y1="48.65" x2="14.2" y2="48.75" width="0.1524" layer="1"/>
 <wire x1="15.9" y1="48.65" x2="16.8" y2="47.75" width="0.1524" layer="1"/>
 <wire x1="16.8" y1="47.75" x2="16.8" y2="47.45" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="PF_R45" pad="2"/>
-<contactref element="PF_R43" pad="2"/>
-<contactref element="PF_R47" pad="1"/>
+<contactref element="SA_R5" pad="2"/>
+<contactref element="SA_R8" pad="2"/>
+<contactref element="SA_R9" pad="1"/>
 <wire x1="18.8" y1="45.75" x2="18.8" y2="45.6" width="0.1524" layer="1"/>
 <wire x1="18.8" y1="45.6" x2="18.8" y2="44.35" width="0.1524" layer="1"/>
 <wire x1="18.8" y1="45.75" x2="20.95" y2="45.75" width="0.1524" layer="1"/>
@@ -4856,9 +4860,9 @@ design rules under a new name.</description>
 <wire x1="22.9" y1="51.25" x2="22.3" y2="51.85" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="PF_R46" pad="2"/>
-<contactref element="PF_R44" pad="2"/>
-<contactref element="PF_R48" pad="1"/>
+<contactref element="SA_R14" pad="2"/>
+<contactref element="SA_R12" pad="2"/>
+<contactref element="SA_R13" pad="1"/>
 <wire x1="16.8" y1="45.75" x2="16.8" y2="45.7" width="0.1524" layer="1"/>
 <wire x1="16.8" y1="45.7" x2="16.8" y2="44.45" width="0.1524" layer="1"/>
 <wire x1="14" y1="51.75" x2="13.1" y2="50.85" width="0.1524" layer="1"/>
