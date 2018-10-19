@@ -363,13 +363,13 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="33" y1="22.9" x2="1.3" y2="22.9" width="0.127" layer="21"/>
 <wire x1="1.3" y1="22.9" x2="0" y2="21.6" width="0.127" layer="21"/>
 <wire x1="0" y1="21.6" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="1,VIN(+)" x="2.5" y="19.1" drill="0.6" diameter="1.122"/>
-<pad name="2,ON/OFF" x="2.5" y="11.5" drill="0.6" diameter="1.122"/>
-<pad name="3,VIN(-)/GND" x="2.5" y="3.9" drill="0.6" diameter="1.122"/>
-<pad name="4,VOUT(-)/GND" x="30.5" y="3.9" drill="0.6" diameter="1.727"/>
-<pad name="8,VOUT(+)" x="30.5" y="19.1" drill="0.6" diameter="1.727"/>
-<pad name="7,SENSE+" x="30.5" y="15.3" drill="0.6" diameter="1.122"/>
-<pad name="6,TRIM" x="30.5" y="11.5" drill="0.6" diameter="1.122"/>
+<pad name="1,VIN(+)" x="2.5" y="19.1" drill="1.2"/>
+<pad name="2,ON/OFF" x="2.5" y="11.5" drill="1.2"/>
+<pad name="3,VIN(-)/GND" x="2.5" y="3.9" drill="1.2"/>
+<pad name="4,VOUT(-)/GND" x="30.4" y="3.9" drill="1.7"/>
+<pad name="8,VOUT(+)" x="30.4" y="19.1" drill="1.7"/>
+<pad name="7,SENSE+" x="30.4" y="15.3" drill="1.2"/>
+<pad name="6,TRIM" x="30.4" y="11.5" drill="1.2"/>
 <text x="4.2" y="18.6" size="1.27" layer="21">Vin(+)</text>
 <text x="4.4" y="11" size="1.27" layer="21">On/Off</text>
 <text x="4.2" y="3.5" size="1.27" layer="21">Vin(-)/GND</text>
