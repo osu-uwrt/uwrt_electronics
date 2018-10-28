@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -123,8 +123,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="7.8" x2="13.663" y2="7.8" width="0" layer="20"/>
-<wire x1="13.663" y1="7.8" x2="14.143" y2="7.8" width="0" layer="20"/>
+<wire x1="0" y1="7.8" x2="14.143" y2="7.8" width="0" layer="20"/>
 <wire x1="14.143" y1="7.8" x2="14.143" y2="0" width="0" layer="20"/>
 <wire x1="14.143" y1="0" x2="87.53" y2="0" width="0" layer="20"/>
 <wire x1="87.53" y1="0" x2="87.53" y2="7.62" width="0" layer="20"/>
@@ -2356,7 +2355,7 @@
 <rectangle x1="94.0714375" y1="16.8554375" x2="96.16439375" y2="16.87575625" layer="21"/>
 <rectangle x1="94.09175625" y1="16.875759375" x2="96.144075" y2="16.896078125" layer="21"/>
 <rectangle x1="94.112078125" y1="16.896078125" x2="96.123753125" y2="16.916396875" layer="21"/>
-<text x="41.757603125" y="9.225278125" size="1.27" layer="21">Board Name HERE!!!</text>
+<text x="41.757603125" y="9.225278125" size="1.27" layer="21">ESC</text>
 <text x="1.44271875" y="9.16431875" size="1.397" layer="21" ratio="4">The Underwater Robotics Team
 Center for Automotive Research</text>
 </plain>
@@ -2423,6 +2422,34 @@ Center for Automotive Research</text>
 <wire x1="-1.7145" y1="0" x2="71.9455" y2="0" width="0.127" layer="20"/>
 <wire x1="-1.7145" y1="0" x2="-1.7145" y2="7.62" width="0.127" layer="20"/>
 <wire x1="72.01535" y1="0" x2="72.01535" y2="7.62" width="0.127" layer="20"/>
+</package>
+</packages>
+</library>
+<library name="Screw_Terminals">
+<packages>
+<package name="1711725">
+<pad name="RED" x="2.54" y="0" drill="1.5" shape="square" rot="R180"/>
+<pad name="BLACK" x="-2.54" y="0" drill="1.5" shape="square" rot="R180"/>
+<wire x1="5.08" y1="5.3" x2="5.08" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-5.9" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-5.9" x2="-5.08" y2="-5.9" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-5.9" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="5.3" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="5.3" x2="5.08" y2="5.3" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.1524" layer="21"/>
+</package>
+<package name="1711738">
+<description>3-pin Screw Terminal</description>
+<pad name="BLUE" x="-5.08" y="0" drill="1.5" shape="square"/>
+<pad name="GREEN" x="0" y="0" drill="1.5" shape="square"/>
+<pad name="WHITE" x="5.08" y="0" drill="1.5" shape="square"/>
+<wire x1="-7.62" y1="-5.3" x2="-7.62" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="5.9" x2="7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-5.3" x2="7.62" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-5.3" x2="7.62" y2="-5.3" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2516,9 +2543,6 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2620,6 +2644,22 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843-EDGE" x="15.7" y="0"/>
+<element name="U$2" library="Screw_Terminals" package="1711725" value="1711725" x="16.5" y="56.8"/>
+<element name="U$3" library="Screw_Terminals" package="1711725" value="1711725" x="16.5" y="40.9"/>
+<element name="U$4" library="Screw_Terminals" package="1711725" value="1711725" x="16.2" y="26.6"/>
+<element name="U$5" library="Screw_Terminals" package="1711725" value="1711725" x="15.8" y="71.9"/>
+<element name="U$6" library="Screw_Terminals" package="1711725" value="1711725" x="39.9" y="41.2"/>
+<element name="U$7" library="Screw_Terminals" package="1711725" value="1711725" x="48.8" y="62.7"/>
+<element name="U$8" library="Screw_Terminals" package="1711725" value="1711725" x="60.5" y="40.2"/>
+<element name="U$9" library="Screw_Terminals" package="1711725" value="1711725" x="70.2" y="63.7"/>
+<element name="U$10" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-16.2"/>
+<element name="U$11" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-38.7"/>
+<element name="U$12" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-61.2"/>
+<element name="U$13" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-83.7"/>
+<element name="U$14" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-106.2"/>
+<element name="U$15" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-128.7"/>
+<element name="U$16" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-151.2"/>
+<element name="U$17" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-173.7"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2726,13 +2766,6 @@ design rules under a new name.</description>
 <via x="19" y="7.6" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
