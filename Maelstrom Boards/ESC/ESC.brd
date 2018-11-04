@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -2453,6 +2453,82 @@ Center for Automotive Research</text>
 </package>
 </packages>
 </library>
+<library name="24_Pin_Connector">
+<packages>
+<package name="24PINCONVERTER">
+<pad name="7,3" x="0" y="0" drill="0.6"/>
+<pad name="8,3" x="3" y="0" drill="0.6"/>
+<pad name="7,2" x="0" y="3" drill="0.6"/>
+<pad name="8,2" x="3" y="3" drill="0.6"/>
+<pad name="7,1" x="0" y="6" drill="0.6"/>
+<pad name="8,1" x="3" y="6" drill="0.6"/>
+<pad name="5,3" x="0" y="9" drill="0.6"/>
+<pad name="6,3" x="3" y="9" drill="0.6"/>
+<pad name="6,2" x="3" y="12" drill="0.6"/>
+<pad name="5,2" x="0" y="12" drill="0.6"/>
+<pad name="6,1" x="3" y="15" drill="0.6"/>
+<pad name="5,1" x="0" y="15" drill="0.6" rot="R90"/>
+<pad name="3,3" x="0" y="18" drill="0.6"/>
+<pad name="4,3" x="3" y="18" drill="0.6"/>
+<pad name="4,2" x="3" y="21" drill="0.6"/>
+<pad name="3,2" x="0" y="21" drill="0.6"/>
+<pad name="4,1" x="3" y="24" drill="0.6"/>
+<pad name="3,1" x="0" y="24" drill="0.6"/>
+<pad name="2,3" x="3" y="27" drill="0.6"/>
+<pad name="2,2" x="3" y="30" drill="0.6"/>
+<pad name="2,1" x="3" y="33" drill="0.6"/>
+<pad name="1,1" x="0" y="33" drill="0.6"/>
+<pad name="1,2" x="0" y="30" drill="0.6"/>
+<pad name="1,3" x="0" y="27" drill="0.6"/>
+<hole x="7.32" y="2.16" drill="3"/>
+<hole x="7.32" y="30.84" drill="3"/>
+<wire x1="4.01" y1="-3.34" x2="13.92" y2="-3.34" width="0.127" layer="21"/>
+<wire x1="13.92" y1="-3.34" x2="13.92" y2="36.53" width="0.127" layer="21"/>
+<wire x1="13.92" y1="36.53" x2="4.01" y2="36.53" width="0.127" layer="21"/>
+<wire x1="4.01" y1="36.53" x2="4.01" y2="-3.34" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="14_Pin_Connector">
+<packages>
+<package name="14PINCONVERTER">
+<pad name="1-" x="0" y="0" drill="0.6"/>
+<pad name="1+" x="3" y="0" drill="0.6"/>
+<pad name="2-" x="0" y="3" drill="0.6"/>
+<pad name="2+" x="3" y="3" drill="0.6"/>
+<pad name="3-" x="0" y="6" drill="0.6"/>
+<pad name="3+" x="3" y="6" drill="0.6"/>
+<pad name="4-" x="0" y="9" drill="0.6"/>
+<pad name="4+" x="3" y="9" drill="0.6"/>
+<pad name="5+" x="3" y="12" drill="0.6"/>
+<pad name="5-" x="0" y="12" drill="0.6"/>
+<pad name="6+" x="3" y="15" drill="0.6"/>
+<pad name="6-" x="0" y="15" drill="0.6" rot="R90"/>
+<pad name="7-" x="0" y="18" drill="0.6"/>
+<pad name="7+" x="3" y="18" drill="0.6"/>
+<hole x="7.32" y="2.16" drill="3"/>
+<hole x="7.32" y="14.68" drill="3"/>
+<wire x1="4.01" y1="-3.34" x2="13.9" y2="-3.34" width="0.127" layer="21"/>
+<wire x1="13.9" y1="-3.34" x2="13.92" y2="-3.34" width="0.127" layer="21"/>
+<wire x1="4.01" y1="-3.33" x2="4.01" y2="21.32" width="0.15" layer="21"/>
+<wire x1="4.01" y1="21.32" x2="13.9" y2="21.32" width="0.15" layer="21"/>
+<wire x1="13.9" y1="-3.34" x2="13.9" y2="21.31" width="0.15" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="Male_Header_1Pin">
+<packages>
+<package name="MALE1PINHEADER">
+<pad name="PWM" x="0" y="0" drill="1" shape="square"/>
+<wire x1="0" y1="1.25" x2="0.07" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="0.07" y1="1.25" x2="1.25" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="1.25" x2="0" y2="1.25" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2543,6 +2619,9 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2643,23 +2722,33 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843-EDGE" x="15.7" y="0"/>
-<element name="U$2" library="Screw_Terminals" package="1711725" value="1711725" x="16.5" y="56.8"/>
-<element name="U$3" library="Screw_Terminals" package="1711725" value="1711725" x="16.5" y="40.9"/>
-<element name="U$4" library="Screw_Terminals" package="1711725" value="1711725" x="16.2" y="26.6"/>
-<element name="U$5" library="Screw_Terminals" package="1711725" value="1711725" x="15.8" y="71.9"/>
-<element name="U$6" library="Screw_Terminals" package="1711725" value="1711725" x="39.9" y="41.2"/>
-<element name="U$7" library="Screw_Terminals" package="1711725" value="1711725" x="48.8" y="62.7"/>
-<element name="U$8" library="Screw_Terminals" package="1711725" value="1711725" x="60.5" y="40.2"/>
-<element name="U$9" library="Screw_Terminals" package="1711725" value="1711725" x="70.2" y="63.7"/>
-<element name="U$10" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-16.2"/>
-<element name="U$11" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-38.7"/>
-<element name="U$12" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-61.2"/>
-<element name="U$13" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-83.7"/>
-<element name="U$14" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-106.2"/>
-<element name="U$15" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-128.7"/>
-<element name="U$16" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-151.2"/>
-<element name="U$17" library="Screw_Terminals" package="1711738" value="1711738" x="16.4" y="-173.7"/>
+<element name="U$1" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843-EDGE" x="15.7" y="0" smashed="yes"/>
+<element name="U$2" library="Screw_Terminals" package="1711725" value="1711725" x="22.5" y="90" smashed="yes" rot="R270"/>
+<element name="U$3" library="Screw_Terminals" package="1711725" value="1711725" x="27.1" y="39.9" smashed="yes" rot="R270"/>
+<element name="U$4" library="Screw_Terminals" package="1711725" value="1711725" x="23.2" y="29.8" smashed="yes" rot="MR90"/>
+<element name="U$5" library="Screw_Terminals" package="1711725" value="1711725" x="33.8" y="90" smashed="yes" rot="MR90"/>
+<element name="U$6" library="Screw_Terminals" package="1711725" value="1711725" x="23.2" y="50.2" smashed="yes" rot="MR90"/>
+<element name="U$7" library="Screw_Terminals" package="1711725" value="1711725" x="33.1" y="74.7" smashed="yes" rot="MR90"/>
+<element name="U$8" library="Screw_Terminals" package="1711725" value="1711725" x="27.4" y="19.5" smashed="yes" rot="R270"/>
+<element name="U$9" library="Screw_Terminals" package="1711725" value="1711725" x="27" y="60.5" smashed="yes" rot="R270"/>
+<element name="U$10" library="Screw_Terminals" package="1711738" value="1711738" x="65.4" y="89.6" smashed="yes" rot="R270"/>
+<element name="U$11" library="Screw_Terminals" package="1711738" value="1711738" x="76.8" y="89.7" smashed="yes" rot="MR90"/>
+<element name="U$12" library="Screw_Terminals" package="1711738" value="1711738" x="76.8" y="60.8" smashed="yes" rot="MR90"/>
+<element name="U$13" library="Screw_Terminals" package="1711738" value="1711738" x="68.2" y="70.4" smashed="yes" rot="R270"/>
+<element name="U$14" library="Screw_Terminals" package="1711738" value="1711738" x="77.3" y="37.3" smashed="yes" rot="MR90"/>
+<element name="U$15" library="Screw_Terminals" package="1711738" value="1711738" x="68.6" y="28.6" smashed="yes" rot="R270"/>
+<element name="U$16" library="Screw_Terminals" package="1711738" value="1711738" x="77.3" y="18.2" smashed="yes" rot="MR90"/>
+<element name="U$17" library="Screw_Terminals" package="1711738" value="1711738" x="68.4" y="47.7" smashed="yes" rot="R270"/>
+<element name="U$18" library="24_Pin_Connector" package="24PINCONVERTER" value="24PINCONVERTER" x="87.3" y="41.2" smashed="yes"/>
+<element name="U$19" library="14_Pin_Connector" package="14PINCONVERTER" value="14PINCONNECTOR" x="14.2" y="70.3" smashed="yes" rot="R180"/>
+<element name="U$20" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-2.4" smashed="yes"/>
+<element name="U$21" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-5.1" smashed="yes"/>
+<element name="U$22" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-7.8" smashed="yes"/>
+<element name="U$23" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-10.5" smashed="yes"/>
+<element name="U$24" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-13.2" smashed="yes"/>
+<element name="U$25" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-15.9" smashed="yes"/>
+<element name="U$26" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-18.6" smashed="yes"/>
+<element name="U$27" library="Male_Header_1Pin" package="MALE1PINHEADER" value="MALE1PINHEADER" x="1.4" y="-21.3" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2714,6 +2803,38 @@ design rules under a new name.</description>
 <vertex x="34.036" y="8.255"/>
 </polygon>
 <via x="36.957" y="7.62" extent="1-16" drill="0.35"/>
+<contactref element="U$19" pad="7-"/>
+<contactref element="U$19" pad="1-"/>
+<contactref element="U$19" pad="2-"/>
+<contactref element="U$19" pad="3-"/>
+<contactref element="U$19" pad="4-"/>
+<contactref element="U$19" pad="5-"/>
+<contactref element="U$19" pad="6-"/>
+<contactref element="U$8" pad="BLACK"/>
+<contactref element="U$7" pad="BLACK"/>
+<contactref element="U$5" pad="BLACK"/>
+<contactref element="U$6" pad="BLACK"/>
+<contactref element="U$3" pad="BLACK"/>
+<contactref element="U$4" pad="BLACK"/>
+<contactref element="U$2" pad="BLACK"/>
+<contactref element="U$9" pad="BLACK"/>
+<wire x1="22.5" y1="92.54" x2="33.8" y2="87.46" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1" y1="72.16" x2="22.5" y2="92.54" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="67.3" x2="33.1" y2="72.16" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="70.3" x2="14.2" y2="67.3" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="64.3" x2="14.2" y2="67.3" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="61.3" x2="14.2" y2="64.3" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="58.3" x2="14.2" y2="61.3" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="55.3" x2="14.2" y2="58.3" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="52.3" x2="14.2" y2="55.3" width="0" layer="19" extent="1-1"/>
+<wire x1="23.2" y1="47.66" x2="14.2" y2="52.3" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="63.04" x2="33.1" y2="72.16" width="0" layer="19" extent="1-1"/>
+<wire x1="27.1" y1="42.44" x2="23.2" y2="47.66" width="0" layer="19" extent="1-1"/>
+<wire x1="23.2" y1="27.26" x2="27.1" y2="42.44" width="0" layer="19" extent="1-1"/>
+<wire x1="27.4" y1="22.04" x2="23.2" y2="27.26" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="7.62" x2="27.4" y2="22.04" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6855" y1="3.375" x2="26.67" y2="7.62" width="0" layer="19" extent="16-16"/>
+<wire x1="36.957" y1="7.62" x2="36.8455" y2="3.375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$1" pad="11" route="any" routetag="G$1.5V"/>
@@ -2765,7 +2886,205 @@ design rules under a new name.</description>
 </polygon>
 <via x="19" y="7.6" extent="1-16" drill="0.35"/>
 </signal>
+<signal name="N$5">
+<contactref element="U$13" pad="WHITE"/>
+<contactref element="U$18" pad="1,1"/>
+<wire x1="68.2" y1="65.32" x2="87.3" y2="74.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="U$18" pad="1,2"/>
+<contactref element="U$13" pad="GREEN"/>
+<wire x1="68.2" y1="70.4" x2="87.3" y2="71.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="U$18" pad="1,3"/>
+<contactref element="U$13" pad="BLUE"/>
+<wire x1="68.2" y1="75.48" x2="87.3" y2="68.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U$18" pad="2,1"/>
+<contactref element="U$14" pad="WHITE"/>
+<wire x1="77.3" y1="42.38" x2="90.3" y2="74.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="U$18" pad="2,2"/>
+<contactref element="U$14" pad="GREEN"/>
+<wire x1="77.3" y1="37.3" x2="90.3" y2="71.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$18" pad="2,3"/>
+<contactref element="U$14" pad="BLUE"/>
+<wire x1="77.3" y1="32.22" x2="90.3" y2="68.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$18" pad="3,1"/>
+<contactref element="U$15" pad="WHITE"/>
+<wire x1="68.6" y1="23.52" x2="87.3" y2="65.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="U$18" pad="3,2"/>
+<contactref element="U$15" pad="GREEN"/>
+<wire x1="68.6" y1="28.6" x2="87.3" y2="62.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$18" pad="3,3"/>
+<contactref element="U$15" pad="BLUE"/>
+<wire x1="68.6" y1="33.68" x2="87.3" y2="59.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="U$18" pad="4,1"/>
+<contactref element="U$11" pad="WHITE"/>
+<wire x1="90.3" y1="65.2" x2="76.8" y2="94.78" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="U$11" pad="GREEN"/>
+<contactref element="U$18" pad="4,2"/>
+<wire x1="90.3" y1="62.2" x2="76.8" y2="89.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="U$18" pad="4,3"/>
+<contactref element="U$11" pad="BLUE"/>
+<wire x1="90.3" y1="59.2" x2="76.8" y2="84.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$10" pad="WHITE"/>
+<contactref element="U$18" pad="5,1"/>
+<wire x1="87.3" y1="56.2" x2="65.4" y2="84.52" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$18" pad="5,2"/>
+<contactref element="U$10" pad="GREEN"/>
+<wire x1="87.3" y1="53.2" x2="65.4" y2="89.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$10" pad="BLUE"/>
+<contactref element="U$18" pad="5,3"/>
+<wire x1="87.3" y1="50.2" x2="65.4" y2="94.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="U$18" pad="6,1"/>
+<contactref element="U$12" pad="WHITE"/>
+<wire x1="76.8" y1="65.88" x2="90.3" y2="56.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="U$18" pad="6,2"/>
+<contactref element="U$12" pad="GREEN"/>
+<wire x1="76.8" y1="60.8" x2="90.3" y2="53.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="U$18" pad="6,3"/>
+<contactref element="U$12" pad="BLUE"/>
+<wire x1="76.8" y1="55.72" x2="90.3" y2="50.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="U$18" pad="7,1"/>
+<contactref element="U$16" pad="WHITE"/>
+<wire x1="77.3" y1="23.28" x2="87.3" y2="47.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="U$16" pad="GREEN"/>
+<contactref element="U$18" pad="7,2"/>
+<wire x1="77.3" y1="18.2" x2="87.3" y2="44.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="U$18" pad="7,3"/>
+<contactref element="U$16" pad="BLUE"/>
+<wire x1="77.3" y1="13.12" x2="87.3" y2="41.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="U$17" pad="WHITE"/>
+<contactref element="U$18" pad="8,1"/>
+<wire x1="68.4" y1="42.62" x2="90.3" y2="47.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$18" pad="8,2"/>
+<contactref element="U$17" pad="GREEN"/>
+<wire x1="68.4" y1="47.7" x2="90.3" y2="44.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="U$17" pad="BLUE"/>
+<contactref element="U$18" pad="8,3"/>
+<wire x1="68.4" y1="52.78" x2="90.3" y2="41.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BALANCED+">
+<contactref element="U$19" pad="7+"/>
+<contactref element="U$19" pad="1+"/>
+<contactref element="U$19" pad="6+"/>
+<contactref element="U$19" pad="5+"/>
+<contactref element="U$19" pad="4+"/>
+<contactref element="U$19" pad="3+"/>
+<contactref element="U$19" pad="2+"/>
+<contactref element="U$8" pad="RED"/>
+<contactref element="U$2" pad="RED"/>
+<contactref element="U$9" pad="RED"/>
+<contactref element="U$4" pad="RED"/>
+<contactref element="U$3" pad="RED"/>
+<contactref element="U$6" pad="RED"/>
+<contactref element="U$5" pad="RED"/>
+<contactref element="U$7" pad="RED"/>
+<wire x1="22.5" y1="87.46" x2="33.8" y2="92.54" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1" y1="77.24" x2="22.5" y2="87.46" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="57.96" x2="33.1" y2="77.24" width="0" layer="19" extent="1-1"/>
+<wire x1="23.2" y1="52.74" x2="27" y2="57.96" width="0" layer="19" extent="1-1"/>
+<wire x1="27.1" y1="37.36" x2="23.2" y2="52.74" width="0" layer="19" extent="1-1"/>
+<wire x1="23.2" y1="32.34" x2="27.1" y2="37.36" width="0" layer="19" extent="1-1"/>
+<wire x1="27.4" y1="16.96" x2="23.2" y2="32.34" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="52.3" x2="23.2" y2="52.74" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="55.3" x2="11.2" y2="52.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="58.3" x2="11.2" y2="55.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="61.3" x2="11.2" y2="58.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="64.3" x2="11.2" y2="61.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="67.3" x2="11.2" y2="64.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="70.3" x2="11.2" y2="67.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PWM_1">
+<contactref element="U$20" pad="PWM"/>
+<contactref element="U$1" pad="20"/>
+<wire x1="1.4" y1="-2.4" x2="64.7855" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_2">
+<contactref element="U$21" pad="PWM"/>
+<contactref element="U$1" pad="21"/>
+<wire x1="1.4" y1="-5.1" x2="67.3255" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_3">
+<contactref element="U$22" pad="PWM"/>
+<contactref element="U$1" pad="22"/>
+<wire x1="1.4" y1="-7.8" x2="69.8655" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_4">
+<contactref element="U$23" pad="PWM"/>
+<contactref element="U$1" pad="23"/>
+<wire x1="1.4" y1="-10.5" x2="72.4055" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_5">
+<contactref element="U$24" pad="PWM"/>
+<contactref element="U$1" pad="24"/>
+<wire x1="1.4" y1="-13.2" x2="74.9455" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_6">
+<contactref element="U$25" pad="PWM"/>
+<contactref element="U$1" pad="25"/>
+<wire x1="1.4" y1="-15.9" x2="77.4855" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_7">
+<contactref element="U$26" pad="PWM"/>
+<contactref element="U$1" pad="26"/>
+<wire x1="1.4" y1="-18.6" x2="80.0255" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="PWM_8">
+<contactref element="U$27" pad="PWM"/>
+<contactref element="U$1" pad="27"/>
+<wire x1="1.4" y1="-21.3" x2="82.5655" y2="3.375" width="0" layer="19" extent="16-16"/>
+</signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
