@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -343,11 +343,12 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U$2" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$3" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$4" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
+<part name="U$1" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
+<part name="U$5" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2577,20 +2578,21 @@ Ohio State University</text>
 <text x="344.319859375" y="20.106640625" size="2.54" layer="94">Electrical Team</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="119.38" y="195.58"/>
 <instance part="FRAME1" gate="G$1" x="0.175259375" y="-0.1016"/>
 <instance part="U$2" gate="G$1" x="306.07" y="195.58"/>
 <instance part="U$3" gate="G$1" x="119.38" y="85.09"/>
 <instance part="U$4" gate="G$1" x="306.07" y="85.09"/>
+<instance part="U$1" gate="G$1" x="119.38" y="195.58"/>
+<instance part="U$5" gate="G$1" x="217.17" y="293.37"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="5V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="60.96" y1="215.9" x2="60.96" y2="222.25" width="0.1524" layer="91"/>
 <label x="60.96" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="5V"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="5V"/>
@@ -2607,12 +2609,17 @@ Ohio State University</text>
 <wire x1="247.65" y1="105.41" x2="247.65" y2="111.76" width="0.1524" layer="91"/>
 <label x="247.65" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="5V"/>
+<wire x1="158.75" y1="313.69" x2="158.75" y2="318.77" width="0.1524" layer="91"/>
+<label x="158.75" y="318.77" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3.3V"/>
 <wire x1="68.58" y1="215.9" x2="68.58" y2="222.25" width="0.1524" layer="91"/>
 <label x="68.58" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="3.3V"/>
@@ -2632,9 +2639,9 @@ Ohio State University</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="121.92" y1="175.26" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <label x="121.92" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -2654,9 +2661,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_1"/>
 <wire x1="81.28" y1="215.9" x2="81.28" y2="222.25" width="0.1524" layer="91"/>
 <label x="81.28" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_1"/>
@@ -2676,9 +2683,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_2"/>
 <wire x1="86.36" y1="215.9" x2="86.36" y2="222.25" width="0.1524" layer="91"/>
 <label x="86.36" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_2"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_2"/>
@@ -2698,9 +2705,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_3"/>
 <wire x1="91.44" y1="215.9" x2="91.44" y2="222.25" width="0.1524" layer="91"/>
 <label x="91.44" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_3"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_3"/>
@@ -2720,9 +2727,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_4"/>
 <wire x1="96.52" y1="215.9" x2="96.52" y2="222.25" width="0.1524" layer="91"/>
 <label x="96.52" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_4"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_4"/>
@@ -2742,9 +2749,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_5"/>
 <wire x1="101.6" y1="215.9" x2="101.6" y2="222.25" width="0.1524" layer="91"/>
 <label x="101.6" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_5"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_5"/>
@@ -2764,9 +2771,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_6"/>
 <wire x1="106.68" y1="215.9" x2="106.68" y2="222.25" width="0.1524" layer="91"/>
 <label x="106.68" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_6"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_6"/>
@@ -2786,9 +2793,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_7"/>
 <wire x1="111.76" y1="215.9" x2="111.76" y2="222.25" width="0.1524" layer="91"/>
 <label x="111.76" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_7"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_7"/>
@@ -2808,9 +2815,9 @@ Ohio State University</text>
 </net>
 <net name="PWM_8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PWM_8"/>
 <wire x1="116.84" y1="215.9" x2="116.84" y2="222.25" width="0.1524" layer="91"/>
 <label x="116.84" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="PWM_8"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PWM_8"/>
@@ -2830,9 +2837,9 @@ Ohio State University</text>
 </net>
 <net name="SWITCH_1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SWITCH_1"/>
 <wire x1="91.44" y1="175.26" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 <label x="91.44" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SWITCH_1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SWITCH_1"/>
@@ -2852,10 +2859,9 @@ Ohio State University</text>
 </net>
 <net name="SWITCH_2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SWITCH_2"/>
-<wire x1="96.52" y1="175.26" x2="96.52" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="168.91" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="175.26" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
 <label x="96.52" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SWITCH_2"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SWITCH_2"/>
@@ -2878,9 +2884,9 @@ Ohio State University</text>
 </net>
 <net name="SWITCH_3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SWITCH_3"/>
 <wire x1="101.6" y1="175.26" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <label x="101.6" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SWITCH_3"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SWITCH_3"/>
@@ -2900,9 +2906,9 @@ Ohio State University</text>
 </net>
 <net name="SWITCH_4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SWITCH_4"/>
 <wire x1="106.68" y1="175.26" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 <label x="106.68" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SWITCH_4"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SWITCH_4"/>
@@ -2922,9 +2928,9 @@ Ohio State University</text>
 </net>
 <net name="KILL_SWITCH" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="KILL_SWITCH"/>
 <wire x1="86.36" y1="175.26" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
 <label x="86.36" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="KILL_SWITCH"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="KILL_SWITCH"/>
@@ -2944,10 +2950,9 @@ Ohio State University</text>
 </net>
 <net name="SWITCH_5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SWITCH_5"/>
-<wire x1="111.76" y1="175.26" x2="111.76" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="168.91" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="175.26" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 <label x="111.76" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SWITCH_5"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SWITCH_5"/>
@@ -2970,9 +2975,9 @@ Ohio State University</text>
 </net>
 <net name="12V_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="12V_ON/OFF"/>
 <wire x1="127" y1="215.9" x2="127" y2="222.25" width="0.1524" layer="91"/>
 <label x="127" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="12V_ON/OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="12V_ON/OFF"/>
@@ -2992,9 +2997,9 @@ Ohio State University</text>
 </net>
 <net name="5V_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="5V_ON_OFF"/>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="222.25" width="0.1524" layer="91"/>
 <label x="132.08" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="5V_ON_OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="5V_ON_OFF"/>
@@ -3014,9 +3019,9 @@ Ohio State University</text>
 </net>
 <net name="3.3V_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3.3V_ON/OFF"/>
 <wire x1="137.16" y1="215.9" x2="137.16" y2="222.25" width="0.1524" layer="91"/>
 <label x="137.16" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="3.3V_ON/OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="3.3V_ON/OFF"/>
@@ -3036,9 +3041,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE1"/>
 <wire x1="149.86" y1="215.9" x2="149.86" y2="222.25" width="0.1524" layer="91"/>
 <label x="149.86" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE1"/>
@@ -3058,9 +3063,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE2"/>
 <wire x1="154.94" y1="215.9" x2="154.94" y2="222.25" width="0.1524" layer="91"/>
 <label x="154.94" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE2"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE2"/>
@@ -3080,9 +3085,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE3"/>
 <wire x1="160.02" y1="215.9" x2="160.02" y2="222.25" width="0.1524" layer="91"/>
 <label x="160.02" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE3"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE3"/>
@@ -3102,9 +3107,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE4"/>
 <wire x1="165.1" y1="215.9" x2="165.1" y2="222.25" width="0.1524" layer="91"/>
 <label x="165.1" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE4"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE4"/>
@@ -3124,9 +3129,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE5"/>
 <wire x1="165.1" y1="175.26" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
 <label x="165.1" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE5"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE5"/>
@@ -3146,9 +3151,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE6"/>
 <wire x1="160.02" y1="175.26" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
 <label x="160.02" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE6"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE6"/>
@@ -3168,9 +3173,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE8"/>
 <wire x1="149.86" y1="175.26" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
 <label x="149.86" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE8"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE8"/>
@@ -3190,9 +3195,9 @@ Ohio State University</text>
 </net>
 <net name="SPARE7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SPARE7"/>
 <wire x1="154.94" y1="175.26" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
 <label x="154.94" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE7"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SPARE7"/>
@@ -3212,9 +3217,9 @@ Ohio State University</text>
 </net>
 <net name="SENSOR_SCL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SENSOR_SCL"/>
 <wire x1="76.2" y1="175.26" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <label x="76.2" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SENSOR_SCL"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SENSOR_SCL"/>
@@ -3234,9 +3239,9 @@ Ohio State University</text>
 </net>
 <net name="SENSOR_SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SENSOR_SDA"/>
 <wire x1="71.12" y1="175.26" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 <label x="71.12" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SENSOR_SDA"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SENSOR_SDA"/>
@@ -3256,9 +3261,9 @@ Ohio State University</text>
 </net>
 <net name="BOARD_SCL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="BOARD_SCL"/>
 <wire x1="66.04" y1="175.26" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
 <label x="66.04" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="BOARD_SCL"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="BOARD_SCL"/>
@@ -3278,9 +3283,9 @@ Ohio State University</text>
 </net>
 <net name="BOARD_SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="BOARD_SDA"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
 <label x="60.96" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="BOARD_SDA"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="BOARD_SDA"/>
@@ -3300,9 +3305,9 @@ Ohio State University</text>
 </net>
 <net name="ACOUSTIC_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="ACOUSTIC_ON/OFF"/>
 <wire x1="129.54" y1="175.26" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
 <label x="129.54" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="ACOUSTIC_ON/OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="ACOUSTIC_ON/OFF"/>
@@ -3322,9 +3327,9 @@ Ohio State University</text>
 </net>
 <net name="MOBO_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="MOBO_ON/OFF"/>
 <wire x1="134.62" y1="175.26" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
 <label x="134.62" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="MOBO_ON/OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="MOBO_ON/OFF"/>
@@ -3344,9 +3349,9 @@ Ohio State University</text>
 </net>
 <net name="JETSON_ON/OFF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="JETSON_ON/OFF"/>
 <wire x1="139.7" y1="175.26" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
 <label x="139.7" y="167.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="JETSON_ON/OFF"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="JETSON_ON/OFF"/>
