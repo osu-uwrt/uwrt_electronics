@@ -1,0 +1,9 @@
+git how to send file
+ls
+cd ~
+cd Desktop/uwrt (hit tab)
+git add -A
+git commit -m
+git push
+ 
+then go to git hub and pull request
