@@ -20153,7 +20153,7 @@ DIN A3, landscape with location and doc. field</description>
 Team
 
 Ohio State University</text>
-<text x="344.1446" y="20.208240625" size="2.54" layer="94">Electrical Team</text>
+<text x="344.1446" y="20.208240625" size="2.54" layer="94">Connectors</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="113.03" y="52.07"/>
@@ -22665,7 +22665,7 @@ Ohio State University</text>
 Team
 
 Ohio State University</text>
-<text x="344.058240625" y="20.165059375" size="2.54" layer="94">Electrical Team</text>
+<text x="344.058240625" y="20.165059375" size="2.54" layer="94">Converters</text>
 </plain>
 <instances>
 <instance part="12VCONVERTER" gate="G$1" x="271.78" y="173.99"/>

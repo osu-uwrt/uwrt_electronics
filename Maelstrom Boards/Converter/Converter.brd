@@ -5320,11 +5320,11 @@ design rules under a new name.</description>
 <contactref element="MOBO" pad="1"/>
 <contactref element="MOBO" pad="2"/>
 <wire x1="69.77" y1="87.5376" x2="69.977" y2="87.5376" width="0.1524" layer="1"/>
-<wire x1="69.77" y1="91.3376" x2="69.77" y2="87.5376" width="2.54" layer="1"/>
-<wire x1="69.77" y1="87.5376" x2="82.6424" y2="87.5376" width="2.54" layer="1"/>
-<wire x1="82.6424" y1="87.5376" x2="87.249" y2="82.931" width="2.54" layer="1"/>
-<wire x1="87.249" y1="82.931" x2="87.249" y2="78.74" width="2.54" layer="1"/>
-<wire x1="87.249" y1="78.74" x2="87.249" y2="74.549" width="2.54" layer="1"/>
+<wire x1="69.77" y1="91.3376" x2="69.77" y2="87.5376" width="3.302" layer="1"/>
+<wire x1="69.77" y1="91.3376" x2="78.8424" y2="91.3376" width="3.302" layer="1"/>
+<wire x1="78.8424" y1="91.3376" x2="87.249" y2="82.931" width="3.302" layer="1"/>
+<wire x1="87.249" y1="82.931" x2="87.249" y2="78.74" width="3.302" layer="1"/>
+<wire x1="87.249" y1="78.74" x2="87.249" y2="74.549" width="3.302" layer="1"/>
 <wire x1="87.249" y1="74.549" x2="87.249" y2="71.5758" width="2.54" layer="1"/>
 <wire x1="87.249" y1="71.5758" x2="85.0914" y2="69.4182" width="2.54" layer="1"/>
 <wire x1="85.0914" y1="69.4182" x2="85.0914" y2="65.8622" width="2.54" layer="1"/>
@@ -5427,10 +5427,10 @@ design rules under a new name.</description>
 <contactref element="12VCONVERTER" pad="1,VIN(+)"/>
 <contactref element="L3" pad="2"/>
 <contactref element="C12" pad="+"/>
-<wire x1="41.87" y1="91.3376" x2="33.0446" y2="91.3376" width="2.54" layer="1"/>
-<wire x1="33.0446" y1="91.3376" x2="32.893" y2="91.186" width="2.54" layer="1"/>
-<wire x1="32.893" y1="91.186" x2="26.624" y2="91.186" width="2.54" layer="1"/>
-<wire x1="26.624" y1="91.186" x2="24.973" y2="89.535" width="2.54" layer="1"/>
+<wire x1="24.973" y1="89.535" x2="26.624" y2="91.186" width="3.302" layer="1"/>
+<wire x1="26.624" y1="91.186" x2="32.893" y2="91.186" width="3.302" layer="1"/>
+<wire x1="32.893" y1="91.186" x2="41.7184" y2="91.186" width="3.302" layer="1"/>
+<wire x1="41.7184" y1="91.186" x2="41.87" y2="91.3376" width="3.302" layer="1"/>
 </signal>
 <signal name="5VFILTERED">
 <contactref element="5VCONVERTER" pad="1,VIN(+)"/>
