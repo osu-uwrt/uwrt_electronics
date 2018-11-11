@@ -488,30 +488,32 @@ DIN A3, landscape with location and doc. field</description>
 <library name="24_Pin_Connector">
 <packages>
 <package name="24PINCONVERTER">
-<pad name="7,BLUE" x="0" y="0" drill="1.02"/>
-<pad name="8,WHITE" x="3" y="0" drill="1.02"/>
-<pad name="7,GREEN" x="0" y="3" drill="1.02"/>
-<pad name="8,GREEN" x="3" y="3" drill="1.02"/>
-<pad name="7,WHITE" x="0" y="6" drill="1.02"/>
-<pad name="8,BLUE" x="3" y="6" drill="1.02"/>
-<pad name="5,BLUE" x="0" y="9" drill="1.02"/>
-<pad name="6,WHITE" x="3" y="9" drill="1.02"/>
-<pad name="6,GREEN" x="3" y="12" drill="1.02"/>
-<pad name="5,GREEN" x="0" y="12" drill="1.02" rot="R180"/>
-<pad name="6,BLUE" x="3" y="15" drill="1.02"/>
-<pad name="5,WHITE" x="0" y="15" drill="1.02" rot="R180"/>
-<pad name="3,BLUE" x="0" y="18" drill="1.02"/>
-<pad name="4,WHITE" x="3" y="18" drill="1.02"/>
-<pad name="4,GREEN" x="3" y="21" drill="1.02"/>
-<pad name="3,GREEN" x="0" y="21" drill="1.02"/>
-<pad name="4,BLUE" x="3" y="24" drill="1.02"/>
-<pad name="3,WHITE" x="0" y="24" drill="1.02"/>
-<pad name="2,WHITE" x="3" y="27" drill="1.02"/>
-<pad name="2,GREEN" x="3" y="30" drill="1.02"/>
-<pad name="2,BLUE" x="3" y="33" drill="1.02"/>
-<pad name="1,WHITE" x="0" y="33" drill="1.02"/>
-<pad name="1,GREEN" x="0" y="30" drill="1.02"/>
-<pad name="1,BLUE" x="0" y="27" drill="1.02"/>
+<pad name="7,BLUE" x="0" y="0" drill="0.6"/>
+<pad name="8,WHITE" x="3" y="0" drill="0.6"/>
+<pad name="7,GREEN" x="0" y="3" drill="0.6"/>
+<pad name="8,GREEN" x="3" y="3" drill="0.6"/>
+<pad name="7,WHITE" x="0" y="6" drill="0.6"/>
+<pad name="8,BLUE" x="3" y="6" drill="0.6"/>
+<pad name="5,BLUE" x="0" y="9" drill="0.6"/>
+<pad name="6,WHITE" x="3" y="9" drill="0.6"/>
+<pad name="6,GREEN" x="3" y="12" drill="0.6"/>
+<pad name="5,GREEN" x="0" y="12" drill="0.6" rot="R180"/>
+<pad name="6,BLUE" x="3" y="15" drill="0.6"/>
+<pad name="5,WHITE" x="0" y="15" drill="0.6" rot="R180"/>
+<pad name="3,BLUE" x="0" y="18" drill="0.6"/>
+<pad name="4,WHITE" x="3" y="18" drill="0.6"/>
+<pad name="4,GREEN" x="3" y="21" drill="0.6"/>
+<pad name="3,GREEN" x="0" y="21" drill="0.6"/>
+<pad name="4,BLUE" x="3" y="24" drill="0.6"/>
+<pad name="3,WHITE" x="0" y="24" drill="0.6"/>
+<pad name="2,WHITE" x="3" y="27" drill="0.6"/>
+<pad name="2,GREEN" x="3" y="30" drill="0.6"/>
+<pad name="2,BLUE" x="3" y="33" drill="0.6"/>
+<pad name="1,WHITE" x="0" y="33" drill="0.6"/>
+<pad name="1,GREEN" x="0" y="30" drill="0.6"/>
+<pad name="1,BLUE" x="0" y="27" drill="0.6"/>
+<hole x="7.32" y="2.16" drill="3"/>
+<hole x="7.32" y="30.84" drill="3"/>
 <wire x1="4.01" y1="-3.34" x2="13.92" y2="-3.34" width="0.127" layer="21"/>
 <wire x1="13.92" y1="-3.34" x2="13.92" y2="36.53" width="0.127" layer="21"/>
 <wire x1="13.92" y1="36.53" x2="4.01" y2="36.53" width="0.127" layer="21"/>
