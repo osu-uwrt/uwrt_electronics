@@ -6911,10 +6911,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$21" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 <part name="U$22" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 <part name="U$23" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
-<part name="U$24" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
-<part name="U$25" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
-<part name="U$26" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
-<part name="U$27" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="P5" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="P6" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="P7" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="P8" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$19" library="14_Pin_Connector_Vert" deviceset="14PIN_VERT" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
@@ -9191,10 +9191,10 @@ Ohio State University</text>
 <instance part="U$21" gate="G$1" x="58.42" y="83.82" smashed="yes" rot="R180"/>
 <instance part="U$22" gate="G$1" x="63.5" y="78.74" smashed="yes" rot="R180"/>
 <instance part="U$23" gate="G$1" x="68.58" y="83.82" smashed="yes" rot="R180"/>
-<instance part="U$24" gate="G$1" x="73.66" y="78.74" smashed="yes" rot="R180"/>
-<instance part="U$25" gate="G$1" x="78.74" y="83.82" smashed="yes" rot="R180"/>
-<instance part="U$26" gate="G$1" x="83.82" y="78.74" smashed="yes" rot="R180"/>
-<instance part="U$27" gate="G$1" x="88.9" y="83.82" smashed="yes" rot="R180"/>
+<instance part="P5" gate="G$1" x="73.66" y="78.74" smashed="yes" rot="R180"/>
+<instance part="P6" gate="G$1" x="78.74" y="83.82" smashed="yes" rot="R180"/>
+<instance part="P7" gate="G$1" x="83.82" y="78.74" smashed="yes" rot="R180"/>
+<instance part="P8" gate="G$1" x="88.9" y="83.82" smashed="yes" rot="R180"/>
 <instance part="GND3" gate="1" x="66.04" y="99.06" smashed="yes">
 <attribute name="VALUE" x="63.5" y="96.52" size="1.778" layer="96"/>
 </instance>
@@ -9421,28 +9421,28 @@ Ohio State University</text>
 </net>
 <net name="PWM_5" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="PWM"/>
+<pinref part="P5" gate="G$1" pin="PWM"/>
 <pinref part="U$1" gate="G$1" pin="PWM_5"/>
 <wire x1="71.12" y1="71.12" x2="71.12" y2="64.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_6" class="0">
 <segment>
-<pinref part="U$25" gate="G$1" pin="PWM"/>
+<pinref part="P6" gate="G$1" pin="PWM"/>
 <pinref part="U$1" gate="G$1" pin="PWM_6"/>
 <wire x1="76.2" y1="76.2" x2="76.2" y2="64.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_7" class="0">
 <segment>
-<pinref part="U$26" gate="G$1" pin="PWM"/>
+<pinref part="P7" gate="G$1" pin="PWM"/>
 <pinref part="U$1" gate="G$1" pin="PWM_7"/>
 <wire x1="81.28" y1="71.12" x2="81.28" y2="64.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_8" class="0">
 <segment>
-<pinref part="U$27" gate="G$1" pin="PWM"/>
+<pinref part="P8" gate="G$1" pin="PWM"/>
 <pinref part="U$1" gate="G$1" pin="PWM_8"/>
 <wire x1="86.36" y1="76.2" x2="86.36" y2="64.77" width="0.1524" layer="91"/>
 </segment>
