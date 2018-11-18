@@ -333,6 +333,126 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex-mini-fit">
+<description>&lt;b&gt;MOLEX Mini-Fit Jr 5569 Series Connectors&lt;/b&gt; - v1.01 (04/17/2011)&lt;p&gt;
+Pitch 0.165" (4.20mm)
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;author&gt;Copyright (C) 2011, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
+<packages>
+<package name="39-30-?06?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-5.9" y1="-1.0441" x2="-7" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-1.0441" x2="-7" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-13.8441" x2="7" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="7" y1="-13.8441" x2="7" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="7" y1="-1.2441" x2="5.9" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="6" x="-4.191" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="5" x="0" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="4" x="4.191" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="-4.191" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="2" x="0" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="4.191" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
+<text x="-7.62" y="-13.7541" size="1.524" layer="21" ratio="18" rot="R90">&gt;NAME</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="-4.191" y="-7.3" drill="3"/>
+<hole x="4.191" y="-7.3" drill="3"/>
+</package>
+<package name="39-30-?08?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-7.9955" y1="-1.0441" x2="-9.0955" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-1.0441" x2="-9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-13.8441" x2="9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-13.8441" x2="9.0955" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-1.2441" x2="7.9955" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="8" x="-6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="7" x="-2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="6" x="2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="5" x="6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.2865" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="-2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="2" x="2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="6.2865" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
+<text x="-9.7155" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="10.9855" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="-6.2865" y="-7.3" drill="3"/>
+<hole x="6.2865" y="-7.3" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="P-NV">
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="96" ratio="12" rot="MR0">&gt;VALUE</text>
+<text x="2.54" y="5.08" size="1.778" layer="95" ratio="12" rot="MR0">&gt;PART</text>
+<text x="3.175" y="-0.635" size="1.778" layer="95" ratio="12">&gt;NAME</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="P-N">
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.6096" layer="94"/>
+<text x="3.175" y="-0.635" size="1.778" layer="95" ratio="12">&gt;NAME</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="39-30-?06?_S" prefix="P">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="P-NV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="P-N" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="P-N" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="P-N" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="P-N" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="P-N" x="0" y="-12.7" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="39-30-?06?">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="39-30-?08?_S" prefix="P">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="P-NV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="P-N" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="P-N" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="P-N" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="P-N" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="P-N" x="0" y="-12.7" addlevel="always" swaplevel="1"/>
+<gate name="-7" symbol="P-N" x="0" y="-15.24" addlevel="always" swaplevel="1"/>
+<gate name="-8" symbol="P-N" x="0" y="-17.78" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="39-30-?08?">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+<connect gate="-7" pin="P" pad="7"/>
+<connect gate="-8" pin="P" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -352,6 +472,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U$4" library="5530843-6" deviceset="5530843-FEMALE" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
+<part name="P1" library="con-molex-mini-fit" deviceset="39-30-?06?_S" device=""/>
+<part name="P2" library="con-molex-mini-fit" deviceset="39-30-?08?_S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2590,15 +2712,57 @@ Ohio State University</text>
 <instance part="U$2" gate="G$1" x="273.05" y="196.85" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="127" y="86.36" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="275.59" y="87.63" smashed="yes"/>
+<instance part="P1" gate="-1" x="368.3" y="147.32" smashed="yes">
+<attribute name="VALUE" x="370.84" y="149.86" size="1.778" layer="96" ratio="12" rot="MR0"/>
+<attribute name="PART" x="370.84" y="152.4" size="1.778" layer="95" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="371.475" y="146.685" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-2" x="368.3" y="142.24" smashed="yes">
+<attribute name="NAME" x="371.475" y="141.605" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-3" x="368.3" y="137.16" smashed="yes">
+<attribute name="NAME" x="371.475" y="136.525" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-4" x="368.3" y="132.08" smashed="yes">
+<attribute name="NAME" x="371.475" y="131.445" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-5" x="368.3" y="127" smashed="yes">
+<attribute name="NAME" x="371.475" y="126.365" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-6" x="368.3" y="121.92" smashed="yes">
+<attribute name="NAME" x="371.475" y="121.285" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P2" gate="-1" x="17.78" y="157.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="15.24" y="160.02" size="1.778" layer="96" ratio="12"/>
+<attribute name="PART" x="15.24" y="162.56" size="1.778" layer="95" ratio="12"/>
+<attribute name="NAME" x="14.605" y="156.845" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-2" x="17.78" y="152.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="151.765" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-3" x="17.78" y="147.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="146.685" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-4" x="17.78" y="142.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="141.605" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-5" x="17.78" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="136.525" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-6" x="17.78" y="132.08" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="131.445" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-7" x="17.78" y="127" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="126.365" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
+<instance part="P2" gate="-8" x="17.78" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="14.605" y="121.285" size="1.778" layer="95" ratio="12" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="5V" class="0">
-<segment>
-<wire x1="158.75" y1="313.69" x2="158.75" y2="318.77" width="0.1524" layer="91"/>
-<label x="158.75" y="318.77" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="68.58" y1="217.17" x2="68.58" y2="226.06" width="0.1524" layer="91"/>
@@ -2640,6 +2804,16 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="3.3V"/>
 <wire x1="224.79" y1="107.95" x2="224.79" y2="116.84" width="0.1524" layer="91"/>
 <label x="224.79" y="116.84" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-1" pin="P"/>
+<wire x1="365.76" y1="147.32" x2="355.6" y2="147.32" width="0.1524" layer="91"/>
+<label x="355.6" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P2" gate="-1" pin="P"/>
+<wire x1="20.32" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
+<label x="33.02" y="157.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
@@ -2993,6 +3167,11 @@ Ohio State University</text>
 <wire x1="217.17" y1="67.31" x2="217.17" y2="60.96" width="0.1524" layer="91"/>
 <label x="217.17" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P1" gate="-3" pin="P"/>
+<wire x1="365.76" y1="137.16" x2="355.6" y2="137.16" width="0.1524" layer="91"/>
+<label x="355.6" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BOARD_SCL" class="0">
 <segment>
@@ -3014,6 +3193,11 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="BOARD_SCL"/>
 <wire x1="222.25" y1="67.31" x2="222.25" y2="60.96" width="0.1524" layer="91"/>
 <label x="222.25" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-6" pin="P"/>
+<wire x1="365.76" y1="121.92" x2="355.6" y2="121.92" width="0.1524" layer="91"/>
+<label x="355.6" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SENSOR_SDA" class="0">
@@ -3037,6 +3221,11 @@ Ohio State University</text>
 <wire x1="227.33" y1="67.31" x2="227.33" y2="60.96" width="0.1524" layer="91"/>
 <label x="227.33" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P1" gate="-2" pin="P"/>
+<wire x1="365.76" y1="142.24" x2="355.6" y2="142.24" width="0.1524" layer="91"/>
+<label x="355.6" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SENSOR_SCL" class="0">
 <segment>
@@ -3058,6 +3247,11 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="SENSOR_SCL"/>
 <wire x1="232.41" y1="67.31" x2="232.41" y2="60.96" width="0.1524" layer="91"/>
 <label x="232.41" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-5" pin="P"/>
+<wire x1="365.76" y1="127" x2="355.6" y2="127" width="0.1524" layer="91"/>
+<label x="355.6" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="KILL_SWITCH" class="0">
@@ -3081,6 +3275,11 @@ Ohio State University</text>
 <wire x1="242.57" y1="67.31" x2="242.57" y2="60.96" width="0.1524" layer="91"/>
 <label x="242.57" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P2" gate="-2" pin="P"/>
+<wire x1="20.32" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="33.02" y="152.4" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWITCH_1" class="0">
 <segment>
@@ -3102,6 +3301,11 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="SWITCH_1"/>
 <wire x1="247.65" y1="67.31" x2="247.65" y2="60.96" width="0.1524" layer="91"/>
 <label x="247.65" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P2" gate="-3" pin="P"/>
+<wire x1="20.32" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
+<label x="33.02" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWITCH_2" class="0">
@@ -3125,6 +3329,11 @@ Ohio State University</text>
 <wire x1="252.73" y1="67.31" x2="252.73" y2="60.96" width="0.1524" layer="91"/>
 <label x="252.73" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P2" gate="-4" pin="P"/>
+<wire x1="20.32" y1="142.24" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="33.02" y="142.24" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWITCH_3" class="0">
 <segment>
@@ -3146,6 +3355,11 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="SWITCH_3"/>
 <wire x1="257.81" y1="67.31" x2="257.81" y2="60.96" width="0.1524" layer="91"/>
 <label x="257.81" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P2" gate="-6" pin="P"/>
+<wire x1="20.32" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<label x="33.02" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWITCH_4" class="0">
@@ -3169,6 +3383,11 @@ Ohio State University</text>
 <wire x1="262.89" y1="67.31" x2="262.89" y2="60.96" width="0.1524" layer="91"/>
 <label x="262.89" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P2" gate="-7" pin="P"/>
+<wire x1="20.32" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<label x="33.02" y="127" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SWITCH_5" class="0">
 <segment>
@@ -3191,6 +3410,11 @@ Ohio State University</text>
 <wire x1="267.97" y1="67.31" x2="267.97" y2="60.96" width="0.1524" layer="91"/>
 <label x="267.97" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P2" gate="-8" pin="P"/>
+<wire x1="20.32" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="33.02" y="121.92" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -3212,6 +3436,16 @@ Ohio State University</text>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 <wire x1="278.13" y1="67.31" x2="278.13" y2="60.96" width="0.1524" layer="91"/>
 <label x="278.13" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-4" pin="P"/>
+<wire x1="365.76" y1="132.08" x2="355.6" y2="132.08" width="0.1524" layer="91"/>
+<label x="355.6" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P2" gate="-5" pin="P"/>
+<wire x1="20.32" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
+<label x="33.02" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ACOUSTIC_ON/OFF" class="0">
