@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -199,10 +199,10 @@
 </packages>
 <symbols>
 <symbol name="5530843-6">
-<pin name="BOARD_SDA" x="-58.42" y="-20.32" length="middle" rot="R90"/>
-<pin name="BOARD_SCL" x="-53.34" y="-20.32" length="middle" rot="R90"/>
-<pin name="SENSOR_SDA" x="-48.26" y="-20.32" length="middle" rot="R90"/>
-<pin name="SENSOR_SCL" x="-43.18" y="-20.32" length="middle" rot="R90"/>
+<pin name="BACKPLANE_SDA" x="-58.42" y="-20.32" length="middle" rot="R90"/>
+<pin name="BACKPLANE_SCL" x="-53.34" y="-20.32" length="middle" rot="R90"/>
+<pin name="ROBOT_SDA" x="-48.26" y="-20.32" length="middle" rot="R90"/>
+<pin name="ROBOT_SCL" x="-43.18" y="-20.32" length="middle" rot="R90"/>
 <pin name="KILL_SWITCH" x="-33.02" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="ACOUSTIC_ON/OFF" x="10.16" y="-20.32" length="middle" rot="R90"/>
 <pin name="MOBO_ON/OFF" x="15.24" y="-20.32" length="middle" rot="R90"/>
@@ -254,8 +254,8 @@
 <connect gate="G$1" pin="5V" pad="11 12 13 44 45 46" route="any"/>
 <connect gate="G$1" pin="5V_ON_OFF" pad="15"/>
 <connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="17"/>
-<connect gate="G$1" pin="BOARD_SCL" pad="31"/>
-<connect gate="G$1" pin="BOARD_SDA" pad="32"/>
+<connect gate="G$1" pin="BACKPLANE_SCL" pad="31"/>
+<connect gate="G$1" pin="BACKPLANE_SDA" pad="32"/>
 <connect gate="G$1" pin="GND" pad="4 5 6 8 9 10 47 48 49 51 52 53" route="any"/>
 <connect gate="G$1" pin="JETSON_ON/OFF" pad="18"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="37"/>
@@ -268,8 +268,8 @@
 <connect gate="G$1" pin="PWM_6" pad="25"/>
 <connect gate="G$1" pin="PWM_7" pad="26"/>
 <connect gate="G$1" pin="PWM_8" pad="27"/>
-<connect gate="G$1" pin="SENSOR_SCL" pad="29"/>
-<connect gate="G$1" pin="SENSOR_SDA" pad="30"/>
+<connect gate="G$1" pin="ROBOT_SCL" pad="29"/>
+<connect gate="G$1" pin="ROBOT_SDA" pad="30"/>
 <connect gate="G$1" pin="SPARE1" pad="7"/>
 <connect gate="G$1" pin="SPARE2" pad="28"/>
 <connect gate="G$1" pin="SPARE3" pad="33"/>
@@ -303,8 +303,8 @@
 <connect gate="G$1" pin="5V" pad="11 12 13 44 45 46"/>
 <connect gate="G$1" pin="5V_ON_OFF" pad="15"/>
 <connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="17"/>
-<connect gate="G$1" pin="BOARD_SCL" pad="31"/>
-<connect gate="G$1" pin="BOARD_SDA" pad="32"/>
+<connect gate="G$1" pin="BACKPLANE_SCL" pad="31"/>
+<connect gate="G$1" pin="BACKPLANE_SDA" pad="32"/>
 <connect gate="G$1" pin="GND" pad="4 5 6 8 9 10 47 48 49 51 52 53"/>
 <connect gate="G$1" pin="JETSON_ON/OFF" pad="18"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="37"/>
@@ -317,8 +317,8 @@
 <connect gate="G$1" pin="PWM_6" pad="25"/>
 <connect gate="G$1" pin="PWM_7" pad="26"/>
 <connect gate="G$1" pin="PWM_8" pad="27"/>
-<connect gate="G$1" pin="SENSOR_SCL" pad="29"/>
-<connect gate="G$1" pin="SENSOR_SDA" pad="30"/>
+<connect gate="G$1" pin="ROBOT_SCL" pad="29"/>
+<connect gate="G$1" pin="ROBOT_SDA" pad="30"/>
 <connect gate="G$1" pin="SPARE1" pad="7"/>
 <connect gate="G$1" pin="SPARE2" pad="28"/>
 <connect gate="G$1" pin="SPARE3" pad="33"/>
