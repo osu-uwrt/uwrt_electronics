@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -125,14 +125,14 @@
 <wire x1="0" y1="23.876" x2="50.8" y2="23.876" width="0.254" layer="94"/>
 <wire x1="50.8" y1="23.876" x2="50.8" y2="0" width="0.254" layer="94"/>
 <wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="JETSON_ON/OFF" x="7.874" y="28.956" length="middle" rot="R270"/>
-<pin name="ACOUSTIC_ON/OFF" x="13.208" y="28.956" length="middle" rot="R270"/>
-<pin name="12V_ON/OFF" x="18.796" y="28.956" length="middle" rot="R270"/>
-<pin name="5V-ON/OFF" x="24.638" y="28.956" length="middle" rot="R270"/>
-<pin name="3.3V_ON/OFF" x="30.226" y="28.956" length="middle" rot="R270"/>
+<pin name="5V_ON/OFF" x="7.874" y="28.956" length="middle" rot="R270"/>
+<pin name="12V_ON/OFF" x="13.208" y="28.956" length="middle" rot="R270"/>
+<pin name="ACOUSTIC_ON/OFF" x="18.796" y="28.956" length="middle" rot="R270"/>
+<pin name="JETSON_ON/OFF" x="24.638" y="28.956" length="middle" rot="R270"/>
+<pin name="MOBO_ON/OFF" x="30.226" y="28.956" length="middle" rot="R270"/>
 <pin name="SPARE1" x="35.814" y="28.956" length="middle" rot="R270"/>
 <pin name="SPARE8" x="41.91" y="28.956" length="middle" rot="R270"/>
-<pin name="MOBO_ON/OFF" x="1.778" y="28.956" length="middle" rot="R270"/>
+<pin name="3.3V_ON/OFF" x="1.778" y="28.956" length="middle" rot="R270"/>
 <pin name="GND" x="47.498" y="28.956" length="middle" rot="R270"/>
 </symbol>
 <symbol name="929852-01-09_4">
@@ -146,8 +146,8 @@
 <pin name="ROBOT_SDA" x="27.178" y="26.416" length="middle" rot="R270"/>
 <pin name="ROBOT_SCL" x="32.766" y="26.416" length="middle" rot="R270"/>
 <pin name="3.3V" x="38.354" y="26.416" length="middle" rot="R270"/>
-<pin name="5V" x="44.45" y="26.416" length="middle" rot="R270"/>
-<pin name="GND" x="50.038" y="26.416" length="middle" rot="R270"/>
+<pin name="GND" x="44.45" y="26.416" length="middle" rot="R270"/>
+<pin name="5V" x="50.038" y="26.416" length="middle" rot="R270"/>
 <pin name="SPARE4" x="4.318" y="26.416" length="middle" rot="R270"/>
 </symbol>
 </symbols>
@@ -205,13 +205,13 @@
 <devices>
 <device name="" package="929852-01-09_1ROW">
 <connects>
-<connect gate="G$1" pin="12V_ON/OFF" pad="P$4"/>
-<connect gate="G$1" pin="3.3V_ON/OFF" pad="P$6"/>
-<connect gate="G$1" pin="5V-ON/OFF" pad="P$5"/>
-<connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="P$3"/>
+<connect gate="G$1" pin="12V_ON/OFF" pad="P$3"/>
+<connect gate="G$1" pin="3.3V_ON/OFF" pad="P$1"/>
+<connect gate="G$1" pin="5V_ON/OFF" pad="P$2"/>
+<connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="P$4"/>
 <connect gate="G$1" pin="GND" pad="P$9"/>
-<connect gate="G$1" pin="JETSON_ON/OFF" pad="P$2"/>
-<connect gate="G$1" pin="MOBO_ON/OFF" pad="P$1"/>
+<connect gate="G$1" pin="JETSON_ON/OFF" pad="P$5"/>
+<connect gate="G$1" pin="MOBO_ON/OFF" pad="P$6"/>
 <connect gate="G$1" pin="SPARE1" pad="P$7"/>
 <connect gate="G$1" pin="SPARE8" pad="P$8"/>
 </connects>
@@ -229,10 +229,10 @@
 <device name="" package="929852-01-09_1ROW">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="P$7"/>
-<connect gate="G$1" pin="5V" pad="P$8"/>
+<connect gate="G$1" pin="5V" pad="P$9"/>
 <connect gate="G$1" pin="BACKPLANE_SCL" pad="P$4"/>
 <connect gate="G$1" pin="BACKPLANE_SDA" pad="P$3"/>
-<connect gate="G$1" pin="GND" pad="P$9"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
 <connect gate="G$1" pin="ROBOT_SCL" pad="P$6"/>
 <connect gate="G$1" pin="ROBOT_SDA" pad="P$5"/>
 <connect gate="G$1" pin="SPARE3" pad="P$2"/>
