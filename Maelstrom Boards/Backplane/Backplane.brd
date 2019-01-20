@@ -1004,7 +1004,7 @@ design rules under a new name.</description>
 <wire x1="55.88" y1="48.006" x2="58.19936875" y2="50.32536875" width="0.254" layer="1"/>
 <via x="58.19936875" y="50.32536875" extent="1-16" drill="0.35"/>
 <via x="55.88" y="37.465" extent="1-16" drill="0.35"/>
-<wire x1="55.88" y1="37.465" x2="32.893" y2="37.465" width="0.254" layer="16"/>
+<wire x1="55.88" y1="37.465" x2="33.528" y2="37.465" width="0.254" layer="16"/>
 <contactref element="U$3" pad="14"/>
 <contactref element="U$1" pad="14"/>
 <contactref element="U$4" pad="14"/>
@@ -1023,8 +1023,8 @@ design rules under a new name.</description>
 <wire x1="88.011" y1="71.755" x2="199.39" y2="71.755" width="0.254" layer="1"/>
 <via x="199.39" y="71.755" extent="1-16" drill="0.35"/>
 <contactref element="U$7" pad="P$1"/>
-<wire x1="32.893" y1="37.465" x2="19.939" y2="50.419" width="0.254" layer="16"/>
-<wire x1="18.542" y1="50.419" x2="19.939" y2="50.419" width="0.254" layer="16"/>
+<wire x1="33.528" y1="37.465" x2="20.574" y2="50.419" width="0.254" layer="16"/>
+<wire x1="18.542" y1="50.419" x2="20.574" y2="50.419" width="0.254" layer="16"/>
 </signal>
 <signal name="SPARE2">
 <wire x1="78.2574" y1="38.354" x2="46.228" y2="38.354" width="0.254" layer="16"/>
