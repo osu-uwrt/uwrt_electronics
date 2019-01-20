@@ -11409,7 +11409,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
@@ -16407,10 +16406,6 @@ Ohio State University</text>
 <attribute name="NAME" x="291.084" y="208.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="291.084" y="203.581" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="142.24" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.859" y="47.244" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="146.939" y="47.244" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND5" gate="1" x="162.56" y="43.18" smashed="yes">
 <attribute name="VALUE" x="160.02" y="40.64" size="1.778" layer="96"/>
 </instance>
@@ -16502,10 +16497,6 @@ Ohio State University</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <junction x="124.46" y="60.96"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="53.34" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<junction x="124.46" y="53.34"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
@@ -16768,10 +16759,7 @@ Ohio State University</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="53.34" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
 <junction x="162.56" y="53.34"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<junction x="162.56" y="45.72"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
