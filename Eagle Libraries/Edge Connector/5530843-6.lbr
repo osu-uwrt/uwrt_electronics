@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -232,11 +232,11 @@
 <pin name="SWITCH_3" x="-17.78" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_4" x="-12.7" y="-20.32" length="middle" direction="out" rot="R90"/>
 <pin name="SWITCH_5" x="-7.62" y="-20.32" length="middle" direction="out" rot="R90"/>
-<pin name="SPARE1" x="30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="CONTROL_SIGNAL" x="30.48" y="20.32" length="middle" rot="R270"/>
 <pin name="SPARE4" x="45.72" y="20.32" length="middle" rot="R270"/>
 <pin name="SPARE5" x="45.72" y="-20.32" length="middle" rot="R90"/>
 <pin name="SPARE6" x="40.64" y="-20.32" length="middle" rot="R90"/>
-<pin name="SPARE8" x="30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="PLTA_ON/OFF" x="27.94" y="-20.32" length="middle" rot="R90"/>
 <pin name="SPARE7" x="35.56" y="-20.32" length="middle" rot="R90"/>
 </symbol>
 </symbols>
@@ -256,10 +256,12 @@
 <connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="17"/>
 <connect gate="G$1" pin="BACKPLANE_SCL" pad="31"/>
 <connect gate="G$1" pin="BACKPLANE_SDA" pad="32"/>
+<connect gate="G$1" pin="CONTROL_SIGNAL" pad="7"/>
 <connect gate="G$1" pin="GND" pad="4 5 6 8 9 10 47 48 49 51 52 53" route="any"/>
 <connect gate="G$1" pin="JETSON_ON/OFF" pad="18"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="37"/>
 <connect gate="G$1" pin="MOBO_ON/OFF" pad="19"/>
+<connect gate="G$1" pin="PLTA_ON/OFF" pad="50"/>
 <connect gate="G$1" pin="PWM_1" pad="20"/>
 <connect gate="G$1" pin="PWM_2" pad="21"/>
 <connect gate="G$1" pin="PWM_3" pad="22"/>
@@ -270,14 +272,12 @@
 <connect gate="G$1" pin="PWM_8" pad="27"/>
 <connect gate="G$1" pin="ROBOT_SCL" pad="29"/>
 <connect gate="G$1" pin="ROBOT_SDA" pad="30"/>
-<connect gate="G$1" pin="SPARE1" pad="7"/>
 <connect gate="G$1" pin="SPARE2" pad="28"/>
 <connect gate="G$1" pin="SPARE3" pad="33"/>
 <connect gate="G$1" pin="SPARE4" pad="34"/>
 <connect gate="G$1" pin="SPARE5" pad="35"/>
 <connect gate="G$1" pin="SPARE6" pad="36"/>
 <connect gate="G$1" pin="SPARE7" pad="43"/>
-<connect gate="G$1" pin="SPARE8" pad="50"/>
 <connect gate="G$1" pin="SWITCH_1" pad="38"/>
 <connect gate="G$1" pin="SWITCH_2" pad="39"/>
 <connect gate="G$1" pin="SWITCH_3" pad="40"/>
@@ -305,10 +305,12 @@
 <connect gate="G$1" pin="ACOUSTIC_ON/OFF" pad="17"/>
 <connect gate="G$1" pin="BACKPLANE_SCL" pad="31"/>
 <connect gate="G$1" pin="BACKPLANE_SDA" pad="32"/>
+<connect gate="G$1" pin="CONTROL_SIGNAL" pad="7"/>
 <connect gate="G$1" pin="GND" pad="4 5 6 8 9 10 47 48 49 51 52 53"/>
 <connect gate="G$1" pin="JETSON_ON/OFF" pad="18"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="37"/>
 <connect gate="G$1" pin="MOBO_ON/OFF" pad="19"/>
+<connect gate="G$1" pin="PLTA_ON/OFF" pad="50"/>
 <connect gate="G$1" pin="PWM_1" pad="20"/>
 <connect gate="G$1" pin="PWM_2" pad="21"/>
 <connect gate="G$1" pin="PWM_3" pad="22"/>
@@ -319,14 +321,12 @@
 <connect gate="G$1" pin="PWM_8" pad="27"/>
 <connect gate="G$1" pin="ROBOT_SCL" pad="29"/>
 <connect gate="G$1" pin="ROBOT_SDA" pad="30"/>
-<connect gate="G$1" pin="SPARE1" pad="7"/>
 <connect gate="G$1" pin="SPARE2" pad="28"/>
 <connect gate="G$1" pin="SPARE3" pad="33"/>
 <connect gate="G$1" pin="SPARE4" pad="34"/>
 <connect gate="G$1" pin="SPARE5" pad="35"/>
 <connect gate="G$1" pin="SPARE6" pad="36"/>
 <connect gate="G$1" pin="SPARE7" pad="43"/>
-<connect gate="G$1" pin="SPARE8" pad="50"/>
 <connect gate="G$1" pin="SWITCH_1" pad="38"/>
 <connect gate="G$1" pin="SWITCH_2" pad="39"/>
 <connect gate="G$1" pin="SWITCH_3" pad="40"/>
