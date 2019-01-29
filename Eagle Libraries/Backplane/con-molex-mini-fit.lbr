@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -92,11 +92,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </package>
 <package name="39-30-?04?">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
-<wire x1="-3.8045" y1="-1.0441" x2="-4.826" y2="-1.0441" width="0.2032" layer="21"/>
-<wire x1="-4.826" y1="-1.0441" x2="-4.826" y2="-13.8441" width="0.2032" layer="21"/>
-<wire x1="-4.826" y1="-13.8441" x2="4.826" y2="-13.8441" width="0.2032" layer="21"/>
-<wire x1="4.826" y1="-13.8441" x2="4.826" y2="-1.2441" width="0.2032" layer="21"/>
-<wire x1="4.826" y1="-1.2441" x2="3.8045" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="-3.8045" y1="-1.0441" x2="-4.9045" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-4.9045" y1="-1.0441" x2="-4.9045" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-4.9045" y1="-13.8441" x2="4.9045" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="4.9045" y1="-13.8441" x2="4.9045" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="4.9045" y1="-1.2441" x2="3.8045" y2="-1.2441" width="0.2032" layer="21"/>
 <pad name="4" x="-2.0955" y="5.5118" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="3" x="2.0955" y="5.5118" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>
 <pad name="2" x="-2.0955" y="0" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>

@@ -216,6 +216,20 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
 <hole x="0" y="-7.3" drill="3"/>
 </package>
+<package name="39-30-?02?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-1.709" y1="-1.0441" x2="-2.809" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-2.809" y1="-1.0441" x2="-2.809" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="2.809" y1="-1.2441" x2="1.709" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="2" x="0" y="5.5118" drill="2" diameter="3" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="0" drill="2" diameter="3" shape="square" rot="R90"/>
+<text x="-3.429" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="4.699" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="0" y="-7.3" drill="3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="P-NV">
@@ -277,6 +291,24 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <connect gate="-2" pin="P" pad="2"/>
 <connect gate="-3" pin="P" pad="3"/>
 <connect gate="-4" pin="P" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="39-30-?02?_S" prefix="P">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="P-NV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="P-N" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="39-30-?02?">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-2" pin="P" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -643,6 +675,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="U$2" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$3" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$4" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
+<part name="P1" library="con-molex-mini-fit" deviceset="39-30-?02?_S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2925,6 +2958,14 @@ Ohio State University</text>
 <instance part="U$2" gate="G$1" x="271.78" y="195.58" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="152.4" y="86.36" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="274.32" y="86.36" smashed="yes"/>
+<instance part="P1" gate="-1" x="363.22" y="116.84" smashed="yes">
+<attribute name="VALUE" x="365.76" y="119.38" size="1.778" layer="96" ratio="12" rot="MR0"/>
+<attribute name="PART" x="365.76" y="121.92" size="1.778" layer="95" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="366.395" y="116.205" size="1.778" layer="95" ratio="12"/>
+</instance>
+<instance part="P1" gate="-2" x="363.22" y="109.22" smashed="yes">
+<attribute name="NAME" x="366.395" y="108.585" size="1.778" layer="95" ratio="12"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2954,6 +2995,11 @@ Ohio State University</text>
 <pinref part="U$8" gate="G$1" pin="5V"/>
 <wire x1="355.346" y1="198.12" x2="351.282" y2="198.12" width="0.1524" layer="91"/>
 <label x="351.282" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-1" pin="P"/>
+<wire x1="360.68" y1="116.84" x2="355.6" y2="116.84" width="0.1524" layer="91"/>
+<label x="355.6" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3604,6 +3650,11 @@ Ohio State University</text>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 <wire x1="355.346" y1="192.532" x2="351.282" y2="192.532" width="0.1524" layer="91"/>
 <label x="351.282" y="192.532" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P1" gate="-2" pin="P"/>
+<wire x1="360.68" y1="109.22" x2="355.6" y2="109.22" width="0.1524" layer="91"/>
+<label x="355.6" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ACOUSTIC_ON/OFF" class="0">
