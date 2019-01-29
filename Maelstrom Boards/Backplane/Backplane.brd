@@ -543,9 +543,9 @@ design rules under a new name.</description>
 <element name="U$2" library="5530843-6" package="5530843-6-BACKPLANEMATE" value="5530843-FEMALE" x="232.41" y="81.28" smashed="yes" rot="R180"/>
 <element name="U$3" library="5530843-6" package="5530843-6-BACKPLANEMATE" value="5530843-FEMALE" x="22.86" y="20.32" smashed="yes"/>
 <element name="U$4" library="5530843-6" package="5530843-6-BACKPLANEMATE" value="5530843-FEMALE" x="163.83" y="20.32" smashed="yes"/>
-<element name="P1" library="con-molex-mini-fit" package="39-30-?02?" value="39-30-02?_S" x="13.97" y="90.678" smashed="yes" rot="R270">
-<attribute name="NAME" x="0.2159" y="94.107" size="1.016" layer="25" ratio="18"/>
-<attribute name="VALUE" x="0.2159" y="85.979" size="1.016" layer="27" ratio="10"/>
+<element name="P1" library="con-molex-mini-fit" package="39-30-?02?" value="39-30-02?_S" x="13.843" y="90.678" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.0889" y="94.107" size="1.016" layer="25" ratio="18"/>
+<attribute name="VALUE" x="0.0889" y="85.979" size="1.016" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -626,8 +626,8 @@ design rules under a new name.</description>
 <wire x1="73.025" y1="90.805" x2="73.025" y2="95.06780625" width="1.016" layer="16"/>
 <wire x1="73.025" y1="95.06780625" x2="72.31220625" y2="95.7806" width="1.016" layer="16"/>
 <wire x1="72.31220625" y1="95.7806" x2="29.6136" y2="95.7806" width="1.016" layer="16"/>
-<wire x1="21.971" y1="88.138" x2="16.51" y2="88.138" width="1.016" layer="16"/>
-<wire x1="16.51" y1="88.138" x2="13.97" y2="90.678" width="1.016" layer="16"/>
+<wire x1="21.971" y1="88.138" x2="16.383" y2="88.138" width="1.016" layer="16"/>
+<wire x1="16.383" y1="88.138" x2="13.843" y2="90.678" width="1.016" layer="16"/>
 <wire x1="29.6136" y1="95.7806" x2="21.971" y2="88.138" width="1.016" layer="16"/>
 </signal>
 <signal name="3.3V">
@@ -1554,8 +1554,8 @@ design rules under a new name.</description>
 <wire x1="71.12" y1="84.836" x2="75.819" y2="89.535" width="1.016" layer="16"/>
 <wire x1="75.819" y1="89.535" x2="75.819" y2="95.758" width="1.016" layer="16"/>
 <wire x1="75.819" y1="95.758" x2="73.533" y2="98.044" width="1.016" layer="16"/>
-<wire x1="73.533" y1="98.044" x2="26.8478" y2="98.044" width="1.016" layer="16"/>
-<wire x1="26.8478" y1="98.044" x2="19.4818" y2="90.678" width="1.016" layer="16"/>
+<wire x1="73.533" y1="98.044" x2="26.7208" y2="98.044" width="1.016" layer="16"/>
+<wire x1="26.7208" y1="98.044" x2="19.3548" y2="90.678" width="1.016" layer="16"/>
 <wire x1="52.197" y1="6.604" x2="61.595" y2="6.604" width="1.016" layer="16"/>
 <via x="61.595" y="6.604" extent="1-16" drill="0.35"/>
 </signal>
