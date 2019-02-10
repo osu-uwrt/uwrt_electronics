@@ -20638,9 +20638,9 @@ functionality</text>
 values should be determined
 by the crystal's datasheet
 for proper functionality</text>
-<text x="-180.34" y="144.78" size="1.778" layer="91">Use a low pass filter to ensure that
-the 3.3V line stays low for at least 
-50 ms after reset</text>
+<text x="-180.34" y="144.78" size="1.778" layer="91">Use a filter to ensure that
+the 3.3V line stays high for
+at least 50 ms after reset</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-231.14" y="-5.08" smashed="yes">
@@ -20921,16 +20921,16 @@ the 3.3V line stays low for at least
 <instance part="GND17" gate="1" x="-157.48" y="203.2" smashed="yes">
 <attribute name="VALUE" x="-160.02" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="C20" gate="G$1" x="-193.04" y="149.86" smashed="yes">
-<attribute name="NAME" x="-191.516" y="150.241" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.516" y="145.161" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="-193.04" y="162.56" smashed="yes">
+<attribute name="NAME" x="-191.516" y="162.941" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-191.516" y="157.861" size="1.778" layer="96"/>
 </instance>
-<instance part="R31" gate="G$1" x="-193.04" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="-194.5386" y="158.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-189.738" y="158.75" size="1.778" layer="96" rot="R90"/>
+<instance part="R31" gate="G$1" x="-193.04" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="-194.5386" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-189.738" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V21" gate="G$1" x="-193.04" y="175.26" smashed="yes">
-<attribute name="VALUE" x="-195.58" y="170.18" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V21" gate="G$1" x="-193.04" y="170.18" smashed="yes">
+<attribute name="VALUE" x="-195.58" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND18" gate="1" x="-193.04" y="137.16" smashed="yes">
 <attribute name="VALUE" x="-195.58" y="134.62" size="1.778" layer="96"/>
@@ -21054,8 +21054,8 @@ the 3.3V line stays low for at least
 </segment>
 <segment>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="-193.04" y1="172.72" x2="-193.04" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="-193.04" y1="167.64" x2="-193.04" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_3V3_CH5" class="0">
@@ -21430,9 +21430,9 @@ the 3.3V line stays low for at least
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="-193.04" y1="144.78" x2="-193.04" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-193.04" y1="142.24" x2="-193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -21539,13 +21539,13 @@ the 3.3V line stays low for at least
 <label x="-2.54" y="172.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="-193.04" y1="157.48" x2="-193.04" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="154.94" x2="-193.04" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="154.94" x2="-177.8" y2="154.94" width="0.1524" layer="91"/>
-<junction x="-193.04" y="154.94"/>
 <label x="-177.8" y="154.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-193.04" y1="157.48" x2="-193.04" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-193.04" y1="154.94" x2="-193.04" y2="152.4" width="0.1524" layer="91"/>
+<junction x="-193.04" y="154.94"/>
 </segment>
 </net>
 <net name="ACOU_CNTRL" class="0">
