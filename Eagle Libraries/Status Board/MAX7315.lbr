@@ -128,22 +128,22 @@ Source: 8x ADG1408_1409.pdf</description>
 <wire x1="2.1484" y1="2.3984" x2="-2.1484" y2="2.3984" width="0.2032" layer="21"/>
 <wire x1="-2.1484" y1="2.3984" x2="-2.1484" y2="-2.3984" width="0.2032" layer="21"/>
 <circle x="-1.575" y="1.925" radius="0.2136" width="0" layer="21"/>
-<smd name="VREF" x="-2.875" y="2.275" dx="0.9" dy="0.35" layer="1"/>
-<smd name="SDA" x="-2.875" y="1.625" dx="0.9" dy="0.35" layer="1"/>
-<smd name="SCL" x="-2.875" y="0.975" dx="0.9" dy="0.35" layer="1"/>
-<smd name="GND" x="-2.875" y="0.325" dx="0.9" dy="0.35" layer="1"/>
-<smd name="V+" x="-2.875" y="-0.325" dx="0.9" dy="0.35" layer="1"/>
-<smd name="INT" x="-2.875" y="-0.975" dx="0.9" dy="0.35" layer="1"/>
-<smd name="A0" x="-2.875" y="-1.625" dx="0.9" dy="0.35" layer="1"/>
-<smd name="A1" x="-2.875" y="-2.275" dx="0.9" dy="0.35" layer="1"/>
-<smd name="IN7" x="2.875" y="-2.275" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN6" x="2.875" y="-1.625" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN5" x="2.875" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN4" x="2.875" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN3" x="2.875" y="0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN2" x="2.875" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN1" x="2.875" y="1.625" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<smd name="IN0" x="2.875" y="2.275" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="1" x="-2.875" y="2.275" dx="0.9" dy="0.35" layer="1"/>
+<smd name="2" x="-2.875" y="1.625" dx="0.9" dy="0.35" layer="1"/>
+<smd name="3" x="-2.875" y="0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="4" x="-2.875" y="0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="5" x="-2.875" y="-0.325" dx="0.9" dy="0.35" layer="1"/>
+<smd name="6" x="-2.875" y="-0.975" dx="0.9" dy="0.35" layer="1"/>
+<smd name="7" x="-2.875" y="-1.625" dx="0.9" dy="0.35" layer="1"/>
+<smd name="8" x="-2.875" y="-2.275" dx="0.9" dy="0.35" layer="1"/>
+<smd name="9" x="2.875" y="-2.275" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="10" x="2.875" y="-1.625" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="11" x="2.875" y="-0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="12" x="2.875" y="-0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="13" x="2.875" y="0.325" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="14" x="2.875" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="15" x="2.875" y="1.625" dx="0.9" dy="0.35" layer="1" rot="R180"/>
+<smd name="16" x="2.875" y="2.275" dx="0.9" dy="0.35" layer="1" rot="R180"/>
 <text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
 <rectangle x1="-3.2" y1="2.125" x2="-2.25" y2="2.425" layer="51"/>
 <rectangle x1="-3.2" y1="1.475" x2="-2.25" y2="1.775" layer="51"/>
@@ -169,48 +169,48 @@ Source: 8x ADG1408_1409.pdf</description>
 <wire x1="-20.32" y1="-10.16" x2="-20.32" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="-20.32" y1="7.62" x2="20.32" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="20.32" y1="7.62" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
-<pin name="VREF" x="17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="SDA" x="12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="SCL" x="7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="GND" x="2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="V+" x="-2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="INT" x="-7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="A0" x="-12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="A1" x="-17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
-<pin name="IN0" x="17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN1" x="12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN2" x="7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN3" x="2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN4" x="-2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN5" x="-7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN6" x="-12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
-<pin name="IN7" x="-17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="GND" x="17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="P3" x="12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="P2" x="7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="P1" x="2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="P0" x="-2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="AD2" x="-7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="AD1" x="-12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="AD0" x="-17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="P4" x="17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="P5" x="12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="P6" x="7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="P7" x="2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="INT/O8" x="-2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="SCL" x="-7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="-12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="V+" x="-17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADC128D818">
+<deviceset name="MAX7315">
 <gates>
 <gate name="G$1" symbol="MAX7315" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TSSOP-16">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="IN0" pad="IN0"/>
-<connect gate="G$1" pin="IN1" pad="IN1"/>
-<connect gate="G$1" pin="IN2" pad="IN2"/>
-<connect gate="G$1" pin="IN3" pad="IN3"/>
-<connect gate="G$1" pin="IN4" pad="IN4"/>
-<connect gate="G$1" pin="IN5" pad="IN5"/>
-<connect gate="G$1" pin="IN6" pad="IN6"/>
-<connect gate="G$1" pin="IN7" pad="IN7"/>
-<connect gate="G$1" pin="INT" pad="INT"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="V+" pad="V+"/>
-<connect gate="G$1" pin="VREF" pad="VREF"/>
+<connect gate="G$1" pin="AD0" pad="1"/>
+<connect gate="G$1" pin="AD1" pad="2"/>
+<connect gate="G$1" pin="AD2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="INT/O8" pad="13"/>
+<connect gate="G$1" pin="P0" pad="4"/>
+<connect gate="G$1" pin="P1" pad="5"/>
+<connect gate="G$1" pin="P2" pad="6"/>
+<connect gate="G$1" pin="P3" pad="7"/>
+<connect gate="G$1" pin="P4" pad="9"/>
+<connect gate="G$1" pin="P5" pad="10"/>
+<connect gate="G$1" pin="P6" pad="11"/>
+<connect gate="G$1" pin="P7" pad="12"/>
+<connect gate="G$1" pin="SCL" pad="14"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+<connect gate="G$1" pin="V+" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
