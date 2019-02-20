@@ -1,2 +1,2 @@
 # UWRT Electronics
-Electronic designs for the underwater robotics team
+Circuit board designs for the underwater robotics team. Designed in EAGLE and manufactured by JLCPCB.

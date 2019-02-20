@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -28506,22 +28506,22 @@ www.irf.com&lt;p&gt;
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/1" value="330 uF"/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="440"/>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="90"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5"/>
 <part name="AGND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="12V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="5V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="3.3V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U$2" library="ADC128D818" deviceset="ADC128D818" device=""/>
-<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
+<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
+<part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="1C" library="ACS722" deviceset="ACS722" device=""/>
 <part name="1C1" library="ACS722" deviceset="ACS722" device=""/>
@@ -28529,9 +28529,9 @@ www.irf.com&lt;p&gt;
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="AGND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="Q3" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
@@ -28542,14 +28542,14 @@ www.irf.com&lt;p&gt;
 <part name="AGND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="10K" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="P1" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M2309" package3d_urn="urn:adsk.eagle:package:26085/1"/>
+<part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M2309" package3d_urn="urn:adsk.eagle:package:26085/1" value="0"/>
 <part name="U$3" library="Vertical_Connectors" deviceset="6PIN-VERT" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
@@ -28561,16 +28561,16 @@ www.irf.com&lt;p&gt;
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M2309" package3d_urn="urn:adsk.eagle:package:26085/1"/>
+<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M2309" package3d_urn="urn:adsk.eagle:package:26085/1" value="0"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="2.4k"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
+<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="8k"/>
+<part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="20k"/>
 <part name="AGND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -28580,9 +28580,10 @@ www.irf.com&lt;p&gt;
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
 <part name="AGND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="POWER_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
 </parts>
 <sheets>
 <sheet>
@@ -30907,7 +30908,7 @@ Ohio State University</text>
 </instance>
 <instance part="R4" gate="G$1" x="116.84" y="190.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="120.65" y="189.0014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="120.65" y="193.802" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="115.57" y="193.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="AGND28" gate="VR1" x="135.89" y="181.61" smashed="yes">
 <attribute name="VALUE" x="133.35" y="176.53" size="1.778" layer="96" rot="R90"/>
@@ -30915,6 +30916,10 @@ Ohio State University</text>
 <instance part="POWER_LED" gate="G$1" x="128.27" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="132.842" y="194.056" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.842" y="196.215" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R5" gate="G$1" x="116.84" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.65" y="181.3814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="115.57" y="186.182" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -31057,10 +31062,8 @@ Ohio State University</text>
 <wire x1="81.28" y1="184.15" x2="81.28" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="190.5" x2="93.98" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="190.5" x2="106.68" y2="184.15" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="3-"/>
-<wire x1="106.68" y1="184.15" x2="104.14" y2="184.15" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="2+"/>
+<wire x1="106.68" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="179.07" x2="81.28" y2="179.07" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="179.07" x2="81.28" y2="184.15" width="0.1524" layer="91"/>
 <junction x="81.28" y="184.15"/>
@@ -31068,8 +31071,13 @@ Ohio State University</text>
 <wire x1="93.98" y1="194.31" x2="93.98" y2="190.5" width="0.1524" layer="91"/>
 <junction x="93.98" y="190.5"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="3-"/>
+<wire x1="106.68" y1="184.15" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
 <junction x="106.68" y="190.5"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="184.15" x2="106.68" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="184.15" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -31178,8 +31186,13 @@ Ohio State University</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="190.5" x2="125.73" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="POWER_LED" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="190.5" x2="125.73" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="182.88" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
+<junction x="124.46" y="190.5"/>
 </segment>
 </net>
 </nets>
@@ -36283,7 +36296,7 @@ Ohio State University</text>
 <instance part="AGND25" gate="VR1" x="278.13" y="76.2" smashed="yes">
 <attribute name="VALUE" x="275.59" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="271.78" y="179.07" smashed="yes" rot="R90">
+<instance part="10K" gate="G$1" x="271.78" y="179.07" smashed="yes" rot="R90">
 <attribute name="NAME" x="270.2814" y="175.26" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="275.082" y="175.26" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -36313,32 +36326,32 @@ Ohio State University</text>
 </instance>
 <instance part="R22" gate="G$1" x="264.16" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.6614" y="191.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="267.462" y="191.77" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="267.462" y="189.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+19" gate="1" x="157.48" y="146.05" smashed="yes">
-<attribute name="VALUE" x="154.94" y="140.97" size="1.778" layer="96" rot="R90"/>
+<instance part="P+19" gate="1" x="132.08" y="146.05" smashed="yes">
+<attribute name="VALUE" x="129.54" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R20" gate="G$1" x="162.56" y="140.97" smashed="yes" rot="R180">
-<attribute name="NAME" x="166.37" y="139.4714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="166.37" y="144.272" size="1.778" layer="96" rot="R180"/>
+<instance part="R20" gate="G$1" x="160.02" y="140.97" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.83" y="139.4714" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.83" y="144.272" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R23" gate="G$1" x="133.35" y="130.81" smashed="yes" rot="R180">
 <attribute name="NAME" x="137.16" y="129.3114" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="137.16" y="134.112" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+20" gate="1" x="152.4" y="146.05" smashed="yes">
-<attribute name="VALUE" x="149.86" y="140.97" size="1.778" layer="96" rot="R90"/>
+<instance part="P+20" gate="1" x="121.92" y="146.05" smashed="yes">
+<attribute name="VALUE" x="119.38" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R24" gate="G$1" x="157.48" y="138.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="161.29" y="136.9314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="161.29" y="141.732" size="1.778" layer="96" rot="R180"/>
+<instance part="R24" gate="G$1" x="149.86" y="138.43" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.67" y="136.9314" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.67" y="141.732" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R25" gate="G$1" x="152.4" y="135.89" smashed="yes" rot="R180">
-<attribute name="NAME" x="156.21" y="134.3914" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="156.21" y="139.192" size="1.778" layer="96" rot="R180"/>
+<instance part="R25" gate="G$1" x="139.7" y="135.89" smashed="yes" rot="R180">
+<attribute name="NAME" x="143.51" y="134.3914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="143.51" y="139.192" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="147.32" y="146.05" smashed="yes">
-<attribute name="VALUE" x="144.78" y="140.97" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="111.76" y="146.05" smashed="yes">
+<attribute name="VALUE" x="109.22" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R26" gate="G$1" x="120.65" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="124.46" y="130.5814" size="1.778" layer="95" rot="R180"/>
@@ -36536,9 +36549,10 @@ Ohio State University</text>
 <wire x1="87.63" y1="217.17" x2="87.63" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="147.32" y1="135.89" x2="147.32" y2="143.51" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="143.51" x2="111.76" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="135.89" x2="134.62" y2="135.89" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -36581,7 +36595,7 @@ Ohio State University</text>
 <pinref part="Q8" gate="G$1" pin="G"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="278.13" y1="180.34" x2="278.13" y2="173.99" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="10K" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="173.99" x2="278.13" y2="173.99" width="0.1524" layer="91"/>
 <junction x="278.13" y="173.99"/>
 </segment>
@@ -36643,7 +36657,7 @@ Ohio State University</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="10K" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="184.15" x2="271.78" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="G$1" pin="S"/>
 <wire x1="271.78" y1="185.42" x2="275.59" y2="185.42" width="0.1524" layer="91"/>
@@ -36766,7 +36780,8 @@ Ohio State University</text>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="P+19" gate="1" pin="+12V"/>
-<wire x1="157.48" y1="140.97" x2="157.48" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="140.97" x2="132.08" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="140.97" x2="132.08" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -36776,42 +36791,46 @@ Ohio State University</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="P+20" gate="1" pin="+5V"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="143.51" x2="152.4" y2="138.43" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="IN3"/>
-<wire x1="167.64" y1="140.97" x2="167.64" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="130.81" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="130.81" x2="167.64" y2="130.81" width="0.1524" layer="91"/>
-<junction x="167.64" y="130.81"/>
+<pinref part="P+20" gate="1" pin="+5V"/>
+<wire x1="144.78" y1="138.43" x2="121.92" y2="138.43" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="138.43" x2="121.92" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="IN4"/>
-<wire x1="162.56" y1="138.43" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="132.08" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="132.08" x2="125.73" y2="132.08" width="0.1524" layer="91"/>
-<junction x="162.56" y="132.08"/>
 <pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="138.43" x2="162.56" y2="138.43" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="138.43" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<junction x="162.56" y="132.08"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="IN5"/>
-<wire x1="157.48" y1="135.89" x2="157.48" y2="133.35" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="133.35" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="133.35" x2="114.3" y2="133.35" width="0.1524" layer="91"/>
-<junction x="157.48" y="133.35"/>
 <pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="135.89" x2="157.48" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="135.89" x2="157.48" y2="133.35" width="0.1524" layer="91"/>
+<junction x="157.48" y="133.35"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="140.97" x2="167.64" y2="140.97" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="IN3"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="130.81" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="130.81" x2="167.64" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="140.97" x2="167.64" y2="130.81" width="0.1524" layer="91"/>
+<junction x="167.64" y="130.81"/>
 </segment>
 </net>
 </nets>

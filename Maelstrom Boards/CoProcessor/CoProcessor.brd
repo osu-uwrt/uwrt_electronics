@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4433,22 +4433,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.6" y="100.035" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="62.6" y="98.765" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="76.7" y="95.9" smashed="yes" rot="R180">
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65" x="76.7" y="95.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="77.335" y="95.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="96.3" y="153.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="77.335" y="97.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="72" y="95.9" smashed="yes" rot="R180">
+<element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65" x="72" y="95.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.635" y="95.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="96.3" y="157.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="72.635" y="97.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="67.3" y="95.9" smashed="yes" rot="R180">
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5" x="67.3" y="95.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.935" y="95.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="96.3" y="160.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.935" y="97.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="62.6" y="95.9" smashed="yes" rot="R180">
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5" x="62.6" y="95.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.235" y="95.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="96.3" y="164.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.235" y="97.805" size="1.27" layer="27" rot="R180"/>
@@ -4459,12 +4459,12 @@ design rules under a new name.</description>
 <attribute name="SF_ID" value="COM-00536" x="125.4" y="31.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.44" y="46.9" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="32.9" y="45.7" smashed="yes" rot="R90">
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF" x="32.9" y="45.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.265" y="45.065" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="121.4" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.805" y="45.065" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="32.9" y="49.4" smashed="yes" rot="R90">
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF" x="32.9" y="49.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.265" y="48.765" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="124.9" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.805" y="48.765" size="1.27" layer="27" rot="R90"/>
@@ -4555,12 +4555,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.74" y="75.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="55.66" y="75.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="62.3" y="77.6" smashed="yes" rot="R270">
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF" x="62.3" y="77.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.935" y="78.235" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="C" x="61.1" y="126.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.395" y="78.235" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="62.3" y="73.2" smashed="yes" rot="R90">
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF" x="62.3" y="73.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.665" y="72.565" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="67" y="20.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.205" y="72.565" size="1.27" layer="27" rot="R90"/>
@@ -4580,7 +4580,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="23.9" y="90.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.265" y="88.295" size="1.27" layer="27"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100 nF" x="24.8" y="85.9" smashed="yes" rot="R90">
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="24.8" y="85.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.165" y="85.265" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="24.8" y="85.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.705" y="85.265" size="1.27" layer="27" rot="R90"/>
@@ -4621,12 +4621,12 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="XTAL-13062" x="41.9" y="52.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.943" y="52.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="38.3" y="54" smashed="yes" rot="R180">
+<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="12.5pF" x="38.3" y="54" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.935" y="53.365" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="38.3" y="54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="38.935" y="55.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="38.3" y="56.4" smashed="yes" rot="R180">
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="12.5pF" x="38.3" y="56.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.935" y="55.765" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="38.3" y="56.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="38.935" y="58.305" size="1.27" layer="27" rot="R180"/>
@@ -4641,27 +4641,27 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="48.9" y="63.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="49.535" y="65.205" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="44.4" y="46.8" smashed="yes" rot="MR90">
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="44.4" y="46.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="45.035" y="46.165" size="1.27" layer="26" rot="MR90"/>
 <attribute name="SPICEPREFIX" value="C" x="44.4" y="46.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="42.495" y="46.165" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="61.4" y="53.2" smashed="yes" rot="R90">
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="61.4" y="53.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.765" y="52.565" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="61.4" y="53.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.305" y="52.565" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="58.7" y="37.4" smashed="yes">
+<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="58.7" y="37.4" smashed="yes">
 <attribute name="NAME" x="58.065" y="38.035" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="58.7" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.065" y="35.495" size="1.27" layer="27"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="44.8" y="63.3" smashed="yes">
+<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="44.8" y="63.3" smashed="yes">
 <attribute name="NAME" x="44.165" y="63.935" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="44.8" y="63.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.165" y="61.395" size="1.27" layer="27"/>
 </element>
-<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="" x="49.3" y="38" smashed="yes" rot="R270">
+<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="49.3" y="38" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.935" y="38.635" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="C" x="49.3" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="47.395" y="38.635" size="1.27" layer="27" rot="R270"/>
@@ -4676,12 +4676,19 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="33.5" y="30" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.135" y="31.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="3.6" y="13.3"/>
-<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="" x="3.6" y="15.9">
-<attribute name="SPICEPREFIX" value="R" x="3.6" y="13.3" size="1.778" layer="27" display="off"/>
+<element name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="3.6" y="13.3" smashed="yes">
+<attribute name="NAME" x="3.6" y="13.935" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="3.6" y="12.665" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="77.1" y="83.7" rot="R270">
+<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5" x="3.6" y="15.9" smashed="yes">
+<attribute name="NAME" x="2.965" y="16.535" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="R" x="3.6" y="13.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="2.965" y="13.995" size="1.27" layer="27"/>
+</element>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="77.1" y="83.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="78.497" y="84.97" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-09696" x="77.1" y="83.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="75.068" y="84.97" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 </elements>
 <signals>

@@ -11095,12 +11095,12 @@ Switches electronic signals</description>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2.6k"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="400"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2.6k"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="400"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2.6k"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="400"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="18k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="18k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="18k"/>
 <part name="STBD_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="PORT_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="BALANCED_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
@@ -11125,13 +11125,16 @@ Switches electronic signals</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="68"/>
 <part name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
 <part name="Q3" library="D2PAK-7" deviceset="NMOSFET-D2PAK-7" device=""/>
 <part name="Q5" library="D2PAK-7" deviceset="NMOSFET-D2PAK-7" device=""/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900"/>
 </parts>
 <sheets>
 <sheet>
@@ -13623,6 +13626,7 @@ Ohio State University</text>
 </nets>
 </sheet>
 <sheet>
+<description>Balancing</description>
 <plain>
 <rectangle x1="306.472590625" y1="5.533390625" x2="309.667909375" y2="5.576571875" layer="94"/>
 <rectangle x1="306.34305" y1="5.576571875" x2="307.29300625" y2="5.619746875" layer="94"/>
@@ -15931,6 +15935,18 @@ Ohio State University</text>
 <attribute name="VALUE" x="185.42" y="130.81" size="1.778" layer="96" rot="MR90"/>
 <attribute name="NAME" x="187.96" y="130.81" size="1.778" layer="95" rot="MR90"/>
 </instance>
+<instance part="R16" gate="G$1" x="129.54" y="226.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="131.0386" y="229.87" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="126.238" y="229.87" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R18" gate="G$1" x="137.16" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="138.6586" y="143.51" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="133.858" y="143.51" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R19" gate="G$1" x="231.14" y="162.56" smashed="yes">
+<attribute name="NAME" x="227.33" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="159.258" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16019,8 +16035,9 @@ Ohio State University</text>
 <segment>
 <pinref part="U$7" gate="G$1" pin="IP+2"/>
 <wire x1="139.7" y1="124.46" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="IP+1"/>
+<wire x1="137.16" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="129.54" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <junction x="134.62" y="129.54"/>
@@ -16029,6 +16046,9 @@ Ohio State University</text>
 <wire x1="127" y1="134.62" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <junction x="127" y="129.54"/>
 <pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="134.62" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<junction x="137.16" y="129.54"/>
 </segment>
 </net>
 <net name="PORT_BATTERY" class="0">
@@ -16039,12 +16059,16 @@ Ohio State University</text>
 <wire x1="134.62" y1="215.9" x2="134.62" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="218.44" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="218.44" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
 <junction x="134.62" y="218.44"/>
 <label x="127" y="218.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="220.98" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <junction x="137.16" y="218.44"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="220.98" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
+<junction x="129.54" y="218.44"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -16171,8 +16195,9 @@ Ohio State University</text>
 <junction x="208.28" y="109.22"/>
 <pinref part="U$3" gate="G$1" pin="VS"/>
 <wire x1="203.2" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="109.22" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="109.22" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
 <junction x="220.98" y="198.12"/>
+<wire x1="220.98" y1="162.56" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="170.18" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <junction x="220.98" y="170.18"/>
@@ -16183,6 +16208,9 @@ Ohio State University</text>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="190.5" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="144.78" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+<junction x="220.98" y="162.56"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -16190,6 +16218,10 @@ Ohio State University</text>
 <pinref part="PORT_LED" gate="G$1" pin="A"/>
 <wire x1="137.16" y1="231.14" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="231.14" x2="129.54" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="233.68" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
+<junction x="137.16" y="233.68"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -16197,13 +16229,22 @@ Ohio State University</text>
 <pinref part="STBD_LED" gate="G$1" pin="A"/>
 <wire x1="127" y1="147.32" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="144.78" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<junction x="127" y="147.32"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="BALANCED_LED" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="170.18" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="170.18" x2="241.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="162.56" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="162.56" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
+<junction x="238.76" y="170.18"/>
 </segment>
 </net>
 </nets>
