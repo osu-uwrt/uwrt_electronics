@@ -4200,17 +4200,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="15.1" y="57.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.465" y="55.595" size="1.27" layer="27"/>
 </element>
-<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="28.1" y="46.6" smashed="yes" rot="R180">
+<element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="28.1" y="46.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.935" y="47.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="28.1" y="46.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.735" y="48.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="27.7" y="30" smashed="yes" rot="R180">
+<element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="27.7" y="30" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.935" y="30.565" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="27.7" y="30" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.335" y="31.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="98.2" y="52.6" smashed="yes">
+<element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="98.2" y="52.6" smashed="yes">
 <attribute name="NAME" x="93.265" y="52.235" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="98.2" y="52.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="97.565" y="50.695" size="1.27" layer="27"/>
@@ -4232,17 +4232,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.6" y="75.515" size="2.54" layer="25" font="vector"/>
 <attribute name="VALUE" x="18.155" y="74.695" size="2.54" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="28.1" y="44.6" smashed="yes" rot="R180">
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="28.1" y="44.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.035" y="45.165" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="28.1" y="44.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.735" y="46.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="27.7" y="31.9" smashed="yes" rot="R180">
+<element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="27.7" y="31.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.335" y="31.265" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="27.7" y="31.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.335" y="33.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="900" x="98.2" y="50.5" smashed="yes">
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="2k" x="98.2" y="50.5" smashed="yes">
 <attribute name="NAME" x="93.365" y="49.835" size="1.27" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="98.2" y="50.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="97.565" y="48.595" size="1.27" layer="27"/>
