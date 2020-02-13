@@ -6557,10 +6557,9 @@ design rules under a new name.</description>
 <vertex x="30.934846875" y="74.734846875"/>
 <vertex x="15.9" y="74.734846875"/>
 <vertex x="15.9" y="74.7"/>
-<vertex x="11.5" y="74.7"/>
-<vertex x="11.3" y="74.9"/>
-<vertex x="11.3" y="77.7"/>
-<vertex x="28.2" y="94.6"/>
+<vertex x="1" y="74.7"/>
+<vertex x="1" y="78.8"/>
+<vertex x="16.8" y="94.6"/>
 <vertex x="88.9" y="94.6"/>
 <vertex x="90.2" y="93.3"/>
 <vertex x="90.2" y="79.8"/>
@@ -7115,6 +7114,39 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND1">
 <contactref element="U$5" pad="1-"/>
+</signal>
+<signal name="N$30">
+<via x="2.3" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$31">
+<via x="4.5" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$32">
+<via x="6.7" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$33">
+<via x="8.9" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$34">
+<via x="11.1" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$35">
+<via x="13.3" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$36">
+<via x="15.5" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$37">
+<via x="17.7" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$38">
+<via x="19.9" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$39">
+<via x="22.1" y="77.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$40">
+<via x="24.3" y="77.2" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
