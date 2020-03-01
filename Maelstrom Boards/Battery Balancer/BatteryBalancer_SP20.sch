@@ -32087,6 +32087,11 @@ Ohio State University</text>
 <wire x1="322.58" y1="195.58" x2="332.74" y2="195.58" width="0.1524" layer="91"/>
 <junction x="332.74" y="195.58"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="1-"/>
+<wire x1="88.9" y1="187.96" x2="91.44" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="STBD_BATTERY" class="0">
 <segment>
@@ -32224,14 +32229,6 @@ Ohio State University</text>
 <pinref part="U$5" gate="G$1" pin="2-"/>
 <wire x1="88.9" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
 <label x="93.98" y="193.04" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<wire x1="91.44" y1="187.96" x2="91.44" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="1-"/>
-<wire x1="88.9" y1="187.96" x2="91.44" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOTOR_POWER" class="0">
@@ -42309,6 +42306,7 @@ Ohio State University</text>
 <junction x="185.42" y="228.6"/>
 <pinref part="P+15" gate="1" pin="+12V"/>
 <wire x1="175.26" y1="228.6" x2="175.26" y2="233.68" width="0.1524" layer="91"/>
+<junction x="144.78" y="228.6"/>
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
@@ -42509,6 +42507,7 @@ Ohio State University</text>
 <junction x="165.1" y="213.36"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <junction x="160.02" y="210.82"/>
+<junction x="160.02" y="213.36"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
@@ -42694,11 +42693,6 @@ Ohio State University</text>
 <wire x1="302.26" y1="73.66" x2="302.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="71.12" x2="307.34" y2="71.12" width="0.1524" layer="91"/>
 <label x="307.34" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="GND2" class="0">
-<segment>
-<wire x1="297.18" y1="179.07" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
