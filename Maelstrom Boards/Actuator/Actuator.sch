@@ -40911,15 +40911,6 @@ Ohio State University</text>
 <wire x1="259.08" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOBO_SWITCHED" class="0">
-<segment>
-<wire x1="271.78" y1="144.78" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="147.32" x2="274.32" y2="147.32" width="0.1524" layer="91"/>
-<label x="274.32" y="147.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="ACTUATOR" gate="G$1" pin="12"/>
-<wire x1="271.78" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="COIL_5" class="0">
 <segment>
 <wire x1="266.7" y1="134.62" x2="266.7" y2="127" width="0.1524" layer="91"/>

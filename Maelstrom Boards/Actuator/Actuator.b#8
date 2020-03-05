@@ -2393,7 +2393,7 @@
 <rectangle x1="94.0714375" y1="16.8554375" x2="96.16439375" y2="16.87575625" layer="21"/>
 <rectangle x1="94.09175625" y1="16.875759375" x2="96.144075" y2="16.896078125" layer="21"/>
 <rectangle x1="94.112078125" y1="16.896078125" x2="96.123753125" y2="16.916396875" layer="21"/>
-<text x="41.757603125" y="9.225278125" size="1.27" layer="21">Board Name HERE!!!</text>
+<text x="50.357603125" y="9.625278125" size="1.27" layer="21">Actuator</text>
 <text x="1.44271875" y="9.16431875" size="1.397" layer="21" ratio="4">The Underwater Robotics Team
 Center for Automotive Research</text>
 </plain>
@@ -5653,7 +5653,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.472" y="75.237" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="BATTERY" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="6.4" y="47.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.67" y="47.065" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="9.17" y="46.465" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="28" x="6.4" y="47.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.67" y="49.605" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -6208,7 +6208,7 @@ design rules under a new name.</description>
 <contactref element="R28" pad="1"/>
 <wire x1="12.6" y1="93" x2="12.7" y2="92.9" width="0.1524" layer="1"/>
 <polygon width="0.1524" layer="16" thermals="no">
-<vertex x="1.9" y="9.2"/>
+<vertex x="1.9" y="8.9"/>
 <vertex x="1.9" y="96.1"/>
 <vertex x="6" y="100.2"/>
 <vertex x="97.9" y="100.2"/>
@@ -6218,7 +6218,7 @@ design rules under a new name.</description>
 <vertex x="99.6" y="47.2"/>
 <vertex x="100.7" y="46.1"/>
 <vertex x="100.7" y="15.4"/>
-<vertex x="94.5" y="9.2"/>
+<vertex x="94.2" y="8.9"/>
 </polygon>
 <wire x1="26.75" y1="19.6" x2="29.8" y2="19.6" width="0.1524" layer="1"/>
 <wire x1="29.8" y1="19.6" x2="30.4" y2="19" width="0.1524" layer="1"/>
@@ -6375,8 +6375,10 @@ design rules under a new name.</description>
 <wire x1="29.55" y1="90.9" x2="30.9" y2="92.25" width="0.1524" layer="1"/>
 <wire x1="30.9" y1="92.25" x2="30.9" y2="92.3" width="0.1524" layer="1"/>
 <via x="30.9" y="92.3" extent="1-16" drill="0.35"/>
+<wire x1="5.65" y1="47.7" x2="3.9" y2="47.7" width="0.1524" layer="1"/>
+<wire x1="3.9" y1="47.7" x2="3.5" y2="48.1" width="0.1524" layer="1"/>
+<via x="3.5" y="48.1" extent="1-16" drill="0.35"/>
 <wire x1="22.5" y1="80.4" x2="22.1" y2="72.45" width="0" layer="19" extent="1-1"/>
-<wire x1="5.65" y1="47.7" x2="5.9" y2="52.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
 <contactref element="U$3" pad="2+"/>

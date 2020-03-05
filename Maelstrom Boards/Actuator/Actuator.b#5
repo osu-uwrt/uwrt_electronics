@@ -5652,20 +5652,17 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="29.9" y="73.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="BATTERY" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="6.4" y="47.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.17" y="46.465" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="9.77" y="46.865" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="28" x="6.4" y="47.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.67" y="49.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k" x="10.6" y="47.7" smashed="yes">
-<attribute name="NAME" x="9.965" y="48.97" size="1.27" layer="25"/>
+<attribute name="NAME" x="12.565" y="47.17" size="1.27" layer="25"/>
 </element>
 <element name="P2" library="con-molex-mini-fit" package="39-30-?16?" value="39-30-16?" x="87.6" y="68.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="101.3541" y="50.5025" size="1.016" layer="25" ratio="18" rot="R180"/>
-<attribute name="VALUE" x="101.3541" y="87.9675" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="EB30D" package3d_urn="urn:adsk.eagle:package:23389/1" value="22mF" x="46.3" y="28.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="38.68" y="33.5546" size="1.778" layer="27" ratio="10" rot="R270"/>
-</element>
+<element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="EB30D" package3d_urn="urn:adsk.eagle:package:23389/1" value="22mF" x="46.3" y="28.5" smashed="yes" rot="R270"/>
 <element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMBJ" package3d_urn="urn:adsk.eagle:package:43442/2" value="" x="68.2" y="33.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.44" y="35.305" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.39" y="35.605" size="1.27" layer="27" rot="R270"/>
@@ -5683,8 +5680,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.13" y="28.565" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R6332W" package3d_urn="urn:adsk.eagle:package:26078/1" value="120" x="28" y="31.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.905" y="34.14" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="24.825" y="34.14" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="24.705" y="33.24" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="" x="93.1" y="48.3" smashed="yes">
 <attribute name="NAME" x="91.449" y="48.3" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -5759,7 +5755,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="64.341" y="77.171" size="1.27" layer="27"/>
 </element>
 <element name="Q18" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="" x="63.1" y="66.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.56" y="70.21" size="1.27" layer="25"/>
+<attribute name="NAME" x="69.06" y="63.51" size="1.27" layer="25"/>
 <attribute name="VALUE" x="60.56" y="61.32" size="1.27" layer="27"/>
 </element>
 <element name="R43" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="55.4" y="65.1" smashed="yes" rot="R270">
@@ -5769,7 +5765,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.065" y="69.935" size="1.27" layer="25"/>
 </element>
 <element name="Q6" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="" x="63.4" y="74.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.86" y="78.31" size="1.27" layer="25"/>
+<attribute name="NAME" x="69.56" y="71.51" size="1.27" layer="25"/>
 <attribute name="VALUE" x="60.86" y="69.42" size="1.27" layer="27"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="55.8" y="73.6" smashed="yes" rot="R270">
@@ -5844,13 +5840,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="60.7" y="63.6" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="USB_ID/USB_DP/USB_DN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-MINIB" package3d_urn="urn:adsk.eagle:package:38244/1" value="USB_MINI-B_SMT" x="14.3" y="95.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.59" y="95.65" size="0.8128" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="18.69" y="95.45" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08193" x="29.4" y="105.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-00587" x="29.4" y="105.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="7.95" y="99.21" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="560" x="10.5" y="87.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.135" y="88.335" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.035" y="89.235" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="25.5" y="107.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22" x="16.6" y="83.7" smashed="yes" rot="R270">
@@ -5858,11 +5853,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="31.6" y="93.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22" x="19.5" y="84.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.735" y="87.935" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="20.635" y="86.535" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="24.7" y="100" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k" x="10.5" y="83.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.135" y="84.035" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.035" y="84.535" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="10.8" y="93.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CHARGING" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="21.6" y="16.1" smashed="yes">
@@ -5945,7 +5940,7 @@ design rules under a new name.</description>
 <element name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100" x="6.8" y="15" smashed="yes">
 <attribute name="NAME" x="1.865" y="14.37" size="1.27" layer="25"/>
 </element>
-<element name="SWDIO,SWDCLK,RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X10" package3d_urn="urn:adsk.eagle:package:38291/1" value="" x="53.1" y="93.7" smashed="yes">
+<element name="SWDIO/SWDCLK/RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X10" package3d_urn="urn:adsk.eagle:package:38291/1" value="" x="53.1" y="93.7" smashed="yes">
 <attribute name="NAME" x="77.53" y="95.064" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="51.83" y="91.287" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -6088,8 +6083,8 @@ design rules under a new name.</description>
 <wire x1="34.2576" y1="77.4424" x2="33.4" y2="78.3" width="0.254" layer="1"/>
 <wire x1="33.4" y1="78.3" x2="33.4" y2="79.5" width="0.254" layer="1"/>
 <wire x1="33.4" y1="79.5" x2="34.3" y2="80.4" width="0.254" layer="1"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="1"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="2"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="1"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="2"/>
 <wire x1="53.1" y1="96.24" x2="53.1" y2="93.7" width="0.508" layer="1"/>
 <wire x1="53.1" y1="93.7" x2="50" y2="90.6" width="0.508" layer="1"/>
 <wire x1="50" y1="90.6" x2="46.1" y2="90.6" width="0.508" layer="1"/>
@@ -6310,15 +6305,15 @@ design rules under a new name.</description>
 <wire x1="37" y1="46.4" x2="36.9" y2="46.5" width="0.1524" layer="1"/>
 <wire x1="36.9" y1="46.5" x2="36.9" y2="48.9" width="0.1524" layer="1"/>
 <via x="36.9" y="48.9" extent="1-16" drill="0.35"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="12"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="14"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="16"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="18"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="20"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="10"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="8"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="6"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="4"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="12"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="14"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="16"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="18"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="20"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="10"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="8"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="6"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="4"/>
 <polygon width="0.15" layer="16">
 <vertex x="34" y="7.2"/>
 <vertex x="34" y="10.1"/>
@@ -6985,7 +6980,7 @@ design rules under a new name.</description>
 <wire x1="33.4022125" y1="70.5" x2="32.85" y2="71.0522125" width="0.1524" layer="1"/>
 <wire x1="32.85" y1="71.0522125" x2="32.85" y2="71.73" width="0.1524" layer="1"/>
 <wire x1="34.8" y1="70.5" x2="33.4022125" y2="70.5" width="0.1524" layer="1"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="7"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="7"/>
 <wire x1="60.72" y1="93.7" x2="54.92" y2="87.9" width="0.1524" layer="16"/>
 <wire x1="54.92" y1="87.9" x2="54.7" y2="87.9" width="0.1524" layer="16"/>
 <via x="54.7" y="87.9" extent="1-16" drill="0.35"/>
@@ -7005,7 +7000,7 @@ design rules under a new name.</description>
 <wire x1="37.5" y1="72.8" x2="36.2" y2="72.8" width="0.1524" layer="1"/>
 <wire x1="36.2" y1="72.8" x2="35.77" y2="73.23" width="0.1524" layer="1"/>
 <wire x1="35.77" y1="73.23" x2="35.77" y2="73.65" width="0.1524" layer="1"/>
-<contactref element="SWDIO,SWDCLK,RESET" pad="9"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="9"/>
 <wire x1="63.26" y1="93.7" x2="56.46" y2="86.9" width="0.1524" layer="16"/>
 <wire x1="56.46" y1="86.9" x2="55.8" y2="86.9" width="0.1524" layer="16"/>
 <via x="55.8" y="86.9" extent="1-16" drill="0.35"/>
@@ -7343,7 +7338,7 @@ design rules under a new name.</description>
 <wire x1="38.5" y1="73.3977875" x2="37.3791875" y2="74.5186" width="0.1524" layer="1"/>
 </signal>
 <signal name="RESET">
-<contactref element="SWDIO,SWDCLK,RESET" pad="15"/>
+<contactref element="SWDIO/SWDCLK/RESET" pad="15"/>
 <contactref element="MC" pad="7"/>
 <contactref element="RESET_SWITCH" pad="3"/>
 <contactref element="R27" pad="1"/>

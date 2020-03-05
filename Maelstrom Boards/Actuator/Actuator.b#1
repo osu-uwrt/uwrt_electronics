@@ -2397,10 +2397,10 @@
 <text x="1.44271875" y="9.16431875" size="1.397" layer="21" ratio="4">The Underwater Robotics Team
 Center for Automotive Research</text>
 <wire x1="62" y1="92.7" x2="68.5" y2="92.7" width="0.1524" layer="25"/>
-<text x="90.9" y="63.3" size="0.8128" layer="25" rot="R90">Coils</text>
-<wire x1="88.2" y1="52.1" x2="89.8" y2="52.1" width="0.1524" layer="25"/>
-<wire x1="89.8" y1="52.1" x2="89.8" y2="76.8" width="0.1524" layer="25"/>
-<wire x1="89.8" y1="76.8" x2="87.8" y2="76.8" width="0.1524" layer="25"/>
+<text x="85.2" y="62.1" size="0.8128" layer="25" rot="R90">Coils</text>
+<wire x1="88.2" y1="52.1" x2="85.7" y2="52.1" width="0.1524" layer="25"/>
+<wire x1="85.7" y1="52.1" x2="85.7" y2="76.8" width="0.1524" layer="25"/>
+<wire x1="85.7" y1="76.8" x2="87.8" y2="76.8" width="0.1524" layer="25"/>
 <wire x1="81.5" y1="60.3" x2="79.5" y2="60.3" width="0.1524" layer="25"/>
 <wire x1="79.5" y1="60.3" x2="79.5" y2="68.4" width="0.1524" layer="25"/>
 <wire x1="79.5" y1="68.4" x2="81.4" y2="68.4" width="0.1524" layer="25"/>
@@ -2409,6 +2409,7 @@ Center for Automotive Research</text>
 <wire x1="79" y1="81.1" x2="81.8" y2="81.1" width="0.1524" layer="25"/>
 <text x="78.3" y="74.7" size="0.8128" layer="25" rot="R90">Dropper</text>
 <text x="78.9" y="62.3" size="0.8128" layer="25" rot="R90">Torpedo</text>
+<text x="15.4" y="55.9" size="1.016" layer="25" rot="R90">U$3</text>
 </plain>
 <libraries>
 <library name="5530843-6">
