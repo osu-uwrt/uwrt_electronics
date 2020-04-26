@@ -14447,52 +14447,43 @@ to be stepped up to 5v. Use a FET</text>
 <segment>
 <pinref part="U$4" gate="G$1" pin="PB6"/>
 <wire x1="208.28" y1="162.56" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
-<label x="232.41" y="162.56" size="1.778" layer="95"/>
+<label x="231.14" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ROBOT_SDA" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="PB7"/>
 <wire x1="208.28" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
-<label x="232.41" y="166.37" size="1.778" layer="95"/>
+<label x="231.14" y="165.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BACKPLANE_SCL" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="PB10"/>
 <wire x1="149.86" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
-<label x="129.54" y="107.95" size="1.778" layer="95" rot="R180"/>
+<label x="129.54" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BACKPLANE_SDA" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="PB11"/>
 <wire x1="149.86" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
-<label x="129.54" y="104.14" size="1.778" layer="95" rot="R180"/>
+<label x="129.54" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="PA11"/>
 <wire x1="208.28" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
-<label x="228.6" y="128.27" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="PA12"/>
-<wire x1="208.28" y1="129.54" x2="229.87" y2="129.54" width="0.1524" layer="91"/>
-<label x="228.6" y="130.81" size="1.778" layer="95"/>
+<label x="228.6" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBUS_3.3" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="PA9/UART1_TX"/>
-<wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="213.868" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.868" y1="121.92" x2="214.63" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="121.92" x2="214.63" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="121.92" x2="214.63" y2="106.68" width="0.1524" layer="91"/>
-<label x="215.9" y="107.95" size="1.778" layer="95"/>
+<label x="215.9" y="106.68" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14554,6 +14545,34 @@ to be stepped up to 5v. Use a FET</text>
 <wire x1="121.92" y1="186.69" x2="116.84" y2="186.69" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="186.69" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
 <junction x="116.84" y="187.96"/>
+</segment>
+</net>
+<net name="SPI_MOSI" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="PA7/SPI1_MOSI"/>
+<wire x1="149.86" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<label x="142.24" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPI_MISO" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="PA6/SPI1_MISO"/>
+<wire x1="149.86" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<label x="142.24" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SPI_CLK" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="PA5/SPI1_SCK"/>
+<wire x1="149.86" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<label x="142.24" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="D+" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="PA12"/>
+<wire x1="208.28" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
+<label x="228.6" y="129.54" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

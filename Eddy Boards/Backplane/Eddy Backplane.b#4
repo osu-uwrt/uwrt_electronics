@@ -5787,12 +5787,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="SPI_MOSI">
 <contactref element="U1" pad="35"/>
+<contactref element="U$4" pad="23"/>
+<wire x1="217.77" y1="89.015" x2="282.31" y2="65.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="U1" pad="34"/>
+<contactref element="U$4" pad="22"/>
+<wire x1="217.77" y1="89.515" x2="282.31" y2="65.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_CLK">
 <contactref element="U1" pad="33"/>
+<contactref element="U$4" pad="21"/>
+<wire x1="217.77" y1="90.015" x2="282.31" y2="64.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NET_RESET">
 <contactref element="U1" pad="37"/>
