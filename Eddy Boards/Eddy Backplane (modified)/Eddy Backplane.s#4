@@ -17574,9 +17574,9 @@ Andrew Tian, Gus Workman</text>
 <junction x="35.814" y="83.312"/>
 </segment>
 <segment>
-<pinref part="SWITCH_CONNECTOR" gate="-2" pin="P"/>
-<wire x1="40.64" y1="238.76" x2="53.34" y2="238.76" width="0.1524" layer="91"/>
-<label x="53.34" y="238.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="SWITCH_CONNECTOR" gate="-4" pin="P"/>
+<wire x1="40.64" y1="228.6" x2="53.34" y2="228.6" width="0.1524" layer="91"/>
+<label x="53.34" y="228.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWITCH_1" class="0">
@@ -17636,9 +17636,9 @@ Andrew Tian, Gus Workman</text>
 <junction x="46.228" y="94.488"/>
 </segment>
 <segment>
-<pinref part="SWITCH_CONNECTOR" gate="-4" pin="P"/>
-<wire x1="40.64" y1="228.6" x2="53.34" y2="228.6" width="0.1524" layer="91"/>
-<label x="53.34" y="228.6" size="1.778" layer="95" xref="yes"/>
+<pinref part="SWITCH_CONNECTOR" gate="-2" pin="P"/>
+<wire x1="40.64" y1="238.76" x2="53.34" y2="238.76" width="0.1524" layer="91"/>
+<label x="53.34" y="238.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWITCH_3" class="0">

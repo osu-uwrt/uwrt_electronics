@@ -18365,48 +18365,6 @@ Kill Switch status
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="241.3" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="Q2" gate="NMOS" pin="G"/>
-<wire x1="299.72" y1="147.32" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="294.894" y1="152.654" x2="294.894" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="294.894" y1="154.94" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q3" gate="NMOS" pin="G"/>
-<wire x1="299.72" y1="114.3" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="294.894" y1="119.634" x2="294.894" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="294.894" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q4" gate="NMOS" pin="G"/>
-<wire x1="299.72" y1="81.28" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="294.894" y1="86.614" x2="294.894" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="294.894" y1="88.9" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q6" gate="NMOS" pin="G"/>
-<wire x1="350.52" y1="147.32" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="345.694" y1="152.654" x2="345.694" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="345.694" y1="154.94" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q7" gate="NMOS" pin="G"/>
-<wire x1="350.52" y1="114.3" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="345.694" y1="119.634" x2="345.694" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="345.694" y1="121.92" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q8" gate="NMOS" pin="G"/>
-<wire x1="350.52" y1="81.28" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="345.694" y1="86.614" x2="345.694" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="345.694" y1="88.9" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -18572,6 +18530,94 @@ Kill Switch status
 <junction x="114.3" y="200.66"/>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 <wire x1="114.3" y1="200.66" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="NMOS" pin="G"/>
+<wire x1="299.72" y1="182.88" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="294.894" y1="188.214" x2="294.894" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="294.894" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="297.18" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="193.04" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
+<junction x="297.18" y="190.5"/>
+</segment>
+<segment>
+<pinref part="Q5" gate="NMOS" pin="G"/>
+<wire x1="350.52" y1="182.88" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="345.694" y1="188.214" x2="345.694" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="345.694" y1="190.5" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="347.98" y1="190.5" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="193.04" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
+<junction x="347.98" y="190.5"/>
+</segment>
+<segment>
+<pinref part="Q6" gate="NMOS" pin="G"/>
+<wire x1="350.52" y1="147.32" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="345.694" y1="152.654" x2="345.694" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="345.694" y1="154.94" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="347.98" y1="154.94" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="157.48" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
+<junction x="347.98" y="154.94"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="NMOS" pin="G"/>
+<wire x1="299.72" y1="147.32" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="294.894" y1="152.654" x2="294.894" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="294.894" y1="154.94" x2="297.18" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<wire x1="297.18" y1="154.94" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="157.48" x2="297.18" y2="154.94" width="0.1524" layer="91"/>
+<junction x="297.18" y="154.94"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="NMOS" pin="G"/>
+<wire x1="299.72" y1="114.3" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="294.894" y1="119.634" x2="294.894" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="294.894" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="297.18" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="124.46" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
+<junction x="297.18" y="121.92"/>
+</segment>
+<segment>
+<pinref part="Q7" gate="NMOS" pin="G"/>
+<wire x1="350.52" y1="114.3" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="345.694" y1="119.634" x2="345.694" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="345.694" y1="121.92" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+<wire x1="347.98" y1="121.92" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="124.46" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
+<junction x="347.98" y="121.92"/>
+</segment>
+<segment>
+<pinref part="Q8" gate="NMOS" pin="G"/>
+<wire x1="350.52" y1="81.28" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="345.694" y1="86.614" x2="345.694" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="345.694" y1="88.9" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<wire x1="347.98" y1="88.9" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="91.44" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
+<junction x="347.98" y="88.9"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="NMOS" pin="G"/>
+<wire x1="299.72" y1="81.28" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="294.894" y1="86.614" x2="294.894" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="294.894" y1="88.9" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+<wire x1="297.18" y1="88.9" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="91.44" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
+<junction x="297.18" y="88.9"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -19053,24 +19099,6 @@ Kill Switch status
 <junction x="345.694" y="73.66"/>
 <wire x1="345.694" y1="73.66" x2="340.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="340.36" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="Q1" gate="NMOS" pin="G"/>
-<wire x1="299.72" y1="182.88" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="294.894" y1="188.214" x2="294.894" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="294.894" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="Q5" gate="NMOS" pin="G"/>
-<wire x1="350.52" y1="182.88" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="345.694" y1="188.214" x2="345.694" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="345.694" y1="190.5" x2="350.52" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
