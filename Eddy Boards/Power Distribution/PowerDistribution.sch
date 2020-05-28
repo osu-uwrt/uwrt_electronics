@@ -15274,7 +15274,7 @@ SMD power inductor</description>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.1524" layer="21"/>
 <text x="-3" y="2.5" size="1.27" layer="21">RT7258</text>
 <circle x="-1.7" y="1.8" radius="0" width="0.1524" layer="21"/>
-<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="1.65" layer="17"/>
+<smd name="GND2" x="0" y="0" dx="3" dy="2" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -15307,7 +15307,7 @@ SMD power inductor</description>
 <connect gate="G$1" pin="BOOT" pad="BOOT"/>
 <connect gate="G$1" pin="EN/SYNC" pad="EN/SYNC"/>
 <connect gate="G$1" pin="FB" pad="FB"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND" pad="GND GND2"/>
 <connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="PGOOD" pad="PGOOD"/>
 <connect gate="G$1" pin="SW" pad="SW SW2 SW3"/>
