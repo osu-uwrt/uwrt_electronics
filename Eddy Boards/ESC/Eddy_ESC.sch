@@ -13781,30 +13781,33 @@ Ohio State University</text>
 <wire x1="91.44" y1="24.13" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="G$1" pin="7-"/>
-<junction x="50.8" y="231.14"/>
 <wire x1="50.8" y1="200.66" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="58.42" y1="198.12" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="6-"/>
-<junction x="50.8" y="226.06"/>
-<wire x1="50.8" y1="231.14" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="5-"/>
-<junction x="50.8" y="220.98"/>
-<wire x1="50.8" y1="226.06" x2="50.8" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="4-"/>
-<junction x="50.8" y="215.9"/>
-<wire x1="50.8" y1="220.98" x2="50.8" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="2-"/>
-<junction x="50.8" y="205.74"/>
-<wire x1="50.8" y1="215.9" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="1-"/>
 <junction x="50.8" y="200.66"/>
 <wire x1="50.8" y1="205.74" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="INPUT_POWER" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="193.04" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
 <junction x="58.42" y="193.04"/>
+<pinref part="U$11" gate="G$1" pin="3-"/>
+<wire x1="50.8" y1="205.74" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
+<junction x="50.8" y="205.74"/>
+<pinref part="U$11" gate="G$1" pin="4-"/>
+<pinref part="U$11" gate="G$1" pin="5-"/>
+<junction x="50.8" y="220.98"/>
+<pinref part="U$11" gate="G$1" pin="6-"/>
+<junction x="50.8" y="226.06"/>
+<pinref part="U$11" gate="G$1" pin="7-"/>
+<junction x="50.8" y="231.14"/>
+<wire x1="50.8" y1="231.14" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="226.06" x2="50.8" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="220.98" x2="50.8" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="210.82" x2="50.8" y2="215.9" width="0.1524" layer="91"/>
+<junction x="50.8" y="210.82"/>
+<junction x="50.8" y="215.9"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE" gate="G$1" pin="C"/>
@@ -14113,13 +14116,7 @@ Ohio State University</text>
 <wire x1="33.02" y1="190.5" x2="33.02" y2="193.04" width="0.1524" layer="91"/>
 <junction x="33.02" y="193.04"/>
 <wire x1="30.48" y1="231.14" x2="30.48" y2="238.76" width="0.1524" layer="91"/>
-<label x="35.56" y="238.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="3-"/>
-<junction x="50.8" y="210.82"/>
+<label x="30.48" y="238.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -16387,8 +16384,6 @@ TO HERE TO CONNECT EVEN IN# WITH
 LEFT SIDE ACS722
 
            0 is even </text>
-<text x="142.24" y="35.56" size="1.778" layer="92">What is going on here?
-    ---Jacob</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="2.715259375" y="2.4384" smashed="yes">
@@ -16404,8 +16399,8 @@ LEFT SIDE ACS722
 <instance part="U$25" gate="G$1" x="43.18" y="193.04" smashed="yes" rot="R180"/>
 <instance part="U$26" gate="G$1" x="43.18" y="144.78" smashed="yes" rot="R180"/>
 <instance part="U$27" gate="G$1" x="43.18" y="93.98" smashed="yes" rot="R180"/>
-<instance part="GND4" gate="1" x="378.46" y="172.72" smashed="yes">
-<attribute name="VALUE" x="375.92" y="170.18" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="378.46" y="175.26" smashed="yes">
+<attribute name="VALUE" x="375.92" y="172.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="213.36" y="38.1" smashed="yes">
 <attribute name="VALUE" x="210.82" y="35.56" size="1.778" layer="96"/>
@@ -16721,7 +16716,7 @@ LEFT SIDE ACS722
 <wire x1="375.92" y1="187.96" x2="378.46" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="187.96" x2="378.46" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="180.34" x2="378.46" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="180.34" x2="378.46" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="180.34" x2="378.46" y2="180.34" width="0.1524" layer="91"/>
 <junction x="378.46" y="180.34"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -16967,14 +16962,14 @@ LEFT SIDE ACS722
 <segment>
 <pinref part="U$36" gate="G$1" pin="SDA"/>
 <wire x1="355.6" y1="170.18" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
-<label x="370.84" y="167.64" size="1.778" layer="95"/>
+<label x="368.3" y="170.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL/1.2E" class="0">
 <segment>
 <pinref part="U$36" gate="G$1" pin="SCL"/>
 <wire x1="355.6" y1="165.1" x2="368.3" y2="165.1" width="0.1524" layer="91"/>
-<label x="370.84" y="162.56" size="1.778" layer="95"/>
+<label x="368.3" y="165.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BALANCED" class="0">
@@ -16984,8 +16979,6 @@ LEFT SIDE ACS722
 <wire x1="91.44" y1="165.1" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<label x="73.66" y="58.42" size="1.778" layer="95"/>
 <pinref part="U$32" gate="G$1" pin="IP+1"/>
 <pinref part="U$32" gate="G$1" pin="IP+2"/>
 <wire x1="121.92" y1="223.52" x2="116.84" y2="223.52" width="0.1524" layer="91"/>
@@ -17035,6 +17028,8 @@ LEFT SIDE ACS722
 <pinref part="U$41" gate="G$1" pin="P$2"/>
 <wire x1="220.98" y1="236.22" x2="218.44" y2="236.22" width="0.1524" layer="91"/>
 <junction x="218.44" y="236.22"/>
+<wire x1="91.44" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<label x="81.28" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$35" class="0">
