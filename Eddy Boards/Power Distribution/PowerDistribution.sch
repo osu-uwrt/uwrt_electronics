@@ -15434,7 +15434,7 @@ Source: http://www.molex.com</description>
 <part name="IC3" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5.6"/>
-<part name="3V3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="3V3_LED_GREEN" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="C16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:26202/1" value="47 uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15458,7 +15458,7 @@ Source: http://www.molex.com</description>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
+<part name="Q6_N_EN" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R17" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="10K"/>
 <part name="R18" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="160K"/>
@@ -15468,7 +15468,7 @@ Source: http://www.molex.com</description>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q7" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
+<part name="Q7_N_DEP" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
 <part name="R19" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="100K"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="25K"/>
@@ -15478,14 +15478,14 @@ Source: http://www.molex.com</description>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
 <part name="U$6" library="RT7258-2" deviceset="RT7258-2" device=""/>
 <part name="R21" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="470"/>
-<part name="12V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="12V_LED_GREEN" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22 uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1 uF"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
+<part name="Q1_N_EN" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="18K"/>
 <part name="R2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="93K"/>
@@ -15499,12 +15499,11 @@ Source: http://www.molex.com</description>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
 <part name="U$3" library="RT7258-2" deviceset="RT7258-2" device=""/>
 <part name="R5" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="100"/>
-<part name="5V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="5V_LED_GREEN" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
+<part name="Q8_N_DEP" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
 <part name="R6" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="100K"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:970938/2" value="25K"/>
@@ -15514,6 +15513,7 @@ Source: http://www.molex.com</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:8078582/1"/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17927,6 +17927,13 @@ Ohio State University</text>
 <wire x1="71.12" y1="187.96" x2="66.04" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="KILL_SWITCH" class="0">
+<segment>
+<label x="55.88" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="24.13" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="KILL_SWITCH"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -20176,8 +20183,8 @@ Ohio State University</text>
 <attribute name="NAME" x="216.9414" y="44.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="221.742" y="44.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3V3" gate="G$1" x="213.36" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="208.788" y="37.084" size="1.778" layer="95"/>
+<instance part="3V3_LED_GREEN" gate="G$1" x="213.36" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="203.708" y="34.544" size="1.778" layer="95"/>
 <attribute name="VALUE" x="208.788" y="34.925" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="203.2" y="50.8" smashed="yes">
@@ -20208,9 +20215,9 @@ Ohio State University</text>
 <attribute name="NAME" x="221.361" y="211.836" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="221.361" y="206.756" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Q6" gate="NMOS" x="228.6" y="195.58" smashed="yes">
-<attribute name="NAME" x="233.68" y="195.58" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="233.68" y="193.04" size="1.778" layer="96" font="vector"/>
+<instance part="Q6_N_EN" gate="NMOS" x="228.6" y="195.58" smashed="yes">
+<attribute name="NAME" x="220.98" y="190.5" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="210.82" y="187.96" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND10" gate="1" x="231.14" y="185.42" smashed="yes">
 <attribute name="VALUE" x="228.6" y="182.88" size="1.778" layer="96"/>
@@ -20243,9 +20250,9 @@ Ohio State University</text>
 <instance part="GND13" gate="1" x="208.28" y="218.44" smashed="yes" rot="R180">
 <attribute name="VALUE" x="210.82" y="220.98" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="Q7" gate="NMOS" x="154.94" y="223.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="154.94" y="218.44" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="152.4" y="218.44" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="Q7_N_DEP" gate="NMOS" x="154.94" y="223.52" smashed="yes" rot="MR270">
+<attribute name="NAME" x="154.94" y="218.44" size="1.778" layer="95" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="157.48" y="218.44" size="1.778" layer="96" font="vector" rot="MR270"/>
 </instance>
 <instance part="R19" gate="G$1" x="142.24" y="220.98" smashed="yes">
 <attribute name="NAME" x="138.43" y="222.4786" size="1.778" layer="95"/>
@@ -20278,8 +20285,8 @@ Ohio State University</text>
 <attribute name="NAME" x="260.1214" y="186.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="264.922" y="186.69" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="12V_LED" gate="G$1" x="261.62" y="177.8" smashed="yes">
-<attribute name="NAME" x="265.176" y="173.228" size="1.778" layer="95" rot="R90"/>
+<instance part="12V_LED_GREEN" gate="G$1" x="261.62" y="177.8" smashed="yes">
+<attribute name="NAME" x="267.716" y="165.608" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.335" y="173.228" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND15" gate="1" x="261.62" y="165.1" smashed="yes">
@@ -20303,9 +20310,9 @@ Ohio State University</text>
 <attribute name="NAME" x="221.361" y="125.476" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="221.361" y="120.396" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Q1" gate="NMOS" x="228.6" y="109.22" smashed="yes">
-<attribute name="NAME" x="233.68" y="109.22" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="233.68" y="106.68" size="1.778" layer="96" font="vector"/>
+<instance part="Q1_N_EN" gate="NMOS" x="228.6" y="109.22" smashed="yes">
+<attribute name="NAME" x="220.98" y="104.14" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="210.82" y="101.6" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND5" gate="1" x="231.14" y="99.06" smashed="yes">
 <attribute name="VALUE" x="228.6" y="96.52" size="1.778" layer="96"/>
@@ -20352,25 +20359,22 @@ Ohio State University</text>
 <attribute name="NAME" x="260.1214" y="100.33" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="264.922" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="5V_LED" gate="G$1" x="261.62" y="91.44" smashed="yes">
-<attribute name="NAME" x="265.176" y="86.868" size="1.778" layer="95" rot="R90"/>
+<instance part="5V_LED_GREEN" gate="G$1" x="261.62" y="91.44" smashed="yes">
+<attribute name="NAME" x="267.716" y="79.248" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.335" y="86.868" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND19" gate="1" x="261.62" y="78.74" smashed="yes">
 <attribute name="VALUE" x="259.08" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="P+6" gate="1" x="127" y="119.38" smashed="yes" rot="R90">
-<attribute name="VALUE" x="129.54" y="116.84" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+3" gate="1" x="269.24" y="116.84" smashed="yes" rot="R270">
-<attribute name="VALUE" x="264.16" y="119.38" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="271.78" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="266.7" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="GND20" gate="1" x="165.1" y="220.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="167.64" y="218.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q8" gate="NMOS" x="154.94" y="137.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="154.94" y="132.08" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="152.4" y="132.08" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="Q8_N_DEP" gate="NMOS" x="154.94" y="137.16" smashed="yes" rot="MR270">
+<attribute name="NAME" x="154.94" y="132.08" size="1.778" layer="95" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="157.48" y="132.08" size="1.778" layer="96" font="vector" rot="MR270"/>
 </instance>
 <instance part="R6" gate="G$1" x="142.24" y="134.62" smashed="yes">
 <attribute name="NAME" x="138.43" y="136.1186" size="1.778" layer="95"/>
@@ -20389,6 +20393,9 @@ Ohio State University</text>
 <instance part="GND22" gate="1" x="165.1" y="134.62" smashed="yes" rot="R90">
 <attribute name="VALUE" x="167.64" y="132.08" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="P+6" gate="1" x="127" y="119.38" smashed="yes" rot="R90">
+<attribute name="VALUE" x="129.54" y="116.84" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20402,7 +20409,6 @@ Ohio State University</text>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="116.84" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
@@ -20411,7 +20417,7 @@ Ohio State University</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="116.84" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="116.84" x2="261.62" y2="109.22" width="0.1524" layer="91"/>
 <junction x="261.62" y="116.84"/>
 </segment>
@@ -20420,7 +20426,7 @@ Ohio State University</text>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="43.18" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="3V3" gate="G$1" pin="A"/>
+<pinref part="3V3_LED_GREEN" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20432,7 +20438,7 @@ Ohio State University</text>
 <wire x1="185.42" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="40.64" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
 <junction x="185.42" y="40.64"/>
-<pinref part="3V3" gate="G$1" pin="C"/>
+<pinref part="3V3_LED_GREEN" gate="G$1" pin="C"/>
 <wire x1="208.28" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 <junction x="203.2" y="40.64"/>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -20457,7 +20463,7 @@ Ohio State University</text>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="231.14" y1="187.96" x2="231.14" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="NMOS" pin="S"/>
+<pinref part="Q6_N_EN" gate="NMOS" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -20481,7 +20487,7 @@ Ohio State University</text>
 <wire x1="248.92" y1="160.02" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="12V_LED" gate="G$1" pin="C"/>
+<pinref part="12V_LED_GREEN" gate="G$1" pin="C"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="261.62" y1="172.72" x2="261.62" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -20504,7 +20510,7 @@ Ohio State University</text>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="231.14" y1="101.6" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="NMOS" pin="S"/>
+<pinref part="Q1_N_EN" gate="NMOS" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -20523,14 +20529,9 @@ Ohio State University</text>
 <wire x1="248.92" y1="73.66" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5V_LED" gate="G$1" pin="C"/>
+<pinref part="5V_LED_GREEN" gate="G$1" pin="C"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="261.62" y1="86.36" x2="261.62" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q7" gate="NMOS" pin="D"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="160.02" y1="220.98" x2="162.56" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -20538,14 +20539,14 @@ Ohio State University</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Q8" gate="NMOS" pin="D"/>
+<pinref part="Q7_N_DEP" gate="NMOS" pin="S"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="160.02" y1="220.98" x2="162.56" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q8_N_DEP" gate="NMOS" pin="S"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="160.02" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="25.4" y1="73.66" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -20568,15 +20569,22 @@ Ohio State University</text>
 <wire x1="137.16" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="129.54" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VIN"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="116.84" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<junction x="139.7" y="119.38"/>
+<pinref part="P+6" gate="1" pin="V+"/>
+</segment>
 </net>
 <net name="12VON" class="0">
 <segment>
 <label x="142.24" y="233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="146.05" y1="233.68" x2="144.78" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="Q7" gate="NMOS" pin="G"/>
-<wire x1="144.78" y1="233.68" x2="142.24" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="233.68" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="146.05" y1="233.68" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="233.68" x2="157.48" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="Q7_N_DEP" gate="NMOS" pin="G"/>
+<wire x1="157.48" y1="233.68" x2="157.48" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -20594,15 +20602,6 @@ Ohio State University</text>
 <wire x1="261.62" y1="203.2" x2="266.7" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="203.2" x2="261.62" y2="195.58" width="0.1524" layer="91"/>
 <junction x="261.62" y="203.2"/>
-</segment>
-<segment>
-<wire x1="129.54" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
-<pinref part="P+6" gate="1" pin="+12V"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="116.84" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
-<junction x="139.7" y="119.38"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -20630,7 +20629,7 @@ Ohio State University</text>
 </net>
 <net name="BG2" class="0">
 <segment>
-<pinref part="Q6" gate="NMOS" pin="G"/>
+<pinref part="Q6_N_EN" gate="NMOS" pin="G"/>
 <wire x1="223.52" y1="193.04" x2="210.82" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="BG"/>
 <wire x1="205.74" y1="210.82" x2="210.82" y2="210.82" width="0.1524" layer="91"/>
@@ -20640,7 +20639,7 @@ Ohio State University</text>
 <net name="V+1" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="Q6" gate="NMOS" pin="D"/>
+<pinref part="Q6_N_EN" gate="NMOS" pin="D"/>
 <wire x1="231.14" y1="203.2" x2="231.14" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="203.2" x2="233.68" y2="203.2" width="0.1524" layer="91"/>
 <junction x="231.14" y="203.2"/>
@@ -20697,7 +20696,7 @@ Ohio State University</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="12V_LED" gate="G$1" pin="A"/>
+<pinref part="12V_LED_GREEN" gate="G$1" pin="A"/>
 <wire x1="261.62" y1="185.42" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20711,7 +20710,7 @@ Ohio State University</text>
 </net>
 <net name="BG" class="0">
 <segment>
-<pinref part="Q1" gate="NMOS" pin="G"/>
+<pinref part="Q1_N_EN" gate="NMOS" pin="G"/>
 <wire x1="223.52" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="BG"/>
 <wire x1="205.74" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
@@ -20721,7 +20720,7 @@ Ohio State University</text>
 <net name="V+2" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="NMOS" pin="D"/>
+<pinref part="Q1_N_EN" gate="NMOS" pin="D"/>
 <wire x1="231.14" y1="116.84" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="231.14" y="116.84"/>
@@ -20778,18 +20777,16 @@ Ohio State University</text>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="5V_LED" gate="G$1" pin="A"/>
+<pinref part="5V_LED_GREEN" gate="G$1" pin="A"/>
 <wire x1="261.62" y1="99.06" x2="261.62" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VON" class="0">
 <segment>
 <label x="138.43" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="138.43" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="NMOS" pin="G"/>
-<wire x1="142.24" y1="147.32" x2="143.51" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="147.32" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="147.32" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="Q8_N_DEP" gate="NMOS" pin="G"/>
+<wire x1="157.48" y1="142.24" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VEN" class="0">
@@ -20802,8 +20799,8 @@ Ohio State University</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="124.46" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 <junction x="147.32" y="124.46"/>
-<pinref part="Q8" gate="NMOS" pin="S"/>
-<wire x1="147.32" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="Q8_N_DEP" gate="NMOS" pin="D"/>
+<wire x1="149.86" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 <junction x="147.32" y="134.62"/>
 </segment>
 </net>
@@ -20817,8 +20814,8 @@ Ohio State University</text>
 <wire x1="167.64" y1="208.28" x2="167.64" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
 <junction x="147.32" y="210.82"/>
-<pinref part="Q7" gate="NMOS" pin="S"/>
-<wire x1="147.32" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="Q7_N_DEP" gate="NMOS" pin="D"/>
+<wire x1="149.86" y1="220.98" x2="147.32" y2="220.98" width="0.1524" layer="91"/>
 <junction x="147.32" y="220.98"/>
 </segment>
 </net>
