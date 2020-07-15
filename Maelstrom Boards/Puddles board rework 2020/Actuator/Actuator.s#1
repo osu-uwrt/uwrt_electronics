@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -40827,6 +40827,11 @@ Ohio State University</text>
 <wire x1="228.6" y1="200.66" x2="233.68" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="200.66" x2="233.68" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="AGND10" gate="VR1" pin="AGND"/>
+<pinref part="USB_ID/USB_DP/USB_DN" gate="G$1" pin="SHIELD"/>
+<wire x1="215.9" y1="195.58" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="195.58" x2="213.36" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="205.74" x2="233.68" y2="205.74" width="0.1524" layer="91"/>
+<junction x="233.68" y="205.74"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="195.58" x2="99.06" y2="190.5" width="0.1524" layer="91"/>
@@ -40909,15 +40914,6 @@ Ohio State University</text>
 <label x="274.32" y="137.16" size="1.778" layer="95" xref="yes"/>
 <pinref part="ACTUATOR" gate="G$1" pin="8"/>
 <wire x1="259.08" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MOBO_SWITCHED" class="0">
-<segment>
-<wire x1="271.78" y1="144.78" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="147.32" x2="274.32" y2="147.32" width="0.1524" layer="91"/>
-<label x="274.32" y="147.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="ACTUATOR" gate="G$1" pin="12"/>
-<wire x1="271.78" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COIL_5" class="0">
@@ -46038,6 +46034,9 @@ functionality</text>
 values should be determined
 by the crystal's datasheet
 for proper functionality</text>
+<text x="330.2" y="215.9" size="1.778" layer="91">Make sure these diodes can handle 5A
+and have a reverse breakdown voltage
+&gt; 24V</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
