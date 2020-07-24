@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12261,7 +12261,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
 <part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
@@ -12269,8 +12269,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="65"/>
 <part name="SWDIO/SWDCLK/RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_10X2" device="" package3d_urn="urn:adsk.eagle:package:38291/1"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -14771,8 +14771,14 @@ Ohio State University</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="116.84" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="154.94" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="154.94" x2="121.92" y2="159.385" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="121.92" y1="159.385" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="149.86" x2="100.965" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="100.965" y1="149.86" x2="100.965" y2="159.385" width="0.1524" layer="91"/>
+<wire x1="100.965" y1="159.385" x2="121.92" y2="159.385" width="0.1524" layer="91"/>
+<junction x="121.92" y="159.385"/>
 </segment>
 <segment>
 <pinref part="SWDIO/SWDCLK/RESET" gate="G$1" pin="4"/>
@@ -14913,6 +14919,13 @@ Ohio State University</text>
 <pinref part="U$1" gate="G$1" pin="SPARE3"/>
 <wire x1="182.88" y1="45.72" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <label x="182.88" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="SWDIO/SWDCLK/RESET" gate="G$1" pin="15"/>
+<wire x1="157.48" y1="102.87" x2="154.94" y2="102.87" width="0.1524" layer="91"/>
+<label x="154.305" y="102.87" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -18132,7 +18145,7 @@ at least 50 ms after reset</text>
 <label x="-20.32" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="NRST"/>
 <wire x1="-83.82" y1="142.24" x2="-101.6" y2="142.24" width="0.1524" layer="91"/>
@@ -18151,6 +18164,7 @@ at least 50 ms after reset</text>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="-114.3" y1="154.94" x2="-114.3" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-114.3" y="147.32"/>
+<label x="-101.6" y="147.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="USB_DN" class="0">
