@@ -6,9 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -6830,6 +6844,86 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="DF13-4P-125DSA_Connector">
+<packages>
+<package name="CON4_1X4_U_DF13">
+<smd name="1" x="0" y="0" dx="0.7112" dy="1.778" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="0.7112" dy="1.778" layer="1"/>
+<smd name="3" x="-2.5" y="0" dx="0.7112" dy="1.778" layer="1"/>
+<smd name="4" x="-3.75" y="0" dx="0.7112" dy="1.778" layer="1"/>
+<smd name="5" x="-6.0025" y="-3.302" dx="1.6002" dy="2.2098" layer="1"/>
+<smd name="6" x="2.2525" y="-3.302" dx="1.6002" dy="2.2098" layer="1"/>
+<wire x1="-5.334" y1="-5.8674" x2="1.5748" y2="-5.8674" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="-5.8674" x2="1.5748" y2="-4.7498" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="0.127" x2="0.6858" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="0.127" x2="-5.334" y2="-1.8542" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.127" x2="-5.334" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="-4.7498" x2="-5.334" y2="-5.8674" width="0.1524" layer="21"/>
+<wire x1="1.5748" y1="-1.8542" x2="1.5748" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="2.5908" y1="0" x2="1.8288" y2="0" width="0.508" layer="21" curve="-180"/>
+<wire x1="1.8288" y1="0" x2="2.5908" y2="0" width="0.508" layer="21" curve="-180"/>
+<text x="-3.6068" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-5.207" y1="-5.7404" x2="1.4478" y2="-5.7404" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="-5.7404" x2="1.4478" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.4478" y1="0" x2="-5.207" y2="0" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="0" x2="-5.207" y2="-5.7404" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
+<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
+<wire x1="2.5908" y1="0" x2="1.8288" y2="0" width="0.508" layer="22" curve="-180"/>
+<wire x1="1.8288" y1="0" x2="2.5908" y2="0" width="0.508" layer="22" curve="-180"/>
+<text x="-5.1562" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CON4_1X4_U_DF13">
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.7018" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-4.2418" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-6.7818" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3782" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-5.9182" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-8.4582" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DF13-4P-1.25DSA" prefix="J">
+<gates>
+<gate name="A" symbol="CON4_1X4_U_DF13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON4_1X4_U_DF13">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DF13-4P-1.25DSA" constant="no"/>
+<attribute name="VENDOR" value="Hirose" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6846,15 +6940,14 @@ Source: www.kingbright.com</description>
 <part name="U$2" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$3" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
 <part name="U$4" library="5530843-6" deviceset="5530843-FEMALE" device=""/>
-<part name="SWITCH_CONNECTOR" library="con-molex-mini-fit" deviceset="39-30-?02?_S" device=""/>
-<part name="ROBOT_I2C_CONNECTOR" library="con-molex-mini-fit" deviceset="39-30-?04?_S" device=""/>
-<part name="AUX_I2C_CONNECTOR1" library="con-molex-mini-fit" deviceset="39-30-?04?_S" device=""/>
+<part name="SWITCH_CONN" library="con-molex-mini-fit" deviceset="39-30-?02?_S" device=""/>
+<part name="ROBOT_I2C_CONN" library="con-molex-mini-fit" deviceset="39-30-?04?_S" device=""/>
 <part name="TESTPIN_CONNECTOR" library="3M_929852_Connector" deviceset="929870-01-09_4" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k"/>
-<part name="BB_CONN_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
+<part name="PD_CONN_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36"/>
 <part name="ESC_CONN_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36"/>
@@ -6862,7 +6955,7 @@ Source: www.kingbright.com</description>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36"/>
 <part name="ACT_CONN_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36"/>
-<part name="5V_CONNECTOR" library="con-molex-mini-fit" deviceset="39-30-?02?_S" device=""/>
+<part name="DEPTH_CONN" library="DF13-4P-125DSA_Connector" deviceset="DF13-4P-1.25DSA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9097,13 +9190,12 @@ Ohio State University</text>
 <text x="269.24" y="243.84" size="2.54" layer="91">Switch Connector</text>
 <text x="269.24" y="208.28" size="2.54" layer="91">Robot I2C
 Connector</text>
-<text x="269.24" y="175.26" size="2.54" layer="91">Auxillary I2C
+<text x="269.24" y="175.26" size="2.54" layer="91">Depth Sensor
 Connector</text>
 <text x="267.716" y="89.662" size="2.54" layer="91">Test Pin
 Connector</text>
 <text x="269.24" y="142.24" size="2.54" layer="91">Board Connected 
 Indicators</text>
-<text x="327.66" y="243.84" size="2.54" layer="91">5V Connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
@@ -9115,41 +9207,27 @@ Indicators</text>
 <instance part="U$2" gate="G$1" x="207.264" y="193.802" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="83.058" y="67.818" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="207.518" y="67.818" smashed="yes"/>
-<instance part="SWITCH_CONNECTOR" gate="-1" x="290.576" y="234.188" smashed="yes">
-<attribute name="VALUE" x="280.416" y="236.728" size="1.778" layer="96" ratio="12" rot="MR0"/>
-<attribute name="PART" x="310.896" y="236.728" size="1.778" layer="95" ratio="12" rot="MR0"/>
-<attribute name="NAME" x="293.751" y="233.553" size="1.778" layer="95" ratio="12"/>
+<instance part="SWITCH_CONN" gate="-1" x="314.706" y="234.95" smashed="yes">
+<attribute name="VALUE" x="304.546" y="237.49" size="1.778" layer="96" ratio="12" rot="MR0"/>
+<attribute name="PART" x="335.026" y="237.49" size="1.778" layer="95" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="317.881" y="234.315" size="1.778" layer="95" ratio="12"/>
 </instance>
-<instance part="SWITCH_CONNECTOR" gate="-2" x="290.576" y="226.568" smashed="yes">
-<attribute name="NAME" x="293.751" y="225.933" size="1.778" layer="95" ratio="12"/>
+<instance part="SWITCH_CONN" gate="-2" x="314.706" y="227.33" smashed="yes">
+<attribute name="NAME" x="317.881" y="226.695" size="1.778" layer="95" ratio="12"/>
 </instance>
-<instance part="ROBOT_I2C_CONNECTOR" gate="-1" x="331.216" y="210.058" smashed="yes">
+<instance part="ROBOT_I2C_CONN" gate="-1" x="331.216" y="210.058" smashed="yes">
 <attribute name="VALUE" x="321.056" y="212.852" size="1.778" layer="96" ratio="12" rot="MR0"/>
 <attribute name="PART" x="351.79" y="212.852" size="1.778" layer="95" ratio="12" rot="MR0"/>
 <attribute name="NAME" x="334.391" y="209.423" size="1.778" layer="95" ratio="12"/>
 </instance>
-<instance part="ROBOT_I2C_CONNECTOR" gate="-2" x="331.216" y="204.978" smashed="yes">
+<instance part="ROBOT_I2C_CONN" gate="-2" x="331.216" y="204.978" smashed="yes">
 <attribute name="NAME" x="334.391" y="204.343" size="1.778" layer="95" ratio="12"/>
 </instance>
-<instance part="ROBOT_I2C_CONNECTOR" gate="-3" x="331.216" y="199.898" smashed="yes">
+<instance part="ROBOT_I2C_CONN" gate="-3" x="331.216" y="199.898" smashed="yes">
 <attribute name="NAME" x="334.391" y="199.263" size="1.778" layer="95" ratio="12"/>
 </instance>
-<instance part="ROBOT_I2C_CONNECTOR" gate="-4" x="331.216" y="194.818" smashed="yes">
+<instance part="ROBOT_I2C_CONN" gate="-4" x="331.216" y="194.818" smashed="yes">
 <attribute name="NAME" x="334.391" y="194.183" size="1.778" layer="95" ratio="12"/>
-</instance>
-<instance part="AUX_I2C_CONNECTOR1" gate="-1" x="331.216" y="177.038" smashed="yes">
-<attribute name="VALUE" x="321.056" y="179.832" size="1.778" layer="96" ratio="12" rot="MR0"/>
-<attribute name="PART" x="351.79" y="179.832" size="1.778" layer="95" ratio="12" rot="MR0"/>
-<attribute name="NAME" x="334.391" y="176.403" size="1.778" layer="95" ratio="12"/>
-</instance>
-<instance part="AUX_I2C_CONNECTOR1" gate="-2" x="331.216" y="171.958" smashed="yes">
-<attribute name="NAME" x="334.391" y="171.323" size="1.778" layer="95" ratio="12"/>
-</instance>
-<instance part="AUX_I2C_CONNECTOR1" gate="-3" x="331.216" y="166.878" smashed="yes">
-<attribute name="NAME" x="334.391" y="166.243" size="1.778" layer="95" ratio="12"/>
-</instance>
-<instance part="AUX_I2C_CONNECTOR1" gate="-4" x="331.216" y="161.798" smashed="yes">
-<attribute name="NAME" x="334.391" y="161.163" size="1.778" layer="95" ratio="12"/>
 </instance>
 <instance part="TESTPIN_CONNECTOR" gate="G$1" x="359.664" y="28.448" smashed="yes" rot="R90"/>
 <instance part="R15" gate="G$1" x="310.896" y="88.138" smashed="yes" rot="R270">
@@ -9168,7 +9246,7 @@ Indicators</text>
 <attribute name="NAME" x="326.8726" y="91.948" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="326.898" y="86.36" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="BB_CONN_LED" gate="G$1" x="314.452" y="141.986" smashed="yes" rot="R90">
+<instance part="PD_CONN_LED" gate="G$1" x="314.452" y="141.986" smashed="yes" rot="R90">
 <attribute name="NAME" x="306.578" y="144.526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="319.024" y="147.701" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9200,13 +9278,8 @@ Indicators</text>
 <attribute name="NAME" x="326.898" y="104.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="333.756" y="104.648" size="1.778" layer="96"/>
 </instance>
-<instance part="5V_CONNECTOR" gate="-1" x="348.996" y="234.188" smashed="yes">
-<attribute name="VALUE" x="343.916" y="236.728" size="1.778" layer="96" ratio="12" rot="MR0"/>
-<attribute name="PART" x="369.316" y="236.728" size="1.778" layer="95" ratio="12" rot="MR0"/>
-<attribute name="NAME" x="352.171" y="233.553" size="1.778" layer="95" ratio="12"/>
-</instance>
-<instance part="5V_CONNECTOR" gate="-2" x="348.996" y="226.568" smashed="yes">
-<attribute name="NAME" x="352.171" y="225.933" size="1.778" layer="95" ratio="12"/>
+<instance part="DEPTH_CONN" gate="A" x="327.914" y="173.228" smashed="yes">
+<attribute name="NAME" x="326.2376" y="178.2826" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -9234,19 +9307,9 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="SWITCH_CONNECTOR" gate="-1" pin="P"/>
-<wire x1="288.036" y1="234.188" x2="282.956" y2="234.188" width="0.1524" layer="91"/>
-<label x="282.956" y="234.188" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="TESTPIN_CONNECTOR" gate="G$1" pin="5V"/>
 <wire x1="333.248" y1="78.486" x2="305.562" y2="78.486" width="0.1524" layer="91"/>
 <label x="305.562" y="78.486" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="5V_CONNECTOR" gate="-1" pin="P"/>
-<wire x1="346.456" y1="234.188" x2="341.376" y2="234.188" width="0.1524" layer="91"/>
-<label x="341.376" y="234.188" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9271,14 +9334,16 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="ROBOT_I2C_CONNECTOR" gate="-1" pin="P"/>
+<pinref part="ROBOT_I2C_CONN" gate="-1" pin="P"/>
 <wire x1="328.676" y1="210.058" x2="318.516" y2="210.058" width="0.1524" layer="91"/>
 <label x="318.516" y="210.058" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AUX_I2C_CONNECTOR1" gate="-1" pin="P"/>
-<wire x1="328.676" y1="177.038" x2="318.516" y2="177.038" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="177.038" x2="318.516" y2="177.038" width="0.1524" layer="91"/>
 <label x="318.516" y="177.038" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="325.12" y1="177.038" x2="325.12" y2="173.228" width="0.1524" layer="91"/>
+<pinref part="DEPTH_CONN" gate="A" pin="1"/>
+<wire x1="325.12" y1="173.228" x2="327.914" y2="173.228" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TESTPIN_CONNECTOR" gate="G$1" pin="3.3V"/>
@@ -9577,6 +9642,11 @@ Indicators</text>
 <label x="174.498" y="44.958" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="KILL_SWITCH"/>
 </segment>
+<segment>
+<wire x1="312.166" y1="234.95" x2="308.102" y2="234.95" width="0.1524" layer="91"/>
+<label x="308.102" y="234.95" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SWITCH_CONN" gate="-1" pin="P"/>
+</segment>
 </net>
 <net name="SWITCH_1" class="0">
 <segment>
@@ -9710,19 +9780,16 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SWITCH_CONNECTOR" gate="-2" pin="P"/>
-<wire x1="288.036" y1="226.568" x2="282.956" y2="226.568" width="0.1524" layer="91"/>
-<label x="282.956" y="226.568" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ROBOT_I2C_CONNECTOR" gate="-3" pin="P"/>
+<pinref part="ROBOT_I2C_CONN" gate="-3" pin="P"/>
 <wire x1="328.676" y1="199.898" x2="318.516" y2="199.898" width="0.1524" layer="91"/>
 <label x="318.516" y="199.898" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AUX_I2C_CONNECTOR1" gate="-3" pin="P"/>
-<wire x1="328.676" y1="166.878" x2="318.516" y2="166.878" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="166.878" x2="318.516" y2="166.878" width="0.1524" layer="91"/>
 <label x="318.516" y="166.878" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="325.12" y1="166.878" x2="325.12" y2="168.148" width="0.1524" layer="91"/>
+<pinref part="DEPTH_CONN" gate="A" pin="3"/>
+<wire x1="325.12" y1="168.148" x2="327.914" y2="168.148" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TESTPIN_CONNECTOR" gate="G$1" pin="GND"/>
@@ -9749,11 +9816,6 @@ Indicators</text>
 <wire x1="336.804" y1="108.204" x2="341.376" y2="108.204" width="0.1524" layer="91"/>
 <label x="341.376" y="108.204" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="5V_CONNECTOR" gate="-2" pin="P"/>
-<wire x1="346.456" y1="226.568" x2="341.376" y2="226.568" width="0.1524" layer="91"/>
-<label x="341.376" y="226.568" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="BB_CONN" class="0">
 <segment>
@@ -9762,7 +9824,7 @@ Indicators</text>
 <pinref part="U$1" gate="G$1" pin="SPARE7"/>
 </segment>
 <segment>
-<pinref part="BB_CONN_LED" gate="G$1" pin="A"/>
+<pinref part="PD_CONN_LED" gate="G$1" pin="A"/>
 <wire x1="311.912" y1="141.986" x2="305.562" y2="141.986" width="0.1524" layer="91"/>
 <label x="305.562" y="141.986" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9895,14 +9957,16 @@ Indicators</text>
 <pinref part="U$3" gate="G$1" pin="ROBOT_SDA"/>
 </segment>
 <segment>
-<pinref part="ROBOT_I2C_CONNECTOR" gate="-2" pin="P"/>
+<pinref part="ROBOT_I2C_CONN" gate="-2" pin="P"/>
 <wire x1="328.676" y1="204.978" x2="318.516" y2="204.978" width="0.1524" layer="91"/>
 <label x="318.516" y="204.978" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AUX_I2C_CONNECTOR1" gate="-2" pin="P"/>
-<wire x1="328.676" y1="171.958" x2="318.516" y2="171.958" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="171.958" x2="318.516" y2="171.958" width="0.1524" layer="91"/>
 <label x="318.516" y="171.958" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="DEPTH_CONN" gate="A" pin="2"/>
+<wire x1="325.12" y1="171.958" x2="325.12" y2="170.688" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="170.688" x2="327.914" y2="170.688" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TESTPIN_CONNECTOR" gate="G$1" pin="ROBOT_SDA"/>
@@ -9936,14 +10000,16 @@ Indicators</text>
 <pinref part="U$3" gate="G$1" pin="ROBOT_SCL"/>
 </segment>
 <segment>
-<pinref part="ROBOT_I2C_CONNECTOR" gate="-4" pin="P"/>
+<pinref part="ROBOT_I2C_CONN" gate="-4" pin="P"/>
 <wire x1="328.676" y1="194.818" x2="318.516" y2="194.818" width="0.1524" layer="91"/>
 <label x="318.516" y="194.818" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AUX_I2C_CONNECTOR1" gate="-4" pin="P"/>
-<wire x1="328.676" y1="161.798" x2="318.516" y2="161.798" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="161.798" x2="318.516" y2="161.798" width="0.1524" layer="91"/>
 <label x="318.516" y="161.798" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="DEPTH_CONN" gate="A" pin="4"/>
+<wire x1="325.12" y1="161.798" x2="325.12" y2="165.608" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="165.608" x2="327.914" y2="165.608" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TESTPIN_CONNECTOR" gate="G$1" pin="ROBOT_SCL"/>
@@ -10165,9 +10231,9 @@ Indicators</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="264.16" y1="251.46" x2="322.58" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="251.46" x2="322.58" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="220.98" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="251.46" x2="373.38" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="251.46" x2="373.38" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="220.98" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="220.98" x2="264.16" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10233,7 +10299,7 @@ Indicators</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="BB_CONN_LED" gate="G$1" pin="C"/>
+<pinref part="PD_CONN_LED" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="319.532" y1="141.986" x2="326.898" y2="141.986" width="0.1524" layer="91"/>
 </segment>
@@ -10267,12 +10333,11 @@ Indicators</text>
 <wire x1="373.38" y1="152.4" x2="264.16" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="EXTRA_AUXILLARY" class="0">
 <segment>
-<wire x1="325.12" y1="251.46" x2="373.38" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="251.46" x2="373.38" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="220.98" x2="325.12" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="220.98" x2="325.12" y2="251.46" width="0.1524" layer="91"/>
+<label x="308.102" y="227.33" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="312.166" y1="227.33" x2="308.102" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="SWITCH_CONN" gate="-2" pin="P"/>
 </segment>
 </net>
 </nets>
@@ -12522,10 +12587,13 @@ Ohio State University</text>
      Connector Header Through Hole, Right Angle 4 position 0.165 in (4.20mm) Molex mini fit jr.
      https://www.digikey.com/products/en?keywords=26013115
 
-     5V Connector: 0026013114
      Switch Connector: 0026013114
      Connector Header Through Hole, Right Angle 2 position Molex mini fit jr.
      https://www.digikey.com/products/en?keywords=26013114
+
+     Depth Sensor Connector: DF13-4P-1.25DSA
+     Connector Header Through Hole 4 position 0.049" (1.25mm) Hirose Electric
+     https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF13-4P-1-25DSA/H2193-ND/241767
 </text>
 <text x="25.4" y="104.14" size="3.556" layer="91" align="top-left">Administrative Notes:
 
