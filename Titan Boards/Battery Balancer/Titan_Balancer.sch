@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31667,8 +31667,38 @@ Ohio State University</text>
 <description>Parts List</description>
 <plain>
 <text x="17.78" y="241.3" size="5.08" layer="94">PARTS</text>
-<text x="66.04" y="241.3" size="5.08" layer="94">Quantity</text>
-<text x="127" y="241.3" size="5.08" layer="94">Web Address</text>
+<text x="96.52" y="241.3" size="5.08" layer="94">Quantity</text>
+<text x="147.32" y="241.3" size="5.08" layer="94">Web Address</text>
+<text x="17.78" y="228.6" size="3.81" layer="97">ACS722</text>
+<text x="96.52" y="228.6" size="3.81" layer="97">2</text>
+<text x="17.78" y="215.9" size="3.81" layer="97">LM5050</text>
+<text x="96.52" y="215.9" size="3.81" layer="97">2</text>
+<text x="17.78" y="203.2" size="3.81" layer="97">APT60DQ60SG</text>
+<text x="96.52" y="203.2" size="3.81" layer="97">2</text>
+<text x="17.78" y="190.5" size="3.81" layer="97">R-US_R0805 2k Ohm</text>
+<text x="96.52" y="190.5" size="3.81" layer="97">6</text>
+<text x="17.78" y="177.8" size="3.81" layer="97">R-US_R0805 5 Ohm</text>
+<text x="96.52" y="177.8" size="3.81" layer="97">1</text>
+<text x="17.78" y="165.1" size="3.81" layer="97">REG1117</text>
+<text x="96.52" y="165.1" size="3.81" layer="97">1</text>
+<text x="17.78" y="152.4" size="3.81" layer="97">R-US_R0805 100k Ohm</text>
+<text x="96.52" y="152.4" size="3.81" layer="97">7</text>
+<text x="17.78" y="139.7" size="3.81" layer="97">R-US_R0805 18k Ohm</text>
+<text x="96.52" y="139.7" size="3.81" layer="97">3</text>
+<text x="17.78" y="127" size="3.81" layer="97">ADC128D818</text>
+<text x="96.52" y="127" size="3.81" layer="97">1</text>
+<text x="17.78" y="114.3" size="3.81" layer="97">I6A4W020A033V-001-R</text>
+<text x="96.52" y="114.3" size="3.81" layer="97">2</text>
+<text x="17.78" y="101.6" size="3.81" layer="97">R-US_R0805 90 Ohm</text>
+<text x="17.78" y="88.9" size="3.81" layer="97">R-US_R0805 470 Ohm</text>
+<text x="96.52" y="101.6" size="3.81" layer="97">1</text>
+<text x="96.52" y="88.9" size="3.81" layer="97">1</text>
+<text x="17.78" y="76.2" size="3.81" layer="97">R-US_R0603 13k</text>
+<text x="17.78" y="63.5" size="3.81" layer="97">R-US_R0805 100k</text>
+<text x="96.52" y="63.5" size="3.81" layer="97">2</text>
+<text x="96.52" y="76.2" size="3.81" layer="97">2</text>
+<text x="17.78" y="50.8" size="3.81" layer="97">R-US_R0805 10k</text>
+<text x="96.52" y="50.8" size="3.81" layer="97">5</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
