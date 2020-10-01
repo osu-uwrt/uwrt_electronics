@@ -29844,7 +29844,7 @@ Source:  FDD4141.pdf</description>
 </parts>
 <sheets>
 <sheet>
-<description>Connectors</description>
+<description>Part Schematics</description>
 <plain>
 <rectangle x1="306.472590625" y1="5.533390625" x2="309.667909375" y2="5.576571875" layer="94"/>
 <rectangle x1="306.34305" y1="5.576571875" x2="307.29300625" y2="5.619746875" layer="94"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32091,6 +32091,7 @@ for proper functionality</text>
 <text x="238.76" y="246.38" size="2.54" layer="91">Marker Dropper</text>
 <text x="276.86" y="45.72" size="2.54" layer="91">Power Input</text>
 <text x="213.36" y="193.04" size="2.54" layer="91">Cortex Controller</text>
+<text x="271.78" y="15.24" size="1.778" layer="91">test</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="83.82" y="46.99" smashed="yes"/>
