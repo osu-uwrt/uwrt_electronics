@@ -26496,9 +26496,10 @@ Ohio State University</text>
 <text x="322.58" y="101.6" size="5.08" layer="203">Computers</text>
 <text x="335.28" y="86.36" size="1.778" layer="203">Xavier</text>
 <wire x1="276.86" y1="91.44" x2="289.56" y2="91.44" width="0.1524" layer="203"/>
-<text x="167.64" y="101.6" size="5.08" layer="203">Lighting and Fans</text>
+<text x="167.64" y="104.14" size="5.08" layer="203">Lighting and Fans</text>
 <text x="220.98" y="81.28" size="1.778" layer="203">Lighting</text>
 <text x="182.88" y="71.12" size="1.778" layer="203">Fans</text>
+<text x="182.88" y="53.34" size="1.778" layer="91">Seperate Fans and lighting</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="88.9" y="44.45" smashed="yes"/>
@@ -26906,27 +26907,36 @@ Ohio State University</text>
 <label x="55.88" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="COPRO_CONN" class="0">
-<segment>
-<wire x1="187.96" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-<label x="210.82" y="88.9" size="1.778" layer="95" xref="yes"/>
-<wire x1="208.28" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="6"/>
-<wire x1="210.82" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="76.2" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="86.36" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-<junction x="208.28" y="88.9"/>
-<pinref part="P3" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="88.9" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="XAVIER_ALT" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="10"/>
 <wire x1="345.44" y1="66.04" x2="350.52" y2="66.04" width="0.1524" layer="91"/>
 <label x="350.52" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIGHTING_1" class="0">
+<segment>
+<pinref part="P3" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="83.82" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="187.96" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE3"/>
+<wire x1="129.54" y1="64.77" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LIGHTING_2" class="0">
+<segment>
+<pinref part="P3" gate="G$1" pin="6"/>
+<wire x1="210.82" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<label x="220.98" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE4"/>
+<wire x1="134.62" y1="64.77" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<label x="134.62" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
