@@ -30920,6 +30920,8 @@ Ohio State University</text>
 <text x="276.86" y="127" size="3.81" layer="97">2</text>
 <text x="187.96" y="116.84" size="3.81" layer="97">14PIN-VERT</text>
 <text x="276.86" y="116.84" size="3.81" layer="97">1</text>
+<text x="124.46" y="101.6" size="5.08" layer="91">change to R0603</text>
+<text x="243.84" y="104.14" size="5.08" layer="91">change connector pins</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
