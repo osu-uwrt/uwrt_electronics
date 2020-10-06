@@ -9566,6 +9566,11 @@ Indicators</text>
 <label x="243.078" y="90.678" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="SPARE2"/>
 </segment>
+<segment>
+<label x="308.102" y="227.33" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="312.166" y1="227.33" x2="308.102" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="SWITCH_CONN" gate="-2" pin="P"/>
+</segment>
 </net>
 <net name="SPARE3" class="0">
 <segment>
@@ -10331,13 +10336,6 @@ Indicators</text>
 <wire x1="264.16" y1="101.6" x2="373.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="101.6" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="152.4" x2="264.16" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EXTRA_AUXILLARY" class="0">
-<segment>
-<label x="308.102" y="227.33" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="312.166" y1="227.33" x2="308.102" y2="227.33" width="0.1524" layer="91"/>
-<pinref part="SWITCH_CONN" gate="-2" pin="P"/>
 </segment>
 </net>
 </nets>
