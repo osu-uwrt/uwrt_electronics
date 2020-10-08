@@ -627,6 +627,24 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <hole x="-8.382" y="-7.3" drill="3"/>
 <hole x="8.382" y="-7.3" drill="3"/>
 </package>
+<package name="39-30-?06?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-5.9" y1="-1.0441" x2="-7" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-1.0441" x2="-7" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-13.8441" x2="7" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="7" y1="-13.8441" x2="7" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="7" y1="-1.2441" x2="5.9" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="6" x="-4.191" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="5" x="0" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="4" x="4.191" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="-4.191" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="2" x="0" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="4.191" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
+<text x="-7.62" y="-13.7541" size="1.524" layer="21" ratio="18" rot="R90">&gt;NAME</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="-4.191" y="-7.3" drill="3"/>
+<hole x="4.191" y="-7.3" drill="3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MA08-2">
@@ -713,6 +731,26 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pin name="9" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="10" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="MA03-2">
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="39-30-?16?" prefix="P">
@@ -783,6 +821,27 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="39-30-?06?" prefix="P">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA03-2" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="39-30-?06?">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24236,6 +24295,10 @@ Switches electronic signals</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="P4" library="con-molex-mini-fit" deviceset="39-30-?04?" device=""/>
+<part name="P5" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26564,6 +26627,20 @@ Ohio State University</text>
 <instance part="GND23" gate="1" x="218.44" y="60.96" smashed="yes">
 <attribute name="VALUE" x="215.9" y="58.42" size="1.778" layer="96"/>
 </instance>
+<instance part="P4" gate="G$1" x="231.14" y="35.56" smashed="yes">
+<attribute name="NAME" x="227.33" y="41.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="30.48" size="1.778" layer="95"/>
+</instance>
+<instance part="P5" gate="G$1" x="185.42" y="30.48" smashed="yes">
+<attribute name="NAME" x="181.61" y="36.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.61" y="22.86" size="1.778" layer="95"/>
+</instance>
+<instance part="GND24" gate="1" x="243.84" y="25.4" smashed="yes">
+<attribute name="VALUE" x="241.3" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="P+9" gate="1" x="165.1" y="38.1" smashed="yes">
+<attribute name="VALUE" x="162.56" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26706,6 +26783,22 @@ Ohio State University</text>
 <junction x="195.58" y="71.12"/>
 <pinref part="P3" gate="G$1" pin="7"/>
 <wire x1="195.58" y1="73.66" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P4" gate="G$1" pin="1"/>
+<pinref part="P4" gate="G$1" pin="3"/>
+<wire x1="223.52" y1="38.1" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="35.56" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
+<junction x="223.52" y="35.56"/>
+<wire x1="223.52" y1="27.94" x2="243.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="27.94" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="P4" gate="G$1" pin="4"/>
+<wire x1="243.84" y1="35.56" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="P4" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="38.1" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
+<junction x="238.76" y="35.56"/>
+<junction x="243.84" y="27.94"/>
+<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="PORT_BAT" class="0">
@@ -26886,6 +26979,26 @@ Ohio State University</text>
 <wire x1="210.82" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
 <junction x="215.9" y="81.28"/>
 </segment>
+<segment>
+<pinref part="P5" gate="G$1" pin="4"/>
+<wire x1="193.04" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="30.48" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="33.02" x2="193.04" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="33.02" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
+<junction x="200.66" y="33.02"/>
+<wire x1="200.66" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="40.64" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="30.48" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="30.48" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
+<junction x="175.26" y="30.48"/>
+<wire x1="165.1" y1="30.48" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="5"/>
+<wire x1="177.8" y1="30.48" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
+<junction x="177.8" y="30.48"/>
+<pinref part="P+9" gate="1" pin="+12V"/>
+</segment>
 </net>
 <net name="BALANCED_OUT" class="0">
 <segment>
@@ -26932,11 +27045,27 @@ Ohio State University</text>
 <pinref part="P3" gate="G$1" pin="6"/>
 <wire x1="210.82" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="220.98" y="76.2" size="1.778" layer="95" xref="yes"/>
+<label x="220.98" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SPARE4"/>
 <wire x1="134.62" y1="64.77" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
 <label x="134.62" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LIGHTING_2.1" class="0">
+<segment>
+<pinref part="P5" gate="G$1" pin="6"/>
+<wire x1="193.04" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIGHTING_1.1" class="0">
+<segment>
+<pinref part="P5" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="33.02" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="33.02" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="170.18" y="35.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -30921,6 +31050,9 @@ Ohio State University</text>
 <text x="276.86" y="116.84" size="3.81" layer="97">1</text>
 <text x="124.46" y="101.6" size="5.08" layer="91">change to R0603</text>
 <text x="243.84" y="104.14" size="5.08" layer="91">change connector pins</text>
+<text x="132.08" y="228.6" size="1.778" layer="97">https://www.allegromicro.com/~/media
+/Files/Datasheets/ACS722-Datasheet.ashx
+</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
