@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26618,8 +26618,8 @@ Ohio State University</text>
 <instance part="P+2" gate="1" x="193.04" y="43.18" smashed="yes">
 <attribute name="VALUE" x="190.5" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND23" gate="1" x="215.9" y="76.2" smashed="yes">
-<attribute name="VALUE" x="213.36" y="73.66" size="1.778" layer="96"/>
+<instance part="GND23" gate="1" x="193.04" y="58.42" smashed="yes">
+<attribute name="VALUE" x="193.04" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="P4" gate="G$1" x="203.2" y="30.48" smashed="yes">
 <attribute name="NAME" x="199.39" y="36.195" size="1.778" layer="95"/>
@@ -26632,8 +26632,8 @@ Ohio State University</text>
 <instance part="GND24" gate="1" x="215.9" y="20.32" smashed="yes">
 <attribute name="VALUE" x="213.36" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="1" x="180.34" y="81.28" smashed="yes">
-<attribute name="VALUE" x="177.8" y="76.2" size="1.778" layer="96" rot="R90"/>
+<instance part="P+9" gate="1" x="208.28" y="91.44" smashed="yes">
+<attribute name="VALUE" x="205.74" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -26766,19 +26766,21 @@ Ohio State University</text>
 <wire x1="215.9" y1="22.86" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P4" gate="G$1" pin="4"/>
 <wire x1="215.9" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="P4" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="33.02" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
-<junction x="210.82" y="30.48"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="P4" gate="G$1" pin="3"/>
+<wire x1="195.58" y1="30.48" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<junction x="215.9" y="22.86"/>
 </segment>
 <segment>
-<pinref part="P5" gate="G$1" pin="2"/>
-<pinref part="P5" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="76.2" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="76.2" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<junction x="208.28" y="76.2"/>
+<pinref part="P5" gate="G$1" pin="5"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="208.28" y1="78.74" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="71.12" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="6"/>
+<wire x1="208.28" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="71.12" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<junction x="193.04" y="60.96"/>
 </segment>
 </net>
 <net name="PORT_BAT" class="0">
@@ -26940,22 +26942,25 @@ Ohio State University</text>
 <junction x="345.44" y="76.2"/>
 </segment>
 <segment>
-<pinref part="P5" gate="G$1" pin="3"/>
-<wire x1="193.04" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="73.66" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="P5" gate="G$1" pin="5"/>
-<wire x1="193.04" y1="73.66" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
-<junction x="193.04" y="73.66"/>
-<pinref part="P+9" gate="1" pin="+12V"/>
+<pinref part="P4" gate="G$1" pin="1"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="195.58" y1="33.02" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="38.1" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="P4" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="33.02" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<junction x="195.58" y="38.1"/>
 </segment>
 <segment>
-<pinref part="P4" gate="G$1" pin="3"/>
-<pinref part="P4" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="33.02" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="195.58" y1="33.02" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
-<junction x="195.58" y="33.02"/>
+<pinref part="P5" gate="G$1" pin="3"/>
+<wire x1="193.04" y1="73.66" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+12V"/>
+<wire x1="208.28" y1="83.82" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="76.2" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<junction x="208.28" y="83.82"/>
 </segment>
 </net>
 <net name="BALANCED_OUT" class="0">
@@ -26992,10 +26997,10 @@ Ohio State University</text>
 <label x="129.54" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="P5" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="76.2" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="185.42" y="78.74" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="P5" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LIGHTING_2" class="0">
@@ -27005,9 +27010,9 @@ Ohio State University</text>
 <label x="134.62" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="P5" gate="G$1" pin="6"/>
-<wire x1="208.28" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
-<label x="215.9" y="71.12" size="1.778" layer="95" xref="yes"/>
+<label x="226.06" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="P5" gate="G$1" pin="4"/>
+<wire x1="226.06" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -30995,6 +31000,15 @@ Ohio State University</text>
 <text x="132.08" y="228.6" size="1.778" layer="97">https://www.allegromicro.com/~/media
 /Files/Datasheets/ACS722-Datasheet.ashx
 </text>
+<text x="132.08" y="218.44" size="1.778" layer="97">https://www.ti.com/product/LM5050-1</text>
+<text x="132.08" y="208.28" size="1.778" layer="97">https://www.mouser.com/ProductDetail
+/Microchip-Microsemi/APT60DQ60SG?qs=
+T3oQrply3y%2FxiTR%252BTuJEjQ%3D%3D</text>
+<text x="132.08" y="177.8" size="1.778" layer="97">https://www.ti.com/product/REG1117</text>
+<text x="132.08" y="147.32" size="1.778" layer="97">https://www.ti.com/product/ADC128D818</text>
+<text x="132.08" y="137.16" size="1.778" layer="97">https://www.mouser.com/ProductDetail/TDK-
+Lambda/I6A4W020A033V-001-R?qs=GZwCx
+kjl%252BU1cf1n9r1aH9w%3D%3D</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
