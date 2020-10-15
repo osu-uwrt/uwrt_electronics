@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24276,7 +24276,7 @@ Switches electronic signals</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="18k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -30703,6 +30703,8 @@ Ohio State University</text>
 <sheet>
 <description>Fuse/LEDs</description>
 <plain>
+<text x="48.26" y="165.1" size="1.778" layer="91">Placeholder value, 
+ask about current flow</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes">
@@ -30722,17 +30724,17 @@ Ohio State University</text>
 <attribute name="NAME" x="221.996" y="213.868" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="224.155" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3V3" gate="G$1" x="172.72" y="218.44" smashed="yes">
-<attribute name="NAME" x="176.276" y="213.868" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.435" y="213.868" size="1.778" layer="96" rot="R90"/>
+<instance part="3V3" gate="G$1" x="312.42" y="218.44" smashed="yes">
+<attribute name="NAME" x="315.976" y="213.868" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="318.135" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="5V" gate="G$1" x="121.92" y="218.44" smashed="yes">
 <attribute name="NAME" x="125.476" y="213.868" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.635" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="BALANCED" gate="G$1" x="312.42" y="218.44" smashed="yes">
-<attribute name="NAME" x="315.976" y="213.868" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="318.135" y="213.868" size="1.778" layer="96" rot="R90"/>
+<instance part="BALANCED" gate="G$1" x="172.72" y="215.9" smashed="yes">
+<attribute name="NAME" x="176.276" y="211.328" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="178.435" y="211.328" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="FAULT_LED" gate="G$1" x="38.1" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.528" y="171.704" size="1.778" layer="95"/>
@@ -30807,8 +30809,8 @@ Ohio State University</text>
 <net name="3V3_LED" class="0">
 <segment>
 <pinref part="3V3" gate="G$1" pin="A"/>
-<wire x1="172.72" y1="220.98" x2="172.72" y2="226.06" width="0.1524" layer="91"/>
-<label x="172.72" y="226.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="312.42" y1="220.98" x2="312.42" y2="226.06" width="0.1524" layer="91"/>
+<label x="312.42" y="226.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="STBD_LED" class="0">
@@ -30828,8 +30830,8 @@ Ohio State University</text>
 <net name="BALANCED_LED" class="0">
 <segment>
 <pinref part="BALANCED" gate="G$1" pin="A"/>
-<wire x1="312.42" y1="220.98" x2="312.42" y2="226.06" width="0.1524" layer="91"/>
-<label x="312.42" y="226.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="172.72" y1="218.44" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
+<label x="172.72" y="223.52" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -30883,17 +30885,10 @@ Ohio State University</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="BALANCED" gate="G$1" pin="C"/>
 <pinref part="Q7" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="213.36" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="175.26" x2="274.32" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
 <pinref part="3V3" gate="G$1" pin="C"/>
-<pinref part="Q10" gate="G$1" pin="B"/>
-<wire x1="172.72" y1="213.36" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="213.36" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -30922,6 +30917,13 @@ Ohio State University</text>
 <pinref part="Q8" gate="G$1" pin="E"/>
 <pinref part="Q10" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="BALANCED" gate="G$1" pin="C"/>
+<pinref part="Q10" gate="G$1" pin="B"/>
+<wire x1="172.72" y1="210.82" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
