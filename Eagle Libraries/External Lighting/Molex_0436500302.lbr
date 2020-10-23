@@ -82,6 +82,15 @@
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-11.43" size="1.27" layer="25">&gt;VALUE</text>
 </package>
+<package name="SOLDER2PAD">
+<smd name="P$1" x="-1.25" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+<smd name="P$2" x="1.25" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+</package>
+<package name="SOLDER3PAD">
+<smd name="P$1" x="-2.5" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+<smd name="P$2" x="0" y="-1.036" dx="1" dy="1" layer="1" roundness="100"/>
+<smd name="P$3" x="2.5" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOLEX3PIN">
@@ -136,6 +145,39 @@
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER2PAD" prefix="J">
+<gates>
+<gate name="G$1" symbol="MOLEX2PIN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOLDER2PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER3PAD" prefix="J">
+<gates>
+<gate name="G$1" symbol="MOLEX3PIN" x="-7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOLDER3PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
