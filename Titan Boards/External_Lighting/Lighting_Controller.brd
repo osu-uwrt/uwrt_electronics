@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -374,13 +374,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.05" y="72.39" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="19.05" y="63.5" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="D9" library="CreeXLamp_XM-L2" package="XLAMP_XM-L2" value="XLAMP_XM-L2" x="15.24" y="53.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="19.05" y="57.15" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="19.05" y="48.26" size="1.27" layer="28" rot="MR0"/>
+<element name="D9" library="CreeXLamp_XM-L2" package="XLAMP_XM-L2" value="XLAMP_XM-L2" x="15.24" y="56.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="19.05" y="60.75" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="19.05" y="51.86" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="J1" library="Molex_0436500302" package="SOLDER2PAD" value="SOLDER2PAD" x="17.78" y="68.58" smashed="yes" rot="R90"/>
-<element name="J2" library="Molex_0436500302" package="SOLDER2PAD" value="SOLDER2PAD" x="12.7" y="53.34" smashed="yes" rot="R270"/>
-<element name="J3" library="Molex_0436500302" package="SOLDER3PAD" value="SOLDER3PAD" x="17.78" y="53.34" smashed="yes" rot="R90"/>
+<element name="J2" library="Molex_0436500302" package="SOLDER2PAD" value="SOLDER2PAD" x="12.7" y="56.94" smashed="yes" rot="R270"/>
+<element name="J3" library="Molex_0436500302" package="SOLDER3PAD" value="SOLDER3PAD" x="17.78" y="56.94" smashed="yes" rot="R90"/>
 <element name="J4" library="Molex_0436500302" package="SOLDER3PAD" value="SOLDER3PAD" x="12.7" y="68.58" smashed="yes" rot="R270"/>
 </elements>
 <signals>
@@ -389,38 +389,33 @@ design rules under a new name.</description>
 <contactref element="J2" pad="P$1"/>
 <contactref element="J3" pad="P$3"/>
 <contactref element="J4" pad="P$1"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="11" y="68.5"/>
-<vertex x="19.5" y="68.5"/>
-<vertex x="19.5" y="72.5"/>
-<vertex x="11" y="72.5"/>
-</polygon>
 <contactref element="D9" pad="1"/>
-<wire x1="12.7" y1="54.59" x2="12.045" y2="54.59" width="1" layer="1"/>
-<wire x1="12.045" y1="54.59" x2="11.176" y2="53.721" width="1" layer="1"/>
-<via x="11.176" y="53.721" extent="1-16" drill="0.35"/>
-<polygon width="0.1" layer="16" thermals="no">
-<vertex x="13.3" y="55.5"/>
-<vertex x="12" y="55.5"/>
-<vertex x="10.3" y="53.8"/>
-<vertex x="10.3" y="53.7"/>
-<vertex x="13.2" y="50.8"/>
-<vertex x="13.3" y="50.9"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="11" y="72.08"/>
+<vertex x="11" y="70.58"/>
+<vertex x="17.2" y="70.58"/>
+<vertex x="17.2" y="68.78"/>
+<vertex x="19.5" y="68.78"/>
+<vertex x="19.5" y="72.08"/>
 </polygon>
-<polygon width="0.1" layer="1" thermals="no">
-<vertex x="12.7" y="55.6"/>
-<vertex x="12.1" y="55.6"/>
-<vertex x="9.8" y="53.3"/>
-<vertex x="9.7" y="53.3"/>
-<vertex x="9.8" y="53.2"/>
-<vertex x="19.7" y="53.2"/>
-<vertex x="19.7" y="55"/>
-<vertex x="18" y="56.7"/>
-<vertex x="17.8" y="56.7"/>
-<vertex x="16.8" y="55.7"/>
-<vertex x="12.7" y="55.7"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="13.1" y="60.44"/>
+<vertex x="13.1" y="53.44"/>
+<vertex x="11" y="53.44"/>
+<vertex x="11" y="60.44"/>
 </polygon>
-<wire x1="17.78" y1="69.83" x2="17.78" y2="55.84" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="58.19" x2="12.69" y2="58.2" width="1" layer="1"/>
+<wire x1="12.69" y1="58.2" x2="11.7" y2="58.2" width="1" layer="1"/>
+<via x="11.7" y="58.2" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="11" y="60.44"/>
+<vertex x="19.5" y="60.44"/>
+<vertex x="19.5" y="58.94"/>
+<vertex x="13.3" y="58.94"/>
+<vertex x="13.3" y="57.14"/>
+<vertex x="11" y="57.14"/>
+</polygon>
+<wire x1="17.78" y1="69.83" x2="17.78" y2="59.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="D10" pad="2"/>
@@ -428,69 +423,79 @@ design rules under a new name.</description>
 <contactref element="J2" pad="P$2"/>
 <contactref element="J3" pad="P$1"/>
 <contactref element="J4" pad="P$3"/>
-<wire x1="17.78" y1="67.33" x2="16.53" y2="66.08" width="1" layer="1"/>
-<wire x1="16.53" y1="66.08" x2="12.7" y2="66.08" width="1" layer="1"/>
-<wire x1="17.78" y1="67.33" x2="18.542" y2="68.092" width="1" layer="1"/>
-<wire x1="18.542" y1="68.092" x2="18.542" y2="68.58" width="1" layer="1"/>
-<via x="18.542" y="68.58" extent="1-16" drill="0.35"/>
 <polygon width="0.15" layer="16" thermals="no">
-<vertex x="17.5" y="71.5"/>
-<vertex x="19" y="70"/>
-<vertex x="19" y="66.5"/>
-<vertex x="17.5" y="66.5"/>
+<vertex x="17.5" y="72.08"/>
+<vertex x="19.5" y="72.08"/>
+<vertex x="19.5" y="65.08"/>
+<vertex x="17.5" y="65.08"/>
+</polygon>
+<wire x1="17.78" y1="67.33" x2="18.8776" y2="67.33" width="1" layer="1"/>
+<wire x1="18.8776" y1="67.33" x2="18.8976" y2="67.31" width="1" layer="1"/>
+<via x="18.8976" y="67.31" extent="1-16" drill="0.35"/>
+<wire x1="17.78" y1="66.08" x2="17.8" y2="66.1" width="1" layer="1"/>
+<wire x1="17.8" y1="66.1" x2="17.8" y2="67.31" width="1" layer="1"/>
+<wire x1="17.8" y1="67.31" x2="17.78" y2="67.33" width="1" layer="1"/>
+<wire x1="12.7" y1="66.08" x2="17.78" y2="66.08" width="1" layer="1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="11" y="65.08"/>
+<vertex x="11" y="66.58"/>
+<vertex x="17.2" y="66.58"/>
+<vertex x="17.2" y="68.38"/>
+<vertex x="19.5" y="68.38"/>
+<vertex x="19.5" y="65.08"/>
 </polygon>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="11" y="68"/>
-<vertex x="19.5" y="68"/>
-<vertex x="19.5" y="65.5"/>
-<vertex x="11" y="65.5"/>
+<vertex x="19.5" y="54.94"/>
+<vertex x="13.3" y="54.94"/>
+<vertex x="13.3" y="56.74"/>
+<vertex x="11" y="56.74"/>
+<vertex x="11" y="53.44"/>
+<vertex x="19.5" y="53.44"/>
 </polygon>
-<polygon width="0.1" layer="1" thermals="no">
-<vertex x="9.8" y="53"/>
-<vertex x="9.8" y="52.2"/>
-<vertex x="11.7" y="50.3"/>
-<vertex x="11.8" y="50.2"/>
-<vertex x="18.4" y="50.2"/>
-<vertex x="19.6" y="51.4"/>
-<vertex x="19.6" y="52.9"/>
-<vertex x="19.5" y="53"/>
-</polygon>
-<wire x1="12.7" y1="66.08" x2="12.7" y2="52.09" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="66.08" x2="12.7" y2="55.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D10" pad="1"/>
 <contactref element="J4" pad="P$2"/>
-<wire x1="11.664" y1="68.58" x2="11.664" y2="67.076" width="1" layer="1"/>
-<wire x1="11.664" y1="67.076" x2="11.684" y2="67.056" width="1" layer="1"/>
-<via x="11.684" y="67.056" extent="1-16" drill="0.35"/>
-<wire x1="11.664" y1="68.58" x2="11.664" y2="69.957" width="1" layer="1"/>
-<wire x1="11.664" y1="69.957" x2="11.684" y2="69.977" width="1" layer="1"/>
-<via x="11.684" y="69.977" extent="1-16" drill="0.35"/>
 <polygon width="0.15" layer="16" thermals="no">
-<vertex x="13" y="72"/>
-<vertex x="13" y="65.5"/>
-<vertex x="12" y="66.5"/>
-<vertex x="11" y="66.5"/>
-<vertex x="11" y="70.5"/>
-<vertex x="12.5" y="72"/>
+<vertex x="13" y="72.08"/>
+<vertex x="13" y="65.08"/>
+<vertex x="11" y="65.08"/>
+<vertex x="11" y="72.08"/>
 </polygon>
+<wire x1="11.664" y1="68.58" x2="11.664" y2="69.643" width="1" layer="1"/>
+<wire x1="11.664" y1="69.643" x2="11.6586" y2="69.6484" width="1" layer="1"/>
+<via x="11.6586" y="69.6484" extent="1-16" drill="0.35"/>
+<wire x1="11.664" y1="68.58" x2="11.664" y2="67.5186" width="1" layer="1"/>
+<wire x1="11.664" y1="67.5186" x2="11.6586" y2="67.5116" width="1" layer="1"/>
+<via x="11.6586" y="67.5116" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$15">
 <contactref element="D9" pad="2"/>
 <contactref element="J3" pad="P$2"/>
-<wire x1="18.816" y1="53.34" x2="18.816" y2="51.836" width="1" layer="1"/>
-<wire x1="18.816" y1="51.836" x2="18.796" y2="51.816" width="1" layer="1"/>
-<via x="18.796" y="51.816" extent="1-16" drill="0.35"/>
-<polygon width="0.1" layer="16" thermals="no">
-<vertex x="17.2" y="55.7"/>
-<vertex x="17.2" y="56.1"/>
-<vertex x="17.7" y="56.6"/>
-<vertex x="17.9" y="56.6"/>
-<vertex x="19.6" y="54.9"/>
-<vertex x="19.6" y="51.7"/>
-<vertex x="17.8" y="49.9"/>
-<vertex x="17.2" y="50.5"/>
-<vertex x="17.2" y="50.8"/>
+<wire x1="18.816" y1="56.94" x2="18.816" y2="55.8278" width="1" layer="1"/>
+<wire x1="18.816" y1="55.8278" x2="18.8214" y2="55.8224" width="1" layer="1"/>
+<via x="18.8214" y="55.8224" extent="1-16" drill="0.35"/>
+<wire x1="18.816" y1="56.94" x2="17.38" y2="56.94" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="P$2">
+<polygon width="0.1524" layer="1">
+<vertex x="11" y="70.2"/>
+<vertex x="16.8" y="70.2"/>
+<vertex x="16.8" y="66.96"/>
+<vertex x="11" y="66.96"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="17.4" y="60.44"/>
+<vertex x="17.4" y="53.44"/>
+<vertex x="19.5" y="53.44"/>
+<vertex x="19.5" y="60.44"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="19.5" y="58.56"/>
+<vertex x="19.5" y="55.32"/>
+<vertex x="13.7" y="55.32"/>
+<vertex x="13.7" y="58.56"/>
 </polygon>
 </signal>
 </signals>
