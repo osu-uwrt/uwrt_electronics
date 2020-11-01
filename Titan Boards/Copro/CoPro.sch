@@ -16603,12 +16603,12 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="165"/>
-<part name="165" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
-<part name="250" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165"/>
+<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165"/>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="250"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:15825/1"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="165"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="165"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="STM32" library="STM32F405RGT6" deviceset="STM32F405RGT6" device=""/>
 <part name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-16MHZ" device="PTH-HC49US" package3d_urn="urn:adsk.eagle:package:37515/1" value="12MHz"/>
@@ -21192,9 +21192,9 @@ was 5k/10k</text>
 <attribute name="NAME" x="304.8" y="223.52" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="292.1" y="218.44" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R1" gate="G$1" x="294.894" y="228.854" smashed="yes" rot="R270">
-<attribute name="NAME" x="296.3926" y="232.664" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="291.592" y="227.584" size="1.778" layer="96" rot="R270"/>
+<instance part="R1" gate="G$1" x="294.64" y="228.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="296.1386" y="232.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="291.338" y="227.33" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R2" gate="G$1" x="309.88" y="228.854" smashed="yes" rot="R270">
 <attribute name="NAME" x="311.3786" y="232.664" size="1.778" layer="95" rot="R270"/>
@@ -21435,11 +21435,11 @@ was 5k/10k</text>
 <attribute name="NAME" x="46.99" y="85.3186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="80.518" size="1.778" layer="96"/>
 </instance>
-<instance part="165" gate="G$1" x="50.8" y="73.66" smashed="yes">
+<instance part="R43" gate="G$1" x="50.8" y="73.66" smashed="yes">
 <attribute name="NAME" x="46.99" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="70.358" size="1.778" layer="96"/>
 </instance>
-<instance part="250" gate="G$1" x="50.8" y="63.5" smashed="yes">
+<instance part="R44" gate="G$1" x="50.8" y="63.5" smashed="yes">
 <attribute name="NAME" x="46.99" y="64.9986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="60.198" size="1.778" layer="96"/>
 </instance>
@@ -21527,15 +21527,15 @@ was 5k/10k</text>
 <pinref part="U$1" gate="G$1" pin="SPARE7"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="294.894" y1="233.934" x2="294.894" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="294.894" y1="236.22" x2="297.18" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="NMOS" pin="G"/>
 <wire x1="297.18" y1="236.22" x2="299.72" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="236.22" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="236.22" x2="297.18" y2="238.76" width="0.1524" layer="91"/>
-<junction x="297.18" y="236.22"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="233.68" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="236.22" x2="297.18" y2="236.22" width="0.1524" layer="91"/>
+<junction x="297.18" y="236.22"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -22073,16 +22073,15 @@ was 5k/10k</text>
 <wire x1="274.32" y1="251.46" x2="378.46" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PWN_3V3_1" class="0">
+<net name="PWM_3V3_1" class="0">
 <segment>
 <pinref part="Q9" gate="NMOS" pin="S"/>
 <wire x1="297.18" y1="220.98" x2="294.64" y2="220.98" width="0.1524" layer="91"/>
+<label x="289.56" y="220.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="220.98" x2="294.64" y2="223.774" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="223.774" x2="294.894" y2="223.774" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="223.52" x2="294.64" y2="220.98" width="0.1524" layer="91"/>
 <junction x="294.64" y="220.98"/>
-<label x="289.56" y="220.98" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
@@ -22490,14 +22489,14 @@ was 5k/10k</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="165" gate="G$1" pin="2"/>
+<pinref part="R43" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="250" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_MC" class="0">
@@ -22509,14 +22508,14 @@ was 5k/10k</text>
 </net>
 <net name="LED_3V3" class="0">
 <segment>
-<pinref part="165" gate="G$1" pin="1"/>
+<pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="40.64" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED_5V" class="0">
 <segment>
-<pinref part="250" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
 <label x="40.64" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -25076,8 +25075,8 @@ for proper functionality</text>
 <net name="BP_SDA" class="0">
 <segment>
 <pinref part="STM32" gate="G$1" pin="PB7"/>
-<wire x1="248.92" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<label x="226.06" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="248.92" y1="144.78" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
+<label x="220.98" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -25162,76 +25161,6 @@ for proper functionality</text>
 <label x="220.98" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PWM_1" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PA0/WKUP"/>
-<wire x1="248.92" y1="205.74" x2="246.38" y2="205.74" width="0.1524" layer="91"/>
-<label x="246.38" y="205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_2" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PA1/USART2_RTS"/>
-<wire x1="248.92" y1="203.2" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
-<label x="228.6" y="203.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_4" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PA3/USART2_RX"/>
-<wire x1="248.92" y1="198.12" x2="228.6" y2="198.12" width="0.1524" layer="91"/>
-<label x="228.6" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_3" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PA2/USART2_TX"/>
-<wire x1="248.92" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
-<label x="246.38" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_5" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PC6"/>
-<wire x1="309.88" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
-<label x="312.42" y="190.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_6" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PC7"/>
-<wire x1="309.88" y1="187.96" x2="330.2" y2="187.96" width="0.1524" layer="91"/>
-<label x="330.2" y="187.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_7" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PC8"/>
-<wire x1="309.88" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-<label x="312.42" y="185.42" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_8" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PC9"/>
-<wire x1="309.88" y1="182.88" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
-<label x="330.2" y="182.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_9" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PB8"/>
-<wire x1="248.92" y1="142.24" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
-<label x="243.84" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_10" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PB9"/>
-<wire x1="248.92" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
-<label x="220.98" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="STM32" gate="G$1" pin="PA13/JMS-SWDIO"/>
@@ -25277,8 +25206,8 @@ for proper functionality</text>
 </net>
 <net name="NET_RESET" class="0">
 <segment>
-<wire x1="309.88" y1="193.04" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
-<label x="330.2" y="193.04" size="1.778" layer="95" xref="yes"/>
+<wire x1="309.88" y1="193.04" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
+<label x="337.82" y="193.04" size="1.778" layer="95" xref="yes"/>
 <pinref part="STM32" gate="G$1" pin="PC5"/>
 </segment>
 </net>
@@ -25291,8 +25220,8 @@ for proper functionality</text>
 </net>
 <net name="SPI_CLK" class="0">
 <segment>
-<wire x1="248.92" y1="193.04" x2="226.06" y2="193.04" width="0.1524" layer="91"/>
-<label x="226.06" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="248.92" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
+<label x="223.52" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="STM32" gate="G$1" pin="PA5/SPI1_SCK"/>
 </segment>
 </net>
@@ -25433,6 +25362,76 @@ for proper functionality</text>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM_3V3_1" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PA0/WKUP"/>
+<wire x1="248.92" y1="205.74" x2="246.38" y2="205.74" width="0.1524" layer="91"/>
+<label x="246.38" y="205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_2" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PA1/USART2_RTS"/>
+<wire x1="248.92" y1="203.2" x2="220.98" y2="203.2" width="0.1524" layer="91"/>
+<label x="220.98" y="203.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_3" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PA2/USART2_TX"/>
+<wire x1="248.92" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<label x="246.38" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_4" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PA3/USART2_RX"/>
+<wire x1="248.92" y1="198.12" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
+<label x="220.98" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_5" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PC6"/>
+<wire x1="309.88" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
+<label x="312.42" y="190.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_6" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PC7"/>
+<wire x1="309.88" y1="187.96" x2="337.82" y2="187.96" width="0.1524" layer="91"/>
+<label x="337.82" y="187.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_7" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PC8"/>
+<wire x1="309.88" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
+<label x="312.42" y="185.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_8" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PC9"/>
+<wire x1="309.88" y1="182.88" x2="337.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="337.82" y="182.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_9" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB8"/>
+<wire x1="248.92" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
+<label x="246.38" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_3V3_10" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB9"/>
+<wire x1="248.92" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="220.98" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
