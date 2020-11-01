@@ -155,14 +155,14 @@
 <text x="36.049990625" y="2.110003125" size="1.27" layer="126" rot="MR180">D6</text>
 <text x="1.750009375" y="12.5499875" size="1.27" layer="126" rot="MR180">D9</text>
 <text x="1.750009375" y="2.110003125" size="1.27" layer="126" rot="MR180">D10</text>
-<wire x1="10.7" y1="19.1" x2="10.7" y2="-2.3" width="0.5" layer="20" style="shortdash"/>
-<wire x1="21.7" y1="19.2" x2="21.7" y2="-2.2" width="0.5" layer="20" style="shortdash"/>
-<wire x1="32.6" y1="19.1" x2="32.6" y2="-2.3" width="0.5" layer="20" style="shortdash"/>
+<wire x1="10.7" y1="19.1" x2="10.7" y2="-2.3" width="0.5" layer="45" style="shortdash"/>
+<wire x1="21.7" y1="19.2" x2="21.7" y2="-2.2" width="0.5" layer="45" style="shortdash"/>
+<wire x1="32.6" y1="19.1" x2="32.6" y2="-2.3" width="0.5" layer="45" style="shortdash"/>
 <wire x1="0" y1="0" x2="43.3" y2="0" width="0" layer="20"/>
 <wire x1="43.3" y1="0" x2="43.3" y2="17.1" width="0" layer="20"/>
 <wire x1="43.3" y1="17.1" x2="0" y2="17.1" width="0" layer="20"/>
 <wire x1="0" y1="17.1" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="-0.5" y1="8.5" x2="44.3" y2="8.5" width="0.5" layer="20" style="shortdash"/>
+<wire x1="-0.5" y1="8.5" x2="44.3" y2="8.5" width="0.5" layer="45" style="shortdash"/>
 </plain>
 <libraries>
 <library name="CreeXLamp_XM-L2">
