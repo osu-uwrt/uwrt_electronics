@@ -24348,6 +24348,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74ls04"&gt; Datasheet &lt;/a&gt;
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
+<part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30168,8 +30171,8 @@ Ohio State University</text>
 <instance part="GND21" gate="1" x="53.34" y="35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="55.88" y="38.1" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+16" gate="1" x="137.16" y="109.22" smashed="yes">
-<attribute name="VALUE" x="134.62" y="104.14" size="1.778" layer="96" rot="R90"/>
+<instance part="P+16" gate="1" x="134.62" y="111.76" smashed="yes">
+<attribute name="VALUE" x="132.08" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C13" gate="G$1" x="48.26" y="116.84" smashed="yes">
 <attribute name="NAME" x="49.276" y="117.475" size="1.778" layer="95"/>
@@ -30401,39 +30404,13 @@ Ohio State University</text>
 <label x="27.94" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="12V_LED" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="SENSE+"/>
-<junction x="71.12" y="50.8"/>
-<pinref part="U2" gate="G$1" pin="VOUT(+)"/>
-<junction x="106.68" y="45.72"/>
-<wire x1="71.12" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="50.8" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
-<junction x="139.7" y="45.72"/>
-<wire x1="129.54" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="1" pin="+12V"/>
-<wire x1="149.86" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="50.8" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="129.54" y="45.72"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<junction x="149.86" y="45.72"/>
-<label x="160.02" y="33.02" size="1.778" layer="95" xref="yes"/>
-<wire x1="160.02" y1="45.72" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V_LED" class="0">
+<net name="+5V" class="0">
 <segment>
 <wire x1="104.14" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <junction x="137.16" y="101.6"/>
 <wire x1="127" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="106.68" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P+16" gate="1" pin="+5V"/>
 <pinref part="U1" gate="G$1" pin="SENSE+"/>
 <pinref part="U1" gate="G$1" pin="VOUT(+)"/>
 <wire x1="68.58" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -30446,6 +30423,33 @@ Ohio State University</text>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="127" y="101.6"/>
 <label x="157.48" y="101.6" size="1.778" layer="95" xref="yes"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
+<wire x1="134.62" y1="109.22" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="106.68" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="SENSE+"/>
+<junction x="71.12" y="50.8"/>
+<pinref part="U2" gate="G$1" pin="VOUT(+)"/>
+<junction x="106.68" y="45.72"/>
+<wire x1="71.12" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="50.8" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<junction x="139.7" y="45.72"/>
+<wire x1="129.54" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<junction x="129.54" y="45.72"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<junction x="149.86" y="45.72"/>
+<label x="160.02" y="33.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="160.02" y1="45.72" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="P+11" gate="1" pin="+12V"/>
+<wire x1="139.7" y1="50.8" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -30840,6 +30844,15 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <attribute name="NAME" x="206.7814" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="211.582" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="P+20" gate="1" x="261.62" y="182.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="264.16" y="187.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+21" gate="1" x="243.84" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="238.76" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="P+22" gate="1" x="119.38" y="182.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="124.46" y="180.34" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30945,17 +30958,6 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <pinref part="IC3" gate="G$1" pin="3A"/>
 </segment>
 </net>
-<net name="5V_LED" class="0">
-<segment>
-<pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="254" y1="182.88" x2="254" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="254" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
-<junction x="254" y="182.88"/>
-<label x="266.7" y="182.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="BALANCED_LED" class="0">
 <segment>
 <label x="269.24" y="175.26" size="1.778" layer="95" xref="yes"/>
@@ -30998,18 +31000,6 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <wire x1="154.94" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V_LED" class="0">
-<segment>
-<label x="261.62" y="116.84" size="1.778" layer="95" xref="yes"/>
-<wire x1="215.9" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="4A"/>
-</segment>
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="182.88" x2="127" y2="182.88" width="0.1524" layer="91"/>
-<label x="127" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+18" gate="1" pin="+5V"/>
@@ -31021,6 +31011,15 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <pinref part="P+19" gate="1" pin="+5V"/>
 <pinref part="5V" gate="G$1" pin="C"/>
 <wire x1="149.86" y1="205.74" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="254" y1="182.88" x2="254" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="1" pin="+5V"/>
+<wire x1="254" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
+<junction x="254" y="182.88"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -31138,6 +31137,18 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <wire x1="223.52" y1="96.52" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 <junction x="208.28" y="91.44"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="4A"/>
+<wire x1="215.9" y1="116.84" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P+21" gate="1" pin="+12V"/>
+</segment>
+<segment>
+<pinref part="P+22" gate="1" pin="+12V"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
