@@ -30759,9 +30759,9 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <attribute name="NAME" x="227.076" y="97.028" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="229.235" y="97.028" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="FAULT_LED" gate="G$1" x="38.1" y="175.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.528" y="171.704" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.528" y="169.545" size="1.778" layer="96"/>
+<instance part="FAULT_LED" gate="G$1" x="187.96" y="215.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="183.388" y="212.344" size="1.778" layer="95"/>
+<attribute name="VALUE" x="183.388" y="210.185" size="1.778" layer="96"/>
 </instance>
 <instance part="PORT" gate="G$1" x="180.34" y="101.6" smashed="yes">
 <attribute name="NAME" x="183.896" y="97.028" size="1.778" layer="95" rot="R90"/>
@@ -30770,12 +30770,12 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <instance part="+3V10" gate="G$1" x="27.94" y="251.46" smashed="yes">
 <attribute name="VALUE" x="25.4" y="246.38" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND15" gate="1" x="25.4" y="175.26" smashed="yes" rot="R270">
-<attribute name="VALUE" x="22.86" y="177.8" size="1.778" layer="96" rot="R270"/>
+<instance part="GND15" gate="1" x="175.26" y="215.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="172.72" y="218.44" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R23" gate="G$1" x="58.42" y="175.26" smashed="yes">
-<attribute name="NAME" x="54.61" y="176.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="54.61" y="171.958" size="1.778" layer="96"/>
+<instance part="R23" gate="G$1" x="208.28" y="215.9" smashed="yes">
+<attribute name="NAME" x="204.47" y="217.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="204.47" y="212.598" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="193.04" y="185.42" smashed="yes">
 <attribute name="NAME" x="201.93" y="193.04" size="1.778" layer="95" align="center-left"/>
@@ -30883,7 +30883,7 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="FAULT_LED" gate="G$1" pin="A"/>
-<wire x1="53.34" y1="175.26" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="215.9" x2="190.5" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -30891,7 +30891,7 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <segment>
 <pinref part="FAULT_LED" gate="G$1" pin="C"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="27.94" y1="175.26" x2="33.02" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="215.9" x2="182.88" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -31094,9 +31094,9 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <label x="223.52" y="170.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="175.26" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="215.9" x2="213.36" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<label x="71.12" y="175.26" size="1.778" layer="95" xref="yes"/>
+<label x="220.98" y="215.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
