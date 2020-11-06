@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32091,6 +32091,7 @@ for proper functionality</text>
 <text x="238.76" y="246.38" size="2.54" layer="91">Marker Dropper</text>
 <text x="276.86" y="45.72" size="2.54" layer="91">Power Input</text>
 <text x="213.36" y="193.04" size="2.54" layer="91">Cortex Controller</text>
+<text x="271.78" y="15.24" size="1.778" layer="91">test</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="83.82" y="46.99" smashed="yes"/>
@@ -33669,68 +33670,6 @@ for proper functionality</text>
 <wire x1="10.16" y1="91.44" x2="10.16" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TORPEDO_1" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="238.76" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="238.76" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
-<label x="160.02" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL1.3" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="3"/>
-<wire x1="180.34" y1="236.22" x2="165.1" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="236.22" x2="165.1" y2="231.14" width="0.1524" layer="91"/>
-<label x="165.1" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL_1.2" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="5"/>
-<wire x1="180.34" y1="233.68" x2="170.18" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="233.68" x2="170.18" y2="231.14" width="0.1524" layer="91"/>
-<label x="170.18" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL_1.1" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="7"/>
-<wire x1="180.34" y1="231.14" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
-<label x="175.26" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="TORPEDO_2" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="238.76" x2="215.9" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="238.76" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
-<label x="215.9" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL_2.3" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="236.22" x2="210.82" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="236.22" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
-<label x="210.82" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL_2.2" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="6"/>
-<wire x1="195.58" y1="233.68" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="233.68" x2="205.74" y2="231.14" width="0.1524" layer="91"/>
-<label x="205.74" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="COIL_2.1" class="0">
-<segment>
-<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="8"/>
-<wire x1="195.58" y1="231.14" x2="200.66" y2="231.14" width="0.1524" layer="91"/>
-<label x="200.66" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <wire x1="147.32" y1="55.88" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
@@ -33797,6 +33736,11 @@ for proper functionality</text>
 <wire x1="104.14" y1="182.88" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
 <junction x="104.14" y="182.88"/>
 </segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="7"/>
+<wire x1="180.34" y1="231.14" x2="175.26" y2="231.14" width="0.1524" layer="91"/>
+<label x="175.26" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="COIL_S" class="0">
 <segment>
@@ -33807,6 +33751,12 @@ for proper functionality</text>
 <wire x1="193.04" y1="182.88" x2="193.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="182.88" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
 <junction x="193.04" y="182.88"/>
+</segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="4"/>
+<wire x1="195.58" y1="236.22" x2="210.82" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="236.22" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
+<label x="210.82" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="AGND1" class="0">
@@ -33826,6 +33776,12 @@ for proper functionality</text>
 <wire x1="175.26" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
 <junction x="175.26" y="182.88"/>
 </segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="3"/>
+<wire x1="180.34" y1="236.22" x2="165.1" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="236.22" x2="165.1" y2="231.14" width="0.1524" layer="91"/>
+<label x="165.1" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="COIL_4" class="0">
 <segment>
@@ -33836,6 +33792,12 @@ for proper functionality</text>
 <wire x1="157.48" y1="182.88" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="182.88" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
 <junction x="157.48" y="182.88"/>
+</segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="6"/>
+<wire x1="195.58" y1="233.68" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="233.68" x2="205.74" y2="231.14" width="0.1524" layer="91"/>
+<label x="205.74" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="COIL_3" class="0">
@@ -33848,6 +33810,12 @@ for proper functionality</text>
 <wire x1="137.16" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
 <junction x="139.7" y="182.88"/>
 </segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="5"/>
+<wire x1="180.34" y1="233.68" x2="170.18" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="233.68" x2="170.18" y2="231.14" width="0.1524" layer="91"/>
+<label x="170.18" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="COIL_2" class="0">
 <segment>
@@ -33858,6 +33826,11 @@ for proper functionality</text>
 <wire x1="121.92" y1="182.88" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
 <junction x="121.92" y="182.88"/>
+</segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="8"/>
+<wire x1="195.58" y1="231.14" x2="200.66" y2="231.14" width="0.1524" layer="91"/>
+<label x="200.66" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -33873,6 +33846,12 @@ for proper functionality</text>
 <pinref part="Q18" gate="G$1" pin="D"/>
 <wire x1="104.14" y1="114.3" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
 <label x="104.14" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="238.76" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="238.76" x2="160.02" y2="231.14" width="0.1524" layer="91"/>
+<label x="160.02" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -33916,6 +33895,12 @@ for proper functionality</text>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="132.08" y1="114.3" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="132.08" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TORPEDO_CONNECTOR" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="238.76" x2="215.9" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="238.76" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
+<label x="215.9" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$38" class="0">
