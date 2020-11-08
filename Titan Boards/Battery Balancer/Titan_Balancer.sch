@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24336,14 +24336,13 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74ls04"&gt; Datasheet &lt;/a&gt;
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="23k"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
-<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
-<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="313"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="18k"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -24351,6 +24350,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74ls04"&gt; Datasheet &lt;/a&gt;
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="63"/>
+<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k"/>
 </parts>
 <sheets>
 <sheet>
@@ -30751,9 +30752,9 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <attribute name="NAME" x="171.196" y="97.028" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="173.355" y="97.028" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="5V" gate="G$1" x="149.86" y="193.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="146.304" y="197.612" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="144.145" y="197.612" size="1.778" layer="96" rot="R270"/>
+<instance part="5V" gate="G$1" x="149.86" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="146.304" y="205.232" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="144.145" y="205.232" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="BALANCED" gate="G$1" x="223.52" y="101.6" smashed="yes">
 <attribute name="NAME" x="227.076" y="97.028" size="1.778" layer="95" rot="R90"/>
@@ -30823,35 +30824,39 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <instance part="+3V2" gate="G$1" x="220.98" y="195.58" smashed="yes">
 <attribute name="VALUE" x="218.44" y="190.5" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND29" gate="1" x="254" y="200.66" smashed="yes" rot="R180">
-<attribute name="VALUE" x="256.54" y="203.2" size="1.778" layer="96" rot="R180"/>
+<instance part="GND29" gate="1" x="243.84" y="200.66" smashed="yes" rot="R180">
+<attribute name="VALUE" x="246.38" y="203.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R17" gate="G$1" x="254" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="252.5014" y="186.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="257.302" y="186.69" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R37" gate="G$1" x="241.3" y="182.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="245.11" y="181.3814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="245.11" y="186.182" size="1.778" layer="96" rot="R180"/>
+<instance part="R17" gate="G$1" x="243.84" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="242.3414" y="186.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="247.142" y="186.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND30" gate="1" x="223.52" y="127" smashed="yes" rot="R90">
 <attribute name="VALUE" x="226.06" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+19" gate="1" x="149.86" y="208.28" smashed="yes">
-<attribute name="VALUE" x="144.78" y="210.82" size="1.778" layer="96" rot="R270"/>
+<instance part="P+19" gate="1" x="149.86" y="210.82" smashed="yes">
+<attribute name="VALUE" x="144.78" y="213.36" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R38" gate="G$1" x="208.28" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="206.7814" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="211.582" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+20" gate="1" x="261.62" y="182.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="264.16" y="187.96" size="1.778" layer="96" rot="R180"/>
+<instance part="P+20" gate="1" x="266.7" y="182.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="269.24" y="187.96" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+21" gate="1" x="243.84" y="116.84" smashed="yes" rot="R270">
 <attribute name="VALUE" x="238.76" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="P+22" gate="1" x="119.38" y="182.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="124.46" y="180.34" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R39" gate="G$1" x="149.86" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.3614" y="186.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="153.162" y="186.69" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R37" gate="G$1" x="256.54" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="260.35" y="181.3814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="260.35" y="186.182" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -30917,7 +30922,7 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="254" y1="195.58" x2="254" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="195.58" x2="243.84" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="6A"/>
@@ -31010,16 +31015,12 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <segment>
 <pinref part="P+19" gate="1" pin="+5V"/>
 <pinref part="5V" gate="G$1" pin="C"/>
-<wire x1="149.86" y1="205.74" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="208.28" x2="149.86" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="254" y1="182.88" x2="254" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
-<wire x1="254" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
-<junction x="254" y="182.88"/>
+<wire x1="261.62" y1="182.88" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -31069,22 +31070,26 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="1B"/>
 <junction x="142.24" y="182.88"/>
 <pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="5V" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="190.5" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="182.88" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
 <junction x="149.86" y="182.88"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="1C"/>
-<wire x1="218.44" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="182.88" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="182.88" x2="251.46" y2="182.88" width="0.1524" layer="91"/>
+<junction x="243.84" y="182.88"/>
 </segment>
 </net>
 <net name="FAULT_LED" class="0">
@@ -31149,6 +31154,13 @@ Could be a spare AND gate so stepping up 3V3 isnt neccesary.</text>
 <pinref part="P+22" gate="1" pin="+12V"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="5V" gate="G$1" pin="A"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="198.12" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
