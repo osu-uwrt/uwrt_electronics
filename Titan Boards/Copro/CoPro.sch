@@ -16644,6 +16644,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -24898,6 +24899,10 @@ for proper functionality</text>
 <instance part="GND12" gate="1" x="132.08" y="226.06" smashed="yes" rot="R90">
 <attribute name="VALUE" x="134.62" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R17" gate="G$1" x="215.9" y="134.62" smashed="yes">
+<attribute name="NAME" x="212.09" y="136.1186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="131.318" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25158,7 +25163,12 @@ for proper functionality</text>
 <segment>
 <pinref part="STM32" gate="G$1" pin="PB11"/>
 <wire x1="248.92" y1="134.62" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
-<label x="220.98" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="203.2" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
