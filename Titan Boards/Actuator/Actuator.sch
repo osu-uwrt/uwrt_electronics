@@ -36218,12 +36218,10 @@ routing)
 - Moved capacitor to top right
 - Spaced out the torpedo parts a little
 - Made the microcontroller a bit more in center
+-TL 11/12: Routed bottom-left; dropper resistors
 
 Things still needed:
 - Labels positioned for LED's
-- Converter section (bottom left)
-(This is probably something good to take
-from your board)
 - Cleanup of all labels</text>
 </plain>
 <instances>
