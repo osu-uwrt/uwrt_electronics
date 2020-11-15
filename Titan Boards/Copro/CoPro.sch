@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27685,6 +27685,25 @@ ref=search&amp;company=Underwater+Robotics+Team&amp;t=SN74LVC3G04</text>
 <text x="17.78" y="162.56" size="3.81" layer="91">Datasheet: https://www.snapeda.com/parts/SN74LVC1G11DCKR/Texas%20Instruments/datasheet/</text>
 <text x="17.78" y="152.4" size="3.81" layer="91">https://www.snapeda.com/parts/SN74LVC1G11DCKR/Texas%20Instruments
 /view-part/?ref=search&amp;t=SN74LVC1G11</text>
+<text x="289.56" y="200.66" size="4.064" layer="91">Additional Standard Components:
+-LED's
+-Resistors
+-Capacitors
+-Diodes
+-Switch</text>
+<text x="289.56" y="154.94" size="4.064" layer="91">Administrative Notes:
+Board Name: Titan CoPro
+Schematic Creation: 09/2020
+Schematic Designers:
+David Chen, Nathan Ayer
+Electrical Lead: Phillip Barker</text>
+<text x="17.78" y="142.24" size="4.064" layer="91">MHz Crystals:</text>
+<text x="17.78" y="137.16" size="4.064" layer="91">HC49US Digikey: https://www.digikey.com/catalog/en/partgroup/hc-49us-series/4765</text>
+<text x="17.78" y="124.46" size="4.064" layer="91">SMD 32.768 kHz Newark : https://www.newark.com/c/crystals-oscillators/crystals?
+brand=abracon&amp;crystal-case=smd-3.2mm-x-1.5mm</text>
+<text x="17.78" y="114.3" size="4.064" layer="91">Mosfets: MOSFET-NCH-2N7002PW</text>
+<text x="17.78" y="109.22" size="4.064" layer="91">Datasheet: https://assets.nexperia.com/documents/data-sheet/2N7002PW.pdf</text>
+<text x="17.78" y="104.14" size="4.064" layer="91">https://www.nexperia.com/products/mosfets/small-signal-mosfets/2N7002PW.html</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
