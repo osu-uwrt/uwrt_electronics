@@ -32091,7 +32091,6 @@ for proper functionality</text>
 <text x="238.76" y="246.38" size="2.54" layer="91">Marker Dropper</text>
 <text x="276.86" y="45.72" size="2.54" layer="91">Power Input</text>
 <text x="213.36" y="193.04" size="2.54" layer="91">Cortex Controller</text>
-<text x="271.78" y="15.24" size="1.778" layer="91">test</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="83.82" y="46.99" smashed="yes"/>
@@ -36210,6 +36209,20 @@ Ohio State University</text>
      · Suppressor Diodes 
      · Switch 
 </text>
+<text x="283.972" y="123.952" size="3.556" layer="91" align="top-left">WIP Notes:
+
+(I used my board as a start template
+because it had most of the microcontroller
+routing)
+
+- Moved capacitor to top right
+- Spaced out the torpedo parts a little
+- Made the microcontroller a bit more in center
+-TL 11/12: Routed bottom-left; dropper resistors
+
+Things still needed:
+- Labels positioned for LED's
+- Cleanup of all labels</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-0.332740625" y="-0.6096" smashed="yes">
