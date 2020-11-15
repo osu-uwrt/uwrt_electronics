@@ -27,9 +27,9 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="9" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
@@ -12438,14 +12438,14 @@ Ohio State University</text>
 <attribute name="SHEET" x="357.680259375" y="4.9784" size="2.54" layer="94"/>
 </instance>
 <instance part="24-PIN_CONNECTOR" gate="G$1" x="154.94" y="231.14" smashed="yes" rot="R90"/>
-<instance part="3-PIN_5" gate="G$1" x="20.32" y="198.12" smashed="yes" rot="R180"/>
-<instance part="3-PIN_1" gate="G$1" x="45.72" y="203.2" smashed="yes" rot="R270"/>
-<instance part="3-PIN_2" gate="G$1" x="76.2" y="203.2" smashed="yes" rot="R270"/>
-<instance part="3-PIN_7" gate="G$1" x="121.92" y="177.8" smashed="yes"/>
-<instance part="3-PIN_6" gate="G$1" x="50.8" y="198.12" smashed="yes" rot="R180"/>
+<instance part="3-PIN_5" gate="G$1" x="76.2" y="203.2" smashed="yes" rot="R270"/>
+<instance part="3-PIN_1" gate="G$1" x="91.44" y="180.34" smashed="yes" rot="R270"/>
+<instance part="3-PIN_2" gate="G$1" x="121.92" y="180.34" smashed="yes" rot="R270"/>
+<instance part="3-PIN_7" gate="G$1" x="45.72" y="203.2" smashed="yes" rot="R270"/>
+<instance part="3-PIN_6" gate="G$1" x="60.96" y="180.34" smashed="yes" rot="R270"/>
 <instance part="3-PIN_3" gate="G$1" x="106.68" y="203.2" smashed="yes" rot="R270"/>
 <instance part="3-PIN_4" gate="G$1" x="137.16" y="203.2" smashed="yes" rot="R270"/>
-<instance part="3-PIN_8" gate="G$1" x="154.94" y="177.8" smashed="yes"/>
+<instance part="3-PIN_8" gate="G$1" x="25.4" y="180.34" smashed="yes" rot="R270"/>
 <instance part="POWER_INPUT" gate="G$1" x="200.66" y="195.58" smashed="yes"/>
 <instance part="GND2" gate="1" x="218.44" y="185.42" smashed="yes">
 <attribute name="VALUE" x="215.9" y="182.88" size="1.778" layer="96"/>
@@ -12676,186 +12676,6 @@ Ohio State University</text>
 <wire x1="375.92" y1="190.5" x2="375.92" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="187.96" x2="370.84" y2="187.96" width="0.1524" layer="91"/>
 <junction x="370.84" y="187.96"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="3-PIN_1" gate="G$1" pin="WHITE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="7,WHITE"/>
-<wire x1="50.8" y1="215.9" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="7,GREEN"/>
-<pinref part="3-PIN_1" gate="G$1" pin="GREEN"/>
-<wire x1="55.88" y1="226.06" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="3-PIN_1" gate="G$1" pin="BLUE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="7,BLUE"/>
-<wire x1="60.96" y1="215.9" x2="60.96" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="3-PIN_2" gate="G$1" pin="WHITE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="5,WHITE"/>
-<wire x1="81.28" y1="215.9" x2="81.28" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="5,GREEN"/>
-<pinref part="3-PIN_2" gate="G$1" pin="GREEN"/>
-<wire x1="86.36" y1="226.06" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="3-PIN_2" gate="G$1" pin="BLUE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="5,BLUE"/>
-<wire x1="91.44" y1="215.9" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="3-PIN_3" gate="G$1" pin="WHITE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,WHITE"/>
-<wire x1="111.76" y1="215.9" x2="111.76" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,GREEN"/>
-<pinref part="3-PIN_3" gate="G$1" pin="GREEN"/>
-<wire x1="116.84" y1="226.06" x2="116.84" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="3-PIN_3" gate="G$1" pin="BLUE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,BLUE"/>
-<wire x1="121.92" y1="215.9" x2="121.92" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="3-PIN_4" gate="G$1" pin="WHITE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,WHITE"/>
-<wire x1="142.24" y1="215.9" x2="142.24" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,GREEN"/>
-<pinref part="3-PIN_4" gate="G$1" pin="GREEN"/>
-<wire x1="147.32" y1="226.06" x2="147.32" y2="215.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="3-PIN_4" gate="G$1" pin="BLUE"/>
-<wire x1="152.4" y1="215.9" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,BLUE"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="8,WHITE"/>
-<pinref part="3-PIN_5" gate="G$1" pin="WHITE"/>
-<wire x1="33.02" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="193.04" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="8,GREEN"/>
-<wire x1="40.64" y1="226.06" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="3-PIN_5" gate="G$1" pin="GREEN"/>
-<wire x1="40.64" y1="187.96" x2="33.02" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="6,WHITE"/>
-<wire x1="76.2" y1="226.06" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="3-PIN_6" gate="G$1" pin="WHITE"/>
-<wire x1="76.2" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="6,GREEN"/>
-<wire x1="71.12" y1="226.06" x2="71.12" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="3-PIN_6" gate="G$1" pin="GREEN"/>
-<wire x1="71.12" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="6,BLUE"/>
-<wire x1="66.04" y1="226.06" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="3-PIN_6" gate="G$1" pin="BLUE"/>
-<wire x1="66.04" y1="182.88" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="3-PIN_7" gate="G$1" pin="BLUE"/>
-<wire x1="109.22" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="4,BLUE"/>
-<wire x1="96.52" y1="193.04" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="4,GREEN"/>
-<wire x1="101.6" y1="226.06" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="3-PIN_7" gate="G$1" pin="GREEN"/>
-<wire x1="101.6" y1="187.96" x2="109.22" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="4,WHITE"/>
-<pinref part="3-PIN_7" gate="G$1" pin="WHITE"/>
-<wire x1="106.68" y1="226.06" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="182.88" x2="109.22" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="3-PIN_8" gate="G$1" pin="BLUE"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="2,BLUE"/>
-<wire x1="142.24" y1="193.04" x2="127" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="127" y1="193.04" x2="127" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="2,GREEN"/>
-<wire x1="132.08" y1="226.06" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="3-PIN_8" gate="G$1" pin="GREEN"/>
-<wire x1="132.08" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="3-PIN_8" gate="G$1" pin="WHITE"/>
-<wire x1="142.24" y1="182.88" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="2,WHITE"/>
-<wire x1="137.16" y1="226.06" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="8,BLUE"/>
-<wire x1="35.56" y1="226.06" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="3-PIN_5" gate="G$1" pin="BLUE"/>
-<wire x1="35.56" y1="182.88" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -13380,6 +13200,48 @@ Ohio State University</text>
 <wire x1="287.02" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="78.74" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="5.08" x2="287.02" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,BLUE"/>
+<pinref part="3-PIN_4" gate="G$1" pin="BLUE"/>
+<wire x1="152.4" y1="215.9" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,GREEN"/>
+<pinref part="3-PIN_4" gate="G$1" pin="GREEN"/>
+<wire x1="147.32" y1="215.9" x2="147.32" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="1,WHITE"/>
+<pinref part="3-PIN_4" gate="G$1" pin="WHITE"/>
+<wire x1="142.24" y1="215.9" x2="142.24" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="3-PIN_3" gate="G$1" pin="WHITE"/>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,WHITE"/>
+<wire x1="111.76" y1="215.9" x2="111.76" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="3-PIN_3" gate="G$1" pin="GREEN"/>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,GREEN"/>
+<wire x1="116.84" y1="215.9" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="3-PIN_3" gate="G$1" pin="BLUE"/>
+<pinref part="24-PIN_CONNECTOR" gate="G$1" pin="3,BLUE"/>
+<wire x1="121.92" y1="215.9" x2="121.92" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
