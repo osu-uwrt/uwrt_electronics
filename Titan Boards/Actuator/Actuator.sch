@@ -29841,6 +29841,9 @@ Source:  FDD4141.pdf</description>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32562,6 +32565,15 @@ for proper functionality</text>
 <instance part="AGND15" gate="VR1" x="314.96" y="35.56" smashed="yes">
 <attribute name="VALUE" x="317.5" y="33.02" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="+3V4" gate="G$1" x="134.62" y="228.6" smashed="yes">
+<attribute name="VALUE" x="137.16" y="231.14" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="45.72" y="292.1" smashed="yes">
+<attribute name="VALUE" x="48.26" y="294.64" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="119.38" y="17.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="116.84" y="15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32606,7 +32618,8 @@ for proper functionality</text>
 <wire x1="248.92" y1="172.72" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="231.14" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="231.14" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="226.06" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="JTAG_HEADER" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="210.82" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
@@ -32617,6 +32630,8 @@ for proper functionality</text>
 <wire x1="132.08" y1="231.14" x2="132.08" y2="233.68" width="0.1524" layer="91"/>
 <junction x="132.08" y="231.14"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<junction x="134.62" y="226.06"/>
 </segment>
 <segment>
 <pinref part="MC" gate="G$1" pin="VDD"/>
@@ -32628,6 +32643,11 @@ for proper functionality</text>
 <junction x="325.12" y="165.1"/>
 <wire x1="342.9" y1="165.1" x2="342.9" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SPARE7"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="119.38" y1="26.67" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -33012,11 +33032,6 @@ for proper functionality</text>
 </segment>
 </net>
 <net name="EXTRA4" class="0">
-<segment>
-<wire x1="119.38" y1="26.67" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
-<label x="119.38" y="22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SPARE7"/>
-</segment>
 <segment>
 <pinref part="MC" gate="G$1" pin="PC10"/>
 <wire x1="322.58" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
@@ -36209,20 +36224,6 @@ Ohio State University</text>
      · Suppressor Diodes 
      · Switch 
 </text>
-<text x="283.972" y="123.952" size="3.556" layer="91" align="top-left">WIP Notes:
-
-(I used my board as a start template
-because it had most of the microcontroller
-routing)
-
-- Moved capacitor to top right
-- Spaced out the torpedo parts a little
-- Made the microcontroller a bit more in center
--TL 11/12: Routed bottom-left; dropper resistors
-
-Things still needed:
-- Labels positioned for LED's
-- Cleanup of all labels</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-0.332740625" y="-0.6096" smashed="yes">
