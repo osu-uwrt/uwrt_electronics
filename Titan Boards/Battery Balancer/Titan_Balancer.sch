@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24166,10 +24166,10 @@ Source: 8x ADG1408_1409.pdf</description>
 <part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FAULT_LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
+<part name="FAULT_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="95"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
+<part name="KILLSWITCH" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="68"/>
 <part name="12V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
@@ -24178,6 +24178,7 @@ Source: 8x ADG1408_1409.pdf</description>
 <part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="BALANCED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="PORT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29305,12 +29306,14 @@ BALANCER</text>
 <wire x1="201.676" y1="105.156" x2="201.676" y2="3.81" width="0.1524" layer="130"/>
 <wire x1="201.676" y1="3.81" x2="201.93" y2="3.81" width="0.1524" layer="130"/>
 <text x="101.6" y="48.26" size="6.4516" layer="130" align="center">SWITCHES</text>
-<wire x1="3.81" y1="43.688" x2="201.676" y2="43.434" width="0.1524" layer="130"/>
+<wire x1="3.81" y1="46.228" x2="201.676" y2="45.974" width="0.1524" layer="130"/>
 <wire x1="283.21" y1="172.72" x2="283.21" y2="256.54" width="0.1524" layer="130"/>
 <text x="360.68" y="220.98" size="1.6764" layer="130" align="center" grouprefs="FAULT_DETECTOR">Some resistors need calculated still</text>
 <text x="350.52" y="246.38" size="6.4516" layer="130" align="center">FAULT
 DETECTOR</text>
 <text x="185.42" y="25.4" size="6.4516" layer="130" align="center">LEDs</text>
+<text x="127" y="193.04" size="1.778" layer="91">Current Limiting Resistors HERE!</text>
+<text x="228.6" y="233.68" size="1.778" layer="91">What happened to the LED tags?</text>
 </plain>
 <instances>
 <instance part="U$5" gate="G$1" x="96.52" y="205.74" smashed="yes" grouprefs="PORT_BALANCER"/>
@@ -29691,7 +29694,7 @@ DETECTOR</text>
 <instance part="GND38" gate="1" x="370.84" y="190.5" smashed="yes" grouprefs="FAULT_DETECTOR">
 <attribute name="VALUE" x="368.3" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="FAULT_LED1" gate="G$1" x="119.38" y="33.02" smashed="yes" rot="R270">
+<instance part="FAULT_LED" gate="G$1" x="119.38" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.808" y="29.464" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.808" y="27.305" size="1.778" layer="96"/>
 </instance>
@@ -29702,7 +29705,7 @@ DETECTOR</text>
 <attribute name="NAME" x="133.35" y="34.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.35" y="29.718" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="119.38" y="20.32" smashed="yes" rot="R90">
+<instance part="KILLSWITCH" gate="G$1" x="119.38" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.952" y="23.876" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="123.952" y="26.035" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -29713,29 +29716,32 @@ DETECTOR</text>
 <attribute name="NAME" x="140.97" y="18.8214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="140.97" y="23.622" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="12V" gate="G$1" x="58.42" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="61.976" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="64.135" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="12V" gate="G$1" x="60.96" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="64.516" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="66.675" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="STBD" gate="G$1" x="43.18" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="46.736" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="48.895" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="STBD" gate="G$1" x="43.18" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="46.736" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.895" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3V3" gate="G$1" x="88.9" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="92.456" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.615" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="3V3" gate="G$1" x="88.9" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="92.456" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.615" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="5V" gate="G$1" x="73.66" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="77.216" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="79.375" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="5V" gate="G$1" x="73.66" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="77.216" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.375" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="BALANCED" gate="G$1" x="12.7" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="16.256" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="18.415" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="BALANCED" gate="G$1" x="12.7" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="16.256" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.415" y="25.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PORT" gate="G$1" x="27.94" y="25.4" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="31.496" y="20.828" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.655" y="20.828" size="1.778" layer="96" rot="R90"/>
+<instance part="PORT" gate="G$1" x="27.94" y="30.48" smashed="yes" grouprefs="FAULT_LEDS">
+<attribute name="NAME" x="31.496" y="25.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="33.655" y="25.908" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="53.34" y="40.64" smashed="yes">
+<attribute name="VALUE" x="50.8" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -29807,8 +29813,29 @@ DETECTOR</text>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="KILLSWITCH" gate="G$1" pin="A"/>
 <wire x1="109.22" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3V3" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="5V" gate="G$1" pin="A"/>
+<junction x="73.66" y="33.02"/>
+<wire x1="60.96" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="12V" gate="G$1" pin="A"/>
+<pinref part="BALANCED" gate="G$1" pin="A"/>
+<wire x1="12.7" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="STBD" gate="G$1" pin="A"/>
+<pinref part="PORT" gate="G$1" pin="A"/>
+<junction x="27.94" y="33.02"/>
+<wire x1="43.18" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="43.18" y="33.02"/>
+<junction x="60.96" y="33.02"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="53.34" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<junction x="53.34" y="33.02"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -29851,6 +29878,12 @@ DETECTOR</text>
 <pinref part="P+17" gate="1" pin="+5V"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="248.92" x2="294.64" y2="248.92" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
+</segment>
+<segment>
+<pinref part="5V" gate="G$1" pin="C"/>
+<junction x="73.66" y="25.4"/>
+<label x="73.66" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="73.66" y1="25.4" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -30044,7 +30077,7 @@ DETECTOR</text>
 <wire x1="370.84" y1="200.66" x2="368.3" y2="200.66" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 </segment>
 <segment>
-<pinref part="FAULT_LED1" gate="G$1" pin="C"/>
+<pinref part="FAULT_LED" gate="G$1" pin="C"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="109.22" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -30168,6 +30201,12 @@ DETECTOR</text>
 <wire x1="213.36" y1="27.94" x2="213.36" y2="25.4" width="0.1524" layer="91" grouprefs="3V_CONVERTER"/>
 <label x="213.36" y="25.4" size="1.778" layer="95" rot="MR270" xref="yes" grouprefs="3V_CONVERTER"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="3V3" gate="G$1" pin="C"/>
+<junction x="88.9" y="25.4"/>
+<label x="88.9" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="88.9" y1="25.4" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -30483,6 +30522,12 @@ DETECTOR</text>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 </segment>
+<segment>
+<pinref part="12V" gate="G$1" pin="C"/>
+<junction x="60.96" y="25.4"/>
+<label x="60.96" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="60.96" y1="25.4" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -30664,7 +30709,7 @@ DETECTOR</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="FAULT_LED1" gate="G$1" pin="A"/>
+<pinref part="FAULT_LED" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
@@ -30685,8 +30730,32 @@ DETECTOR</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="KILLSWITCH" gate="G$1" pin="C"/>
 <wire x1="132.08" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BALANCED_LED" class="0">
+<segment>
+<pinref part="BALANCED" gate="G$1" pin="C"/>
+<junction x="12.7" y="25.4"/>
+<label x="5.08" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="12.7" y1="25.4" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PORT_LED" class="0">
+<segment>
+<pinref part="PORT" gate="G$1" pin="C"/>
+<junction x="27.94" y="25.4"/>
+<label x="27.94" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="STBD_LED" class="0">
+<segment>
+<pinref part="STBD" gate="G$1" pin="C"/>
+<junction x="43.18" y="25.4"/>
+<label x="43.18" y="17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="43.18" y1="25.4" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
