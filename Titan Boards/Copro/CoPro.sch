@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23704,6 +23704,43 @@ brand=abracon&amp;crystal-case=smd-3.2mm-x-1.5mm</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,180.34,154.94,W5500,AGND,GND,,,"/>
+<approved hash="104,1,180.34,228.6,W5500,AVDD,+3V3,,,"/>
+<approved hash="104,1,180.34,231.14,W5500,VDD,+3V3,,,"/>
+<approved hash="104,2,309.88,226.06,STM32,VCAP_1,N$20,,,"/>
+<approved hash="104,2,309.88,220.98,STM32,VDD,+3V3,,,"/>
+<approved hash="104,2,309.88,218.44,STM32,VDDA,+3V3,,,"/>
+<approved hash="104,2,309.88,119.38,STM32,VSS,GND,,,"/>
+<approved hash="104,2,309.88,116.84,STM32,VSSA,GND,,,"/>
+<approved hash="104,2,309.88,223.52,STM32,VCAP_2,N$19,,,"/>
+<approved hash="104,2,127,241.3,U1,VCC,+3V3,,,"/>
+<approved hash="104,2,127,205.74,U2,VCC,+3V3,,,"/>
+<approved hash="106,1,228.6,102.87,AUX_SWITCH,,,,,"/>
+<approved hash="105,1,378.46,158.75,N$1,,,,,"/>
+<approved hash="105,1,49.53,203.2,N$2,,,,,"/>
+<approved hash="105,2,378.46,175.26,N$3,,,,,"/>
+<approved hash="105,1,49.53,142.24,N$4,,,,,"/>
+<approved hash="105,3,10.16,129.54,N$5,,,,,"/>
+<approved hash="105,3,281.94,139.7,N$6,,,,,"/>
+<approved hash="105,1,181.61,251.46,N$32,,,,,"/>
+<approved hash="105,1,181.61,134.62,N$33,,,,,"/>
+<approved hash="105,1,49.53,81.28,N$35,,,,,"/>
+<approved hash="105,2,90.17,251.46,N$40,,,,,"/>
+<approved hash="105,2,278.13,93.98,N$41,,,,,"/>
+<approved hash="105,2,90.17,160.02,N$42,,,,,"/>
+<approved hash="105,1,49.53,251.46,N$46,,,,,"/>
+<approved hash="106,2,248.92,182.88,VBUS_3V3,,,,,"/>
+<approved hash="108,1,53.975,162.56,GND,,,,,"/>
+<approved hash="108,1,41.275,162.56,GND,,,,,"/>
+<approved hash="108,1,48.895,162.56,GND,,,,,"/>
+<approved hash="108,1,59.055,162.56,GND,,,,,"/>
+<approved hash="108,1,46.355,162.56,GND,,,,,"/>
+<approved hash="108,1,51.435,162.56,GND,,,,,"/>
+<approved hash="108,1,43.815,162.56,GND,,,,,"/>
+<approved hash="108,1,56.515,162.56,GND,,,,,"/>
+<approved hash="113,1,41.5274,175.366,SWDIO/SWDCLK/RESET1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
