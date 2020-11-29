@@ -6760,16 +6760,6 @@ Source: www.kingbright.com</description>
 <wire x1="4.7" y1="-3.3" x2="4.7" y2="-4.9" width="0.254" layer="21"/>
 <wire x1="4.7" y1="-4.9" x2="-4.7" y2="-4.9" width="0.254" layer="21"/>
 <wire x1="-4.7" y1="-4.9" x2="-4.7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="-8.2" y1="3.2" x2="-5.4" y2="3.2" width="0.254" layer="21" curve="-114.529547" cap="flat"/>
-<wire x1="-8.2" y1="1.4" x2="-5.4" y2="1.4" width="0.254" layer="21" curve="114.529547" cap="flat"/>
-<wire x1="-8.2" y1="3.2" x2="-8.2" y2="1.4" width="0.254" layer="21"/>
-<wire x1="-5.5" y1="3.3" x2="-4.8" y2="3.3" width="0.254" layer="21"/>
-<wire x1="-5.5" y1="1.3" x2="-4.8" y2="1.3" width="0.254" layer="21"/>
-<wire x1="5.4" y1="1.4" x2="8.2" y2="1.4" width="0.254" layer="21" curve="114.529547" cap="flat"/>
-<wire x1="5.4" y1="3.2" x2="8.2" y2="3.2" width="0.254" layer="21" curve="-114.529547" cap="flat"/>
-<wire x1="8.2" y1="1.4" x2="8.2" y2="3.2" width="0.254" layer="21"/>
-<wire x1="5.5" y1="1.3" x2="4.8" y2="1.3" width="0.254" layer="21"/>
-<wire x1="5.5" y1="3.3" x2="4.8" y2="3.3" width="0.254" layer="21"/>
 <wire x1="4.7" y1="-2.2" x2="4.7" y2="-3.3" width="0.254" layer="21" curve="-180"/>
 <wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
 <wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
@@ -6780,8 +6770,6 @@ Source: www.kingbright.com</description>
 <pad name="3" x="2.1" y="2.75" drill="1.4" shape="square"/>
 <text x="-1.27" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="6.8" y="2.29" drill="3"/>
-<hole x="-6.8" y="2.29" drill="3"/>
 </package>
 <package name="5569-4">
 <description>&lt;b&gt;Mini FIT connector 4 R/A&lt;/b&gt;</description>
