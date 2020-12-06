@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24173,19 +24173,18 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="23k"/>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
-<part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k"/>
+<part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="12k"/>
+<part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="12k"/>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k"/>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="18k"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
-<part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="180"/>
+<part name="R47" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="12k"/>
+<part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FAULT_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="GREEN"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -29361,7 +29360,6 @@ BALANCER</text>
 DETECTOR</text>
 <text x="185.42" y="25.4" size="6.4516" layer="130" align="center">LEDs</text>
 <text x="127" y="193.04" size="1.778" layer="91">Current Limiting Resistors HERE!</text>
-<text x="228.6" y="233.68" size="1.778" layer="91">What happened to the LED tags?</text>
 <text x="17.78" y="43.18" size="1.778" layer="91">Get stats on RED leds</text>
 </plain>
 <instances>
@@ -29690,12 +29688,9 @@ DETECTOR</text>
 <attribute name="NAME" x="321.5386" y="184.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="316.738" y="184.15" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="R42" gate="G$1" x="327.66" y="187.96" smashed="yes" rot="MR90" grouprefs="FAULT_DETECTOR">
-<attribute name="NAME" x="329.1586" y="184.15" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="324.358" y="184.15" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="GND34" gate="1" x="327.66" y="177.8" smashed="yes" grouprefs="FAULT_DETECTOR">
-<attribute name="VALUE" x="325.12" y="175.26" size="1.778" layer="96"/>
+<instance part="R42" gate="G$1" x="329.184" y="187.96" smashed="yes" rot="MR90" grouprefs="FAULT_DETECTOR">
+<attribute name="NAME" x="330.6826" y="184.15" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="325.882" y="184.15" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="R43" gate="G$1" x="337.82" y="187.96" smashed="yes" rot="MR90" grouprefs="FAULT_DETECTOR">
 <attribute name="NAME" x="339.3186" y="184.15" size="1.778" layer="95" rot="MR90"/>
@@ -29705,8 +29700,8 @@ DETECTOR</text>
 <attribute name="NAME" x="346.9386" y="184.15" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="342.138" y="184.15" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND35" gate="1" x="337.82" y="177.8" smashed="yes" grouprefs="FAULT_DETECTOR">
-<attribute name="VALUE" x="335.28" y="175.26" size="1.778" layer="96"/>
+<instance part="GND35" gate="1" x="334.01" y="177.292" smashed="yes" grouprefs="FAULT_DETECTOR">
+<attribute name="VALUE" x="331.47" y="174.752" size="1.778" layer="96"/>
 </instance>
 <instance part="GND36" gate="1" x="335.28" y="205.74" smashed="yes" rot="R180" grouprefs="FAULT_DETECTOR">
 <attribute name="VALUE" x="337.82" y="208.28" size="1.778" layer="96" rot="R180"/>
@@ -30123,16 +30118,6 @@ DETECTOR</text>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="182.88" x2="327.66" y2="180.34" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="180.34" x2="337.82" y2="182.88" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="335.28" y1="203.2" x2="330.2" y2="203.2" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
@@ -30165,6 +30150,16 @@ DETECTOR</text>
 <wire x1="73.66" y1="198.12" x2="73.66" y2="195.58" width="0.1524" layer="91"/>
 <junction x="73.66" y="198.12"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="182.88" x2="337.82" y2="179.832" width="0.1524" layer="91"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="337.82" y1="179.832" x2="334.01" y2="179.832" width="0.1524" layer="91"/>
+<wire x1="334.01" y1="179.832" x2="329.184" y2="179.832" width="0.1524" layer="91"/>
+<junction x="334.01" y="179.832"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="329.184" y1="182.88" x2="329.184" y2="179.832" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -30711,9 +30706,10 @@ DETECTOR</text>
 <wire x1="320.04" y1="193.04" x2="320.04" y2="195.58" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 <pinref part="R42" gate="G$1" pin="2"/>
 <wire x1="320.04" y1="195.58" x2="320.04" y2="205.74" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
-<wire x1="327.66" y1="193.04" x2="327.66" y2="195.58" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
-<wire x1="327.66" y1="195.58" x2="320.04" y2="195.58" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
+<wire x1="329.184" y1="193.04" x2="329.184" y2="195.58" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
+<wire x1="329.184" y1="195.58" x2="320.04" y2="195.58" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 <junction x="320.04" y="195.58" grouprefs="FAULT_DETECTOR"/>
+<junction x="329.184" y="195.58"/>
 </segment>
 </net>
 <net name="N$31" class="0">
