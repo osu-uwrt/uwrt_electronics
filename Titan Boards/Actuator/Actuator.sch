@@ -32097,7 +32097,7 @@ for proper functionality</text>
 <text x="83.82" y="139.7" size="2.54" layer="91">Torpedo Gates</text>
 <text x="238.76" y="246.38" size="2.54" layer="91">Marker Dropper</text>
 <text x="276.86" y="45.72" size="2.54" layer="91">Power Input</text>
-<text x="213.36" y="193.04" size="2.54" layer="91">Cortex Controller</text>
+<text x="213.36" y="193.04" size="2.54" layer="91">Micro Controller</text>
 <text x="154.94" y="127" size="1.778" layer="91">Back voltage changed to 5V from 12V</text>
 <text x="327.66" y="144.78" size="1.778" layer="91">Capacitances varied for decoupling</text>
 <text x="198.12" y="43.18" size="1.778" layer="91">Change to variable voltage</text>
