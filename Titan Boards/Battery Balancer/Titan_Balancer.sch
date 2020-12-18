@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -30867,73 +30867,70 @@ DETECTOR</text>
 <text x="17.78" y="241.3" size="5.08" layer="94">PARTS</text>
 <text x="96.52" y="241.3" size="5.08" layer="94">Quantity</text>
 <text x="132.08" y="241.3" size="5.08" layer="94">Web Address</text>
-<text x="17.78" y="228.6" size="3.81" layer="97">ACS722</text>
-<text x="96.52" y="228.6" size="3.81" layer="97">2</text>
-<text x="17.78" y="218.44" size="3.81" layer="97">LM5050</text>
-<text x="96.52" y="218.44" size="3.81" layer="97">2</text>
-<text x="17.78" y="208.28" size="3.81" layer="97">APT60DQ60SG</text>
-<text x="96.52" y="208.28" size="3.81" layer="97">2</text>
-<text x="17.78" y="198.12" size="3.81" layer="97">R0603 2k Ohm</text>
-<text x="96.52" y="198.12" size="3.81" layer="97">6</text>
-<text x="17.78" y="187.96" size="3.81" layer="97">R0603 5 Ohm</text>
-<text x="96.52" y="187.96" size="3.81" layer="97">1</text>
-<text x="17.78" y="177.8" size="3.81" layer="97">REG1117</text>
-<text x="96.52" y="177.8" size="3.81" layer="97">1</text>
-<text x="17.78" y="167.64" size="3.81" layer="97">R0603 100k Ohm</text>
-<text x="96.52" y="167.64" size="3.81" layer="97">9</text>
-<text x="17.78" y="157.48" size="3.81" layer="97">R0603 18k Ohm</text>
-<text x="96.52" y="157.48" size="3.81" layer="97">3</text>
+<text x="17.78" y="157.48" size="3.81" layer="97">ACS722</text>
+<text x="96.52" y="157.48" size="3.81" layer="97">2</text>
+<text x="17.78" y="127" size="3.81" layer="97">LM5050</text>
+<text x="96.52" y="127" size="3.81" layer="97">2</text>
+<text x="17.78" y="167.64" size="3.81" layer="97">APT60DQ60SG</text>
+<text x="96.52" y="167.64" size="3.81" layer="97">2</text>
+<text x="190.5" y="27.94" size="3.81" layer="97">R0603 2k Ohm</text>
+<text x="238.76" y="27.94" size="3.81" layer="97">6</text>
+<text x="190.5" y="35.56" size="3.81" layer="97">R0603 5 Ohm</text>
+<text x="238.76" y="35.56" size="3.81" layer="97">1</text>
+<text x="17.78" y="116.84" size="3.81" layer="97">REG1117</text>
+<text x="96.52" y="116.84" size="3.81" layer="97">1</text>
+<text x="190.5" y="43.18" size="3.81" layer="97">R0603 100k Ohm</text>
+<text x="238.76" y="43.18" size="3.81" layer="97">9</text>
+<text x="190.5" y="50.8" size="3.81" layer="97">R0603 18k Ohm</text>
+<text x="238.76" y="50.8" size="3.81" layer="97">3</text>
 <text x="17.78" y="147.32" size="3.81" layer="97">ADC128D818</text>
 <text x="96.52" y="147.32" size="3.81" layer="97">1</text>
 <text x="17.78" y="137.16" size="3.81" layer="97">I6A4W020A033V-001-R</text>
 <text x="96.52" y="137.16" size="3.81" layer="97">2</text>
-<text x="17.78" y="127" size="3.81" layer="97">R0603 90 Ohm</text>
-<text x="17.78" y="116.84" size="3.81" layer="97">R0603 470 Ohm</text>
-<text x="96.52" y="127" size="3.81" layer="97">1</text>
-<text x="96.52" y="116.84" size="3.81" layer="97">1</text>
-<text x="17.78" y="106.68" size="3.81" layer="97">R0603 13k</text>
+<text x="190.5" y="58.42" size="3.81" layer="97">R0603 90 Ohm</text>
+<text x="190.5" y="66.04" size="3.81" layer="97">R0603 470 Ohm</text>
+<text x="238.76" y="58.42" size="3.81" layer="97">1</text>
+<text x="238.76" y="66.04" size="3.81" layer="97">1</text>
+<text x="190.5" y="73.66" size="3.81" layer="97">R0603 13k</text>
+<text x="238.76" y="73.66" size="3.81" layer="97">2</text>
+<text x="190.5" y="81.28" size="3.81" layer="97">R0603 10k</text>
+<text x="238.76" y="81.28" size="3.81" layer="97">5</text>
+<text x="17.78" y="86.36" size="3.81" layer="97">MOSFET-NCH-AO3404A</text>
 <text x="96.52" y="106.68" size="3.81" layer="97">2</text>
-<text x="17.78" y="93.98" size="3.81" layer="97">R0603 10k</text>
-<text x="96.52" y="93.98" size="3.81" layer="97">5</text>
-<text x="17.78" y="83.82" size="3.81" layer="97">MOSFET-NCH-AO3404A</text>
-<text x="96.52" y="83.82" size="3.81" layer="97">2</text>
-<text x="17.78" y="73.66" size="3.81" layer="97">R-TRIMM3103</text>
-<text x="96.52" y="73.66" size="3.81" layer="97">2</text>
-<text x="17.78" y="63.5" size="3.81" layer="97">MS85</text>
-<text x="96.52" y="63.5" size="3.81" layer="97">2</text>
+<text x="17.78" y="96.52" size="3.81" layer="97">R-TRIMM3103</text>
+<text x="96.52" y="96.52" size="3.81" layer="97">2</text>
+<text x="17.78" y="106.68" size="3.81" layer="97">MS85</text>
+<text x="96.52" y="86.36" size="3.81" layer="97">2</text>
 <text x="187.96" y="241.3" size="5.08" layer="94">PARTS</text>
 <text x="276.86" y="241.3" size="5.08" layer="94">Quantity</text>
 <text x="312.42" y="241.3" size="5.08" layer="94">Web Address</text>
-<text x="17.78" y="53.34" size="3.81" layer="97">C0603 0.1 uF</text>
-<text x="96.52" y="53.34" size="3.81" layer="97">3</text>
-<text x="17.78" y="43.18" size="3.81" layer="97">C0603 47 uF</text>
-<text x="96.52" y="43.18" size="3.81" layer="97">8</text>
-<text x="187.96" y="228.6" size="3.81" layer="97">CPOL-US153CLV-0810 330 uF</text>
-<text x="276.86" y="228.6" size="3.81" layer="97">2</text>
-<text x="187.96" y="218.44" size="3.81" layer="97">MOSFET-NCH-AO3404A</text>
-<text x="276.86" y="218.44" size="3.81" layer="97">2</text>
-<text x="187.96" y="208.28" size="3.81" layer="97">SPB80P06P</text>
-<text x="276.86" y="208.28" size="3.81" layer="97">2</text>
-<text x="187.96" y="198.12" size="3.81" layer="97">MOSFET-NCH-2N7002PW</text>
-<text x="276.86" y="198.12" size="3.81" layer="97">1</text>
-<text x="187.96" y="187.96" size="3.81" layer="97">NMOSSOT23</text>
-<text x="276.86" y="187.96" size="3.81" layer="97">2</text>
-<text x="187.96" y="177.8" size="3.81" layer="97">SPD30P06PTO252</text>
-<text x="276.86" y="177.8" size="3.81" layer="97">2</text>
-<text x="187.96" y="167.64" size="3.81" layer="97">NPN-TRANSISTOR_SOT23</text>
-<text x="276.86" y="167.64" size="3.81" layer="97">5</text>
-<text x="187.96" y="157.48" size="3.81" layer="97">LEDSML0603</text>
-<text x="276.86" y="157.48" size="3.81" layer="97">8</text>
-<text x="187.96" y="147.32" size="3.81" layer="97">39-30-16?</text>
-<text x="187.96" y="137.16" size="3.81" layer="97">5530843-EDGE</text>
-<text x="276.86" y="137.16" size="3.81" layer="97">1</text>
-<text x="276.86" y="147.32" size="3.81" layer="97">1</text>
-<text x="187.96" y="127" size="3.81" layer="97">6PIN-VERT</text>
-<text x="276.86" y="127" size="3.81" layer="97">2</text>
-<text x="187.96" y="116.84" size="3.81" layer="97">14PIN-VERT</text>
-<text x="276.86" y="116.84" size="3.81" layer="97">1</text>
-<text x="124.46" y="101.6" size="5.08" layer="91">change to R0603</text>
-<text x="243.84" y="104.14" size="5.08" layer="91">change connector pins</text>
+<text x="190.5" y="88.9" size="3.81" layer="97">C0603 0.1 uF</text>
+<text x="238.76" y="88.9" size="3.81" layer="97">3</text>
+<text x="190.5" y="96.52" size="3.81" layer="97">C0603 47 uF</text>
+<text x="238.76" y="96.52" size="3.81" layer="97">8</text>
+<text x="190.5" y="104.14" size="3.81" layer="97">CPOL-US153CLV-0810 330 uF</text>
+<text x="279.4" y="104.14" size="3.81" layer="97">2</text>
+<text x="17.78" y="35.56" size="3.81" layer="97">MOSFET-NCH-AO3404A</text>
+<text x="96.52" y="38.1" size="3.81" layer="97">2</text>
+<text x="17.78" y="25.4" size="3.81" layer="97">SPB80P06P</text>
+<text x="96.52" y="25.4" size="3.81" layer="97">2</text>
+<text x="17.78" y="15.24" size="3.81" layer="97">MOSFET-NCH-2N7002PW</text>
+<text x="96.52" y="15.24" size="3.81" layer="97">1</text>
+<text x="17.78" y="76.2" size="3.81" layer="97">NMOSSOT23</text>
+<text x="96.52" y="76.2" size="3.81" layer="97">2</text>
+<text x="17.78" y="66.04" size="3.81" layer="97">SPD30P06PTO252</text>
+<text x="96.52" y="66.04" size="3.81" layer="97">2</text>
+<text x="190.5" y="111.76" size="3.81" layer="97">NPN-TRANSISTOR_SOT23</text>
+<text x="279.4" y="111.76" size="3.81" layer="97">5</text>
+<text x="17.78" y="55.88" size="3.81" layer="97">LEDSML0603</text>
+<text x="96.52" y="55.88" size="3.81" layer="97">8</text>
+<text x="17.78" y="228.6" size="3.81" layer="97">39-30-16?</text>
+<text x="17.78" y="45.72" size="3.81" layer="97">5530843-EDGE</text>
+<text x="96.52" y="48.26" size="3.81" layer="97">1</text>
+<text x="17.78" y="187.96" size="3.81" layer="97">14PIN-VERT</text>
+<text x="96.52" y="228.6" size="3.81" layer="97">1</text>
+<text x="302.26" y="50.8" size="5.08" layer="91">change to R0603</text>
+<text x="302.26" y="66.04" size="5.08" layer="91">change connector pins</text>
 <text x="132.08" y="228.6" size="1.778" layer="97">https://www.allegromicro.com/~/media
 /Files/Datasheets/ACS722-Datasheet.ashx
 </text>
@@ -30946,6 +30943,17 @@ T3oQrply3y%2FxiTR%252BTuJEjQ%3D%3D</text>
 <text x="132.08" y="137.16" size="1.778" layer="97">https://www.mouser.com/ProductDetail/TDK-
 Lambda/I6A4W020A033V-001-R?qs=GZwCx
 kjl%252BU1cf1n9r1aH9w%3D%3D</text>
+<text x="17.78" y="218.44" size="3.81" layer="97">39-30-02</text>
+<text x="17.78" y="208.28" size="3.81" layer="97">39-30-10</text>
+<text x="96.52" y="218.44" size="3.81" layer="97">1</text>
+<text x="96.52" y="208.28" size="3.81" layer="97">1</text>
+<text x="17.78" y="198.12" size="3.81" layer="97">39-30-04</text>
+<text x="96.52" y="198.12" size="3.81" layer="97">3</text>
+<text x="96.52" y="187.96" size="3.81" layer="97">1</text>
+<text x="17.78" y="177.8" size="3.81" layer="97">FDD8453LZ</text>
+<text x="96.52" y="177.8" size="3.81" layer="97">2</text>
+<text x="187.96" y="228.6" size="3.81" layer="97">SN74LV11AD</text>
+<text x="276.86" y="228.6" size="3.81" layer="97">1</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
