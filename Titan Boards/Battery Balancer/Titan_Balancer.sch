@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -30929,8 +30929,6 @@ DETECTOR</text>
 <text x="96.52" y="48.26" size="3.81" layer="97">1</text>
 <text x="17.78" y="187.96" size="3.81" layer="97">14PIN-VERT</text>
 <text x="96.52" y="228.6" size="3.81" layer="97">1</text>
-<text x="302.26" y="50.8" size="5.08" layer="91">change to R0603</text>
-<text x="302.26" y="66.04" size="5.08" layer="91">change connector pins</text>
 <text x="132.08" y="228.6" size="1.778" layer="97">https://www.allegromicro.com/~/media
 /Files/Datasheets/ACS722-Datasheet.ashx
 </text>
@@ -30954,6 +30952,25 @@ kjl%252BU1cf1n9r1aH9w%3D%3D</text>
 <text x="96.52" y="177.8" size="3.81" layer="97">2</text>
 <text x="187.96" y="228.6" size="3.81" layer="97">SN74LV11AD</text>
 <text x="276.86" y="228.6" size="3.81" layer="97">1</text>
+<text x="312.42" y="226.06" size="1.778" layer="91">https://www.mouser.com/ProductDetail/
+Texas-Instruments/SN74LV11ADGVR?q
+s=D5pVkbrsqqI4FTBReXbKzw%3D%3D</text>
+<text x="132.08" y="167.64" size="1.778" layer="91">https://www.digikey.com/en/products
+/detail/microchip-technology/
+APT60DQ60SG/12375469</text>
+<text x="132.08" y="154.94" size="1.778" layer="91">https://www.digikey.com/en/products
+/detail/allegro-microsystems
+/ACS722LLCTR-40AU-T/4915374</text>
+<text x="132.08" y="121.92" size="1.27" layer="91">https://www.digikey.com/en/products
+/detail/texas-instruments/
+LM5050Q0MKX-1-NOPB/
+4457757?s=N4IgjCBcpgTAnBaIDGUBmB
+DANgZwKYA0IA9lANogAsADAKx
+UDMEAusQA4AuUIAypwCcAlgDs
+A5iAC%2Bk4rAogAMgFk69GiBaSgA</text>
+<text x="132.08" y="114.3" size="1.27" layer="91">https://www.digikey.com/en/
+products/detail/texas-instruments/
+REG1117/251211</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
