@@ -9098,139 +9098,6 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead" urn="urn:adsk.eagle:library:325">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
-<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
-<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
-<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
-<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
-<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X03"/>
-</packageinstances>
-</package3d>
-<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X03/90"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1" library_version="4">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/4" prefix="JP" uservalue="yes" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="92" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="/90" package="1X03/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="17" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ACS722">
 <packages>
 <package name="SOIC-8">
@@ -10173,6 +10040,45 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Male_Header_1Pin">
+<packages>
+<package name="MALE1PINHEADER">
+<pad name="PWM" x="0" y="0" drill="1" shape="square"/>
+<wire x1="0" y1="1.25" x2="0.07" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="0.07" y1="1.25" x2="1.25" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="1.25" x2="0" y2="1.25" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MALE1PINHEADER">
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="PWM" x="2.54" y="7.62" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MALE1PINHEADER">
+<gates>
+<gate name="G$1" symbol="MALE1PINHEADER" x="-12.7" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="MALE1PINHEADER">
+<connects>
+<connect gate="G$1" pin="PWM" pad="PWM"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10202,16 +10108,6 @@ Switches electronic signals</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Green"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1.7K"/>
-<part name="THRUSTER_PWM_1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="1"/>
-<part name="THRUSTER_PWM_2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="THRUSTER_PWM_8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="2-PIN_8" library="Screw_Terminals" deviceset="1711725" device=""/>
 <part name="2-PIN_7" library="Screw_Terminals" deviceset="1711725" device=""/>
 <part name="2-PIN_1" library="Screw_Terminals" deviceset="1711725" device=""/>
@@ -10357,6 +10253,14 @@ Switches electronic signals</description>
 <part name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="Red"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="28"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U$1" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$2" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$3" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$4" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$5" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$6" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$7" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="U$8" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12589,14 +12493,13 @@ Ohio State University</text>
 <text x="175.26" y="248.92" size="2.54" layer="91">Input Connector</text>
 <text x="256.54" y="241.3" size="1.778" layer="97">Top Side
 PWM connectors</text>
-<text x="287.02" y="175.26" size="1.778" layer="97">Bottom Side
+<text x="292.1" y="190.5" size="1.778" layer="97">Bottom Side
 PWM connectors</text>
 <text x="251.46" y="248.92" size="2.54" layer="91">PWM Connectors</text>
 <text x="10.16" y="160.02" size="2.54" layer="91">Edge Connector//Board Fingers</text>
 <text x="162.56" y="160.02" size="2.54" layer="91">Fused ESC Module Input Power</text>
 <text x="205.74" y="86.36" size="1.778" layer="97">Top Side Devices</text>
 <text x="261.62" y="86.36" size="1.778" layer="97">Bottom Side Devices</text>
-<text x="330.2" y="248.92" size="2.54" layer="91">Single Status Indicator</text>
 <text x="12.7" y="205.74" size="1.778" layer="150">Top Side Devices</text>
 <text x="144.78" y="172.72" size="1.778" layer="150">Bottom Side Devices</text>
 <wire x1="205.74" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="150"/>
@@ -12605,10 +12508,10 @@ PWM connectors</text>
 <wire x1="241.3" y1="86.36" x2="261.62" y2="86.36" width="0.1524" layer="150"/>
 <wire x1="284.48" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="150"/>
 <wire x1="317.5" y1="86.36" x2="317.5" y2="88.9" width="0.1524" layer="150"/>
-<wire x1="307.34" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="150"/>
-<wire x1="312.42" y1="175.26" x2="312.42" y2="177.8" width="0.1524" layer="150"/>
-<wire x1="281.94" y1="177.8" x2="281.94" y2="175.26" width="0.1524" layer="150"/>
-<wire x1="281.94" y1="175.26" x2="284.48" y2="175.26" width="0.1524" layer="150"/>
+<wire x1="312.42" y1="190.5" x2="317.5" y2="190.5" width="0.1524" layer="150"/>
+<wire x1="317.5" y1="190.5" x2="317.5" y2="193.04" width="0.1524" layer="150"/>
+<wire x1="287.02" y1="193.04" x2="287.02" y2="190.5" width="0.1524" layer="150"/>
+<wire x1="287.02" y1="190.5" x2="289.56" y2="190.5" width="0.1524" layer="150"/>
 <wire x1="254" y1="241.3" x2="251.46" y2="241.3" width="0.1524" layer="150"/>
 <wire x1="251.46" y1="241.3" x2="251.46" y2="238.76" width="0.1524" layer="150"/>
 <wire x1="276.86" y1="241.3" x2="279.4" y2="241.3" width="0.1524" layer="150"/>
@@ -12652,34 +12555,6 @@ PWM connectors</text>
 <attribute name="NAME" x="196.85" y="189.0014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="204.47" y="188.722" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="THRUSTER_PWM_1" gate="A" x="274.32" y="233.68" smashed="yes"/>
-<instance part="THRUSTER_PWM_2" gate="A" x="274.32" y="218.44" smashed="yes">
-<attribute name="VALUE" x="267.97" y="210.82" size="1.778" layer="96"/>
-</instance>
-<instance part="THRUSTER_PWM_3" gate="A" x="274.32" y="203.2" smashed="yes">
-<attribute name="VALUE" x="267.97" y="195.58" size="1.778" layer="96"/>
-</instance>
-<instance part="THRUSTER_PWM_4" gate="A" x="274.32" y="187.96" smashed="yes">
-<attribute name="VALUE" x="267.97" y="180.34" size="1.778" layer="96"/>
-</instance>
-<instance part="THRUSTER_PWM_5" gate="A" x="287.02" y="233.68" smashed="yes" rot="R180">
-<attribute name="VALUE" x="293.37" y="241.3" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="THRUSTER_PWM_6" gate="A" x="287.02" y="218.44" smashed="yes" rot="R180">
-<attribute name="VALUE" x="293.37" y="226.06" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="THRUSTER_PWM_7" gate="A" x="287.02" y="203.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="293.37" y="210.82" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="THRUSTER_PWM_8" gate="A" x="287.02" y="187.96" smashed="yes" rot="R180">
-<attribute name="VALUE" x="293.37" y="195.58" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND3" gate="1" x="264.16" y="175.26" smashed="yes">
-<attribute name="VALUE" x="261.62" y="172.72" size="1.778" layer="96"/>
-</instance>
-<instance part="GND4" gate="1" x="297.18" y="246.38" smashed="yes" rot="R180">
-<attribute name="VALUE" x="299.72" y="248.92" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="2-PIN_8" gate="G$1" x="246.38" y="101.6" smashed="yes" rot="R180"/>
 <instance part="2-PIN_7" gate="G$1" x="246.38" y="116.84" smashed="yes" rot="R180"/>
 <instance part="2-PIN_1" gate="G$1" x="236.22" y="137.16" smashed="yes"/>
@@ -12703,6 +12578,14 @@ PWM connectors</text>
 <attribute name="NAME" x="196.85" y="183.9214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="204.47" y="183.642" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="276.86" y="228.6" smashed="yes" rot="R90"/>
+<instance part="U$2" gate="G$1" x="276.86" y="218.44" smashed="yes" rot="R90"/>
+<instance part="U$3" gate="G$1" x="276.86" y="208.28" smashed="yes" rot="R90"/>
+<instance part="U$4" gate="G$1" x="276.86" y="198.12" smashed="yes" rot="R90"/>
+<instance part="U$5" gate="G$1" x="292.1" y="233.68" smashed="yes" rot="R270"/>
+<instance part="U$6" gate="G$1" x="292.1" y="223.52" smashed="yes" rot="R270"/>
+<instance part="U$7" gate="G$1" x="292.1" y="213.36" smashed="yes" rot="R270"/>
+<instance part="U$8" gate="G$1" x="292.1" y="203.2" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -12765,42 +12648,6 @@ PWM connectors</text>
 <wire x1="218.44" y1="190.5" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="190.5" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
 <junction x="218.44" y="190.5"/>
-</segment>
-<segment>
-<pinref part="THRUSTER_PWM_1" gate="A" pin="3"/>
-<wire x1="271.78" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="THRUSTER_PWM_2" gate="A" pin="3"/>
-<wire x1="264.16" y1="231.14" x2="264.16" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="215.9" x2="271.78" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="THRUSTER_PWM_3" gate="A" pin="3"/>
-<wire x1="271.78" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="200.66" x2="264.16" y2="215.9" width="0.1524" layer="91"/>
-<junction x="264.16" y="215.9"/>
-<pinref part="THRUSTER_PWM_4" gate="A" pin="3"/>
-<wire x1="271.78" y1="185.42" x2="264.16" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="185.42" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
-<junction x="264.16" y="200.66"/>
-<wire x1="264.16" y1="185.42" x2="264.16" y2="177.8" width="0.1524" layer="91"/>
-<junction x="264.16" y="185.42"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="THRUSTER_PWM_5" gate="A" pin="3"/>
-<wire x1="289.56" y1="236.22" x2="297.18" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="236.22" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="THRUSTER_PWM_6" gate="A" pin="3"/>
-<wire x1="297.18" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="THRUSTER_PWM_7" gate="A" pin="3"/>
-<wire x1="289.56" y1="205.74" x2="297.18" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="205.74" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<junction x="297.18" y="220.98"/>
-<pinref part="THRUSTER_PWM_8" gate="A" pin="3"/>
-<wire x1="289.56" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="190.5" x2="297.18" y2="205.74" width="0.1524" layer="91"/>
-<junction x="297.18" y="205.74"/>
-<wire x1="297.18" y1="236.22" x2="297.18" y2="243.84" width="0.1524" layer="91"/>
-<junction x="297.18" y="236.22"/>
-<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -12910,98 +12757,98 @@ PWM connectors</text>
 </net>
 <net name="PWM_1" class="0">
 <segment>
-<pinref part="THRUSTER_PWM_1" gate="A" pin="1"/>
-<wire x1="271.78" y1="236.22" x2="261.62" y2="236.22" width="0.1524" layer="91"/>
-<label x="261.62" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_1"/>
 <wire x1="50.8" y1="143.51" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
 <label x="50.8" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PWM"/>
+<wire x1="269.24" y1="231.14" x2="264.16" y2="231.14" width="0.1524" layer="91"/>
+<label x="264.16" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_2" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_2" gate="A" pin="1"/>
-<wire x1="271.78" y1="220.98" x2="261.62" y2="220.98" width="0.1524" layer="91"/>
-<label x="261.62" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_2"/>
 <wire x1="55.88" y1="143.51" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="55.88" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PWM"/>
+<wire x1="269.24" y1="220.98" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
+<label x="264.16" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_3" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_3" gate="A" pin="1"/>
-<wire x1="271.78" y1="205.74" x2="261.62" y2="205.74" width="0.1524" layer="91"/>
-<label x="261.62" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_3"/>
 <wire x1="60.96" y1="143.51" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <label x="60.96" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="PWM"/>
+<wire x1="269.24" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
+<label x="264.16" y="210.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_4" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_4" gate="A" pin="1"/>
-<wire x1="271.78" y1="190.5" x2="261.62" y2="190.5" width="0.1524" layer="91"/>
-<label x="261.62" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_4"/>
 <wire x1="66.04" y1="143.51" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
 <label x="66.04" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="PWM"/>
+<wire x1="269.24" y1="200.66" x2="264.16" y2="200.66" width="0.1524" layer="91"/>
+<label x="264.16" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_8" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_8" gate="A" pin="1"/>
-<wire x1="289.56" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
-<label x="299.72" y="185.42" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_8"/>
 <wire x1="86.36" y1="143.51" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
 <label x="86.36" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="PWM"/>
+<wire x1="299.72" y1="200.66" x2="304.8" y2="200.66" width="0.1524" layer="91"/>
+<label x="304.8" y="200.66" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_7" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_7" gate="A" pin="1"/>
-<wire x1="289.56" y1="200.66" x2="299.72" y2="200.66" width="0.1524" layer="91"/>
-<label x="299.72" y="200.66" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_7"/>
 <wire x1="81.28" y1="143.51" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 <label x="81.28" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="PWM"/>
+<wire x1="299.72" y1="210.82" x2="304.8" y2="210.82" width="0.1524" layer="91"/>
+<label x="304.8" y="210.82" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_6" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_6" gate="A" pin="1"/>
-<wire x1="289.56" y1="215.9" x2="299.72" y2="215.9" width="0.1524" layer="91"/>
-<label x="299.72" y="215.9" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_6"/>
 <wire x1="76.2" y1="143.51" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
 <label x="76.2" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="PWM"/>
+<wire x1="299.72" y1="220.98" x2="304.8" y2="220.98" width="0.1524" layer="91"/>
+<label x="304.8" y="220.98" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="PWM_5" class="0">
-<segment>
-<pinref part="THRUSTER_PWM_5" gate="A" pin="1"/>
-<wire x1="289.56" y1="231.14" x2="299.72" y2="231.14" width="0.1524" layer="91"/>
-<label x="299.72" y="231.14" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="PWM_5"/>
 <wire x1="71.12" y1="143.51" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 <label x="71.12" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="PWM"/>
+<wire x1="299.72" y1="231.14" x2="304.8" y2="231.14" width="0.1524" layer="91"/>
+<label x="304.8" y="231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$28" class="0">
