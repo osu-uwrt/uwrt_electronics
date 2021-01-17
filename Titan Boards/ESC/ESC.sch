@@ -10116,14 +10116,14 @@ Switches electronic signals</description>
 <part name="2-PIN_4" library="Screw_Terminals" deviceset="1711725" device=""/>
 <part name="2-PIN_3" library="Screw_Terminals" deviceset="1711725" device=""/>
 <part name="2-PIN_2" library="Screw_Terminals" deviceset="1711725" device=""/>
-<part name="FUSE_5" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_6" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_7" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_8" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_4" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_3" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_2" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
-<part name="FUSE_1" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F5" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F6" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F7" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F8" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F4" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F3" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F2" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
+<part name="F1" library="1206 fuse holder" deviceset="1206FUSEHOLDER" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="CS_1" library="ACS722" deviceset="ACS722" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -12563,14 +12563,14 @@ PWM connectors</text>
 <instance part="2-PIN_4" gate="G$1" x="236.22" y="91.44" smashed="yes"/>
 <instance part="2-PIN_3" gate="G$1" x="236.22" y="106.68" smashed="yes"/>
 <instance part="2-PIN_2" gate="G$1" x="236.22" y="121.92" smashed="yes"/>
-<instance part="FUSE_5" gate="G$1" x="284.48" y="144.78" smashed="yes"/>
-<instance part="FUSE_6" gate="G$1" x="284.48" y="129.54" smashed="yes"/>
-<instance part="FUSE_7" gate="G$1" x="284.48" y="114.3" smashed="yes"/>
-<instance part="FUSE_8" gate="G$1" x="284.48" y="99.06" smashed="yes"/>
-<instance part="FUSE_4" gate="G$1" x="200.66" y="93.98" smashed="yes"/>
-<instance part="FUSE_3" gate="G$1" x="200.66" y="109.22" smashed="yes"/>
-<instance part="FUSE_2" gate="G$1" x="200.66" y="124.46" smashed="yes"/>
-<instance part="FUSE_1" gate="G$1" x="200.66" y="139.7" smashed="yes"/>
+<instance part="F5" gate="G$1" x="284.48" y="144.78" smashed="yes"/>
+<instance part="F6" gate="G$1" x="284.48" y="129.54" smashed="yes"/>
+<instance part="F7" gate="G$1" x="284.48" y="114.3" smashed="yes"/>
+<instance part="F8" gate="G$1" x="284.48" y="99.06" smashed="yes"/>
+<instance part="F4" gate="G$1" x="200.66" y="93.98" smashed="yes"/>
+<instance part="F3" gate="G$1" x="200.66" y="109.22" smashed="yes"/>
+<instance part="F2" gate="G$1" x="200.66" y="124.46" smashed="yes"/>
+<instance part="F1" gate="G$1" x="200.66" y="139.7" smashed="yes"/>
 <instance part="+3V4" gate="G$1" x="124.46" y="96.52" smashed="yes" rot="R180">
 <attribute name="VALUE" x="127" y="101.6" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -12883,7 +12883,7 @@ PWM connectors</text>
 </net>
 <net name="FUSE_1_TRIGGER" class="0">
 <segment>
-<pinref part="FUSE_1" gate="G$1" pin="P$2"/>
+<pinref part="F1" gate="G$1" pin="P$2"/>
 <pinref part="2-PIN_1" gate="G$1" pin="BLACK"/>
 <wire x1="213.36" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
@@ -12896,7 +12896,7 @@ PWM connectors</text>
 <net name="FUSE_5_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_5" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_5" gate="G$1" pin="P$1"/>
+<pinref part="F5" gate="G$1" pin="P$1"/>
 <wire x1="259.08" y1="144.78" x2="269.24" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="144.78" x2="269.24" y2="152.4" width="0.1524" layer="91"/>
@@ -12907,7 +12907,7 @@ PWM connectors</text>
 </net>
 <net name="FUSE_6_TRIGGER" class="0">
 <segment>
-<pinref part="FUSE_6" gate="G$1" pin="P$1"/>
+<pinref part="F6" gate="G$1" pin="P$1"/>
 <pinref part="2-PIN_6" gate="G$1" pin="BLACK"/>
 <wire x1="271.78" y1="129.54" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
@@ -12920,7 +12920,7 @@ PWM connectors</text>
 <net name="FUSE_7_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_7" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_7" gate="G$1" pin="P$1"/>
+<pinref part="F7" gate="G$1" pin="P$1"/>
 <wire x1="259.08" y1="114.3" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="114.3" x2="271.78" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="114.3" x2="269.24" y2="121.92" width="0.1524" layer="91"/>
@@ -12932,7 +12932,7 @@ PWM connectors</text>
 <net name="FUSE_8_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_8" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_8" gate="G$1" pin="P$1"/>
+<pinref part="F8" gate="G$1" pin="P$1"/>
 <wire x1="259.08" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="99.06" x2="271.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="99.06" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
@@ -12944,7 +12944,7 @@ PWM connectors</text>
 <net name="FUSE_4_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_4" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_4" gate="G$1" pin="P$2"/>
+<pinref part="F4" gate="G$1" pin="P$2"/>
 <wire x1="223.52" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="93.98" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
@@ -12956,7 +12956,7 @@ PWM connectors</text>
 <net name="FUSE_3_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_3" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_3" gate="G$1" pin="P$2"/>
+<pinref part="F3" gate="G$1" pin="P$2"/>
 <wire x1="223.52" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="109.22" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
@@ -12968,7 +12968,7 @@ PWM connectors</text>
 <net name="FUSE_2_TRIGGER" class="0">
 <segment>
 <pinref part="2-PIN_2" gate="G$1" pin="BLACK"/>
-<pinref part="FUSE_2" gate="G$1" pin="P$2"/>
+<pinref part="F2" gate="G$1" pin="P$2"/>
 <wire x1="223.52" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="124.46" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
@@ -12979,56 +12979,56 @@ PWM connectors</text>
 </net>
 <net name="FUSED_1" class="0">
 <segment>
-<pinref part="FUSE_1" gate="G$1" pin="P$1"/>
+<pinref part="F1" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="139.7" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
 <label x="185.42" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_2" class="0">
 <segment>
-<pinref part="FUSE_2" gate="G$1" pin="P$1"/>
+<pinref part="F2" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="185.42" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_3" class="0">
 <segment>
-<pinref part="FUSE_3" gate="G$1" pin="P$1"/>
+<pinref part="F3" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="185.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_4" class="0">
 <segment>
-<pinref part="FUSE_4" gate="G$1" pin="P$1"/>
+<pinref part="F4" gate="G$1" pin="P$1"/>
 <wire x1="187.96" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="185.42" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_8" class="0">
 <segment>
-<pinref part="FUSE_8" gate="G$1" pin="P$2"/>
+<pinref part="F8" gate="G$1" pin="P$2"/>
 <wire x1="297.18" y1="99.06" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
 <label x="299.72" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_7" class="0">
 <segment>
-<pinref part="FUSE_7" gate="G$1" pin="P$2"/>
+<pinref part="F7" gate="G$1" pin="P$2"/>
 <wire x1="297.18" y1="114.3" x2="299.72" y2="114.3" width="0.1524" layer="91"/>
 <label x="299.72" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_6" class="0">
 <segment>
-<pinref part="FUSE_6" gate="G$1" pin="P$2"/>
+<pinref part="F6" gate="G$1" pin="P$2"/>
 <wire x1="297.18" y1="129.54" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
 <label x="299.72" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUSED_5" class="0">
 <segment>
-<pinref part="FUSE_5" gate="G$1" pin="P$2"/>
+<pinref part="F5" gate="G$1" pin="P$2"/>
 <wire x1="297.18" y1="144.78" x2="299.72" y2="144.78" width="0.1524" layer="91"/>
 <label x="299.72" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -16175,6 +16175,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="45.72" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="NMOS" pin="S"/>
 <wire x1="53.34" y1="76.2" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<junction x="45.72" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -16184,6 +16185,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="71.12" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="NMOS" pin="S"/>
 <wire x1="78.74" y1="76.2" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="71.12" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -16193,6 +16195,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="93.98" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="NMOS" pin="S"/>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<junction x="93.98" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -16202,6 +16205,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="119.38" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="NMOS" pin="S"/>
 <wire x1="127" y1="76.2" x2="127" y2="63.5" width="0.1524" layer="91"/>
+<junction x="119.38" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -16211,6 +16215,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="144.78" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="NMOS" pin="S"/>
 <wire x1="152.4" y1="76.2" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<junction x="144.78" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -16220,6 +16225,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="170.18" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="NMOS" pin="S"/>
 <wire x1="177.8" y1="76.2" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<junction x="170.18" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -16229,6 +16235,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="198.12" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="NMOS" pin="S"/>
 <wire x1="205.74" y1="76.2" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="198.12" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
@@ -16238,6 +16245,7 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="226.06" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="NMOS" pin="S"/>
 <wire x1="233.68" y1="76.2" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
+<junction x="226.06" y="63.5"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
