@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24113,9 +24113,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75K"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75K"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="U1" library="I6A4W020A033V-001-R" deviceset="I6A4W020A033V-001-R" device=""/>
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -29361,6 +29359,7 @@ DETECTOR</text>
 <text x="185.42" y="25.4" size="6.4516" layer="130" align="center">LEDs</text>
 <text x="127" y="193.04" size="1.778" layer="91">Current Limiting Resistors HERE!</text>
 <text x="17.78" y="43.18" size="1.778" layer="91">Get stats on RED leds</text>
+<text x="48.26" y="157.48" size="1.778" layer="91">ADC ADDRESS IS: mid, high</text>
 </plain>
 <instances>
 <instance part="U$5" gate="G$1" x="96.52" y="205.74" smashed="yes" grouprefs="PORT_BALANCER"/>
@@ -29468,14 +29467,6 @@ DETECTOR</text>
 <instance part="R13" gate="G$1" x="35.306" y="125.73" smashed="yes" rot="R90" grouprefs="SENSOR">
 <attribute name="NAME" x="31.2674" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.528" y="121.92" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R14" gate="G$1" x="45.466" y="140.97" smashed="yes" rot="R90" grouprefs="SENSOR">
-<attribute name="NAME" x="49.0474" y="137.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.308" y="137.16" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R15" gate="G$1" x="40.386" y="125.73" smashed="yes" rot="R90" grouprefs="SENSOR">
-<attribute name="NAME" x="43.9674" y="121.92" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="46.228" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="G$1" x="289.56" y="139.7" smashed="yes" grouprefs="5V_CONVERTER">
 <attribute name="NAME" x="274.2872" y="149.8818" size="1.78181875" layer="95"/>
@@ -29846,21 +29837,22 @@ DETECTOR</text>
 <junction x="251.46" y="198.12" grouprefs="STARBOARD_BALANCER"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="VREF"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="83.566" y1="118.11" x2="40.386" y2="118.11" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<wire x1="40.386" y1="118.11" x2="35.306" y2="118.11" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<wire x1="35.306" y1="118.11" x2="17.526" y2="118.11" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <wire x1="17.526" y1="113.03" x2="17.526" y2="118.11" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="U$9" gate="G$1" pin="VREF"/>
 <wire x1="17.526" y1="118.11" x2="17.526" y2="120.65" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<junction x="17.526" y="118.11" grouprefs="SENSOR"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="40.386" y1="118.11" x2="40.386" y2="120.65" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<junction x="40.386" y="118.11" grouprefs="SENSOR"/>
+<wire x1="83.566" y1="118.11" x2="43.18" y2="118.11" width="0.1524" layer="91"/>
+<junction x="17.526" y="118.11"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="35.306" y1="120.65" x2="35.306" y2="118.11" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<junction x="35.306" y="118.11" grouprefs="SENSOR"/>
+<wire x1="43.18" y1="118.11" x2="35.306" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="35.306" y1="118.11" x2="17.526" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="35.306" y1="120.65" x2="35.306" y2="118.11" width="0.1524" layer="91"/>
+<junction x="35.306" y="118.11"/>
+<pinref part="U$9" gate="G$1" pin="A0"/>
+<wire x1="83.566" y1="148.59" x2="43.18" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="148.59" x2="43.18" y2="118.11" width="0.1524" layer="91"/>
+<junction x="43.18" y="118.11"/>
 </segment>
 <segment>
 <wire x1="164.846" y1="63.754" x2="172.974" y2="63.754" width="0.1524" layer="91" grouprefs="KILL_SWITCH"/>
@@ -30012,8 +30004,7 @@ DETECTOR</text>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="83.566" y1="133.35" x2="45.466" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<wire x1="45.466" y1="133.35" x2="30.226" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
+<wire x1="83.566" y1="133.35" x2="30.226" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <wire x1="30.226" y1="133.35" x2="17.526" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <wire x1="17.526" y1="133.35" x2="17.526" y2="128.27" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
@@ -30024,9 +30015,6 @@ DETECTOR</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="30.226" y1="135.89" x2="30.226" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
 <junction x="30.226" y="133.35" grouprefs="SENSOR"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="45.466" y1="135.89" x2="45.466" y2="133.35" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<junction x="45.466" y="133.35" grouprefs="SENSOR"/>
 </segment>
 <segment>
 <wire x1="317.5" y1="139.7" x2="317.5" y2="132.08" width="0.1524" layer="91" grouprefs="5V_CONVERTER"/>
@@ -30430,18 +30418,6 @@ DETECTOR</text>
 <pinref part="P+14" gate="1" pin="V+"/>
 <wire x1="12.7" y1="7.62" x2="11.684" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="11.684" y1="7.62" x2="11.684" y2="14.986" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="40.386" y1="130.81" x2="40.386" y2="148.59" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="45.466" y1="146.05" x2="45.466" y2="148.59" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<wire x1="45.466" y1="148.59" x2="40.386" y2="148.59" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<pinref part="U$9" gate="G$1" pin="A0"/>
-<wire x1="45.466" y1="148.59" x2="83.566" y2="148.59" width="0.1524" layer="91" grouprefs="SENSOR"/>
-<junction x="45.466" y="148.59" grouprefs="SENSOR"/>
 </segment>
 </net>
 <net name="N$17" class="0">
