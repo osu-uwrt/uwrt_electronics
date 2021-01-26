@@ -9320,195 +9320,6 @@ Source: 8x ADG1408_1409.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="74xx-us" urn="urn:adsk.eagle:library:88">
-<description>&lt;b&gt;TTL Devices, 74xx Series with US Symbols&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Texas Instruments &lt;i&gt;TTL Data Book&lt;/i&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Volume 1, 1996.
-&lt;li&gt;TTL Data Book, Volume 2 , 1993
-&lt;li&gt;National Seminconductor Databook 1990, ALS/LS Logic
-&lt;li&gt;ttl 74er digital data dictionary, ECA Electronic + Acustic GmbH, ISBN 3-88109-032-0
-&lt;li&gt;http://icmaster.com/ViewCompare.asp
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" library_version="3">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="0" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="0" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SO14" urn="urn:adsk.eagle:footprint:2524/1" library_version="3">
-<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.0508" layer="21"/>
-<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
-<text x="-3.556" y="-0.508" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.699" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
-<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
-<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
-<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
-<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
-<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
-<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model" library_version="3">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL14"/>
-</packageinstances>
-</package3d>
-<package3d name="SO14" urn="urn:adsk.eagle:package:2917/1" type="box" library_version="3">
-<description>Small Outline package 150 mil</description>
-<packageinstances>
-<packageinstance name="SO14"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="7425" urn="urn:adsk.eagle:symbol:2714/1" library_version="3">
-<wire x1="-1.27" y1="-5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.2446" y1="-5.0678" x2="7.5439" y2="0.0507" width="0.4064" layer="94" curve="60.147106" cap="flat"/>
-<wire x1="-1.2446" y1="5.0678" x2="7.5442" y2="-0.0505" width="0.4064" layer="94" curve="-60.148802" cap="flat"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94" curve="-77.319617"/>
-<wire x1="-1.27" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94" curve="-77.319617"/>
-<text x="0" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I0" x="-12.7" y="5.08" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I1" x="-12.7" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="G" x="-2.54" y="10.16" visible="pad" length="middle" direction="in" rot="R270"/>
-<pin name="I2" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I3" x="-12.7" y="-5.08" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
-</symbol>
-<symbol name="PWRN" urn="urn:adsk.eagle:symbol:2522/1" library_version="3">
-<text x="-0.635" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.905" y="-7.62" size="1.27" layer="95" rot="R90">GND</text>
-<text x="1.905" y="5.08" size="1.27" layer="95" rot="R90">VCC</text>
-<pin name="GND" x="0" y="-10.16" visible="pad" direction="pwr" rot="R90"/>
-<pin name="VCC" x="0" y="10.16" visible="pad" direction="pwr" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="74*25" urn="urn:adsk.eagle:component:2997/3" prefix="IC" library_version="3">
-<description>Dual 4-input &lt;b&gt;NOR&lt;/b&gt; gate, strobe</description>
-<gates>
-<gate name="A" symbol="7425" x="15.24" y="2.54" swaplevel="1"/>
-<gate name="B" symbol="7425" x="15.24" y="-20.32" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="N" package="DIL14">
-<connects>
-<connect gate="A" pin="G" pad="3"/>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="I2" pad="4"/>
-<connect gate="A" pin="I3" pad="5"/>
-<connect gate="A" pin="O" pad="6"/>
-<connect gate="B" pin="G" pad="11"/>
-<connect gate="B" pin="I0" pad="9"/>
-<connect gate="B" pin="I1" pad="10"/>
-<connect gate="B" pin="I2" pad="12"/>
-<connect gate="B" pin="I3" pad="13"/>
-<connect gate="B" pin="O" pad="8"/>
-<connect gate="P" pin="GND" pad="7"/>
-<connect gate="P" pin="VCC" pad="14"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D" package="SO14">
-<connects>
-<connect gate="A" pin="G" pad="3"/>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="I2" pad="4"/>
-<connect gate="A" pin="I3" pad="5"/>
-<connect gate="A" pin="O" pad="6"/>
-<connect gate="B" pin="G" pad="11"/>
-<connect gate="B" pin="I0" pad="9"/>
-<connect gate="B" pin="I1" pad="10"/>
-<connect gate="B" pin="I2" pad="12"/>
-<connect gate="B" pin="I3" pad="13"/>
-<connect gate="B" pin="O" pad="8"/>
-<connect gate="P" pin="GND" pad="7"/>
-<connect gate="P" pin="VCC" pad="14"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2917/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="74xx-little-us" urn="urn:adsk.eagle:library:87">
 <description>&lt;b&gt;Single and Dual Gates Family, US symbols&lt;/b&gt;&lt;p&gt;
 Little logic devices from Texas Instruments&lt;br&gt;
@@ -10079,6 +9890,189 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="40xx" urn="urn:adsk.eagle:library:80">
+<description>&lt;b&gt;CMOS Logic Devices, 4000 Series&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola &lt;i&gt;CMOS LOGIC DATA&lt;/i&gt;; book, 02/88, DL131 REV 1
+&lt;li&gt;http://www.elexp.com
+&lt;li&gt;http://www.intersil.com
+&lt;li&gt;http://www.ls3c.com.tw/product/1/COMOS.html
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" library_version="4">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="0" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="0" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SO14" urn="urn:adsk.eagle:footprint:714/1" library_version="4">
+<description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
+<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.1524" layer="21"/>
+<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.699" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
+<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
+<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
+<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
+<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model" library_version="4">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL14"/>
+</packageinstances>
+</package3d>
+<package3d name="SO14" urn="urn:adsk.eagle:package:823/2" type="model" library_version="4">
+<description>Small Outline package 150 mil</description>
+<packageinstances>
+<packageinstance name="SO14"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="4002" urn="urn:adsk.eagle:symbol:717/1" library_version="4">
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="2.54" width="0.4064" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.4064" layer="94" curve="90"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="1.778" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="1.778" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
+<text x="3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-6.985" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="I0" x="-7.62" y="5.08" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="I1" x="-7.62" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="I2" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="I3" x="-7.62" y="-5.08" visible="pad" length="middle" direction="in" swaplevel="1"/>
+</symbol>
+<symbol name="PWRN" urn="urn:adsk.eagle:symbol:713/1" library_version="4">
+<text x="-1.27" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VDD</text>
+<text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">VSS</text>
+<pin name="VSS" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="4002" urn="urn:adsk.eagle:component:882/5" prefix="IC" library_version="4">
+<description>4-input &lt;b&gt;NOR&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="4002" x="20.32" y="0" swaplevel="1"/>
+<gate name="B" symbol="4002" x="20.32" y="-17.78" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="0" y="-5.08" addlevel="request"/>
+</gates>
+<devices>
+<device name="N" package="DIL14">
+<connects>
+<connect gate="A" pin="I0" pad="2"/>
+<connect gate="A" pin="I1" pad="3"/>
+<connect gate="A" pin="I2" pad="4"/>
+<connect gate="A" pin="I3" pad="5"/>
+<connect gate="A" pin="O" pad="1"/>
+<connect gate="B" pin="I0" pad="9"/>
+<connect gate="B" pin="I1" pad="10"/>
+<connect gate="B" pin="I2" pad="11"/>
+<connect gate="B" pin="I3" pad="12"/>
+<connect gate="B" pin="O" pad="13"/>
+<connect gate="P" pin="VDD" pad="14"/>
+<connect gate="P" pin="VSS" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="SO14">
+<connects>
+<connect gate="A" pin="I0" pad="2"/>
+<connect gate="A" pin="I1" pad="3"/>
+<connect gate="A" pin="I2" pad="4"/>
+<connect gate="A" pin="I3" pad="5"/>
+<connect gate="A" pin="O" pad="1"/>
+<connect gate="B" pin="I0" pad="9"/>
+<connect gate="B" pin="I1" pad="10"/>
+<connect gate="B" pin="I2" pad="11"/>
+<connect gate="B" pin="I3" pad="12"/>
+<connect gate="B" pin="O" pad="13"/>
+<connect gate="P" pin="VDD" pad="14"/>
+<connect gate="P" pin="VSS" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:823/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10186,10 +10180,7 @@ Switches electronic signals</description>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1.7K"/>
-<part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*25" device="D" package3d_urn="urn:adsk.eagle:package:2917/1"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G08" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/1" technology="AHC"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10261,6 +10252,7 @@ Switches electronic signals</description>
 <part name="U$6" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 <part name="U$7" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
 <part name="U$8" library="Male_Header_1Pin" deviceset="MALE1PINHEADER" device=""/>
+<part name="IC3" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4002" device="D" package3d_urn="urn:adsk.eagle:package:823/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -15496,6 +15488,9 @@ Assuming that they are "high" impedence would heavily effect the value of the vo
 If the ESC is high impedence we can short the top resistor.
 If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <text x="271.78" y="248.92" size="2.54" layer="91">Single Status LED</text>
+<text x="302.26" y="175.26" size="1.27" layer="150">2 Circuit 
+4 Input
+NOR Gate</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -15676,25 +15671,8 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <instance part="GND38" gate="1" x="347.98" y="48.26" smashed="yes">
 <attribute name="VALUE" x="345.44" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="A" x="304.8" y="215.9" smashed="yes">
-<attribute name="NAME" x="304.8" y="221.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="304.8" y="208.28" size="1.778" layer="96"/>
-</instance>
-<instance part="IC1" gate="B" x="304.8" y="190.5" smashed="yes">
-<attribute name="NAME" x="304.8" y="196.215" size="1.778" layer="95"/>
-<attribute name="VALUE" x="304.8" y="182.88" size="1.778" layer="96"/>
-</instance>
-<instance part="IC1" gate="P" x="342.9" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="349.885" y="217.805" size="1.778" layer="95"/>
-</instance>
 <instance part="P+10" gate="1" x="327.66" y="220.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="332.74" y="218.44" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="P+11" gate="1" x="302.26" y="231.14" smashed="yes">
-<attribute name="VALUE" x="299.72" y="226.06" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+12" gate="1" x="302.26" y="205.74" smashed="yes">
-<attribute name="VALUE" x="299.72" y="198.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND29" gate="1" x="358.14" y="220.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="360.68" y="218.44" size="1.778" layer="96" rot="R90"/>
@@ -15922,6 +15900,17 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 </instance>
 <instance part="P+21" gate="1" x="233.68" y="114.3" smashed="yes">
 <attribute name="VALUE" x="236.22" y="116.84" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC3" gate="A" x="307.34" y="215.9" smashed="yes">
+<attribute name="NAME" x="311.15" y="220.98" size="1.778" layer="95"/>
+<attribute name="VALUE" x="311.15" y="208.915" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="B" x="307.34" y="190.5" smashed="yes">
+<attribute name="NAME" x="311.15" y="195.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="311.15" y="183.515" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="P" x="342.9" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="343.535" y="219.71" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -16158,11 +16147,6 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="P" pin="GND"/>
-<pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="355.6" y1="220.98" x2="353.06" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="P" pin="GND"/>
 <wire x1="350.52" y1="226.06" x2="355.6" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
@@ -16253,6 +16237,11 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="355.6" y1="195.58" x2="355.6" y2="190.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="P" pin="VSS"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="350.52" y1="220.98" x2="355.6" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -16328,21 +16317,6 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="236.22" y="154.94"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="B" pin="G"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
-<wire x1="302.26" y1="203.2" x2="302.26" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="P" pin="VCC"/>
-<pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="330.2" y1="220.98" x2="332.74" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="A" pin="G"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<wire x1="302.26" y1="226.06" x2="302.26" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="P" pin="VCC"/>
 <wire x1="335.28" y1="226.06" x2="330.2" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
@@ -16386,6 +16360,11 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
 <wire x1="233.68" y1="111.76" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="IC3" gate="P" pin="VDD"/>
+<wire x1="330.2" y1="220.98" x2="335.28" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ANALOG_1" class="0">
@@ -16669,20 +16648,20 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 </net>
 <net name="NOR_1_OUT" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="O"/>
-<wire x1="317.5" y1="215.9" x2="322.58" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="I0"/>
 <wire x1="327.66" y1="205.74" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="215.9" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="O"/>
+<wire x1="322.58" y1="215.9" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NOR_2_OUT" class="0">
 <segment>
-<pinref part="IC1" gate="B" pin="O"/>
-<wire x1="317.5" y1="190.5" x2="322.58" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="I1"/>
 <wire x1="327.66" y1="200.66" x2="322.58" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="190.5" x2="322.58" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="B" pin="O"/>
+<wire x1="322.58" y1="190.5" x2="314.96" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAULT_1" class="0">
@@ -16700,17 +16679,12 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <label x="43.18" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="A" pin="I0"/>
-<wire x1="292.1" y1="220.98" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
-<label x="287.02" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC3" gate="A" pin="I0"/>
+<wire x1="299.72" y1="220.98" x2="294.64" y2="220.98" width="0.1524" layer="91"/>
+<label x="294.64" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAULT_2" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="I1"/>
-<wire x1="292.1" y1="218.44" x2="287.02" y2="218.44" width="0.1524" layer="91"/>
-<label x="287.02" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -16724,13 +16698,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="68.58" y="78.74"/>
 <label x="68.58" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="A" pin="I1"/>
+<wire x1="299.72" y1="218.44" x2="294.64" y2="218.44" width="0.1524" layer="91"/>
+<label x="294.64" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_3" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="I2"/>
-<wire x1="292.1" y1="213.36" x2="287.02" y2="213.36" width="0.1524" layer="91"/>
-<label x="287.02" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -16744,13 +16718,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="91.44" y="78.74"/>
 <label x="91.44" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="A" pin="I2"/>
+<wire x1="299.72" y1="213.36" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
+<label x="294.64" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_4" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="I3"/>
-<wire x1="292.1" y1="210.82" x2="287.02" y2="210.82" width="0.1524" layer="91"/>
-<label x="287.02" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -16764,13 +16738,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="116.84" y="78.74"/>
 <label x="116.84" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="A" pin="I3"/>
+<wire x1="299.72" y1="210.82" x2="294.64" y2="210.82" width="0.1524" layer="91"/>
+<label x="294.64" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_5" class="0">
-<segment>
-<pinref part="IC1" gate="B" pin="I0"/>
-<wire x1="292.1" y1="195.58" x2="287.02" y2="195.58" width="0.1524" layer="91"/>
-<label x="287.02" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -16784,13 +16758,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="142.24" y="78.74"/>
 <label x="142.24" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="B" pin="I0"/>
+<wire x1="299.72" y1="195.58" x2="294.64" y2="195.58" width="0.1524" layer="91"/>
+<label x="294.64" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_6" class="0">
-<segment>
-<pinref part="IC1" gate="B" pin="I1"/>
-<wire x1="292.1" y1="193.04" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
-<label x="287.02" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="2"/>
@@ -16804,13 +16778,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="167.64" y="78.74"/>
 <label x="167.64" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="B" pin="I1"/>
+<wire x1="299.72" y1="193.04" x2="294.64" y2="193.04" width="0.1524" layer="91"/>
+<label x="294.64" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_7" class="0">
-<segment>
-<pinref part="IC1" gate="B" pin="I2"/>
-<wire x1="292.1" y1="187.96" x2="287.02" y2="187.96" width="0.1524" layer="91"/>
-<label x="287.02" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="2"/>
@@ -16824,13 +16798,13 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <junction x="195.58" y="78.74"/>
 <label x="195.58" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="B" pin="I2"/>
+<wire x1="299.72" y1="187.96" x2="294.64" y2="187.96" width="0.1524" layer="91"/>
+<label x="294.64" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAULT_8" class="0">
-<segment>
-<pinref part="IC1" gate="B" pin="I3"/>
-<wire x1="292.1" y1="185.42" x2="287.02" y2="185.42" width="0.1524" layer="91"/>
-<label x="287.02" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="R24" gate="G$1" pin="2"/>
@@ -16843,6 +16817,11 @@ If the ESC are "low" impedence, then the voltage dividers will behave.</text>
 <wire x1="223.52" y1="78.74" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 <junction x="223.52" y="78.74"/>
 <label x="223.52" y="83.82" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="B" pin="I3"/>
+<wire x1="299.72" y1="185.42" x2="294.64" y2="185.42" width="0.1524" layer="91"/>
+<label x="294.64" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -17047,35 +17026,29 @@ https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1711725.pdf
 <text x="10.16" y="182.88" size="2.54" layer="91">14 Position Vertical Power Input Connector
 https://www.digikey.com/products/en?keywords=WM23806-ND%20
 https://www.molex.com/pdm_docs/sd/039288140_sd.pdf</text>
-<text x="10.16" y="167.64" size="2.54" layer="91">PWM Connectors: 1X3 Male Breakaway Header Pins
-https://www.digikey.com/product-detail/en/molex/0901200123/WM8073-ND/760788
-https://www.molex.com/pdm_docs/sd/901200123_sd.pdf</text>
+<text x="10.16" y="167.64" size="2.54" layer="91">PWM Connectors: 1x4 Pin Male Breakaway Header Pins
+https://www.digikey.com/en/products/detail/molex/0901200124/760789
+https://www.molex.com/pdm_docs/sd/901200124_sd.pdf</text>
 <text x="175.26" y="226.06" size="2.54" layer="91">R1 and R38 are 1210 size resistors due to wattage concerns
 Calculated wattage at 21V is 0.1864W each.
 1210 size can dissipate 0.25W. 
 0603 (UWRT standard size) are 0.063W tolerant. </text>
-<text x="175.26" y="215.9" size="2.54" layer="91">Fuse Fault Circuit simulated in Multisim to ensure functionality.
-Fault circuit uses an "OR" gate to turn off the single status LED.</text>
+<text x="175.26" y="218.44" size="2.54" layer="91">Fuse Fault Circuit simulated in Multisim to ensure functionality.</text>
 <text x="175.26" y="205.74" size="2.54" layer="91">All devices labeled 1-4 are top side.
 All devices labeled 5-8 are bottom side.</text>
 <text x="10.16" y="149.86" size="2.54" layer="91">Analog to Digital Converter: TI ADC128D818
 https://www.digikey.com/products/en?keywords=296-41182-1-ND%20
 https://www.ti.com/lit/ds/symlink/adc128d818.pdf?HQS=TI-null-null-digikeymode-
 df-pf-null-wwe&amp;ts=1597276469956</text>
-<text x="10.16" y="127" size="2.54" layer="91">Fuses: Eaton 3216FF 10A 24V
-https://www.digikey.com/product-detail/en/
-eaton-electronics-division/TR-3216FF10-R/283-5280-1-ND/9644851
-https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/
-eaton-3216ff-surface-mount-fuse-data-sheet.pdf</text>
-<text x="10.16" y="106.68" size="2.54" layer="91">Current Sensors: Allegro Micro ACS722 40A
+<text x="10.16" y="132.08" size="2.54" layer="91">Fuses: Eaton 3216FF 10A 24V
+https://www.digikey.com/en/products/detail/littelfuse-inc/0451010-MRL/700832
+https://www.littelfuse.com/~/media/electronics/datasheets/fuses/
+littelfuse_fuse_451_453_datasheet.pdf.pdf</text>
+<text x="10.16" y="114.3" size="2.54" layer="91">Current Sensors: Allegro Micro ACS722 40A
 https://www.digikey.com/product-detail/en/allegro-microsystems/
 ACS722LLCTR-40AU-T/620-1640-1-ND/4948876
 file:///C:/Users/Flipt/AppData/Local/Temp/ACS722-Datasheet.pdf</text>
-<text x="10.16" y="86.36" size="2.54" layer="91">Single Status LED Transistor: BJT 2N2222
-https://www.digikey.com/product-detail/en/diodes-incorporated/
-MMBT2222A-7-F/MMBT2222A-FDICT-ND/815723
-https://www.diodes.com/assets/Datasheets/ds30041.pdf</text>
-<text x="10.16" y="71.12" size="2.54" layer="91">Fault LED MOSFET: N-Channel Enh. BSS138
+<text x="10.16" y="99.06" size="2.54" layer="91">Fault LED MOSFET: N-Channel Enh. BSS138
 https://www.digikey.com/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294
 https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</text>
 <text x="287.02" y="226.06" size="2.54" layer="91">Board Name: ESC Carrier
@@ -19304,10 +19277,18 @@ Electrical Lead: Flip Barker</text>
 Team
 
 Ohio State University</text>
-<text x="10.16" y="50.8" size="2.54" layer="91">Fuse Holders: Littelfuse 154010
+<text x="10.16" y="81.28" size="2.54" layer="91">Fuse Holders: Littelfuse 154010
 https://www.digikey.com/product-detail/en/littelfuse-inc/0154010-DR/F1251TR-ND/552684
 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/
 littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf</text>
+<text x="10.16" y="63.5" size="2.54" layer="91">NOR Gate: CD74HC4002M
+https://www.digikey.com/en/products/detail/texas-instruments/CD74HC4002M/1507041
+https://www.ti.com/lit/ds/symlink/cd74hc4002.pdf?
+HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1611114244711</text>
+<text x="10.16" y="43.18" size="2.54" layer="91">2-input AND gate: SN74LVC1G08
+https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G08DBVR/385718
+https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf?
+HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1611067529349</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
