@@ -12584,6 +12584,13 @@ LED</description>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17010,7 +17017,7 @@ network mode</text>
 <text x="12.7" y="76.2" size="2.54" layer="91">Fault Line LED</text>
 <text x="12.7" y="137.16" size="2.54" layer="91">USB Mini B</text>
 <text x="137.16" y="238.76" size="1.778" layer="91">needs 5 decoupling capacitors added total.</text>
-<text x="12.7" y="246.38" size="2.54" layer="91">Decoupling capacitors</text>
+<text x="12.7" y="246.38" size="2.54" layer="91">Ethernet Decoupling capacitors</text>
 <text x="53.34" y="236.22" size="1.778" layer="91">Connect these to 3V3 on 
 ethernet MC</text>
 <text x="30.48" y="129.54" size="1.778" layer="91">*changed* Deleted VBUS circuit, needs to be added</text>
@@ -20758,6 +20765,10 @@ for proper functionality</text>
 <text x="322.58" y="208.28" size="1.778" layer="91">*changed* MOBO_ON/OFF replaced SPARE_5</text>
 <text x="198.12" y="119.38" size="1.778" layer="91">*changed* SPARE_5 moved here</text>
 <text x="190.5" y="238.76" size="1.778" layer="91">*changed* NRST circuit completely rewritten</text>
+<text x="10.16" y="154.94" size="2.54" layer="91">MicroController Decoupling capacitors</text>
+<text x="50.8" y="144.78" size="1.778" layer="91">Connect these to 3V3 on 
+Main MC</text>
+<text x="25.4" y="116.84" size="1.778" layer="91">*changed* Added decoupling capacitors</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
@@ -20881,6 +20892,32 @@ for proper functionality</text>
 <instance part="GND5" gate="1" x="215.9" y="233.68" smashed="yes" rot="R180">
 <attribute name="VALUE" x="218.44" y="236.22" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C6" gate="G$1" x="17.78" y="137.16" smashed="yes">
+<attribute name="NAME" x="19.304" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="19.304" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="30.48" y="137.16" smashed="yes">
+<attribute name="NAME" x="32.004" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.004" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="G$1" x="43.18" y="137.16" smashed="yes">
+<attribute name="NAME" x="44.704" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.704" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="55.88" y="137.16" smashed="yes">
+<attribute name="NAME" x="57.404" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.404" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="68.58" y="137.16" smashed="yes">
+<attribute name="NAME" x="70.104" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="70.104" y="132.461" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V23" gate="G$1" x="43.18" y="149.86" smashed="yes">
+<attribute name="VALUE" x="40.64" y="144.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND25" gate="1" x="43.18" y="121.92" smashed="yes">
+<attribute name="VALUE" x="40.64" y="119.38" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20956,6 +20993,27 @@ for proper functionality</text>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="226.06" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="132.08" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="129.54" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="129.54" x2="17.78" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="132.08" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<junction x="30.48" y="129.54"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="132.08" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<junction x="43.18" y="129.54"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="132.08" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<junction x="55.88" y="129.54"/>
+<wire x1="43.18" y1="129.54" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -21081,6 +21139,27 @@ for proper functionality</text>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="226.06" x2="231.14" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="139.7" x2="17.78" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="142.24" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="142.24" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="139.7" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
+<junction x="55.88" y="142.24"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="139.7" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
+<junction x="43.18" y="142.24"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="139.7" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
+<junction x="30.48" y="142.24"/>
+<wire x1="43.18" y1="142.24" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="+3V23" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="12V_ON/OFF" class="0">
@@ -21308,10 +21387,10 @@ for proper functionality</text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="7.62" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="160.02" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="109.22" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="109.22" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM_3V3_1" class="0">
@@ -21413,6 +21492,14 @@ for proper functionality</text>
 <wire x1="200.66" y1="215.9" x2="200.66" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="210.82" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
 <label x="200.66" y="210.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<wire x1="86.36" y1="160.02" x2="7.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="160.02" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="114.3" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="114.3" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
