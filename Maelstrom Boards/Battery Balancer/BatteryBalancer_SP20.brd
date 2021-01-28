@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6239,7 +6239,7 @@ design rules under a new name.</description>
 <contactref element="R18" pad="2"/>
 <contactref element="R7" pad="1"/>
 <wire x1="26.45" y1="12.4" x2="26.45" y2="10.3" width="0.1524" layer="1"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="13.5" y="29.8"/>
 <vertex x="14.6" y="30.9"/>
 <vertex x="17.9" y="30.9"/>
@@ -6273,7 +6273,7 @@ design rules under a new name.</description>
 <contactref element="R16" pad="2"/>
 <contactref element="R9" pad="1"/>
 <wire x1="20.9162" y1="52.095" x2="20.9162" y2="53.365" width="0.1524" layer="1"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="19.4" y="53.9"/>
 <vertex x="22.3" y="53.9"/>
 <vertex x="22.3" y="50.9"/>
