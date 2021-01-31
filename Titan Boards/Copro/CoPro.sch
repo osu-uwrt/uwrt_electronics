@@ -25190,16 +25190,15 @@ brand=abracon&amp;crystal-case=smd-3.2mm-x-1.5mm</text>
 <approved hash="105,1,49.53,81.28,N$35,,,,,"/>
 <approved hash="105,2,90.17,251.46,N$40,,,,,"/>
 <approved hash="105,2,278.13,93.98,N$41,,,,,"/>
-<approved hash="105,2,90.17,160.02,N$42,,,,,"/>
 <approved hash="105,1,49.53,251.46,N$46,,,,,"/>
 <approved hash="106,2,248.92,182.88,VBUS_3V3,,,,,"/>
-<approved hash="108,1,53.975,162.56,GND,,,,,"/>
-<approved hash="108,1,41.275,162.56,GND,,,,,"/>
-<approved hash="108,1,48.895,162.56,GND,,,,,"/>
-<approved hash="108,1,59.055,162.56,GND,,,,,"/>
 <approved hash="108,1,46.355,162.56,GND,,,,,"/>
-<approved hash="108,1,51.435,162.56,GND,,,,,"/>
 <approved hash="108,1,43.815,162.56,GND,,,,,"/>
+<approved hash="108,1,41.275,162.56,GND,,,,,"/>
+<approved hash="108,1,59.055,162.56,GND,,,,,"/>
+<approved hash="108,1,53.975,162.56,GND,,,,,"/>
+<approved hash="108,1,48.895,162.56,GND,,,,,"/>
+<approved hash="108,1,51.435,162.56,GND,,,,,"/>
 <approved hash="108,1,56.515,162.56,GND,,,,,"/>
 <approved hash="113,1,41.5274,175.366,SWDIO/SWDCLK/RESET1,,,,,"/>
 </errors>
