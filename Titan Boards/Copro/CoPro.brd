@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9261,10 +9261,6 @@ design rules under a new name.</description>
 <wire x1="53.4176" y1="53.185" x2="53.0366" y2="53.566" width="0.2032" layer="1"/>
 <wire x1="53.0366" y1="53.566" x2="51.898" y2="53.566" width="0.2032" layer="1"/>
 <wire x1="76.542" y1="66.294" x2="77.6226" y2="66.294" width="0.254" layer="16"/>
-<wire x1="24.1173" y1="3.375" x2="24.1173" y2="7.0806" width="0.2032" layer="16"/>
-<wire x1="24.1173" y1="3.375" x2="24.1173" y2="7.0806" width="0.2032" layer="1"/>
-<wire x1="29.1973" y1="3.375" x2="29.1973" y2="7.0806" width="0.2032" layer="1"/>
-<wire x1="29.1973" y1="3.375" x2="29.1973" y2="7.0806" width="0.2032" layer="16"/>
 <wire x1="34.2773" y1="3.375" x2="34.2773" y2="7.0806" width="0.2032" layer="1"/>
 <wire x1="34.2773" y1="3.375" x2="34.2773" y2="7.0806" width="0.2032" layer="16"/>
 <wire x1="39.3573" y1="3.375" x2="39.3573" y2="7.0806" width="0.2032" layer="16"/>
@@ -9364,12 +9360,12 @@ design rules under a new name.</description>
 <contactref element="C24" pad="2"/>
 <contactref element="VR1" pad="1"/>
 <contactref element="C12" pad="2"/>
-<wire x1="21.611" y1="76.722" x2="20.306" y2="76.722" width="0.1524" layer="1"/>
-<wire x1="20.306" y1="76.722" x2="19.685" y2="77.343" width="0.1524" layer="1"/>
+<wire x1="21.611" y1="76.722" x2="20.306" y2="76.722" width="0.254" layer="1"/>
+<wire x1="20.306" y1="76.722" x2="19.685" y2="77.343" width="0.254" layer="1"/>
 <via x="19.685" y="77.343" extent="1-16" drill="0.35"/>
-<wire x1="15.533" y1="76.835" x2="13.843" y2="76.835" width="0.1524" layer="1"/>
+<wire x1="15.533" y1="76.835" x2="13.843" y2="76.835" width="0.254" layer="1"/>
 <via x="13.843" y="76.835" extent="1-16" drill="0.35"/>
-<wire x1="15.533" y1="72.136" x2="13.97" y2="72.136" width="0.1524" layer="1"/>
+<wire x1="15.533" y1="72.136" x2="13.97" y2="72.136" width="0.254" layer="1"/>
 <via x="13.97" y="72.136" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V">
@@ -10852,9 +10848,9 @@ design rules under a new name.</description>
 <contactref element="PROGRAMMING1" pad="VBUS"/>
 <contactref element="VR1" pad="3"/>
 <contactref element="C24" pad="1"/>
-<wire x1="8.85" y1="70.434" x2="15.531" y2="70.434" width="0.1524" layer="1"/>
-<wire x1="15.531" y1="70.434" x2="17.233" y2="72.136" width="0.1524" layer="1"/>
-<wire x1="17.233" y1="72.136" x2="21.597" y2="72.136" width="0.1524" layer="1"/>
+<wire x1="8.85" y1="70.434" x2="15.531" y2="70.434" width="0.254" layer="1"/>
+<wire x1="15.531" y1="70.434" x2="17.233" y2="72.136" width="0.254" layer="1"/>
+<wire x1="17.233" y1="72.136" x2="21.597" y2="72.136" width="0.254" layer="1"/>
 <wire x1="21.597" y1="72.136" x2="21.611" y2="72.122" width="0.1524" layer="1"/>
 </signal>
 </signals>
@@ -11016,8 +11012,6 @@ design rules under a new name.</description>
 <approved hash="22,16,bcb4c3b301337e34"/>
 <approved hash="4,1,5f04d04c248c8941"/>
 <approved hash="4,1,e133ccd720cdeeb8"/>
-<approved hash="20,16,79aacc78f3191265"/>
-<approved hash="20,16,4029cd7325456a26"/>
 </errors>
 </board>
 </drawing>
