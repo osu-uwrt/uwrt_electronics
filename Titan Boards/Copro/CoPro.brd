@@ -10857,6 +10857,16 @@ design rules under a new name.</description>
 <wire x1="17.233" y1="72.136" x2="21.597" y2="72.136" width="0.1524" layer="1"/>
 <wire x1="21.597" y1="72.136" x2="21.611" y2="72.122" width="0.1524" layer="1"/>
 </signal>
+<signal name="KILL_SWITCH">
+<contactref element="U$1" pad="37"/>
+<contactref element="STM32" pad="33"/>
+<wire x1="64.7573" y1="3.375" x2="40.558" y2="55.566" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWITCH1">
+<contactref element="U$1" pad="38"/>
+<contactref element="STM32" pad="34"/>
+<wire x1="62.2173" y1="3.375" x2="40.558" y2="55.066" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

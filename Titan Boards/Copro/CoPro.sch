@@ -19801,6 +19801,20 @@ ethernet MC</text>
 <label x="68.58" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
+<net name="KILL_SWITCH" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="KILL_SWITCH"/>
+<wire x1="160.02" y1="62.23" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="160.02" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="SWITCH1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWITCH_1"/>
+<wire x1="165.1" y1="62.23" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
+<label x="165.1" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -22844,6 +22858,20 @@ Main MC</text>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="KILL_SWITCH" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB12"/>
+<wire x1="248.92" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
+<label x="246.38" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SWITCH1" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB13"/>
+<wire x1="248.92" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
+<label x="220.98" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
