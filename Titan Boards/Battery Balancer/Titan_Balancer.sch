@@ -24134,17 +24134,14 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="12V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="STBD" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="5V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
-<part name="BALANCED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="PORT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1" value="RED"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P3" library="con-molex-mini-fit" deviceset="39-30-?04?" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P2" library="con-molex-mini-fit" deviceset="39-30-?08?" device=""/>
@@ -29690,10 +29687,6 @@ DETECTOR</text>
 <attribute name="NAME" x="73.66" y="15.494" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="75.819" y="15.494" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="BALANCED" gate="G$1" x="11.684" y="20.066" smashed="yes" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="15.24" y="15.494" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="17.399" y="15.494" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="PORT" gate="G$1" x="24.384" y="20.066" smashed="yes" grouprefs="FAULT_LEDS">
 <attribute name="NAME" x="27.94" y="15.494" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="30.099" y="15.494" size="1.778" layer="96" rot="R90"/>
@@ -29706,10 +29699,6 @@ DETECTOR</text>
 </instance>
 <instance part="GND10" gate="1" x="73.66" y="193.04" smashed="yes">
 <attribute name="VALUE" x="71.12" y="190.5" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="11.684" y="30.226" smashed="yes" rot="R90" grouprefs="FAULT_LEDS">
-<attribute name="NAME" x="10.1854" y="26.416" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="14.986" y="26.416" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="G$1" x="24.384" y="30.226" smashed="yes" rot="R90" grouprefs="FAULT_LEDS">
 <attribute name="NAME" x="22.8854" y="26.416" size="1.778" layer="95" rot="R90"/>
@@ -29726,9 +29715,6 @@ DETECTOR</text>
 <instance part="R23" gate="G$1" x="70.104" y="30.226" smashed="yes" rot="R90" grouprefs="FAULT_LEDS">
 <attribute name="NAME" x="68.6054" y="26.416" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="73.406" y="26.416" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+14" gate="1" x="15.24" y="7.62" smashed="yes" rot="R270">
-<attribute name="VALUE" x="12.7" y="10.16" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -29806,13 +29792,9 @@ DETECTOR</text>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="52.324" y1="37.846" x2="52.324" y2="40.386" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
 <wire x1="52.324" y1="37.846" x2="42.164" y2="37.846" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="42.164" y1="37.846" x2="24.384" y2="37.846" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
-<wire x1="24.384" y1="37.846" x2="11.684" y2="37.846" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
-<wire x1="11.684" y1="37.846" x2="11.684" y2="35.306" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="24.384" y1="37.846" x2="24.384" y2="35.306" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
-<junction x="24.384" y="37.846" grouprefs="FAULT_LEDS"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="42.164" y1="37.846" x2="42.164" y2="35.306" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
 <junction x="42.164" y="37.846" grouprefs="FAULT_LEDS"/>
@@ -30329,12 +30311,6 @@ DETECTOR</text>
 <wire x1="355.6" y1="187.96" x2="355.6" y2="185.42" width="0.1524" layer="91" grouprefs="FAULT_DETECTOR"/>
 <label x="355.6" y="185.42" size="1.6764" layer="95" xref="yes" grouprefs="FAULT_DETECTOR"/>
 </segment>
-<segment>
-<pinref part="BALANCED" gate="G$1" pin="C"/>
-<pinref part="P+14" gate="1" pin="V+"/>
-<wire x1="12.7" y1="7.62" x2="11.684" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="11.684" y1="7.62" x2="11.684" y2="14.986" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$17" class="0">
 <segment>
@@ -30735,13 +30711,6 @@ DETECTOR</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="PORT" gate="G$1" pin="A"/>
 <wire x1="24.384" y1="25.146" x2="24.384" y2="22.606" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="BALANCED" gate="G$1" pin="A"/>
-<wire x1="11.684" y1="25.146" x2="11.684" y2="22.606" width="0.1524" layer="91" grouprefs="FAULT_LEDS"/>
 </segment>
 </net>
 </nets>
