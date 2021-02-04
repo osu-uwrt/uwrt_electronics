@@ -34608,22 +34608,12 @@ configuration is fixed to
 </net>
 <net name="EXTRA2" class="0">
 <segment>
-<wire x1="124.46" y1="67.31" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="124.46" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SPARE3"/>
-</segment>
-<segment>
 <pinref part="MC" gate="G$1" pin="PC12"/>
 <wire x1="322.58" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="325.12" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXTRA3" class="0">
-<segment>
-<wire x1="129.54" y1="67.31" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<label x="129.54" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SPARE4"/>
-</segment>
 <segment>
 <pinref part="MC" gate="G$1" pin="PD2"/>
 <wire x1="322.58" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
