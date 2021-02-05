@@ -8890,7 +8890,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="61.468" y="30.988" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="53.04956875" y="59.39355" size="2.002690625" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="HC49US" package3d_urn="urn:adsk.eagle:package:37515/1" value="12MHz" x="58.166" y="50.292" smashed="yes" rot="R270">
+<element name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="HC49US" package3d_urn="urn:adsk.eagle:package:37515/1" value="16MHz" x="58.166" y="50.292" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.706" y="50.292" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="XTAL-08181" x="78.74" y="82.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="COM-00536" x="78.74" y="82.55" size="1.778" layer="27" rot="R270" display="off"/>
