@@ -6793,6 +6793,38 @@ Source: www.kingbright.com</description>
 <hole x="6.6" y="-4.2" drill="3.2"/>
 <hole x="-6.6" y="-4.2" drill="3.2"/>
 </package>
+<package name="5566-2">
+<description>&lt;b&gt;Mini FIT connector 2 pol&lt;/b&gt;</description>
+<wire x1="-2.6" y1="4.5" x2="2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="2.6" y1="4.5" x2="2.6" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-3.3" x2="2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-4.9" x2="-2.6" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-2.6" y1="-4.9" x2="-2.6" y2="4.5" width="0.254" layer="21"/>
+<wire x1="2.6" y1="-2.2" x2="2.6" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<pad name="1" x="0" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="0" y="2.75" drill="1.4" shape="square"/>
+<text x="-1.27" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="5569-2">
+<description>&lt;b&gt;Mini FIT connector 2 R/A&lt;/b&gt;</description>
+<wire x1="0" y1="0.9" x2="0" y2="4.6" width="1.27" layer="21"/>
+<wire x1="-7.7" y1="-0.9" x2="-7.7" y2="-7.2" width="0.254" layer="21"/>
+<wire x1="-7.7" y1="-7.2" x2="-2.7" y2="-7.2" width="0.254" layer="21"/>
+<wire x1="-2.7" y1="-7.2" x2="-2.7" y2="-13.8" width="0.254" layer="21"/>
+<wire x1="-2.7" y1="-13.8" x2="2.7" y2="-13.8" width="0.254" layer="21"/>
+<wire x1="2.7" y1="-13.8" x2="2.7" y2="-7.2" width="0.254" layer="21"/>
+<wire x1="2.7" y1="-7.2" x2="7.7" y2="-7.2" width="0.254" layer="21"/>
+<wire x1="7.7" y1="-7.2" x2="7.7" y2="-0.9" width="0.254" layer="21"/>
+<wire x1="7.7" y1="-0.9" x2="-7.7" y2="-0.9" width="0.254" layer="21"/>
+<wire x1="2.7" y1="-1.1" x2="2.7" y2="1.1" width="0.254" layer="25"/>
+<pad name="1" x="0" y="0" drill="1.4" shape="square"/>
+<pad name="2" x="0" y="5.5" drill="1.4" shape="square"/>
+<text x="-2.7" y="6.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.2" y="-4.2" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="4.5" y="-4.2" drill="3.2"/>
+<hole x="-4.5" y="-4.2" drill="3.2"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -6841,6 +6873,33 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="555X-2" prefix="PL" uservalue="yes">
+<description>&lt;b&gt;Mini FIT connector 2 way&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="V" package="5566-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="5569-2">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -6875,6 +6934,7 @@ Source: www.kingbright.com</description>
 <part name="DEPTH_CONN" library="con-molex-2" deviceset="555X-4" device="V"/>
 <part name="SWITCH_CONN" library="con-molex-2" deviceset="555X-4" device="V"/>
 <part name="ROBOT_I2C_CONN" library="con-molex-2" deviceset="555X-4" device="V"/>
+<part name="ACOUSTICS_CONN" library="con-molex-2" deviceset="555X-2" device="V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9107,14 +9167,16 @@ Ohio State University</text>
 <text x="18.542" y="127.508" size="2.54" layer="91">Coprocessor Connector</text>
 <text x="143.764" y="127.508" size="2.54" layer="91">Actuator Connector</text>
 <text x="269.24" y="243.84" size="2.54" layer="91">Switch Connector</text>
-<text x="269.24" y="208.28" size="2.54" layer="91">Robot I2C
+<text x="270.002" y="213.614" size="2.54" layer="91">Robot I2C
 Connector</text>
-<text x="269.24" y="175.26" size="2.54" layer="91">Depth Sensor
+<text x="269.494" y="186.182" size="2.54" layer="91">Depth Sensor
 Connector</text>
 <text x="267.716" y="89.662" size="2.54" layer="91">Test Pin
 Connector</text>
-<text x="269.24" y="142.24" size="2.54" layer="91">Board Connected 
+<text x="266.954" y="134.62" size="2.54" layer="91">Board Connected 
 Indicators</text>
+<text x="270.002" y="157.226" size="2.54" layer="91">Acoustics
+Connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
@@ -9143,29 +9205,29 @@ Indicators</text>
 <attribute name="NAME" x="326.8726" y="91.948" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="326.898" y="86.36" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="PD_CONN_LED" gate="G$1" x="314.452" y="141.986" smashed="yes" rot="R90">
-<attribute name="NAME" x="306.578" y="144.526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="319.024" y="147.701" size="1.778" layer="96" rot="R180"/>
+<instance part="PD_CONN_LED" gate="G$1" x="314.706" y="135.636" smashed="yes" rot="R90">
+<attribute name="NAME" x="306.832" y="138.176" size="1.778" layer="95"/>
+<attribute name="VALUE" x="319.278" y="141.351" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R19" gate="G$1" x="331.978" y="141.986" smashed="yes">
-<attribute name="NAME" x="327.914" y="138.4046" size="1.778" layer="95"/>
-<attribute name="VALUE" x="333.502" y="138.43" size="1.778" layer="96"/>
+<instance part="R19" gate="G$1" x="332.232" y="135.636" smashed="yes">
+<attribute name="NAME" x="328.168" y="132.0546" size="1.778" layer="95"/>
+<attribute name="VALUE" x="333.756" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="ESC_CONN_LED" gate="G$1" x="314.198" y="130.556" smashed="yes" rot="R90">
-<attribute name="NAME" x="306.324" y="133.096" size="1.778" layer="95"/>
-<attribute name="VALUE" x="318.77" y="136.271" size="1.778" layer="96" rot="R180"/>
+<instance part="ESC_CONN_LED" gate="G$1" x="314.452" y="125.476" smashed="yes" rot="R90">
+<attribute name="NAME" x="306.578" y="128.016" size="1.778" layer="95"/>
+<attribute name="VALUE" x="319.024" y="131.191" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R20" gate="G$1" x="331.724" y="130.556" smashed="yes">
-<attribute name="NAME" x="327.406" y="126.7206" size="1.778" layer="95"/>
-<attribute name="VALUE" x="333.502" y="126.746" size="1.778" layer="96"/>
+<instance part="R20" gate="G$1" x="331.978" y="125.476" smashed="yes">
+<attribute name="NAME" x="327.66" y="121.6406" size="1.778" layer="95"/>
+<attribute name="VALUE" x="333.756" y="121.666" size="1.778" layer="96"/>
 </instance>
-<instance part="COPRO_CONN_LED" gate="G$1" x="314.452" y="119.634" smashed="yes" rot="R90">
-<attribute name="NAME" x="306.578" y="122.174" size="1.778" layer="95"/>
-<attribute name="VALUE" x="319.024" y="125.349" size="1.778" layer="96" rot="R180"/>
+<instance part="COPRO_CONN_LED" gate="G$1" x="314.452" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="306.578" y="119.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="319.024" y="122.555" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R21" gate="G$1" x="331.978" y="119.634" smashed="yes">
-<attribute name="NAME" x="326.898" y="116.0526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="333.502" y="116.078" size="1.778" layer="96"/>
+<instance part="R21" gate="G$1" x="331.978" y="116.84" smashed="yes">
+<attribute name="NAME" x="326.898" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="333.502" y="113.284" size="1.778" layer="96"/>
 </instance>
 <instance part="ACT_CONN_LED" gate="G$1" x="314.198" y="108.204" smashed="yes" rot="R90">
 <attribute name="NAME" x="306.324" y="110.744" size="1.778" layer="95"/>
@@ -9175,44 +9237,51 @@ Indicators</text>
 <attribute name="NAME" x="326.898" y="104.6226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="333.756" y="104.648" size="1.778" layer="96"/>
 </instance>
-<instance part="DEPTH_CONN" gate="-1" x="331.216" y="177.038" smashed="yes">
-<attribute name="NAME" x="333.756" y="176.276" size="1.524" layer="95"/>
-<attribute name="VALUE" x="330.454" y="178.435" size="1.778" layer="96"/>
+<instance part="DEPTH_CONN" gate="-1" x="331.724" y="191.77" smashed="yes">
+<attribute name="NAME" x="334.264" y="191.008" size="1.524" layer="95"/>
+<attribute name="VALUE" x="330.962" y="193.167" size="1.778" layer="96"/>
 </instance>
-<instance part="DEPTH_CONN" gate="-2" x="331.216" y="171.958" smashed="yes">
-<attribute name="NAME" x="333.756" y="171.196" size="1.524" layer="95"/>
+<instance part="DEPTH_CONN" gate="-2" x="331.724" y="186.69" smashed="yes">
+<attribute name="NAME" x="334.264" y="185.928" size="1.524" layer="95"/>
 </instance>
-<instance part="DEPTH_CONN" gate="-3" x="331.216" y="166.878" smashed="yes">
-<attribute name="NAME" x="333.756" y="166.116" size="1.524" layer="95"/>
+<instance part="DEPTH_CONN" gate="-3" x="331.724" y="181.61" smashed="yes">
+<attribute name="NAME" x="334.264" y="180.848" size="1.524" layer="95"/>
 </instance>
-<instance part="DEPTH_CONN" gate="-4" x="331.216" y="161.798" smashed="yes">
-<attribute name="NAME" x="333.756" y="161.036" size="1.524" layer="95"/>
+<instance part="DEPTH_CONN" gate="-4" x="331.724" y="176.53" smashed="yes">
+<attribute name="NAME" x="334.264" y="175.768" size="1.524" layer="95"/>
 </instance>
-<instance part="SWITCH_CONN" gate="-1" x="331.724" y="241.808" smashed="yes">
-<attribute name="NAME" x="334.264" y="241.046" size="1.524" layer="95"/>
-<attribute name="VALUE" x="330.962" y="243.205" size="1.778" layer="96"/>
+<instance part="SWITCH_CONN" gate="-1" x="331.724" y="246.634" smashed="yes">
+<attribute name="NAME" x="334.264" y="245.872" size="1.524" layer="95"/>
+<attribute name="VALUE" x="330.962" y="248.031" size="1.778" layer="96"/>
 </instance>
-<instance part="SWITCH_CONN" gate="-2" x="331.724" y="236.728" smashed="yes">
-<attribute name="NAME" x="334.264" y="235.966" size="1.524" layer="95"/>
+<instance part="SWITCH_CONN" gate="-2" x="331.724" y="241.554" smashed="yes">
+<attribute name="NAME" x="334.264" y="240.792" size="1.524" layer="95"/>
 </instance>
-<instance part="SWITCH_CONN" gate="-3" x="331.724" y="231.648" smashed="yes">
-<attribute name="NAME" x="334.264" y="230.886" size="1.524" layer="95"/>
+<instance part="SWITCH_CONN" gate="-3" x="331.724" y="236.474" smashed="yes">
+<attribute name="NAME" x="334.264" y="235.712" size="1.524" layer="95"/>
 </instance>
-<instance part="SWITCH_CONN" gate="-4" x="331.724" y="226.568" smashed="yes">
-<attribute name="NAME" x="334.264" y="225.806" size="1.524" layer="95"/>
+<instance part="SWITCH_CONN" gate="-4" x="331.724" y="231.394" smashed="yes">
+<attribute name="NAME" x="334.264" y="230.632" size="1.524" layer="95"/>
 </instance>
-<instance part="ROBOT_I2C_CONN" gate="-1" x="331.724" y="210.058" smashed="yes">
-<attribute name="NAME" x="334.264" y="209.296" size="1.524" layer="95"/>
-<attribute name="VALUE" x="330.962" y="211.455" size="1.778" layer="96"/>
+<instance part="ROBOT_I2C_CONN" gate="-1" x="331.724" y="219.456" smashed="yes">
+<attribute name="NAME" x="334.264" y="218.694" size="1.524" layer="95"/>
+<attribute name="VALUE" x="330.962" y="220.853" size="1.778" layer="96"/>
 </instance>
-<instance part="ROBOT_I2C_CONN" gate="-2" x="331.724" y="204.978" smashed="yes">
-<attribute name="NAME" x="334.264" y="204.216" size="1.524" layer="95"/>
+<instance part="ROBOT_I2C_CONN" gate="-2" x="331.724" y="214.376" smashed="yes">
+<attribute name="NAME" x="334.264" y="213.614" size="1.524" layer="95"/>
 </instance>
-<instance part="ROBOT_I2C_CONN" gate="-3" x="331.724" y="199.898" smashed="yes">
-<attribute name="NAME" x="334.264" y="199.136" size="1.524" layer="95"/>
+<instance part="ROBOT_I2C_CONN" gate="-3" x="331.724" y="209.296" smashed="yes">
+<attribute name="NAME" x="334.264" y="208.534" size="1.524" layer="95"/>
 </instance>
-<instance part="ROBOT_I2C_CONN" gate="-4" x="331.724" y="194.818" smashed="yes">
-<attribute name="NAME" x="334.264" y="194.056" size="1.524" layer="95"/>
+<instance part="ROBOT_I2C_CONN" gate="-4" x="331.724" y="204.216" smashed="yes">
+<attribute name="NAME" x="334.264" y="203.454" size="1.524" layer="95"/>
+</instance>
+<instance part="ACOUSTICS_CONN" gate="-1" x="331.724" y="160.274" smashed="yes">
+<attribute name="NAME" x="334.264" y="159.512" size="1.524" layer="95"/>
+<attribute name="VALUE" x="330.962" y="161.671" size="1.778" layer="96"/>
+</instance>
+<instance part="ACOUSTICS_CONN" gate="-2" x="331.724" y="155.194" smashed="yes">
+<attribute name="NAME" x="334.264" y="154.432" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -9244,6 +9313,11 @@ Indicators</text>
 <wire x1="333.248" y1="78.486" x2="305.562" y2="78.486" width="0.1524" layer="91"/>
 <label x="305.562" y="78.486" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="ACOUSTICS_CONN" gate="-1" pin="S"/>
+<wire x1="329.184" y1="160.274" x2="322.834" y2="160.274" width="0.1524" layer="91"/>
+<label x="322.58" y="160.274" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -9267,13 +9341,13 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<label x="321.818" y="210.058" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="321.818" y="219.456" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="ROBOT_I2C_CONN" gate="-1" pin="S"/>
-<wire x1="329.184" y1="210.058" x2="321.818" y2="210.058" width="0.1524" layer="91"/>
+<wire x1="329.184" y1="219.456" x2="321.818" y2="219.456" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="328.676" y1="177.038" x2="321.564" y2="177.038" width="0.1524" layer="91"/>
-<label x="321.564" y="177.038" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="191.77" x2="322.072" y2="191.77" width="0.1524" layer="91"/>
+<label x="322.072" y="191.77" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DEPTH_CONN" gate="-1" pin="S"/>
 </segment>
 <segment>
@@ -9498,8 +9572,8 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="SPARE2"/>
 </segment>
 <segment>
-<label x="323.342" y="236.728" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="329.184" y1="236.728" x2="323.342" y2="236.728" width="0.1524" layer="91"/>
+<label x="323.342" y="241.554" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="241.554" x2="323.342" y2="241.554" width="0.1524" layer="91"/>
 <pinref part="SWITCH_CONN" gate="-2" pin="S"/>
 </segment>
 </net>
@@ -9579,8 +9653,8 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="KILL_SWITCH"/>
 </segment>
 <segment>
-<wire x1="329.184" y1="241.808" x2="323.342" y2="241.808" width="0.1524" layer="91"/>
-<label x="323.342" y="241.808" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="246.634" x2="323.342" y2="246.634" width="0.1524" layer="91"/>
+<label x="323.342" y="246.634" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="SWITCH_CONN" gate="-1" pin="S"/>
 </segment>
 </net>
@@ -9716,13 +9790,13 @@ Indicators</text>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<label x="321.818" y="199.898" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="321.818" y="209.296" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="ROBOT_I2C_CONN" gate="-3" pin="S"/>
-<wire x1="329.184" y1="199.898" x2="321.818" y2="199.898" width="0.1524" layer="91"/>
+<wire x1="329.184" y1="209.296" x2="321.818" y2="209.296" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="328.676" y1="166.878" x2="321.564" y2="166.878" width="0.1524" layer="91"/>
-<label x="321.564" y="166.878" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="181.61" x2="322.072" y2="181.61" width="0.1524" layer="91"/>
+<label x="322.072" y="181.61" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DEPTH_CONN" gate="-3" pin="S"/>
 </segment>
 <segment>
@@ -9732,18 +9806,18 @@ Indicators</text>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="337.058" y1="141.986" x2="341.63" y2="141.986" width="0.1524" layer="91"/>
-<label x="341.63" y="141.986" size="1.778" layer="95" xref="yes"/>
+<wire x1="337.312" y1="135.636" x2="341.884" y2="135.636" width="0.1524" layer="91"/>
+<label x="341.884" y="135.636" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="336.804" y1="130.556" x2="341.376" y2="130.556" width="0.1524" layer="91"/>
-<label x="341.376" y="130.556" size="1.778" layer="95" xref="yes"/>
+<wire x1="337.058" y1="125.476" x2="341.63" y2="125.476" width="0.1524" layer="91"/>
+<label x="341.63" y="125.476" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="337.058" y1="119.634" x2="341.63" y2="119.634" width="0.1524" layer="91"/>
-<label x="341.63" y="119.634" size="1.778" layer="95" xref="yes"/>
+<wire x1="337.058" y1="116.84" x2="341.63" y2="116.84" width="0.1524" layer="91"/>
+<label x="341.63" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
@@ -9752,13 +9826,18 @@ Indicators</text>
 </segment>
 <segment>
 <pinref part="SWITCH_CONN" gate="-3" pin="S"/>
-<wire x1="329.184" y1="231.648" x2="323.596" y2="231.648" width="0.1524" layer="91"/>
-<label x="323.596" y="231.648" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="236.474" x2="323.596" y2="236.474" width="0.1524" layer="91"/>
+<label x="323.596" y="236.474" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SWITCH_CONN" gate="-4" pin="S"/>
-<wire x1="329.184" y1="226.568" x2="323.85" y2="226.568" width="0.1524" layer="91"/>
-<label x="323.85" y="226.568" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="231.394" x2="323.85" y2="231.394" width="0.1524" layer="91"/>
+<label x="323.85" y="231.394" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ACOUSTICS_CONN" gate="-2" pin="S"/>
+<wire x1="329.184" y1="155.194" x2="322.834" y2="155.194" width="0.1524" layer="91"/>
+<label x="322.58" y="155.194" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BB_CONN" class="0">
@@ -9769,8 +9848,8 @@ Indicators</text>
 </segment>
 <segment>
 <pinref part="PD_CONN_LED" gate="G$1" pin="A"/>
-<wire x1="311.912" y1="141.986" x2="305.562" y2="141.986" width="0.1524" layer="91"/>
-<label x="305.562" y="141.986" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="312.166" y1="135.636" x2="305.816" y2="135.636" width="0.1524" layer="91"/>
+<label x="305.816" y="135.636" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPARE6" class="0">
@@ -9901,13 +9980,13 @@ Indicators</text>
 <pinref part="U$3" gate="G$1" pin="ROBOT_SDA"/>
 </segment>
 <segment>
-<label x="321.818" y="204.978" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="321.818" y="214.376" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="ROBOT_I2C_CONN" gate="-2" pin="S"/>
-<wire x1="329.184" y1="204.978" x2="321.818" y2="204.978" width="0.1524" layer="91"/>
+<wire x1="329.184" y1="214.376" x2="321.818" y2="214.376" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="328.676" y1="171.958" x2="321.564" y2="171.958" width="0.1524" layer="91"/>
-<label x="321.564" y="171.958" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="186.69" x2="322.072" y2="186.69" width="0.1524" layer="91"/>
+<label x="322.072" y="186.69" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DEPTH_CONN" gate="-2" pin="S"/>
 </segment>
 <segment>
@@ -9942,13 +10021,13 @@ Indicators</text>
 <pinref part="U$3" gate="G$1" pin="ROBOT_SCL"/>
 </segment>
 <segment>
-<label x="321.818" y="194.818" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="321.818" y="204.216" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="ROBOT_I2C_CONN" gate="-4" pin="S"/>
-<wire x1="329.184" y1="194.818" x2="321.818" y2="194.818" width="0.1524" layer="91"/>
+<wire x1="329.184" y1="204.216" x2="321.818" y2="204.216" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="328.676" y1="161.798" x2="321.564" y2="161.798" width="0.1524" layer="91"/>
-<label x="321.564" y="161.798" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="329.184" y1="176.53" x2="322.072" y2="176.53" width="0.1524" layer="91"/>
+<label x="322.072" y="176.53" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DEPTH_CONN" gate="-4" pin="S"/>
 </segment>
 <segment>
@@ -10172,17 +10251,17 @@ Indicators</text>
 <net name="N$5" class="0">
 <segment>
 <wire x1="264.16" y1="251.46" x2="373.38" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="251.46" x2="373.38" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="220.98" x2="264.16" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="220.98" x2="264.16" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="251.46" x2="373.38" y2="226.568" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="226.568" x2="264.16" y2="226.568" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="226.568" x2="264.16" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="264.16" y1="218.44" x2="373.38" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="218.44" x2="373.38" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="187.96" x2="264.16" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="187.96" x2="264.16" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="223.266" x2="373.38" y2="223.266" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="223.266" x2="373.38" y2="199.136" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="199.136" x2="264.16" y2="199.136" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="199.136" x2="264.16" y2="223.266" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10201,8 +10280,8 @@ Indicators</text>
 </segment>
 <segment>
 <pinref part="ESC_CONN_LED" gate="G$1" pin="A"/>
-<wire x1="311.658" y1="130.556" x2="305.816" y2="130.556" width="0.1524" layer="91"/>
-<label x="305.816" y="130.556" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="311.912" y1="125.476" x2="306.07" y2="125.476" width="0.1524" layer="91"/>
+<label x="306.07" y="125.476" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COPRO_CONN" class="0">
@@ -10213,8 +10292,8 @@ Indicators</text>
 </segment>
 <segment>
 <pinref part="COPRO_CONN_LED" gate="G$1" pin="A"/>
-<wire x1="311.912" y1="119.634" x2="306.07" y2="119.634" width="0.1524" layer="91"/>
-<label x="306.07" y="119.634" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="311.912" y1="116.84" x2="306.07" y2="116.84" width="0.1524" layer="91"/>
+<label x="306.07" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ACT_CONN" class="0">
@@ -10231,31 +10310,31 @@ Indicators</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="264.16" y1="185.42" x2="373.38" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="185.42" x2="373.38" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="154.94" x2="264.16" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="154.94" x2="264.16" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="195.834" x2="373.38" y2="195.834" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="195.834" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="172.72" x2="264.16" y2="195.834" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="PD_CONN_LED" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="319.532" y1="141.986" x2="326.898" y2="141.986" width="0.1524" layer="91"/>
+<wire x1="319.786" y1="135.636" x2="327.152" y2="135.636" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="ESC_CONN_LED" gate="G$1" pin="C"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="319.278" y1="130.556" x2="326.644" y2="130.556" width="0.1524" layer="91"/>
+<wire x1="319.532" y1="125.476" x2="326.898" y2="125.476" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="COPRO_CONN_LED" gate="G$1" pin="C"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="319.532" y1="119.634" x2="326.898" y2="119.634" width="0.1524" layer="91"/>
+<wire x1="319.532" y1="116.84" x2="326.898" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -10267,10 +10346,18 @@ Indicators</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="264.16" y1="152.4" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="144.272" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="101.6" x2="373.38" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="101.6" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="152.4" x2="264.16" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="101.6" x2="373.38" y2="144.272" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="144.272" x2="264.16" y2="144.272" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<wire x1="264.16" y1="169.926" x2="373.38" y2="169.926" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="169.926" x2="373.38" y2="147.066" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="147.066" x2="264.16" y2="147.066" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="147.066" x2="264.16" y2="169.926" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

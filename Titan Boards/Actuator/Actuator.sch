@@ -34608,22 +34608,12 @@ configuration is fixed to
 </net>
 <net name="EXTRA2" class="0">
 <segment>
-<wire x1="124.46" y1="67.31" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="124.46" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SPARE3"/>
-</segment>
-<segment>
 <pinref part="MC" gate="G$1" pin="PC12"/>
 <wire x1="322.58" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="325.12" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EXTRA3" class="0">
-<segment>
-<wire x1="129.54" y1="67.31" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<label x="129.54" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SPARE4"/>
-</segment>
 <segment>
 <pinref part="MC" gate="G$1" pin="PD2"/>
 <wire x1="322.58" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
@@ -37821,7 +37811,7 @@ Ohio State University</text>
      CRYSTAL-SMD 32.7680KHZ 6PF  3.2X1.5MM 
      https://www.digikey.com/en/products/detail/micro-crystal-ag/CM7V-T1A-32-768KHZ-6PF-20PPM-TA-QC/10499118
      CRYSTAL-16MHZPTH-HC49US (CRYSTAL-16MHZ)
-     LINK TBD 
+     https://www.digikey.com/en/products/detail/abracon-llc/ABM3B-16-000MHZ-B2-T/675317?s=N4IgTCBcDaIKwGY4FoCcBGMZnuQOQBEQBdAXyA 
 
      ERZ-VF2M270 Varistor
      VARISTOR 27V 125A 2SMD JLEAD
