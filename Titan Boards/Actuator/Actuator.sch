@@ -37811,7 +37811,7 @@ Ohio State University</text>
      CRYSTAL-SMD 32.7680KHZ 6PF  3.2X1.5MM 
      https://www.digikey.com/en/products/detail/micro-crystal-ag/CM7V-T1A-32-768KHZ-6PF-20PPM-TA-QC/10499118
      CRYSTAL-16MHZPTH-HC49US (CRYSTAL-16MHZ)
-     LINK TBD 
+     https://www.digikey.com/en/products/detail/abracon-llc/ABM3B-16-000MHZ-B2-T/675317?s=N4IgTCBcDaIKwGY4FoCcBGMZnuQOQBEQBdAXyA 
 
      ERZ-VF2M270 Varistor
      VARISTOR 27V 125A 2SMD JLEAD
