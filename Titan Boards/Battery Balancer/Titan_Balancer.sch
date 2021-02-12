@@ -714,82 +714,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Vertical_Connectors">
-<packages>
-<package name="14PIN_VERT">
-<pad name="1+" x="0" y="0" drill="1.4" shape="square"/>
-<pad name="1-" x="5.5" y="0" drill="1.4" shape="square"/>
-<pad name="2+" x="0" y="4.2" drill="1.4" shape="square"/>
-<pad name="2-" x="5.5" y="4.2" drill="1.4" shape="square"/>
-<pad name="3-" x="5.5" y="8.4" drill="1.4" shape="square"/>
-<pad name="3+" x="0" y="8.4" drill="1.4" shape="square"/>
-<pad name="4+" x="0" y="12.6" drill="1.4" shape="square"/>
-<pad name="4-" x="5.5" y="12.6" drill="1.4" shape="square"/>
-<pad name="5+" x="0" y="16.8" drill="1.4" shape="square"/>
-<pad name="6+" x="0" y="21" drill="1.4" shape="square"/>
-<pad name="7-" x="5.5" y="25.2" drill="1.4" shape="square"/>
-<pad name="7+" x="0" y="25.2" drill="1.4" shape="square"/>
-<pad name="6-" x="5.5" y="21" drill="1.4" shape="square"/>
-<pad name="5-" x="5.5" y="16.8" drill="1.4" shape="square"/>
-<wire x1="-2.7" y1="-2.71" x2="-2.7" y2="27.91" width="0.1524" layer="21"/>
-<wire x1="-2.7" y1="27.91" x2="8.19" y2="27.91" width="0.1524" layer="21"/>
-<wire x1="8.19" y1="27.91" x2="8.19" y2="-2.71" width="0.1524" layer="21"/>
-<wire x1="8.19" y1="-2.71" x2="-2.7" y2="-2.71" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="14PIN_VERT">
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="35.56" x2="10.16" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="7+" x="-5.08" y="33.02" length="middle"/>
-<pin name="6+" x="-5.08" y="27.94" length="middle"/>
-<pin name="5+" x="-5.08" y="22.86" length="middle"/>
-<pin name="4+" x="-5.08" y="17.78" length="middle"/>
-<pin name="3+" x="-5.08" y="12.7" length="middle"/>
-<pin name="2+" x="-5.08" y="7.62" length="middle"/>
-<pin name="1+" x="-5.08" y="2.54" length="middle"/>
-<pin name="7-" x="15.24" y="33.02" length="middle" rot="R180"/>
-<pin name="6-" x="15.24" y="27.94" length="middle" rot="R180"/>
-<pin name="5-" x="15.24" y="22.86" length="middle" rot="R180"/>
-<pin name="4-" x="15.24" y="17.78" length="middle" rot="R180"/>
-<pin name="3-" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="2-" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="1-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<wire x1="0" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="14PIN-VERT">
-<gates>
-<gate name="G$1" symbol="14PIN_VERT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="14PIN_VERT">
-<connects>
-<connect gate="G$1" pin="1+" pad="1+"/>
-<connect gate="G$1" pin="1-" pad="1-"/>
-<connect gate="G$1" pin="2+" pad="2+"/>
-<connect gate="G$1" pin="2-" pad="2-"/>
-<connect gate="G$1" pin="3+" pad="3+"/>
-<connect gate="G$1" pin="3-" pad="3-"/>
-<connect gate="G$1" pin="4+" pad="4+"/>
-<connect gate="G$1" pin="4-" pad="4-"/>
-<connect gate="G$1" pin="5+" pad="5+"/>
-<connect gate="G$1" pin="5-" pad="5-"/>
-<connect gate="G$1" pin="6+" pad="6+"/>
-<connect gate="G$1" pin="6-" pad="6-"/>
-<connect gate="G$1" pin="7+" pad="7+"/>
-<connect gate="G$1" pin="7-" pad="7-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LM5050">
 <packages>
 <package name="LM5050">
@@ -23984,6 +23908,82 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 </deviceset>
 </devicesets>
 </library>
+<library name="Vertical_Connectors">
+<packages>
+<package name="14PIN_VERT">
+<pad name="1+" x="0" y="0" drill="1.4" shape="square"/>
+<pad name="1-" x="5.5" y="0" drill="1.4" shape="square"/>
+<pad name="2+" x="0" y="4.2" drill="1.4" shape="square"/>
+<pad name="2-" x="5.5" y="4.2" drill="1.4" shape="square"/>
+<pad name="3-" x="5.5" y="8.4" drill="1.4" shape="square"/>
+<pad name="3+" x="0" y="8.4" drill="1.4" shape="square"/>
+<pad name="4+" x="0" y="12.6" drill="1.4" shape="square"/>
+<pad name="4-" x="5.5" y="12.6" drill="1.4" shape="square"/>
+<pad name="5+" x="0" y="16.8" drill="1.4" shape="square"/>
+<pad name="6+" x="0" y="21" drill="1.4" shape="square"/>
+<pad name="7-" x="5.5" y="25.2" drill="1.4" shape="square"/>
+<pad name="7+" x="0" y="25.2" drill="1.4" shape="square"/>
+<pad name="6-" x="5.5" y="21" drill="1.4" shape="square"/>
+<pad name="5-" x="5.5" y="16.8" drill="1.4" shape="square"/>
+<wire x1="-2.7" y1="-2.71" x2="-2.7" y2="27.91" width="0.1524" layer="21"/>
+<wire x1="-2.7" y1="27.91" x2="8.19" y2="27.91" width="0.1524" layer="21"/>
+<wire x1="8.19" y1="27.91" x2="8.19" y2="-2.71" width="0.1524" layer="21"/>
+<wire x1="8.19" y1="-2.71" x2="-2.7" y2="-2.71" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="14PIN_VERT">
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="7+" x="-5.08" y="33.02" length="middle"/>
+<pin name="6+" x="-5.08" y="27.94" length="middle"/>
+<pin name="5+" x="-5.08" y="22.86" length="middle"/>
+<pin name="4+" x="-5.08" y="17.78" length="middle"/>
+<pin name="3+" x="-5.08" y="12.7" length="middle"/>
+<pin name="2+" x="-5.08" y="7.62" length="middle"/>
+<pin name="1+" x="-5.08" y="2.54" length="middle"/>
+<pin name="7-" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="6-" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="5-" x="15.24" y="22.86" length="middle" rot="R180"/>
+<pin name="4-" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="3-" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="2-" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="1-" x="15.24" y="2.54" length="middle" rot="R180"/>
+<wire x1="0" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="14PIN-VERT">
+<gates>
+<gate name="G$1" symbol="14PIN_VERT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="14PIN_VERT">
+<connects>
+<connect gate="G$1" pin="1+" pad="1+"/>
+<connect gate="G$1" pin="1-" pad="1-"/>
+<connect gate="G$1" pin="2+" pad="2+"/>
+<connect gate="G$1" pin="2-" pad="2-"/>
+<connect gate="G$1" pin="3+" pad="3+"/>
+<connect gate="G$1" pin="3-" pad="3-"/>
+<connect gate="G$1" pin="4+" pad="4+"/>
+<connect gate="G$1" pin="4-" pad="4-"/>
+<connect gate="G$1" pin="5+" pad="5+"/>
+<connect gate="G$1" pin="5-" pad="5-"/>
+<connect gate="G$1" pin="6+" pad="6+"/>
+<connect gate="G$1" pin="6-" pad="6-"/>
+<connect gate="G$1" pin="7+" pad="7+"/>
+<connect gate="G$1" pin="7-" pad="7-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24014,7 +24014,6 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BATTERYCONNECTOR" library="con-molex-mini-fit" deviceset="39-30-?16?" device=""/>
-<part name="ESC" library="Vertical_Connectors" deviceset="14PIN-VERT" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="LM5050" deviceset="LM5050" device=""/>
@@ -24056,7 +24055,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="U1" library="I6A4W020A033V-001-R" deviceset="I6A4W020A033V-001-R" device=""/>
-<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
+<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1" value="30K"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13K"/>
@@ -24073,7 +24072,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="U3" library="I6A4W020A033V-001-R" deviceset="I6A4W020A033V-001-R" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-TRIMM" device="3103" package3d_urn="urn:adsk.eagle:package:23720/1" value="30K"/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13K"/>
@@ -24087,13 +24086,13 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
-<part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPD30P06P" device="TO252" package3d_urn="urn:adsk.eagle:package:28537/2"/>
+<part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPD30P06P" device="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="IPD068P03L3GATMA1"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q4" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPD30P06P" device="TO252" package3d_urn="urn:adsk.eagle:package:28537/2"/>
+<part name="Q4" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPD30P06P" device="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="IPD068P03L3GATMA1"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="T3" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -24101,8 +24100,8 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="Q5" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
-<part name="Q7" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
+<part name="Q5" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SPB80P06PGATMA1"/>
+<part name="Q7" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SPB80P06PGATMA1"/>
 <part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-2N7002PW" package3d_urn="urn:adsk.eagle:package:38456/1" value="310mA/60V/1.6Ω"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -24138,10 +24137,10 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="50"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="50"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="50"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="50"/>
 <part name="ACTUATOR" library="con-molex-mini-fit" deviceset="39-30-?04?" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="MYNT" library="con-molex-mini-fit" deviceset="39-30-?08?" device=""/>
@@ -24156,6 +24155,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="U$2" library="Vertical_Connectors" deviceset="14PIN-VERT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26438,7 +26438,6 @@ Ohio State University</text>
 <instance part="BATTERYCONNECTOR" gate="G$1" x="35.56" y="220.98" smashed="yes">
 <attribute name="VALUE" x="35.56" y="217.17" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="ESC" gate="G$1" x="213.36" y="185.42" smashed="yes"/>
 <instance part="GND3" gate="1" x="246.38" y="198.12" smashed="yes">
 <attribute name="VALUE" x="243.84" y="195.58" size="1.778" layer="96"/>
 </instance>
@@ -26497,6 +26496,7 @@ Ohio State University</text>
 <instance part="GND4" gate="1" x="342.9" y="55.88" smashed="yes">
 <attribute name="VALUE" x="340.36" y="53.34" size="1.778" layer="96"/>
 </instance>
+<instance part="U$2" gate="G$1" x="208.28" y="182.88" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -26564,27 +26564,32 @@ Ohio State University</text>
 <junction x="43.18" y="228.6"/>
 </segment>
 <segment>
-<pinref part="ESC" gate="G$1" pin="7-"/>
-<pinref part="ESC" gate="G$1" pin="6-"/>
-<wire x1="228.6" y1="218.44" x2="228.6" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="ESC" gate="G$1" pin="5-"/>
-<wire x1="228.6" y1="213.36" x2="228.6" y2="208.28" width="0.1524" layer="91"/>
-<junction x="228.6" y="213.36"/>
-<pinref part="ESC" gate="G$1" pin="4-"/>
-<wire x1="228.6" y1="208.28" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
-<junction x="228.6" y="208.28"/>
-<pinref part="ESC" gate="G$1" pin="3-"/>
-<wire x1="228.6" y1="203.2" x2="228.6" y2="198.12" width="0.1524" layer="91"/>
 <junction x="228.6" y="203.2"/>
-<pinref part="ESC" gate="G$1" pin="2-"/>
-<wire x1="228.6" y1="198.12" x2="228.6" y2="193.04" width="0.1524" layer="91"/>
-<junction x="228.6" y="198.12"/>
-<pinref part="ESC" gate="G$1" pin="1-"/>
-<wire x1="228.6" y1="193.04" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
-<junction x="228.6" y="193.04"/>
+<wire x1="228.6" y1="210.82" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="228.6" y1="203.2" x2="228.6" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="203.2" x2="246.38" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="203.2" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3-"/>
+<wire x1="228.6" y1="195.58" x2="223.52" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="6-"/>
+<wire x1="228.6" y1="210.82" x2="223.52" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="5-"/>
+<wire x1="223.52" y1="210.82" x2="223.52" y2="205.74" width="0.1524" layer="91"/>
+<junction x="223.52" y="210.82"/>
+<pinref part="U$2" gate="G$1" pin="4-"/>
+<wire x1="223.52" y1="205.74" x2="223.52" y2="200.66" width="0.1524" layer="91"/>
+<junction x="223.52" y="205.74"/>
+<wire x1="223.52" y1="200.66" x2="223.52" y2="195.58" width="0.1524" layer="91"/>
+<junction x="223.52" y="200.66"/>
+<junction x="223.52" y="195.58"/>
+<pinref part="U$2" gate="G$1" pin="2-"/>
+<wire x1="223.52" y1="195.58" x2="223.52" y2="190.5" width="0.1524" layer="91"/>
+<junction x="223.52" y="190.5"/>
+<pinref part="U$2" gate="G$1" pin="1-"/>
+<wire x1="223.52" y1="190.5" x2="223.52" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="7-"/>
+<wire x1="223.52" y1="210.82" x2="223.52" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -26680,51 +26685,40 @@ Ohio State University</text>
 </net>
 <net name="MOTOR_POWER" class="0">
 <segment>
-<pinref part="ESC" gate="G$1" pin="1+"/>
-<pinref part="ESC" gate="G$1" pin="2+"/>
-<wire x1="208.28" y1="187.96" x2="208.28" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="ESC" gate="G$1" pin="3+"/>
-<wire x1="208.28" y1="193.04" x2="208.28" y2="198.12" width="0.1524" layer="91"/>
-<junction x="208.28" y="193.04"/>
-<pinref part="ESC" gate="G$1" pin="4+"/>
-<wire x1="208.28" y1="198.12" x2="208.28" y2="203.2" width="0.1524" layer="91"/>
-<junction x="208.28" y="198.12"/>
-<pinref part="ESC" gate="G$1" pin="5+"/>
-<wire x1="208.28" y1="203.2" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
-<junction x="208.28" y="203.2"/>
-<pinref part="ESC" gate="G$1" pin="6+"/>
-<wire x1="208.28" y1="208.28" x2="208.28" y2="213.36" width="0.1524" layer="91"/>
-<junction x="208.28" y="208.28"/>
-<pinref part="ESC" gate="G$1" pin="7+"/>
-<wire x1="208.28" y1="213.36" x2="208.28" y2="218.44" width="0.1524" layer="91"/>
-<junction x="208.28" y="213.36"/>
-<wire x1="208.28" y1="203.2" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
+<junction x="200.66" y="203.2"/>
+<wire x1="200.66" y1="195.58" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="203.2" x2="200.66" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="203.2" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
 <junction x="187.96" y="203.2"/>
 <label x="187.96" y="203.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PLTA_ALT" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SPARE8"/>
-<wire x1="119.38" y1="24.13" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
-<junction x="114.3" y="25.4"/>
-<label x="114.3" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="7+"/>
+<wire x1="200.66" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="210.82" x2="203.2" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="6+"/>
+<junction x="203.2" y="210.82"/>
+<pinref part="U$2" gate="G$1" pin="1+"/>
+<wire x1="200.66" y1="195.58" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="195.58" x2="203.2" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3+"/>
+<junction x="203.2" y="195.58"/>
+<pinref part="U$2" gate="G$1" pin="2+"/>
+<wire x1="203.2" y1="190.5" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
+<junction x="203.2" y="190.5"/>
+<pinref part="U$2" gate="G$1" pin="4+"/>
+<wire x1="203.2" y1="195.58" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="5+"/>
+<wire x1="203.2" y1="200.66" x2="203.2" y2="205.74" width="0.1524" layer="91"/>
+<junction x="203.2" y="200.66"/>
+<wire x1="203.2" y1="205.74" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
+<junction x="203.2" y="205.74"/>
 </segment>
 </net>
 <net name="XAVIER_SWITCH" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MOBO_ON/OFF"/>
-<wire x1="104.14" y1="24.13" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
-<junction x="104.14" y="10.16"/>
-<label x="104.14" y="10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="210.82" y="73.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="210.82" y1="73.66" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="63.5" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="MYNT" gate="G$1" pin="5"/>
-<wire x1="182.88" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="24.13" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<junction x="104.14" y="15.24"/>
+<label x="104.14" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SENSOR_SDA" class="0">
@@ -26848,11 +26842,10 @@ Ohio State University</text>
 </net>
 <net name="PLTA_SWITCH" class="0">
 <segment>
-<pinref part="MYNT" gate="G$1" pin="8"/>
-<wire x1="198.12" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="76.2" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
-<label x="203.2" y="68.58" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="SPARE8"/>
+<wire x1="119.38" y1="24.13" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<junction x="114.3" y="22.86"/>
+<label x="114.3" y="22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -26869,6 +26862,25 @@ Ohio State University</text>
 <pinref part="LIGHTING" gate="G$1" pin="4"/>
 <wire x1="317.5" y1="139.7" x2="317.5" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="137.16" x2="314.96" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PLTA_ALT" class="0">
+<segment>
+<pinref part="MYNT" gate="G$1" pin="8"/>
+<wire x1="198.12" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="76.2" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="203.2" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="XAVIER_ALT" class="0">
+<segment>
+<label x="210.82" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="210.82" y1="73.66" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="63.5" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="MYNT" gate="G$1" pin="5"/>
+<wire x1="182.88" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -29518,7 +29530,7 @@ DETECTOR</text>
 <attribute name="VALUE" x="354.076" y="74.549" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="15.24" y="88.9" smashed="yes" rot="MR180" grouprefs="PLTA_SWITCH">
-<attribute name="VALUE" x="8.89" y="74.93" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="6.35" y="72.39" size="1.778" layer="96" rot="MR90"/>
 <attribute name="NAME" x="21.59" y="90.17" size="1.778" layer="95" rot="MR270"/>
 </instance>
 <instance part="GND11" gate="1" x="12.7" y="58.42" smashed="yes" rot="MR0" grouprefs="PLTA_SWITCH">
@@ -29529,7 +29541,7 @@ DETECTOR</text>
 </instance>
 <instance part="T1" gate="A" x="12.7" y="68.58" smashed="yes" rot="MR0" grouprefs="PLTA_SWITCH">
 <attribute name="VALUE" x="10.16" y="68.58" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="10.16" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<attribute name="NAME" x="10.16" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="R20" gate="G$1" x="26.416" y="78.74" smashed="yes" rot="R90" grouprefs="PLTA_SWITCH">
 <attribute name="NAME" x="24.9174" y="74.93" size="1.778" layer="95" rot="R90"/>
