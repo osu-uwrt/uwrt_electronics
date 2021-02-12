@@ -225,6 +225,18 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-8.4" y="6.3" size="1.778" layer="25">&gt;NAME</text>
 <text x="-8.4" y="-8.4" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="6PIN_VERT">
+<pad name="1+" x="0" y="0" drill="1.4" shape="square"/>
+<pad name="1-" x="5.5" y="0" drill="1.4" shape="square"/>
+<pad name="2+" x="0" y="4.2" drill="1.4" shape="square"/>
+<pad name="2-" x="5.5" y="4.2" drill="1.4" shape="square"/>
+<pad name="3-" x="5.5" y="8.4" drill="1.4" shape="square"/>
+<pad name="3+" x="0" y="8.4" drill="1.4" shape="square"/>
+<wire x1="-2.7" y1="-2.71" x2="-2.7" y2="11.4" width="0.1524" layer="21"/>
+<wire x1="-2.7" y1="11.4" x2="8.19" y2="11.4" width="0.1524" layer="21"/>
+<wire x1="8.19" y1="11.4" x2="8.19" y2="-2.71" width="0.1524" layer="21"/>
+<wire x1="8.19" y1="-2.71" x2="-2.7" y2="-2.71" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="8PIN_VERT">
@@ -242,6 +254,18 @@ DIN A3, landscape with location and doc. field</description>
 <pin name="P$8" x="0" y="-20.32" length="middle" rot="R180"/>
 <text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="6PIN_VERT">
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="3+" x="-5.08" y="12.7" length="middle"/>
+<pin name="2+" x="-5.08" y="7.62" length="middle"/>
+<pin name="1+" x="-5.08" y="2.54" length="middle"/>
+<pin name="3-" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="2-" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="1-" x="15.24" y="2.54" length="middle" rot="R180"/>
+<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -267,6 +291,26 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="6PIN-VERT">
+<gates>
+<gate name="G$1" symbol="6PIN_VERT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6PIN_VERT">
+<connects>
+<connect gate="G$1" pin="1+" pad="1+"/>
+<connect gate="G$1" pin="1-" pad="1-"/>
+<connect gate="G$1" pin="2+" pad="2+"/>
+<connect gate="G$1" pin="2-" pad="2-"/>
+<connect gate="G$1" pin="3+" pad="3+"/>
+<connect gate="G$1" pin="3-" pad="3-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -282,6 +326,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="U$1" library="Vertical_Connectors" deviceset="8PIN_VERT" device=""/>
+<part name="U$2" library="Vertical_Connectors" deviceset="6PIN-VERT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2521,6 +2566,7 @@ Ohio State University</text>
 <attribute name="NAME" x="38.1" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="55.88" size="1.778" layer="96"/>
 </instance>
+<instance part="U$2" gate="G$1" x="40.64" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
