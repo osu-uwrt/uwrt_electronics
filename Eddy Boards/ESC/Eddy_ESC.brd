@@ -6419,6 +6419,26 @@ design rules under a new name.</description>
 <wire x1="92.8116" y1="95.25" x2="92.865" y2="95.2838" width="0.1524" layer="1"/>
 <wire x1="92.3544" y1="95.25" x2="91.595" y2="95.2838" width="0.1524" layer="1"/>
 </signal>
+<signal name="N$59">
+<contactref element="U$36" pad="A0"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="-128.95" y1="-51.8" x2="-127.25" y2="-56.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-128.875" y1="-0.025" x2="-128.95" y2="-51.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$60">
+<contactref element="U$36" pad="A1"/>
+<contactref element="R4" pad="2"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-127.25" y1="-42" x2="-127.25" y2="-46.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-128.875" y1="-0.675" x2="-127.25" y2="-42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$61">
+<contactref element="U$36" pad="SDA"/>
+</signal>
+<signal name="N$62">
+<contactref element="U$36" pad="SCL"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
