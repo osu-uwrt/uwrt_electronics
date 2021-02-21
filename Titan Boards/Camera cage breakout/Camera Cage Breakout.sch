@@ -225,18 +225,6 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-8.4" y="6.3" size="1.778" layer="25">&gt;NAME</text>
 <text x="-8.4" y="-8.4" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="6PIN_VERT">
-<pad name="1+" x="0" y="0" drill="1.4" shape="square"/>
-<pad name="1-" x="5.5" y="0" drill="1.4" shape="square"/>
-<pad name="2+" x="0" y="4.2" drill="1.4" shape="square"/>
-<pad name="2-" x="5.5" y="4.2" drill="1.4" shape="square"/>
-<pad name="3-" x="5.5" y="8.4" drill="1.4" shape="square"/>
-<pad name="3+" x="0" y="8.4" drill="1.4" shape="square"/>
-<wire x1="-2.7" y1="-2.71" x2="-2.7" y2="11.4" width="0.1524" layer="21"/>
-<wire x1="-2.7" y1="11.4" x2="8.19" y2="11.4" width="0.1524" layer="21"/>
-<wire x1="8.19" y1="11.4" x2="8.19" y2="-2.71" width="0.1524" layer="21"/>
-<wire x1="8.19" y1="-2.71" x2="-2.7" y2="-2.71" width="0.1524" layer="21"/>
-</package>
 <package name="4PIN-VERT">
 <pad name="P$1" x="-2.1" y="2.1" drill="1.4" shape="square"/>
 <pad name="P$2" x="2.1" y="2.1" drill="1.4" shape="square"/>
@@ -277,18 +265,6 @@ DIN A3, landscape with location and doc. field</description>
 <text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="6PIN_VERT">
-<wire x1="0" y1="0" x2="0" y2="15.24" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="3+" x="-5.08" y="12.7" length="middle"/>
-<pin name="2+" x="-5.08" y="7.62" length="middle"/>
-<pin name="1+" x="-5.08" y="2.54" length="middle"/>
-<pin name="3-" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="2-" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="1-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="4PIN-VERT">
 <pin name="P$1" x="-7.62" y="7.62" length="middle"/>
 <pin name="P$2" x="-7.62" y="0" length="middle"/>
@@ -327,26 +303,6 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="P$6" pad="P$6"/>
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="6PIN-VERT">
-<gates>
-<gate name="G$1" symbol="6PIN_VERT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="6PIN_VERT">
-<connects>
-<connect gate="G$1" pin="1+" pad="1+"/>
-<connect gate="G$1" pin="1-" pad="1-"/>
-<connect gate="G$1" pin="2+" pad="2+"/>
-<connect gate="G$1" pin="2-" pad="2-"/>
-<connect gate="G$1" pin="3+" pad="3+"/>
-<connect gate="G$1" pin="3-" pad="3-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -402,11 +358,11 @@ DIN A3, landscape with location and doc. field</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
-<part name="EXTRA_POWER" library="Vertical_Connectors" deviceset="8PIN_VERT" device=""/>
-<part name="INPUT_POWER" library="Vertical_Connectors" deviceset="6PIN-VERT" device=""/>
+<part name="POWER_IN" library="Vertical_Connectors" deviceset="8PIN_VERT" device=""/>
 <part name="XAVIER" library="Vertical_Connectors" deviceset="2PIN-VERT" device=""/>
 <part name="MYNT_CAMERA_NETWORK_SWITCH" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
 <part name="PELTIER_AND_FANS" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
+<part name="EXTRA_POWER" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2642,11 +2598,10 @@ Ohio State University</text>
 <attribute name="LAST_DATE_TIME" x="344.345259375" y="10.0584" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.680259375" y="4.9784" size="2.54" layer="94"/>
 </instance>
-<instance part="EXTRA_POWER" gate="G$1" x="38.1" y="83.82" smashed="yes">
+<instance part="POWER_IN" gate="G$1" x="38.1" y="83.82" smashed="yes">
 <attribute name="NAME" x="38.1" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="INPUT_POWER" gate="G$1" x="40.64" y="132.08" smashed="yes"/>
 <instance part="XAVIER" gate="G$1" x="121.92" y="58.42" smashed="yes">
 <attribute name="NAME" x="116.84" y="60.96" size="1.778" layer="95"/>
 </instance>
@@ -2655,6 +2610,9 @@ Ohio State University</text>
 </instance>
 <instance part="PELTIER_AND_FANS" gate="G$1" x="177.8" y="81.28" smashed="yes">
 <attribute name="NAME" x="175.26" y="91.44" size="1.778" layer="95"/>
+</instance>
+<instance part="EXTRA_POWER" gate="G$1" x="27.94" y="139.7" smashed="yes">
+<attribute name="NAME" x="25.4" y="149.86" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -2684,6 +2642,24 @@ Ohio State University</text>
 <wire x1="111.76" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 <label x="109.22" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$8"/>
+<wire x1="38.1" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="25.4" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="EXTRA_POWER" gate="G$1" pin="P$4"/>
+<wire x1="45.72" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="48.26" y="139.7" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="139.7" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="139.7" size="1.778" layer="95" xref="yes"/>
+<label x="48.26" y="139.7" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$3"/>
+<wire x1="50.8" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="63.5" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -2694,6 +2670,16 @@ Ohio State University</text>
 <wire x1="170.18" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <junction x="170.18" y="106.68"/>
 <label x="167.64" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$6"/>
+<wire x1="38.1" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="25.4" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="EXTRA_POWER" gate="G$1" pin="P$2"/>
+<wire x1="20.32" y1="139.7" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
+<label x="17.78" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PELTIER_SWITCHED" class="0">
@@ -2706,12 +2692,53 @@ Ohio State University</text>
 <junction x="170.18" y="86.36"/>
 <label x="167.64" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$2"/>
+<wire x1="50.8" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<label x="63.5" y="73.66" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="XAVIER_SWITCHED" class="0">
 <segment>
 <pinref part="XAVIER" gate="G$1" pin="P$1"/>
 <wire x1="111.76" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="109.22" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$1"/>
+<wire x1="50.8" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="63.5" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="12V" class="0">
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$5"/>
+<wire x1="38.1" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<label x="25.4" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="EXTRA_POWER" gate="G$1" pin="P$1"/>
+<wire x1="20.32" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="17.78" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$7"/>
+<wire x1="38.1" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="25.4" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="EXTRA_POWER" gate="G$1" pin="P$3"/>
+<wire x1="45.72" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="48.26" y="147.32" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="POWER_IN" gate="G$1" pin="P$4"/>
+<wire x1="50.8" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<label x="63.5" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
