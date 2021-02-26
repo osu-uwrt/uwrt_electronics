@@ -9571,11 +9571,6 @@ Connector</text>
 <label x="243.078" y="90.678" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="SPARE2"/>
 </segment>
-<segment>
-<label x="323.342" y="241.554" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="329.184" y1="241.554" x2="323.342" y2="241.554" width="0.1524" layer="91"/>
-<pinref part="SWITCH_CONN" gate="-2" pin="S"/>
-</segment>
 </net>
 <net name="SPARE3" class="0">
 <segment>
@@ -9678,6 +9673,11 @@ Connector</text>
 <wire x1="179.578" y1="47.498" x2="179.578" y2="44.958" width="0.1524" layer="91"/>
 <label x="179.578" y="44.958" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="SWITCH_1"/>
+</segment>
+<segment>
+<pinref part="SWITCH_CONN" gate="-2" pin="S"/>
+<wire x1="329.184" y1="241.554" x2="323.342" y2="241.554" width="0.1524" layer="91"/>
+<label x="323.342" y="241.554" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWITCH_2" class="0">
