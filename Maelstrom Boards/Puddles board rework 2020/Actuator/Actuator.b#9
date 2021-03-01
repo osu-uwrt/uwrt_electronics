@@ -5652,12 +5652,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="29.9" y="73.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="BATTERY" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="6.4" y="47.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.17" y="46.465" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="9.77" y="46.865" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="28" x="6.4" y="47.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.67" y="49.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k" x="10.6" y="47.7" smashed="yes">
-<attribute name="NAME" x="9.965" y="48.97" size="1.27" layer="25"/>
+<attribute name="NAME" x="12.565" y="47.17" size="1.27" layer="25"/>
 </element>
 <element name="P2" library="con-molex-mini-fit" package="39-30-?16?" value="39-30-16?" x="87.6" y="68.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="101.3541" y="50.5025" size="1.016" layer="25" ratio="18" rot="R180"/>
@@ -5755,7 +5755,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="64.341" y="77.171" size="1.27" layer="27"/>
 </element>
 <element name="Q18" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="" x="63.1" y="66.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.56" y="70.21" size="1.27" layer="25"/>
+<attribute name="NAME" x="69.06" y="63.51" size="1.27" layer="25"/>
 <attribute name="VALUE" x="60.56" y="61.32" size="1.27" layer="27"/>
 </element>
 <element name="R43" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="55.4" y="65.1" smashed="yes" rot="R270">
@@ -5765,7 +5765,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.065" y="69.935" size="1.27" layer="25"/>
 </element>
 <element name="Q6" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="" x="63.4" y="74.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.86" y="78.31" size="1.27" layer="25"/>
+<attribute name="NAME" x="69.56" y="71.51" size="1.27" layer="25"/>
 <attribute name="VALUE" x="60.86" y="69.42" size="1.27" layer="27"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="55.8" y="73.6" smashed="yes" rot="R270">
@@ -5840,13 +5840,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="60.7" y="63.6" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="USB_ID/USB_DP/USB_DN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-MINIB" package3d_urn="urn:adsk.eagle:package:38244/1" value="USB_MINI-B_SMT" x="14.3" y="95.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.59" y="95.65" size="0.8128" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="18.69" y="95.45" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08193" x="29.4" y="105.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-00587" x="29.4" y="105.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="7.95" y="99.21" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="560" x="10.5" y="87.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.135" y="88.335" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.035" y="89.235" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="25.5" y="107.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22" x="16.6" y="83.7" smashed="yes" rot="R270">
@@ -5854,11 +5853,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="31.6" y="93.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22" x="19.5" y="84.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.735" y="87.935" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="20.635" y="86.535" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="24.7" y="100" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k" x="10.5" y="83.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.135" y="84.035" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.035" y="84.535" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEPREFIX" value="R" x="10.8" y="93.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CHARGING" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="21.6" y="16.1" smashed="yes">
