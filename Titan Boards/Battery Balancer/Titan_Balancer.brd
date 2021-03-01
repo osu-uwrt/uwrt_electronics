@@ -5831,7 +5831,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="77" x="45.212" y="84.836" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45.212" y="84.836" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="40k" x="33.782" y="43.434" smashed="yes" rot="MR90">
+<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="39k" x="33.782" y="43.434" smashed="yes" rot="MR90">
 <attribute name="POPULARITY" value="77" x="33.782" y="43.434" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="33.782" y="43.434" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -5953,7 +5953,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="77" x="59.944" y="30.988" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59.944" y="30.988" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20K" x="57.658" y="30.734" smashed="yes" rot="MR270">
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13k" x="57.658" y="30.734" smashed="yes" rot="MR270">
 <attribute name="NAME" x="56.515" y="32.385" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="77" x="57.658" y="30.734" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="57.658" y="30.734" size="1.778" layer="28" rot="MR270" display="off"/>
