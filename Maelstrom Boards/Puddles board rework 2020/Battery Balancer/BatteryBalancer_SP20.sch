@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29702,6 +29702,8 @@ Switches electronic signals</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-13" package3d_urn="urn:adsk.eagle:package:23375/1" value="1000 uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -31975,6 +31977,13 @@ Ohio State University</text>
 <instance part="GND26" gate="1" x="340.36" y="190.5" smashed="yes">
 <attribute name="VALUE" x="337.82" y="187.96" size="1.778" layer="96"/>
 </instance>
+<instance part="P+16" gate="1" x="289.56" y="190.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="294.64" y="187.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C14" gate="G$1" x="309.88" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="309.245" y="211.836" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="314.071" y="211.836" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32093,6 +32102,10 @@ Ohio State University</text>
 <pinref part="U$13" gate="G$1" pin="2-"/>
 <wire x1="322.58" y1="195.58" x2="332.74" y2="195.58" width="0.1524" layer="91"/>
 <junction x="332.74" y="195.58"/>
+<pinref part="C14" gate="G$1" pin="-"/>
+<wire x1="332.74" y1="200.66" x2="332.74" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="210.82" x2="314.96" y2="210.82" width="0.1524" layer="91"/>
+<junction x="332.74" y="200.66"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="1-"/>
@@ -32207,6 +32220,11 @@ Ohio State University</text>
 <wire x1="66.04" y1="198.12" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+12V"/>
 </segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="1+"/>
+<wire x1="302.26" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+12V"/>
+</segment>
 </net>
 <net name="MOBO_SWITCHED" class="0">
 <segment>
@@ -32255,9 +32273,6 @@ Ohio State University</text>
 </net>
 <net name="BALANCED_OUT" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="1+"/>
-<wire x1="302.26" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="190.5" x2="292.1" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="3+"/>
 <wire x1="292.1" y1="195.58" x2="292.1" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="200.66" x2="302.26" y2="200.66" width="0.1524" layer="91"/>
@@ -32266,6 +32281,10 @@ Ohio State University</text>
 <junction x="292.1" y="195.58"/>
 <wire x1="292.1" y1="195.58" x2="284.48" y2="195.58" width="0.1524" layer="91"/>
 <label x="284.48" y="195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C14" gate="G$1" pin="+"/>
+<wire x1="292.1" y1="200.66" x2="292.1" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="210.82" x2="307.34" y2="210.82" width="0.1524" layer="91"/>
+<junction x="292.1" y="200.66"/>
 </segment>
 </net>
 <net name="BOARD_SDA" class="0">
