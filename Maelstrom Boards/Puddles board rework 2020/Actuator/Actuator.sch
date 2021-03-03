@@ -26878,7 +26878,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="BATTERY" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.2k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1.2k"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -26893,8 +26893,6 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47 uF"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="U$6" library="converter" deviceset="TMR6-2415" device=""/>
-<part name="ARMED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.2k"/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R6332W" package3d_urn="urn:adsk.eagle:package:26078/1" value="120"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value=""/>
@@ -26972,9 +26970,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="DISCHARGING" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="DISCHARGING" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="Green"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.5k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1210" package3d_urn="urn:adsk.eagle:package:23554/2" value="1K"/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="LIGHT1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="Red"/>
@@ -29236,6 +29234,8 @@ Team
 
 Ohio State University</text>
 <text x="344.319859375" y="20.106640625" size="2.54" layer="94">Electrical Team</text>
+<text x="167.64" y="144.78" size="1.778" layer="91">1/2w</text>
+<text x="167.64" y="134.62" size="1.778" layer="91">1210 placed on board</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="104.14" y="59.69" smashed="yes"/>
@@ -31944,6 +31944,8 @@ Team
 
 Ohio State University</text>
 <text x="344.319859375" y="20.106640625" size="2.54" layer="94">Electrical Team</text>
+<text x="320.04" y="185.42" size="1.778" layer="91">24V Zener</text>
+<text x="55.88" y="185.42" size="1.778" layer="91">1/2w 1210 placed on board</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
@@ -31976,14 +31978,6 @@ Ohio State University</text>
 <attribute name="VALUE" x="314.96" y="203.2" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$6" gate="G$1" x="238.76" y="185.42" smashed="yes"/>
-<instance part="ARMED" gate="G$1" x="325.12" y="182.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="320.548" y="179.324" size="1.778" layer="95"/>
-<attribute name="VALUE" x="320.548" y="177.165" size="1.778" layer="96"/>
-</instance>
-<instance part="R20" gate="G$1" x="330.2" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="328.7014" y="186.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="333.502" y="186.69" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R21" gate="G$1" x="289.56" y="198.12" smashed="yes">
 <attribute name="NAME" x="285.75" y="199.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="285.75" y="194.818" size="1.778" layer="96"/>
@@ -32113,9 +32107,6 @@ Ohio State University</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="185.42" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="182.88" x2="304.8" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="ARMED" gate="G$1" pin="C"/>
-<wire x1="320.04" y1="182.88" x2="317.5" y2="182.88" width="0.1524" layer="91"/>
-<junction x="317.5" y="182.88"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -32194,9 +32185,6 @@ Ohio State University</text>
 <pinref part="P+8" gate="1" pin="+24V"/>
 <wire x1="317.5" y1="198.12" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
 <junction x="317.5" y="198.12"/>
-<wire x1="317.5" y1="198.12" x2="330.2" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="198.12" x2="330.2" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -32212,14 +32200,6 @@ Ohio State University</text>
 <wire x1="269.24" y1="190.5" x2="269.24" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="167.64" x2="276.86" y2="167.64" width="0.1524" layer="91"/>
 <label x="276.86" y="167.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="330.2" y1="185.42" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="ARMED" gate="G$1" pin="A"/>
-<wire x1="330.2" y1="182.88" x2="327.66" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
