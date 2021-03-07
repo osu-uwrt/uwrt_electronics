@@ -144,10 +144,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+<circle x="64.77" y="18.415" radius="1.4732" width="0.025" layer="20"/>
+<circle x="13.97" y="18.415" radius="1.4732" width="0.025" layer="20"/>
+<circle x="13.97" y="75.565" radius="1.4732" width="0.025" layer="20"/>
+<circle x="64.77" y="75.565" radius="1.4732" width="0.025" layer="20"/>
+<wire x1="67.945" y1="76.2" x2="67.945" y2="17.78" width="0.025" layer="20"/>
+<wire x1="65.405" y1="15.24" x2="13.335" y2="15.24" width="0.025" layer="20"/>
+<wire x1="10.795" y1="76.2" x2="10.795" y2="17.78" width="0.025" layer="20"/>
+<wire x1="65.405" y1="78.74" x2="13.335" y2="78.74" width="0.025" layer="20"/>
+<wire x1="65.405" y1="15.24" x2="67.945" y2="17.78" width="0.025" layer="20" curve="90"/>
+<wire x1="10.795" y1="17.78" x2="13.335" y2="15.24" width="0.025" layer="20" curve="90"/>
+<wire x1="13.335" y1="78.74" x2="10.795" y2="76.2" width="0.025" layer="20" curve="90"/>
+<wire x1="67.945" y1="76.2" x2="65.405" y2="78.74" width="0.025" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="Vertical_Connectors">
@@ -164,22 +172,6 @@
 <text x="-4.8" y="9.6" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4.8" y="-9.6" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="8PIN_VERT">
-<pad name="P$1" x="-6.3" y="-2.25" drill="1.4" shape="square"/>
-<pad name="P$2" x="-6.3" y="2.25" drill="1.4" rot="R180"/>
-<pad name="P$3" x="-2.1" y="2.25" drill="1.4" rot="R180"/>
-<pad name="P$4" x="2.1" y="2.25" drill="1.4"/>
-<pad name="P$5" x="6.3" y="2.25" drill="1.4"/>
-<pad name="P$6" x="6.3" y="-2.25" drill="1.4" rot="R180"/>
-<pad name="P$7" x="-2.1" y="-2.25" drill="1.4" rot="R180"/>
-<pad name="P$8" x="2.1" y="-2.25" drill="1.4"/>
-<wire x1="-9" y1="4.8" x2="9" y2="4.8" width="0.1524" layer="21"/>
-<wire x1="9" y1="-4.8" x2="-9" y2="-4.8" width="0.1524" layer="21"/>
-<wire x1="9" y1="-4.8" x2="9" y2="4.8" width="0.1524" layer="21"/>
-<wire x1="-9" y1="-4.8" x2="-9" y2="4.8" width="0.1524" layer="21"/>
-<text x="-8.4" y="6.3" size="1.778" layer="25">&gt;NAME</text>
-<text x="-8.4" y="-8.4" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="2PIN-VERT">
 <pad name="P$1" x="-2.20668125" y="0" drill="1.4" shape="square"/>
 <pad name="P$2" x="2.20668125" y="0" drill="1.4" shape="square"/>
@@ -189,6 +181,36 @@
 <wire x1="4.8" y1="2.7" x2="4.8" y2="-2.7" width="0.1524" layer="21"/>
 <text x="-4.8" y="4.8" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4.8" y="-4.8" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="con-molex-mini-fit">
+<description>&lt;b&gt;MOLEX Mini-Fit Jr 5569 Series Connectors&lt;/b&gt; - v1.01 (04/17/2011)&lt;p&gt;
+Pitch 0.165" (4.20mm)
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;author&gt;Copyright (C) 2011, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
+<packages>
+<package name="39-30-?08?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-7.9955" y1="-1.0441" x2="-9.0955" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-1.0441" x2="-9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-13.8441" x2="9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-13.8441" x2="9.0955" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-1.2441" x2="7.9955" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="8" x="-6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="7" x="-2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="6" x="2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="5" x="6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.2865" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="-2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="2" x="2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="6.2865" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
+<text x="-9.7155" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="10.9855" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="-6.2865" y="-7.3" drill="3"/>
+<hole x="6.2865" y="-7.3" drill="3"/>
 </package>
 </packages>
 </library>
@@ -385,78 +407,80 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="EXTRA_POWER" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="-55.88" y="34.29" smashed="yes">
-<attribute name="NAME" x="-60.68" y="43.89" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-60.68" y="24.69" size="1.778" layer="27"/>
+<element name="EXTRA_POWER" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="25.4" y="64.77" smashed="yes">
+<attribute name="NAME" x="20.6" y="71.83" size="1.778" layer="25"/>
+<attribute name="VALUE" x="20.6" y="57.71" size="1.778" layer="27"/>
 </element>
-<element name="MYNT_CAMERA_NETWORK_SWITCH" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="-54.61" y="11.43" smashed="yes">
-<attribute name="NAME" x="-59.41" y="21.03" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-59.41" y="1.83" size="1.778" layer="27"/>
+<element name="MYNT_CAMERA_NETWORK_SWITCH" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="52.07" y="64.77" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.46" y="72.67" size="1.778" layer="25" rot="R180"/>
+<attribute name="VALUE" x="56.87" y="59.13" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="PELTIER_AND_FANS" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="-34.29" y="34.29" smashed="yes">
-<attribute name="NAME" x="-39.09" y="43.89" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-39.09" y="24.69" size="1.778" layer="27"/>
+<element name="PELTIER_AND_FANS" library="Vertical_Connectors" package="4PIN-VERT" value="4PIN-VERT" x="25.4" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.09" y="22.15" size="1.778" layer="25" rot="R180"/>
+<attribute name="VALUE" x="31.47" y="35" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="POWER_IN" library="Vertical_Connectors" package="8PIN_VERT" value="8PIN_VERT" x="-22.86" y="55.88" smashed="yes">
-<attribute name="NAME" x="-31.26" y="62.18" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-31.26" y="47.48" size="1.778" layer="27"/>
+<element name="POWER_IN" library="con-molex-mini-fit" package="39-30-?08?" value="39-30-08?" x="49.53" y="31.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.83" y="31.26" size="1.778" layer="25" rot="R270"/>
 </element>
-<element name="XAVIER" library="Vertical_Connectors" package="2PIN-VERT" value="2PIN-VERT" x="-41.91" y="52.07" smashed="yes">
-<attribute name="NAME" x="-46.71" y="56.87" size="1.778" layer="25"/>
-<attribute name="VALUE" x="-46.71" y="47.27" size="1.778" layer="27"/>
+<element name="XAVIER" library="Vertical_Connectors" package="2PIN-VERT" value="2PIN-VERT" x="25.4" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.2" y="38.38" size="1.778" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.2" y="47.98" size="1.778" layer="27" rot="R180"/>
 </element>
 </elements>
 <signals>
-<signal name="GND">
+<signal name="GND" airwireshidden="yes">
 <contactref element="MYNT_CAMERA_NETWORK_SWITCH" pad="P$3"/>
 <contactref element="MYNT_CAMERA_NETWORK_SWITCH" pad="P$4"/>
 <contactref element="PELTIER_AND_FANS" pad="P$3"/>
 <contactref element="PELTIER_AND_FANS" pad="P$4"/>
 <contactref element="XAVIER" pad="P$2"/>
-<contactref element="POWER_IN" pad="P$8"/>
-<contactref element="EXTRA_POWER" pad="P$4"/>
-<contactref element="POWER_IN" pad="P$3"/>
-<wire x1="-52.51" y1="9.33" x2="-56.71" y2="9.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.98" y1="32.19" x2="-56.71" y2="9.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.39" y1="32.19" x2="-57.98" y2="32.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.19" y1="32.19" x2="-36.39" y2="32.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.70331875" y1="52.07" x2="-36.39" y2="32.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.96" y1="58.13" x2="-39.70331875" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.76" y1="53.63" x2="-24.96" y2="58.13" width="0" layer="19" extent="1-1"/>
+<polygon width="0.254" layer="16" thermals="no" rank="2">
+<vertex x="10.704284375" y="79.284284375"/>
+<vertex x="10.704284375" y="15.24"/>
+<vertex x="67.824046875" y="15.24"/>
+<vertex x="67.824046875" y="79.284284375"/>
+</polygon>
+<contactref element="POWER_IN" pad="4"/>
+<contactref element="POWER_IN" pad="2"/>
+<contactref element="EXTRA_POWER" pad="P$1"/>
+<contactref element="POWER_IN" pad="3"/>
 </signal>
 <signal name="5V">
 <contactref element="MYNT_CAMERA_NETWORK_SWITCH" pad="P$1"/>
 <contactref element="MYNT_CAMERA_NETWORK_SWITCH" pad="P$2"/>
-<contactref element="POWER_IN" pad="P$6"/>
 <contactref element="EXTRA_POWER" pad="P$2"/>
-<wire x1="-52.51" y1="13.53" x2="-56.71" y2="13.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.78" y1="36.39" x2="-52.51" y2="13.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.56" y1="53.63" x2="-53.78" y2="36.39" width="0" layer="19" extent="1-1"/>
+<wire x1="49.97" y1="62.67" x2="49.97" y2="66.87" width="1.778" layer="1"/>
+<wire x1="49.97" y1="66.87" x2="27.5" y2="66.87" width="1.778" layer="1"/>
+<contactref element="POWER_IN" pad="1"/>
+<wire x1="49.97" y1="62.67" x2="49.97" y2="38.4765" width="1.778" layer="1"/>
+<wire x1="49.97" y1="38.4765" x2="49.53" y2="38.0365" width="1.778" layer="1"/>
 </signal>
 <signal name="PELTIER_SWITCHED">
 <contactref element="PELTIER_AND_FANS" pad="P$1"/>
 <contactref element="PELTIER_AND_FANS" pad="P$2"/>
-<contactref element="POWER_IN" pad="P$2"/>
-<wire x1="-32.19" y1="36.39" x2="-29.16" y2="58.13" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.39" y1="36.39" x2="-32.19" y2="36.39" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="25.84" x2="23.3" y2="25.84" width="1.778" layer="1"/>
+<contactref element="POWER_IN" pad="8"/>
+<wire x1="44.0182" y1="25.4635" x2="43.6417" y2="25.84" width="1.778" layer="1"/>
+<wire x1="43.6417" y1="25.84" x2="27.5" y2="25.84" width="1.778" layer="1"/>
 </signal>
 <signal name="XAVIER_SWITCHED">
 <contactref element="XAVIER" pad="P$1"/>
-<contactref element="POWER_IN" pad="P$1"/>
-<wire x1="-44.11668125" y1="52.07" x2="-29.16" y2="53.63" width="0" layer="19" extent="1-1"/>
+<contactref element="POWER_IN" pad="7"/>
+<wire x1="44.0182" y1="29.6545" x2="41.13218125" y2="29.6545" width="1.778" layer="1"/>
+<wire x1="41.13218125" y1="29.6545" x2="27.60668125" y2="43.18" width="1.778" layer="1"/>
 </signal>
 <signal name="12V">
-<contactref element="POWER_IN" pad="P$5"/>
-<contactref element="EXTRA_POWER" pad="P$1"/>
-<wire x1="-57.98" y1="36.39" x2="-16.56" y2="58.13" width="0" layer="19" extent="1-1"/>
+<contactref element="EXTRA_POWER" pad="P$3"/>
+<contactref element="POWER_IN" pad="5"/>
+<wire x1="27.5" y1="62.67" x2="44.0182" y2="46.1518" width="1.778" layer="1"/>
+<wire x1="44.0182" y1="46.1518" x2="44.0182" y2="38.0365" width="1.778" layer="1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="POWER_IN" pad="P$7"/>
-<contactref element="EXTRA_POWER" pad="P$3"/>
-<wire x1="-53.78" y1="32.19" x2="-24.96" y2="53.63" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$7">
-<contactref element="POWER_IN" pad="P$4"/>
+<contactref element="EXTRA_POWER" pad="P$4"/>
+<contactref element="POWER_IN" pad="6"/>
+<wire x1="41.2268" y1="33.8455" x2="44.0182" y2="33.8455" width="1.778" layer="1"/>
+<wire x1="23.3" y1="62.67" x2="41.2268" y2="44.7432" width="1.778" layer="1"/>
+<wire x1="41.2268" y1="44.7432" x2="41.2268" y2="33.8455" width="1.778" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
