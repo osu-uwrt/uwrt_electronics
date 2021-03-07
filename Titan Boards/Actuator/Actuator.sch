@@ -111,7 +111,14 @@
 <layer number="130" name="Boxes" color="4" fill="0" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -31022,6 +31029,53 @@ Source:  FDD4141.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="3550120RJT">
+<packages>
+<package name="3550120RJT">
+<wire x1="-5.4991" y1="2.5019" x2="5.4991" y2="2.5019" width="0.1524" layer="21"/>
+<wire x1="5.4991" y1="2.5019" x2="5.4991" y2="-2.5019" width="0.1524" layer="21"/>
+<wire x1="5.4991" y1="-2.5019" x2="-5.4991" y2="-2.5019" width="0.1524" layer="21"/>
+<wire x1="-5.4991" y1="-2.5019" x2="-5.4991" y2="2.5019" width="0.1524" layer="21"/>
+<smd name="P$1" x="-4.999990625" y="0" dx="5.4991" dy="2.8956" layer="1" rot="R90"/>
+<smd name="P$2" x="4.999990625" y="0" dx="5.4991" dy="2.8956" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3550120RJT">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3550120RJT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -31089,7 +31143,6 @@ Source:  FDD4141.pdf</description>
 <part name="U$6" library="converter" deviceset="TMR6-2415" device=""/>
 <part name="ARMED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k"/>
-<part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R6332W" package3d_urn="urn:adsk.eagle:package:26078/1" value="120"/>
 <part name="MC" library="STM32F405RGT6" deviceset="STM32F405RGT6" device=""/>
 <part name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-16MHZ" device="PTH-HC49US" package3d_urn="urn:adsk.eagle:package:37515/1" value="16MHz"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18pF"/>
@@ -31189,6 +31242,7 @@ Source:  FDD4141.pdf</description>
 <part name="U$5" library="ERZ-VF2M270" deviceset="ERZ-VF2M270" device="ERZ-VF2M270" package3d_urn="urn:adsk.eagle:package:25995811/1"/>
 <part name="U$7" library="ERZ-VF2M270" deviceset="ERZ-VF2M270" device="ERZ-VF2M270" package3d_urn="urn:adsk.eagle:package:25995811/1"/>
 <part name="U$8" library="ERZ-VF2M270" deviceset="ERZ-VF2M270" device="ERZ-VF2M270" package3d_urn="urn:adsk.eagle:package:25995811/1"/>
+<part name="120" library="3550120RJT" deviceset="3550120RJT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33429,7 +33483,7 @@ Ohio State University</text>
 voltage regulator. Need to
 be tied to ground for proper
 functionality.</text>
-<text x="332.74" y="63.5" size="1.778" layer="91">Crystal oscillator capacitors
+<text x="332.74" y="66.04" size="1.778" layer="91">Crystal oscillator capacitors
 values should be determined
 by the crystal's datasheet
 for proper functionality</text>
@@ -33439,10 +33493,9 @@ for proper functionality</text>
 <text x="238.76" y="246.38" size="2.54" layer="91">Marker Dropper</text>
 <text x="327.66" y="45.72" size="2.54" layer="91">Power Input</text>
 <text x="223.52" y="193.04" size="2.54" layer="91">Micro Controller</text>
-<text x="154.94" y="104.14" size="1.778" layer="91">Back voltage changed to 5V from 12V</text>
+<text x="157.48" y="101.6" size="1.778" layer="91">Back voltage changed to 5V from 12V</text>
 <text x="327.66" y="144.78" size="1.778" layer="91">Capacitances varied for decoupling</text>
-<text x="185.42" y="43.18" size="1.778" layer="91">Change to variable voltage</text>
-<text x="254" y="12.7" size="1.778" layer="91">Capacitors are tantalum, 
+<text x="254" y="15.24" size="1.778" layer="91">Capacitors are tantalum, 
 configuration is fixed to 
 3.3V output.</text>
 <text x="251.46" y="45.72" size="2.032" layer="91">VBUS Converter</text>
@@ -33647,10 +33700,6 @@ configuration is fixed to
 <instance part="R20" gate="G$1" x="238.76" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="237.2614" y="24.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="242.062" y="24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R21" gate="G$1" x="205.74" y="35.56" smashed="yes">
-<attribute name="NAME" x="201.93" y="37.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.93" y="32.258" size="1.778" layer="96"/>
 </instance>
 <instance part="MC" gate="G$1" x="292.1" y="116.84" smashed="yes">
 <attribute name="NAME" x="266.4558" y="176.3978" size="2.08833125" layer="95" ratio="10" rot="SR0"/>
@@ -33988,6 +34037,10 @@ configuration is fixed to
 <instance part="U$5" gate="G$1" x="167.64" y="177.8" smashed="yes" rot="R180"/>
 <instance part="U$7" gate="G$1" x="134.62" y="177.8" smashed="yes" rot="R180"/>
 <instance part="U$8" gate="G$1" x="101.6" y="177.8" smashed="yes" rot="R180"/>
+<instance part="120" gate="G$1" x="205.74" y="35.56" smashed="yes">
+<attribute name="NAME" x="201.93" y="37.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.39" y="32.258" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -34792,7 +34845,7 @@ configuration is fixed to
 <wire x1="226.06" y1="35.56" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="35.56" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="120" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+24" gate="1" pin="+24V"/>
@@ -34887,7 +34940,7 @@ configuration is fixed to
 <wire x1="195.58" y1="35.56" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
 <junction x="195.58" y="35.56"/>
 <pinref part="U$6" gate="G$1" pin="VOUT"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="120" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ARM_TORPEDO" class="0">
@@ -37815,7 +37868,11 @@ Ohio State University</text>
 
      ERZ-VF2M270 Varistor
      VARISTOR 27V 125A 2SMD JLEAD
-     https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERZ-VF2M270/672899</text>
+     https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERZ-VF2M270/672899
+
+     3550120RJT Resistor
+     RES 3550 120 Ohm 5% 5W
+     https://www.digikey.com/en/products/detail/te-connectivity-passive-product/3550120RJT/9927251</text>
 <text x="289.052" y="172.212" size="3.556" layer="91" align="top-left">Administrative Notes:
 
      Board Name: Titan Acuator
