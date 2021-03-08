@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24099,8 +24099,8 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDD8453LZ-D.pdf"&gt; D
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uF"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="Q5" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SPB80P06PGATMA1"/>
-<part name="Q7" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SPB80P06PGATMA1"/>
+<part name="Q5" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SQM120P06-07L_GE3"/>
+<part name="Q7" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2" value="SQM120P06-07L_GE3"/>
 <part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-2N7002PW" package3d_urn="urn:adsk.eagle:package:38456/1" value="310mA/60V/1.6Ω"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -29578,7 +29578,7 @@ DETECTOR</text>
 </instance>
 <instance part="Q5" gate="G$1" x="132.334" y="86.614" smashed="yes" rot="R90" grouprefs="KILL_SWITCH">
 <attribute name="VALUE" x="146.304" y="92.964" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="131.064" y="92.964" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="133.604" y="82.804" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="Q7" gate="G$1" x="134.874" y="68.834" smashed="yes" rot="R90" grouprefs="KILL_SWITCH">
 <attribute name="VALUE" x="132.842" y="66.04" size="1.778" layer="96"/>
