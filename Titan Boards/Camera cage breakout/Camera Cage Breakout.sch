@@ -373,6 +373,60 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="3M_929852_Connector">
+<packages>
+<package name="6-PIN">
+<pad name="P$1" x="1.27" y="1.27" drill="0.889" diameter="1.6764"/>
+<pad name="P$2" x="3.81" y="1.27" drill="0.889" diameter="1.6764"/>
+<pad name="P$3" x="6.35" y="1.27" drill="0.889" diameter="1.6764"/>
+<pad name="P$4" x="8.89" y="1.27" drill="0.889" diameter="1.6764"/>
+<pad name="P$5" x="11.43" y="1.27" drill="0.889" diameter="1.6764"/>
+<pad name="P$6" x="13.97" y="1.27" drill="0.889" diameter="1.6764"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<text x="0" y="2.54" size="1.778" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAMERA_CAGE_TEST">
+<pin name="12V" x="-5.08" y="-2.54" length="middle"/>
+<pin name="5V" x="-5.08" y="-7.62" length="middle"/>
+<pin name="3.3V" x="-5.08" y="-12.7" length="middle"/>
+<pin name="PELTIER_SWITCHED" x="-5.08" y="-17.78" length="middle"/>
+<pin name="XAVIER_SWITCHED" x="-5.08" y="-22.86" length="middle"/>
+<pin name="GND" x="-5.08" y="-27.94" length="middle"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="0" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="0" y1="-30.48" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.1524" layer="94"/>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAMERA_CAGE_TEST">
+<gates>
+<gate name="G$1" symbol="CAMERA_CAGE_TEST" x="17.78" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="6-PIN">
+<connects>
+<connect gate="G$1" pin="12V" pad="P$3"/>
+<connect gate="G$1" pin="3.3V" pad="P$1"/>
+<connect gate="G$1" pin="5V" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+<connect gate="G$1" pin="PELTIER_SWITCHED" pad="P$5"/>
+<connect gate="G$1" pin="XAVIER_SWITCHED" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -387,9 +441,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="a"/>
 <part name="POWER_IN" library="con-molex-mini-fit" deviceset="39-30-?08?" device=""/>
 <part name="XAVIER" library="Vertical_Connectors" deviceset="2PIN-VERT" device=""/>
-<part name="MYNT_CAMERA_NETWORK_SWITCH" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
-<part name="PELTIER_AND_FANS" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
+<part name="MYNT_CAMERA" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
+<part name="PLTA_FANS" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
 <part name="EXTRA_POWER" library="Vertical_Connectors" deviceset="4PIN-VERT" device=""/>
+<part name="U$1" library="3M_929852_Connector" deviceset="CAMERA_CAGE_TEST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2632,14 +2687,17 @@ Ohio State University</text>
 <instance part="XAVIER" gate="G$1" x="121.92" y="58.42" smashed="yes">
 <attribute name="NAME" x="116.84" y="60.96" size="1.778" layer="95"/>
 </instance>
-<instance part="MYNT_CAMERA_NETWORK_SWITCH" gate="G$1" x="177.8" y="101.6" smashed="yes">
+<instance part="MYNT_CAMERA" gate="G$1" x="177.8" y="101.6" smashed="yes">
 <attribute name="NAME" x="175.26" y="111.76" size="1.778" layer="95"/>
 </instance>
-<instance part="PELTIER_AND_FANS" gate="G$1" x="177.8" y="81.28" smashed="yes">
+<instance part="PLTA_FANS" gate="G$1" x="177.8" y="81.28" smashed="yes">
 <attribute name="NAME" x="175.26" y="91.44" size="1.778" layer="95"/>
 </instance>
 <instance part="EXTRA_POWER" gate="G$1" x="27.94" y="139.7" smashed="yes">
 <attribute name="NAME" x="25.4" y="149.86" size="1.778" layer="95"/>
+</instance>
+<instance part="U$1" gate="G$1" x="243.84" y="114.3" smashed="yes">
+<attribute name="NAME" x="248.92" y="114.3" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -2647,8 +2705,8 @@ Ohio State University</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="MYNT_CAMERA_NETWORK_SWITCH" gate="G$1" pin="P$3"/>
-<pinref part="MYNT_CAMERA_NETWORK_SWITCH" gate="G$1" pin="P$4"/>
+<pinref part="MYNT_CAMERA" gate="G$1" pin="P$3"/>
+<pinref part="MYNT_CAMERA" gate="G$1" pin="P$4"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="106.68" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
@@ -2656,8 +2714,8 @@ Ohio State University</text>
 <label x="198.12" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PELTIER_AND_FANS" gate="G$1" pin="P$3"/>
-<pinref part="PELTIER_AND_FANS" gate="G$1" pin="P$4"/>
+<pinref part="PLTA_FANS" gate="G$1" pin="P$3"/>
+<pinref part="PLTA_FANS" gate="G$1" pin="P$4"/>
 <wire x1="195.58" y1="88.9" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="86.36" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
@@ -2689,11 +2747,16 @@ Ohio State University</text>
 <wire x1="30.48" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="27.94" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<wire x1="238.76" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="231.14" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="MYNT_CAMERA_NETWORK_SWITCH" gate="G$1" pin="P$1"/>
-<pinref part="MYNT_CAMERA_NETWORK_SWITCH" gate="G$1" pin="P$2"/>
+<pinref part="MYNT_CAMERA" gate="G$1" pin="P$1"/>
+<pinref part="MYNT_CAMERA" gate="G$1" pin="P$2"/>
 <wire x1="170.18" y1="109.22" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="106.68" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
@@ -2710,11 +2773,16 @@ Ohio State University</text>
 <wire x1="30.48" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="27.94" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V"/>
+<wire x1="238.76" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="231.14" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PELTIER_SWITCHED" class="0">
 <segment>
-<pinref part="PELTIER_AND_FANS" gate="G$1" pin="P$1"/>
-<pinref part="PELTIER_AND_FANS" gate="G$1" pin="P$2"/>
+<pinref part="PLTA_FANS" gate="G$1" pin="P$1"/>
+<pinref part="PLTA_FANS" gate="G$1" pin="P$2"/>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="86.36" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
@@ -2725,6 +2793,11 @@ Ohio State University</text>
 <pinref part="POWER_IN" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <label x="48.26" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="XAVIER_SWITCHED"/>
+<wire x1="238.76" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
+<label x="213.36" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XAVIER_SWITCHED" class="0">
@@ -2738,6 +2811,11 @@ Ohio State University</text>
 <wire x1="30.48" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PELTIER_SWITCHED"/>
+<wire x1="238.76" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
+<label x="213.36" y="96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
@@ -2749,6 +2827,11 @@ Ohio State University</text>
 <pinref part="POWER_IN" gate="G$1" pin="5"/>
 <wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <label x="27.94" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="12V"/>
+<wire x1="238.76" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
+<label x="231.14" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -2764,6 +2847,11 @@ Ohio State University</text>
 <pinref part="POWER_IN" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <label x="48.26" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="238.76" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
+<label x="231.14" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
