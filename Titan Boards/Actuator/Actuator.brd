@@ -13281,18 +13281,18 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="72.8751375" y="49.4309375" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="72.8751375" y="49.4309375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UVK1E223MRD" x="72.8751375" y="49.4309375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.8469375" y="48.7959375" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="75.38465625" y="52.163978125" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Nichicon_2019-09-13" x="72.8751375" y="49.4309375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.3963375" y="48.7959375" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="74.6887" y="45.6590375" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Nichicon" x="72.8751375" y="49.4309375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C20" library="UVK1E223MRD" package="CAP_UFW_25X50_NCH" value="UVK1E223MRD" x="72.8751375" y="22.65171875" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Cory" x="72.8751375" y="22.65171875" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="72.8751375" y="22.65171875" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UVK1E223MRD" x="72.8751375" y="22.65171875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="75.8469375" y="22.01671875" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="75.813915625" y="26.5074375" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Nichicon_2019-09-13" x="72.8751375" y="22.65171875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.3963375" y="22.01671875" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="74.62265625" y="19.21001875" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Nichicon" x="72.8751375" y="22.65171875" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
