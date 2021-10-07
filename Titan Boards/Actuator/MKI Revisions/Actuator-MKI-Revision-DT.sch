@@ -27478,7 +27478,7 @@ configuration is fixed to
 3.3V output.</text>
 <text x="251.46" y="45.72" size="2.032" layer="91">VBUS Converter</text>
 <text x="274.066" y="246.38" size="2.54" layer="91">PMIC Motor Driver</text>
-<text x="327.66" y="66.04" size="1.778" layer="91">Claw is used for
+<text x="327.66" y="63.5" size="1.778" layer="91">Claw is used for
 Blue Robotics
 direct PWM
 control. Driver
@@ -28015,12 +28015,12 @@ as possible.</text>
 <attribute name="VALUE" x="292.1" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C2" gate="G$1" x="226.06" y="101.6" smashed="yes">
-<attribute name="NAME" x="227.584" y="101.981" size="1.778" layer="95"/>
+<attribute name="NAME" x="222.504" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="222.504" y="94.361" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="241.3" y="101.6" smashed="yes">
 <attribute name="NAME" x="242.824" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="237.744" y="94.361" size="1.778" layer="96"/>
+<attribute name="VALUE" x="235.204" y="96.901" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND3" gate="VR1" x="233.68" y="88.9" smashed="yes">
 <attribute name="VALUE" x="233.68" y="86.36" size="1.778" layer="96" rot="R180"/>
@@ -29628,8 +29628,8 @@ as possible.</text>
 </segment>
 <segment>
 <label x="330.2" y="87.63" size="1.778" layer="95" xref="yes"/>
-<wire x1="330.2" y1="87.63" x2="320.04" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="87.63" x2="320.04" y2="91.4" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="87.63" x2="323.81" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="323.81" y1="87.63" x2="320.04" y2="91.4" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="GPIO23"/>
 <wire x1="320.04" y1="91.4" x2="319.02" y2="91.4" width="0.1524" layer="91"/>
 </segment>
@@ -29639,6 +29639,13 @@ as possible.</text>
 <pinref part="U1" gate="A" pin="IN2"/>
 <wire x1="285.242" y1="226.06" x2="277.622" y2="226.06" width="0.1524" layer="91"/>
 <label x="277.622" y="226.06" size="1.524" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="GPIO24"/>
+<wire x1="319.02" y1="88.4" x2="322.58" y2="88.4" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="88.4" x2="322.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="83.82" x2="330.2" y2="83.82" width="0.1524" layer="91"/>
+<label x="330.2" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_OUT2" class="0">
@@ -29869,7 +29876,9 @@ as possible.</text>
 <segment>
 <pinref part="U$9" gate="G$1" pin="QSPI_SD2"/>
 <wire x1="261.02" y1="122.18" x2="261.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="261.02" y1="121.92" x2="254" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="261.02" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="121.92" x2="256.54" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="124.46" x2="254" y2="124.46" width="0.1524" layer="91"/>
 <label x="254" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
