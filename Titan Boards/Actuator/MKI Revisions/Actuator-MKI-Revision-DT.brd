@@ -12734,12 +12734,12 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="2mil"/>
-<param name="mdWirePad" value="2mil"/>
-<param name="mdWireVia" value="2mil"/>
-<param name="mdPadPad" value="2mil"/>
-<param name="mdPadVia" value="2mil"/>
-<param name="mdViaVia" value="2mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
 <param name="mdSmdPad" value="2mil"/>
 <param name="mdSmdVia" value="2mil"/>
 <param name="mdSmdSmd" value="2mil"/>
