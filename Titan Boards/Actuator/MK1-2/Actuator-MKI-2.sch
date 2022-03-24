@@ -18398,6 +18398,11 @@ Source:  FDD4141.pdf</description>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
+<part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -20642,6 +20647,8 @@ Debug</text>
 <text x="318.77" y="210.312" size="1.524" layer="91">C19 is 100uF
 electrolytic
 bulk capacitor.</text>
+<text x="289.56" y="96.52" size="1.778" layer="91">Made for source voltage at 25.3, 
+output voltage at 3.3</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="83.82" y="44.45" smashed="yes"/>
@@ -20999,20 +21006,38 @@ bulk capacitor.</text>
 <attribute name="NAME" x="329.692" y="125.5014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="325.628" y="121.158" size="1.778" layer="96"/>
 </instance>
-<instance part="R27" gate="G$1" x="334.518" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="334.772" y="125.5014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="330.708" y="121.158" size="1.778" layer="96"/>
+<instance part="R27" gate="G$1" x="339.598" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.852" y="125.5014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="335.788" y="121.158" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="263.398" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="263.652" y="125.5014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="259.588" y="121.158" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="339.598" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="339.852" y="125.5014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="335.788" y="121.158" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="344.678" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="344.932" y="125.5014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="340.868" y="121.158" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="1" x="274.32" y="43.18" smashed="yes">
 <attribute name="VALUE" x="271.78" y="40.64" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+11" gate="1" x="264.16" y="106.68" smashed="yes">
+<attribute name="VALUE" x="261.62" y="101.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R10" gate="G$1" x="278.638" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="276.352" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="272.288" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="278.638" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="276.352" y="82.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="272.288" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND1" gate="VR1" x="279.4" y="68.58" smashed="yes">
+<attribute name="VALUE" x="279.4" y="66.04" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="334.518" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="334.772" y="125.5014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="330.708" y="121.158" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21248,14 +21273,17 @@ bulk capacitor.</text>
 <wire x1="329.438" y1="127" x2="329.438" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="329.438" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="334.518" y1="127" x2="334.518" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="334.518" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="339.598" y1="127" x2="339.598" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="339.598" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="263.398" y1="127" x2="263.398" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="263.398" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="339.598" y1="127" x2="339.598" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="339.598" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="344.678" y1="127" x2="344.678" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="344.678" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="334.518" y1="127" x2="334.518" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="334.518" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
@@ -21277,6 +21305,12 @@ bulk capacitor.</text>
 <pinref part="Q19" gate="NMOS" pin="D"/>
 <wire x1="172.72" y1="20.32" x2="172.72" y2="17.78" width="0.1524" layer="91"/>
 <junction x="172.72" y="17.78"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="278.638" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="76.2" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -21393,6 +21427,12 @@ bulk capacitor.</text>
 <pinref part="P+26" gate="1" pin="+24V"/>
 <wire x1="116.84" y1="185.42" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="P+11" gate="1" pin="+24V"/>
+<wire x1="278.638" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="101.6" x2="264.16" y2="104.14" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -21459,12 +21499,12 @@ bulk capacitor.</text>
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
 <pinref part="U$9" gate="G$1" pin="P$18"/>
-<wire x1="334.518" y1="137.16" x2="334.518" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="334.518" y1="142.24" x2="337.82" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="142.24" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="142.24" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="339.598" y1="137.16" x2="339.598" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="339.598" y1="139.7" x2="340.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="142.24" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="142.24" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="142.24" x2="342.9" y2="165.1" width="0.1524" layer="91"/>
-<junction x="337.82" y="142.24"/>
+<junction x="340.36" y="142.24"/>
 <label x="342.9" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
@@ -21956,12 +21996,12 @@ bulk capacitor.</text>
 <wire x1="347.98" y1="139.7" x2="347.98" y2="165.1" width="0.1524" layer="91"/>
 <label x="347.98" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="P$19"/>
-<wire x1="347.98" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="139.7" x2="342.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="339.598" y1="139.7" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="339.598" y1="137.16" x2="339.598" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="339.598" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
-<junction x="340.36" y="139.7"/>
+<wire x1="342.9" y1="139.7" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="344.678" y1="137.16" x2="344.678" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="344.678" y1="139.7" x2="342.9" y2="139.7" width="0.1524" layer="91"/>
+<junction x="342.9" y="139.7"/>
 </segment>
 </net>
 <net name="PWM_OUT2" class="0">
@@ -22074,6 +22114,15 @@ bulk capacitor.</text>
 <wire x1="259.08" y1="142.24" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 <label x="259.08" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<wire x1="278.638" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<label x="284.48" y="88.9" size="1.778" layer="95" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="278.638" y1="86.36" x2="278.638" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="278.638" y1="88.9" x2="278.638" y2="91.44" width="0.1524" layer="91"/>
+<junction x="278.638" y="91.44"/>
+</segment>
 </net>
 <net name="MOTOR_EN" class="0">
 <segment>
@@ -22081,6 +22130,10 @@ bulk capacitor.</text>
 <wire x1="309.88" y1="147.32" x2="332.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="147.32" x2="332.74" y2="165.1" width="0.1524" layer="91"/>
 <label x="332.74" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="334.518" y1="137.16" x2="334.518" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="334.518" y1="147.32" x2="332.74" y2="147.32" width="0.1524" layer="91"/>
+<junction x="332.74" y="147.32"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="EN1"/>
