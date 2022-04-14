@@ -15664,8 +15664,8 @@ Source:  FDD4141.pdf</description>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1K"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1.5K"/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -17932,6 +17932,9 @@ voltage at 25.3,
 output voltage at 3.3</text>
 <text x="157.48" y="195.58" size="2.54" layer="91">Voltage Divider</text>
 <text x="40.64" y="193.04" size="1.778" layer="91">High rated DPAK2 footprint NMOS</text>
+<text x="177.8" y="33.02" size="1.778" layer="91">3.5 mm screw terminal
+Either two 2-pos or
+one 4-pos</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0.175259375" y="-0.1016" smashed="yes">
@@ -18456,10 +18459,10 @@ output voltage at 3.3</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<wire x1="264.16" y1="144.78" x2="264.16" y2="165.1" width="0.1524" layer="91"/>
-<label x="264.16" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="259.08" y1="144.78" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
+<label x="259.08" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="P$7"/>
-<wire x1="287.02" y1="144.78" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE_CONN" gate="G$1" pin="7"/>
@@ -19021,15 +19024,15 @@ output voltage at 3.3</text>
 <label x="236.22" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="254" y1="139.7" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<label x="254" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="248.92" y1="139.7" x2="248.92" y2="165.1" width="0.1524" layer="91"/>
+<label x="248.92" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="P$9"/>
-<wire x1="254" y1="139.7" x2="263.398" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="139.7" x2="258.318" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="263.398" y1="137.16" x2="263.398" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="263.398" y1="139.7" x2="264.16" y2="139.7" width="0.1524" layer="91"/>
-<junction x="264.16" y="139.7"/>
+<wire x1="259.08" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="263.398" y1="137.16" x2="258.318" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="258.318" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
+<junction x="259.08" y="139.7"/>
 </segment>
 </net>
 <net name="PWM_DRIVER2" class="0">
@@ -19157,9 +19160,9 @@ output voltage at 3.3</text>
 <net name="V_DIV" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="P$8"/>
-<wire x1="287.02" y1="142.24" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="142.24" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
-<label x="259.08" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="287.02" y1="142.24" x2="254" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="254" y1="142.24" x2="254" y2="165.1" width="0.1524" layer="91"/>
+<label x="254" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="179.578" y1="175.26" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
@@ -19223,6 +19226,20 @@ output voltage at 3.3</text>
 <pinref part="BACKPLANE_CONN" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
 <label x="20.32" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="VPROPI" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$6"/>
+<wire x1="287.02" y1="147.32" x2="264.16" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="147.32" x2="264.16" y2="165.1" width="0.1524" layer="91"/>
+<label x="264.16" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="VPROPI"/>
+<wire x1="313.182" y1="236.22" x2="317.5" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="236.22" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
+<label x="317.5" y="241.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
