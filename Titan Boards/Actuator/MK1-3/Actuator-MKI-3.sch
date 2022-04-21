@@ -15272,64 +15272,6 @@ Source:  FDD4141.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="UVK1E223MRD">
-<packages>
-<package name="CAP_UFW_25X50_NCH">
-<pad name="1" x="0" y="0" drill="1.2446" diameter="1.7526"/>
-<pad name="2" x="12.4968" y="0" drill="1.2446" diameter="1.7526" rot="R180"/>
-<wire x1="-7.7724" y1="0" x2="-6.5024" y2="0" width="0.1524" layer="21"/>
-<wire x1="-7.1374" y1="0.635" x2="-7.1374" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="18.8722" y1="0" x2="-6.3754" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-6.3754" y1="0" x2="18.8722" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="4.5212" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-7.7724" y1="0" x2="-6.5024" y2="0" width="0.1524" layer="51"/>
-<wire x1="-7.1374" y1="0.635" x2="-7.1374" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="18.7452" y1="0" x2="-6.2484" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-6.2484" y1="0" x2="18.7452" y2="0" width="0" layer="51" curve="-180"/>
-<text x="2.9718" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPH">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.9652" y1="0.9652" x2="1.5748" y2="0.9652" width="0.1524" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UVK1E223MRD" prefix="C">
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_UFW_25X50_NCH">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UVK1E223MRD" constant="no"/>
-<attribute name="SOURCELIBRARY" value="Nichicon_2019-09-13" constant="no"/>
-<attribute name="VENDOR" value="Nichicon" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="JTAG-SMD">
 <packages>
 <package name="JTAG-SMD">
@@ -15580,6 +15522,48 @@ Source:  FDD4141.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="31059104">
+<packages>
+<package name="31059104">
+<pad name="P$1" x="0" y="-5.25" drill="1.2" diameter="3" shape="square"/>
+<pad name="P$2" x="0" y="-1.75" drill="1.2" diameter="3" shape="octagon"/>
+<pad name="P$3" x="0" y="1.75" drill="1.2" diameter="3" shape="octagon"/>
+<pad name="P$4" x="0" y="5.25" drill="1.2" diameter="3" shape="octagon"/>
+</package>
+</packages>
+<symbols>
+<symbol name="31059104">
+<pin name="P$1" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="P$2" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="P$3" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$4" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="31059104">
+<gates>
+<gate name="G$1" symbol="31059104" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="31059104">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15640,8 +15624,6 @@ Source:  FDD4141.pdf</description>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C19" library="25TZV100M6_3X8" deviceset="25TZV100M6.3X8" device=""/>
-<part name="C4" library="UVK1E223MRD" deviceset="UVK1E223MRD" device=""/>
-<part name="C20" library="UVK1E223MRD" deviceset="UVK1E223MRD" device=""/>
 <part name="AGND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="U$9" library="JTAG-SMD" deviceset="JTAG-SMD" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -15682,6 +15664,9 @@ Source:  FDD4141.pdf</description>
 <part name="U5" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
 <part name="U6" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
 <part name="U7" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
+<part name="U$1" library="31059104" deviceset="31059104" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
+<part name="AGND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18112,14 +18097,6 @@ one 4-pos</text>
 <attribute name="VALUE" x="349.5548" y="230.9622" size="0.762" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="347.7768" y="230.6574" size="1.27" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="C4" gate="A" x="302.768" y="82.042" smashed="yes" rot="R270">
-<attribute name="VALUE" x="299.7708" y="81.6102" size="0.762" layer="96" ratio="10" rot="SR270"/>
-<attribute name="NAME" x="301.2948" y="77.2414" size="1.524" layer="95" ratio="10" rot="SR270"/>
-</instance>
-<instance part="C20" gate="A" x="297.18" y="82.042" smashed="yes" rot="R270">
-<attribute name="VALUE" x="293.6748" y="81.1022" size="0.762" layer="96" ratio="10" rot="SR270"/>
-<attribute name="NAME" x="296.3672" y="73.3806" size="1.524" layer="95" ratio="10" rot="SR90"/>
-</instance>
 <instance part="AGND44" gate="VR1" x="299.72" y="119.38" smashed="yes">
 <attribute name="VALUE" x="299.72" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -18245,6 +18222,13 @@ one 4-pos</text>
 <instance part="U5" gate="A" x="109.22" y="177.8" smashed="yes"/>
 <instance part="U6" gate="A" x="228.6" y="81.28" smashed="yes" rot="MR180"/>
 <instance part="U7" gate="A" x="220.98" y="76.2" smashed="yes" rot="MR180"/>
+<instance part="U$1" gate="G$1" x="116.84" y="43.18" smashed="yes"/>
+<instance part="P+3" gate="1" x="129.54" y="55.88" smashed="yes">
+<attribute name="VALUE" x="127" y="50.8" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND7" gate="VR1" x="129.54" y="30.48" smashed="yes">
+<attribute name="VALUE" x="139.7" y="30.48" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18290,22 +18274,14 @@ one 4-pos</text>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="299.72" y1="71.12" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="76.2" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="71.12" x2="302.768" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
 <junction x="299.72" y="71.12"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="302.768" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="73.66" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="71.12" x2="297.18" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="POWER_IN" gate="G$1" pin="C"/>
-<wire x1="297.18" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="71.12" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
 <junction x="309.88" y="71.12"/>
-<pinref part="C20" gate="A" pin="2"/>
-<wire x1="297.18" y1="74.422" x2="297.18" y2="71.12" width="0.1524" layer="91"/>
-<junction x="297.18" y="71.12"/>
-<pinref part="C4" gate="A" pin="2"/>
-<wire x1="302.768" y1="74.422" x2="302.768" y2="71.12" width="0.1524" layer="91"/>
-<junction x="302.768" y="71.12"/>
 </segment>
 <segment>
 <pinref part="Q17" gate="NMOS" pin="S"/>
@@ -18456,6 +18432,16 @@ one 4-pos</text>
 <wire x1="53.34" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="43.18" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="AGND7" gate="VR1" pin="AGND"/>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="129.54" y1="33.02" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="124.46" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="40.64" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<junction x="129.54" y="35.56"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -18490,21 +18476,13 @@ one 4-pos</text>
 <pinref part="DISCHARGING" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="86.36" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="297.18" y1="86.36" x2="302.768" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="302.768" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="86.36" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+24V"/>
 <wire x1="309.88" y1="86.36" x2="309.88" y2="91.44" width="0.1524" layer="91"/>
 <junction x="309.88" y="86.36"/>
 <pinref part="120" gate="G$1" pin="2"/>
-<pinref part="C20" gate="A" pin="1"/>
-<wire x1="297.18" y1="82.042" x2="297.18" y2="86.36" width="0.1524" layer="91"/>
-<junction x="297.18" y="86.36"/>
-<pinref part="C4" gate="A" pin="1"/>
-<wire x1="302.768" y1="82.042" x2="302.768" y2="86.36" width="0.1524" layer="91"/>
-<junction x="302.768" y="86.36"/>
 </segment>
 <segment>
 <pinref part="P+30" gate="1" pin="+24V"/>
@@ -18530,6 +18508,16 @@ one 4-pos</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="P+11" gate="1" pin="+24V"/>
 <wire x1="179.578" y1="187.96" x2="182.88" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+24V"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="129.54" y1="53.34" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="129.54" y1="50.8" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<junction x="129.54" y="50.8"/>
 </segment>
 </net>
 <net name="N$4" class="0">
