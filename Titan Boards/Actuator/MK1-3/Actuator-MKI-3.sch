@@ -15661,12 +15661,12 @@ Source:  FDD4141.pdf</description>
 <part name="U3" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
 <part name="U4" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
 <part name="U5" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
-<part name="U6" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
-<part name="U7" library="DPAK2" deviceset="MBRB2060CTT4G" device=""/>
 <part name="U$1" library="31059104" deviceset="31059104" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="AGND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="U$2" library="JTAG-SMD" deviceset="JTAG-SMD" device=""/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value=""/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18213,8 +18213,8 @@ pin numbers for firmware.</text>
 <instance part="P+1" gate="1" x="68.58" y="58.42" smashed="yes">
 <attribute name="VALUE" x="66.04" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="60.96" y="58.42" smashed="yes">
-<attribute name="VALUE" x="58.42" y="53.34" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V1" gate="G$1" x="30.48" y="58.42" smashed="yes">
+<attribute name="VALUE" x="27.94" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="AGND2" gate="VR1" x="55.88" y="33.02" smashed="yes">
 <attribute name="VALUE" x="53.34" y="35.56" size="1.778" layer="96" rot="R180"/>
@@ -18223,8 +18223,6 @@ pin numbers for firmware.</text>
 <instance part="U3" gate="A" x="58.42" y="177.8" smashed="yes"/>
 <instance part="U4" gate="A" x="83.82" y="177.8" smashed="yes"/>
 <instance part="U5" gate="A" x="109.22" y="177.8" smashed="yes"/>
-<instance part="U6" gate="A" x="228.6" y="81.28" smashed="yes" rot="MR180"/>
-<instance part="U7" gate="A" x="220.98" y="76.2" smashed="yes" rot="MR180"/>
 <instance part="U$1" gate="G$1" x="116.84" y="43.18" smashed="yes"/>
 <instance part="P+3" gate="1" x="129.54" y="55.88" smashed="yes">
 <attribute name="VALUE" x="127" y="50.8" size="1.778" layer="96" rot="R90"/>
@@ -18233,6 +18231,14 @@ pin numbers for firmware.</text>
 <attribute name="VALUE" x="139.7" y="30.48" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$2" gate="G$1" x="309.88" y="139.7" smashed="yes"/>
+<instance part="Q1" gate="NMOS" x="218.44" y="76.2" smashed="yes" rot="MR180">
+<attribute name="NAME" x="223.52" y="76.2" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="223.52" y="78.74" size="1.778" layer="96" font="vector" rot="MR180"/>
+</instance>
+<instance part="Q4" gate="NMOS" x="226.06" y="81.28" smashed="yes" rot="MR180">
+<attribute name="NAME" x="231.14" y="81.28" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="231.14" y="83.82" size="1.778" layer="96" font="vector" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18256,10 +18262,10 @@ pin numbers for firmware.</text>
 <wire x1="238.76" y1="231.14" x2="247.142" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="2"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="53.34" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="50.8" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="BACKPLANE_CONN" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -18409,7 +18415,7 @@ pin numbers for firmware.</text>
 <wire x1="241.3" y1="68.58" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="71.12" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
 <junction x="220.98" y="68.58"/>
-<pinref part="U7" gate="A" pin="D"/>
+<pinref part="Q1" gate="NMOS" pin="D"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -18555,7 +18561,7 @@ pin numbers for firmware.</text>
 <wire x1="228.6" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="86.36" x2="200.66" y2="82.042" width="0.1524" layer="91"/>
 <junction x="200.66" y="86.36"/>
-<pinref part="U6" gate="A" pin="S"/>
+<pinref part="Q4" gate="NMOS" pin="S"/>
 <junction x="228.6" y="86.36"/>
 </segment>
 <segment>
@@ -18979,10 +18985,10 @@ pin numbers for firmware.</text>
 <label x="66.04" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TORPEDO_CONN" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="238.76" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="238.76" x2="63.5" y2="231.14" width="0.1524" layer="91"/>
-<label x="63.5" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="TORPEDO_CONN" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="236.22" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="236.22" x2="60.96" y2="231.14" width="0.1524" layer="91"/>
+<label x="60.96" y="231.14" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -19053,9 +19059,11 @@ pin numbers for firmware.</text>
 <wire x1="322.596" y1="223.52" x2="322.596" y2="208.026" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CLAW_CONN" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
-<label x="88.9" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="CLAW_CONN" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="218.44" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="218.44" x2="114.3" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="208.28" x2="88.9" y2="208.28" width="0.1524" layer="91"/>
+<label x="88.9" y="208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PWM_OUT1" class="0">
@@ -19125,8 +19133,9 @@ pin numbers for firmware.</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="76.962" x2="213.36" y2="76.962" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="76.962" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U7" gate="A" pin="G"/>
 <wire x1="213.36" y1="78.74" x2="214.63" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="NMOS" pin="G"/>
+<junction x="213.36" y="78.74"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -19135,9 +19144,8 @@ pin numbers for firmware.</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="82.042" x2="220.98" y2="82.042" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="82.042" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U7" gate="A" pin="S"/>
-<pinref part="U6" gate="A" pin="G"/>
-<wire x1="220.98" y1="83.82" x2="222.25" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="NMOS" pin="S"/>
+<pinref part="Q4" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -19146,7 +19154,7 @@ pin numbers for firmware.</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="66.04" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="66.04" x2="251.46" y2="66.802" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="D"/>
+<pinref part="Q4" gate="NMOS" pin="D"/>
 </segment>
 </net>
 <net name="V_DIV" class="0">
@@ -19198,26 +19206,12 @@ pin numbers for firmware.</text>
 <wire x1="210.82" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EXTRA5" class="0">
-<segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="3"/>
-<wire x1="38.1" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<label x="25.4" y="48.26" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="BACKPLANE_CONN" gate="G$1" pin="4"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="53.34" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="48.26" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EXTRA6" class="0">
-<segment>
-<pinref part="BACKPLANE_CONN" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="20.32" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VPROPI" class="0">
