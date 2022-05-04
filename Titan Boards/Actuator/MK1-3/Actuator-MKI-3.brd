@@ -6098,7 +6098,7 @@ design rules under a new name.</description>
 <via x="1.524" y="33.909" extent="1-16" drill="0.35"/>
 <via x="1.524" y="35.941" extent="1-16" drill="0.35"/>
 <via x="1.524" y="37.973" extent="1-16" drill="0.35"/>
-<via x="1.524" y="42.037" extent="1-16" drill="0.35"/>
+<via x="1.905" y="39.497" extent="1-16" drill="0.35"/>
 <via x="1.524" y="50.165" extent="1-16" drill="0.35"/>
 <contactref element="U$2" pad="P$10"/>
 <contactref element="U$2" pad="P$20"/>
@@ -6138,8 +6138,8 @@ design rules under a new name.</description>
 <wire x1="9.525" y1="43.18" x2="9.525" y2="48.26" width="0.1524" layer="16"/>
 <wire x1="9.525" y1="48.26" x2="7.874" y2="49.911" width="0.1524" layer="16"/>
 <wire x1="7.874" y1="49.911" x2="7.874" y2="50.546" width="0.1524" layer="16"/>
-<wire x1="1.844" y1="40.7572" x2="1.844" y2="41.717" width="0.1524" layer="16"/>
-<wire x1="1.844" y1="41.717" x2="1.524" y2="42.037" width="0.1524" layer="16"/>
+<wire x1="1.844" y1="40.7572" x2="1.905" y2="40.6962" width="0.1524" layer="16"/>
+<wire x1="1.905" y1="40.6962" x2="1.905" y2="39.497" width="0.1524" layer="16"/>
 <via x="58.928" y="23.876" extent="1-16" drill="0.508" diameter="0.508"/>
 <via x="60.325" y="23.876" extent="1-16" drill="0.508" diameter="0.508"/>
 <wire x1="79.375" y1="43.68" x2="79.375" y2="41.91" width="0.508" layer="16"/>
@@ -6152,6 +6152,10 @@ design rules under a new name.</description>
 <via x="90.932" y="54.356" extent="1-16" drill="0.35"/>
 <via x="92.964" y="54.356" extent="1-16" drill="0.35"/>
 <via x="94.869" y="54.356" extent="1-16" drill="0.35"/>
+<wire x1="31.89273125" y1="53.936" x2="34.6038125" y2="53.936" width="0.1524" layer="16"/>
+<wire x1="34.6038125" y1="53.936" x2="37.31489375" y2="53.936" width="0.1524" layer="16"/>
+<wire x1="37.31489375" y1="53.936" x2="39.585" y2="53.936" width="0.1524" layer="16"/>
+<wire x1="39.585" y1="53.936" x2="40.005" y2="54.356" width="0.1524" layer="16"/>
 </signal>
 <signal name="SDA">
 <contactref element="BACKPLANE_CONN" pad="7"/>
@@ -6786,8 +6790,8 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="R12" pad="1"/>
 <contactref element="Q3" pad="3"/>
-<wire x1="5.334" y1="42.6572" x2="2.994" y2="42.6572" width="1.27" layer="16"/>
-<wire x1="2.994" y1="42.6572" x2="2.794" y2="42.8572" width="1.27" layer="16"/>
+<wire x1="5.334" y1="42.6572" x2="2.994" y2="42.6572" width="0.508" layer="16"/>
+<wire x1="2.994" y1="42.6572" x2="2.794" y2="42.8572" width="0.508" layer="16"/>
 </signal>
 <signal name="TORPEDO2">
 <contactref element="Q6" pad="3"/>
