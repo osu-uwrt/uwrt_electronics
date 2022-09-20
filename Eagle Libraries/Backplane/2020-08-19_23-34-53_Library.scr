@@ -1,0 +1,91 @@
+# Created by Ultra Librarian Gold 8.3.265 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CON4_1X4_U_DF13.pac';
+Layer 1;
+Smd '1' 28 70 -0 R0 (0 0);
+Layer 1;
+Smd '2' 28 70 -0 R0 (-49.2126 0);
+Layer 1;
+Smd '3' 28 70 -0 R0 (-98.4252 0);
+Layer 1;
+Smd '4' 28 70 -0 R0 (-147.6378 0);
+Layer 1;
+Smd '5' 63 87 -0 R0 (-236.3189 -130);
+Layer 1;
+Smd '6' 63 87 -0 R0 (88.6811 -130);
+Layer 21;
+Wire 6 (-210 -231) (62 -231);
+Wire 6 (62 -231) (62 -187);
+Wire 6 (62 5) (27 5);
+Wire 6 (-210 5) (-210 -73);
+Wire 6 (-175 5) (-210 5);
+Wire 6 (-210 -187) (-210 -231);
+Wire 6 (62 -73) (62 5);
+Wire 20 (102 0) -180 (72 0);
+Wire 20 (72 0) -180 (102 0);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-142 -25);
+Layer 51;
+Wire 6 (-205 -226) (57 -226);
+Wire 6 (57 -226) (57 0);
+Wire 6 (57 0) (-205 0);
+Wire 6 (-205 0) (-205 -226);
+Wire 20 (15 -75) -180 (-15 -75);
+Wire 20 (-15 -75) -180 (15 -75);
+Layer 22;
+Wire 20 (102 0) -180 (72 0);
+Wire 20 (72 0) -180 (102 0);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-203 -25);
+Layer 27;
+
+Edit 'CON4_1X4_U_DF13.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 -100) (200 -100);
+Wire 6 (400 -200) (200 -200);
+Wire 6 (400 -300) (200 -300);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 -200) (350 -167);
+Wire 6 (400 -300) (350 -267);
+Wire 6 (400 0) (350 -33);
+Wire 6 (400 -100) (350 -133);
+Wire 6 (400 -200) (350 -233);
+Wire 6 (400 -300) (350 -333);
+Wire 6 (200 100) (200 -400);
+Wire 6 (200 -400) (500 -400);
+Wire 6 (500 -400) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'DF13-4P-1.25DSA.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add CON4_1X4_U_DF13 'A' Next  0 (0 0);
+Package 'CON4_1X4_U_DF13';
+Technology '';
+Attribute Manufacturer_Part_Number 'DF13-4P-1.25DSA';
+Attribute Vendor 'Hirose';
+Attribute Built_By 'EMA_UL_Team';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
